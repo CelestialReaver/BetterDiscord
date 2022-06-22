@@ -21,11 +21,11 @@
 --rs-medium-width: 3px;
 --rs-large-width: 4px;
 --rs-avatar-shape: 50%;
---rs-online-color: #43b581;
---rs-idle-color: #faa61a;
---rs-dnd-color: #f04747;
---rs-offline-color: #636b75;
---rs-streaming-color: #643da7;
---rs-invisible-color: #747f8d;
+--rs-online-color: #72f1b8;
+--rs-idle-color: #f39f0575;
+--rs-dnd-color: #fc1f2c75;
+--rs-offline-color: #393a33;
+--rs-streaming-color: #7d047e;
+--rs-invisible-color: #393a33;
 --rs-phone-visible: block;
 }
