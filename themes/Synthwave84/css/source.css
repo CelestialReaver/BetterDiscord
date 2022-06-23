@@ -319,7 +319,7 @@
 #app-mount .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
 #app-mount .inner-2pOSmK,
 #app-mount .replyBar-1oi75v,
-#app-mount .scrollableContainer-15eg7h.webkit-QgSAqd::after {
+#app-mount .scrollableContainer-15eg7h {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   background-color: var(--backgroundColor01) !important;
