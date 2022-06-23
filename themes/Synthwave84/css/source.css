@@ -307,7 +307,15 @@
 #app-mount .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
 #app-mount .inner-2pOSmK,
 #app-mount .replyBar-1oi75v,
-#app-mount .scrollableContainer-15eg7h,
+#app-mount .scrollableContainer-15eg7h {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: var(--backgroundColor01) !important;
+  max-height: 50vh;
+  border-radius: 15px;
+  border: 1px solid #fede5d !important;
+  border-color: #fede5d !important;
+}
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
 #app-mount .searchBar-zdmu7v,
 #app-mount .threadSuggestionBar-3ExSyc {
