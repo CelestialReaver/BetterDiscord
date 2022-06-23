@@ -5,23 +5,23 @@
 * @author CelestialReaver
 * @authorId 859547769798656001
 * @invite rpaa
-* @source https://github.com/CelestialReaver/BetterDiscord/master/themes/Synthwave84/
+* @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/Synthwave84
 * @website https://github.com/CelestialReaver
 * @updateUrl https://celestialreaver.github.io/BetterDiscord/themes/Synthwave84/Synthwave84.theme.css
 */
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/Synthwave84/css/source.css");
 
 :root {
---mainColor: #3ba6ab;
---backgroundColor01: #472e64;
---backgroundColor02: #251735;
---gradientColor01: #58b68b;
---gradientColor02: #7d047e;
---rs-small-spacing: 2px;
---rs-medium-spacing: 3px;
---rs-large-spacing: 4px;
---rs-small-width: 2px;
---rs-medium-width: 3px;
---rs-large-width: 4px;
---rs-avatar-shape: 50%;
+  --mainColor: #3ba6ab;
+  --backgroundColor01: #472e64;
+  --backgroundColor02: #251735;
+  --gradientColor01: #58b68b;
+  --gradientColor02: #7d047e;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+  --rs-avatar-shape: 50%;
 }
