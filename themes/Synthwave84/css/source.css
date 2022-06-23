@@ -518,7 +518,14 @@
   height: 10px;
   width: 100px;
   margin-left: -10px;
-  color: var(--mainColor);
+  /*color: var(--mainColor);*/
+  background: -webkit-linear-gradient(
+    var(--gradientColor01),
+    var(--gradientColor02)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
