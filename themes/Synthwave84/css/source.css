@@ -2,12 +2,12 @@
 @import url(https://codedotspectra.github.io/themes/core/hljs.css);
 @import url(https://codedotspectra.github.io/themes/core/custom-font.css);
 :root {
-  --mainColor: #626068;
-  --backgroundColor01: #262335;
+  --mainColor: #03edf9;
+  --backgroundColor01: #2a2139;
   --backgroundColor02: #241b2f;
   --backgroundCode: #262335;
   --backgroundName: rgba(0, 0, 0, 0.2);
-  --gradientColor01: #72f1b8;
+  --gradientColor01: #36f9f6;
   --gradientColor02: #f92aad;
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 3px;
@@ -819,10 +819,10 @@
 }
 #app-mount .emojiSection-3QtaWO,
 #app-mount .tooltipPrimary-3qLMbS {
-  background-color: var(--mainColor) !important;
+  background-color: #fc28a825 !important;
 }
 #app-mount .tooltipPointer-3L49xb {
-  border-top-color: var(--mainColor) !important;
+  border-top-color: #fc28a825 !important;
 }
 #app-mount .uploadModal-2ie9O_ {
   background-color: var(--backgroundColor02) !important;
@@ -836,7 +836,7 @@
 }
 #app-mount .checkbox-f1HnKB[style*="rgb(79, 84, 92)"] {
   border-color: var(--mainColor) !important;
-  background-color: var(--mainColor) !important;
+  background-color: #fc28a825 !important;
 }
 #app-mount .checkbox-f1HnKB[style*="rgb(79, 84, 92)"] svg path {
   fill: #fff !important;
@@ -1652,7 +1652,7 @@
   padding: 0 16px;
 }
 #app-mount .userPopout-2j1gM4 {
-  background-color: var(--backgroundColor01) !important;
+  background-color: var(#34294f) !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);

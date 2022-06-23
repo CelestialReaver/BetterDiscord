@@ -12,11 +12,11 @@
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/Synthwave84/css/source.css");
 
 :root {
-  --mainColor: #f92aad;
+  --mainColor: #03edf9;
   --backgroundColor01: #2a2139;
-  --backgroundColor02: #251735;
-  --gradientColor01: #72f1b8;
-  --gradientColor02: #fede5d;
+  --backgroundColor02: #241b2f;
+  --gradientColor01: #36f9f6;
+  --gradientColor02: #f92aad;
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 3px;
   --rs-large-spacing: 4px;
@@ -24,4 +24,12 @@
   --rs-medium-width: 3px;
   --rs-large-width: 4px;
   --rs-avatar-shape: 50%;
+  --rs-online-color: #72f1b8;
+  --rs-idle-color: #fede5d;
+  --rs-dnd-color: #fe4450;
+  --rs-offline-color: #b6b1b1;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #b6b1b1;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
 }
