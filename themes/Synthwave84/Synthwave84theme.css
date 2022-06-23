@@ -1,13 +1,13 @@
 /**
 * @name Synthwave '84
-* @author CelestialReaver#0001
-* @description Synthwave '84 theme. Get that retro vibe and glow.
-* @invite rpaa
 * @version 1.0.0
+* @description Synthwave '84 theme. Get that retro vibe and glow.
+* @author CelestialReaver#0001
+* @invite rpaa
+* @Source https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/master/themes
 * @website https://github.com/CelestialReaver
 */
-@import url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/master/themes/Synthwave84/css/source.css");
-/*@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');*/
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/Synthwave84/css/source.css");
 
 :root {
 --mainColor: #626068;
@@ -22,11 +22,4 @@
 --rs-medium-width: 3px;
 --rs-large-width: 4px;
 --rs-avatar-shape: 50%;
-/*--rs-online-color: #72f1b8;
---rs-idle-color: #f39f0575;
---rs-dnd-color: #fc1f2c75;
---rs-offline-color: #393a33;
---rs-streaming-color: #7d047e;
---rs-invisible-color: #393a33;
---rs-phone-visible: block;*/
 }
