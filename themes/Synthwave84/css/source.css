@@ -429,12 +429,14 @@
   content: "";
   width: 48px;
   height: 48px;
-  top: 6px;
-  left: 6px;
+  border-radius: 16px;
+  overflow: hidden;
+  /*top: 6px;
+  left: 6px;*/
   background-image: url("https://i.imgur.com/vxOebtr.png") !important;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  /*background-size: contain;
+  background-position: center;*/
   /*  background-image: linear-gradient(
     -45deg,
     var(--gradientColor01),
