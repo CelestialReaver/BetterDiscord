@@ -34,6 +34,18 @@
 #app-mount .container-2cd8Mz,
 #app-mount .container-7Unqij,
 #app-mount .container-ZMc96U.themed-Hp1KC_,
+#app-mount .container-1eFtFS.webkit-QgSAqd {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px !important;
+  border: 1px solid #f92aad !important;
+  border-color: #f92aad !important;
+}
 #app-mount .contentRegion-3HkfJJ,
 #app-mount .contentRegionScroller-2_GT_N,
 #app-mount .emptyPreview-1SMLD4,
