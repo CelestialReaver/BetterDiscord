@@ -313,7 +313,13 @@
   font-weight: 700;
   text-align: center;
 }
-.scrollableContainer-15eg7h.webkit-QgSAqd {
+#app-mount .channelTextArea-1FufC0,
+#app-mount .circleIconButton-1VxDrg,
+#app-mount .circleIconButton-3lUBQk,
+#app-mount .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
+#app-mount .inner-2pOSmK,
+#app-mount .replyBar-1oi75v,
+#app-mount .scrollableContainer-15eg7h.webkit-QgSAqd::after {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   background-color: var(--backgroundColor01) !important;
@@ -322,21 +328,6 @@
   border: 1px solid #fede5d !important;
   border-color: #fede5d !important;
 }
-#app-mount .channelTextArea-1FufC0,
-#app-mount .circleIconButton-1VxDrg,
-#app-mount .circleIconButton-3lUBQk,
-#app-mount .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
-#app-mount .inner-2pOSmK,
-#app-mount .replyBar-1oi75v,
-/*#app-mount .scrollableContainer-15eg7h.webkit-QgSAqd {
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-  background-color: var(--backgroundColor01) !important;
-  max-height: 50vh !important;
-  border-radius: 8px !important;
-  border: 1px solid #fede5d !important;
-  border-color: #fede5d !important;
-}*/
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
 #app-mount .searchBar-zdmu7v,
 #app-mount .threadSuggestionBar-3ExSyc {
