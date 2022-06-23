@@ -320,11 +320,11 @@
 #app-mount .inner-2pOSmK,
 #app-mount .replyBar-1oi75v,
 #app-mount .scrollableContainer-15eg7h.webkit-QgSAqd {
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
   background-color: var(--backgroundColor01) !important;
-  max-height: 50vh;
-  border-radius: 15px;
+  max-height: 50vh !important;
+  border-radius: 8px !important;
   border: 1px solid #fede5d !important;
   border-color: #fede5d !important;
 }
