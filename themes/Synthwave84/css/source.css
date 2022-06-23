@@ -427,16 +427,16 @@
 #app-mount .tutorialContainer-1pL9QS .childWrapper-1j_1ub::after {
   position: absolute;
   content: "";
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   border-radius: 16px;
   overflow: hidden;
-  top: 6px;
-  left: 6px;
+  /*top: 6px;
+  left: 6px;*/
   background-image: url("https://i.imgur.com/vxOebtr.png") !important;
   background-repeat: no-repeat;
-  /*background-size: contain;
-  background-position: center;*/
+  background-size: contain;
+  background-position: center;
   /*  background-image: linear-gradient(
     -45deg,
     var(--gradientColor01),
