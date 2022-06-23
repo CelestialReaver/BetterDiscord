@@ -45,8 +45,6 @@
   border-radius: 15px !important;
   border: 1px solid #f92aad !important;
   border-color: #f92aad !important;
-  /*overflow-y: hidden;*/ /* Hide vertical scrollbar */
-  /*overflow-x: hidden;*/ /* Hide horizontal scrollbar */
 }
 #app-mount .contentRegion-3HkfJJ,
 #app-mount .contentRegionScroller-2_GT_N,
