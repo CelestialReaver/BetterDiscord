@@ -313,7 +313,7 @@
   font-weight: 700;
   text-align: center;
 }
-#app-mount .scrollableContainer-15eg7h {
+.scrollableContainer-15eg7h {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   background-color: var(--backgroundColor01) !important;
