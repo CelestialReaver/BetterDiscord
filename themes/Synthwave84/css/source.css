@@ -431,8 +431,8 @@
   height: 48px;
   border-radius: 16px;
   overflow: hidden;
-  /*top: 6px;
-  left: 6px;*/
+  top: 6px;
+  left: 6px;
   background-image: url("https://i.imgur.com/vxOebtr.png") !important;
   background-repeat: no-repeat;
   /*background-size: contain;
