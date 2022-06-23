@@ -6,7 +6,7 @@
 * @version 1.0.0
 * @website https://github.com/CelestialReaver
 */
-@import url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/Synthwave84/css/source.css");
+@import url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/master/themes/Synthwave84/css/source.css");
 /*@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');*/
 
 :root {
@@ -22,11 +22,11 @@
 --rs-medium-width: 3px;
 --rs-large-width: 4px;
 --rs-avatar-shape: 50%;
---rs-online-color: #72f1b8;
+/*--rs-online-color: #72f1b8;
 --rs-idle-color: #f39f0575;
 --rs-dnd-color: #fc1f2c75;
 --rs-offline-color: #393a33;
 --rs-streaming-color: #7d047e;
 --rs-invisible-color: #393a33;
---rs-phone-visible: block;
+--rs-phone-visible: block;*/
 }
