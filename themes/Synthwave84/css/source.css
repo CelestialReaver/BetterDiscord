@@ -99,6 +99,16 @@
   transition: box-shadow 0.2s ease;
   color: #fff !important;
 }
+#app-mount .winButton-3UMjdf {
+  position: relative;
+  top: -4px;
+  cursor: pointer;
+  width: 28px;
+  height: 22px;
+  pointer-events: auto;
+  -webkit-app-region: no-drag;
+  color: #e0e722 !important;
+}
 #app-mount .bd-button:not(.bd-button-danger):hover,
 #app-mount .lookFilled-yCfaCM.colorBrand-21Le_q:hover,
 #app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79:hover,
