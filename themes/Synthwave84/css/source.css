@@ -319,7 +319,7 @@
 #app-mount .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
 #app-mount .inner-2pOSmK,
 #app-mount .replyBar-1oi75v,
-#app-mount .scrollableContainer-15eg7h:after {
+/*#app-mount .scrollableContainer-15eg7h:after {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   background-color: var(--backgroundColor01) !important;
@@ -327,7 +327,7 @@
   border-radius: 8px !important;
   border: 1px solid #fede5d !important;
   border-color: #fede5d !important;
-}
+}*/
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
 #app-mount .searchBar-zdmu7v,
 #app-mount .threadSuggestionBar-3ExSyc {
