@@ -7,8 +7,8 @@
   --backgroundColor02: #241b2f;
   --backgroundCode: #262335;
   --backgroundName: rgba(0, 0, 0, 0.2);
-  --gradientColor01: #58b68b;
-  --gradientColor02: #7d047e;
+  --gradientColor01: #72f1b8;
+  --gradientColor02: #f92aad;
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 3px;
   --rs-large-spacing: 4px;
@@ -17,12 +17,12 @@
   --rs-large-width: 4px;
   --rs-width: 2px;
   --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
+  --rs-online-color: ##72f1b8;
+  --rs-idle-color: #fede5d;
+  --rs-dnd-color: #fe4450;
+  --rs-offline-color: #b6b1b1;
   --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
+  --rs-invisible-color: #b6b1b1;
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
   --customFont: "Whitney";
