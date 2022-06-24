@@ -48,8 +48,13 @@ body {
   flex-direction: column;
   height: 100%;
   position: relative;
-  border-left: 1px #f92aad !important;
-  border-style: outset !important;
+  border-color: linear-gradient(
+    -45deg,
+    var(--gradientColor01),
+    var(--gradientColor02)
+  ) !important;
+  border-left: 1px !important;
+  border-style: inset !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
