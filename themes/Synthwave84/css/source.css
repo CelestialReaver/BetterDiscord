@@ -686,9 +686,9 @@ body {
   background: var(--mainColor) !important;
   -webkit-mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
 }
-#app-mount .wordmarkWindows-2dq6rw {
+/*#app-mount .wordmarkWindows-2dq6rw {
   color: var(--mainColor) !important;
-}
+}*/
 svg defs {
   height: 0;
   position: absolute;
@@ -703,9 +703,9 @@ svg aria-hidden {
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
   content: "SYNTHWAVE '84";
-  /*top: 7px;*/
+  top: 3px;
   height: 20px;
-  width: 115px;
+  width: 140px;
   margin-left: 10px;
   background-image: url("https://i.imgur.com/U6yhTRx.png") !important;
   /*background: -webkit-linear-gradient(
@@ -715,7 +715,7 @@ svg aria-hidden {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;*/
-  background-position: center;
+  background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
   content-visibility: hidden;
