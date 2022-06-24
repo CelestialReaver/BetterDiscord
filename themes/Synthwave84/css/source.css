@@ -63,7 +63,7 @@ body {
   cursor: default;
   z-index: 2;
   color: var(--text-normal);
-  border-top: 1px ridge solid #f92aad;
+  border-top: 1px double #f92aad;
   background-color: var(--backgroundColor01) !important;
 }
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
