@@ -34,7 +34,8 @@ body {
   font-family: var(--font-primary);
   overflow: hidden;
   background: transparent;
-  border: 1px groove #f92aad;
+  border: 1px #f92aad;
+  border-style: outset !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
