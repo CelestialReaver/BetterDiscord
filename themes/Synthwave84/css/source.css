@@ -870,7 +870,6 @@ svg aria-hidden {
 #app-mount .clickable-vvKY2q .header-3OsQeK:hover,
 #app-mount .selected-1GtAC5 .header-3OsQeK {
   background-color: var(--backgroundColor02) !important;
-  border-top: 1px inset #f92aad !important;
 }
 #app-mount .bf-toolbar::before {
   background: var(--backgroundColor01) !important;
