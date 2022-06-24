@@ -541,7 +541,12 @@
 #app-mount .wordmarkWindows-2dq6rw {
   color: var(--mainColor) !important;
 }
-#app-mount .wordmarkWindows-2dq6rw::before {
+svg defs {
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+#app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
   content: "SYNTHWAVE '84";
   top: 7px;
