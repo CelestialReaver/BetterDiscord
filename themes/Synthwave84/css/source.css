@@ -49,7 +49,7 @@ body {
   border: 0.5px groove #03edf975 !important;
 }
 #app-mount .titleBar-1it3bQ {
-  border-bottom: 3px double var(--gradientColor02) !important;
+  border-bottom: 3px double #fc28a880 !important;
 }
 #app-mount .container-ZMc96U {
   position: relative;
