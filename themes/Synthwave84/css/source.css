@@ -65,6 +65,9 @@ body {
   color: var(--text-normal);
   border-top: 1px inset #f92aad;
 }
+#app-mount .container-ZMc96U.themed-Hp1KC:hover {
+  background: var(--backgroundColor01);
+}
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
 #app-mount .chat-2ZfjoI,
