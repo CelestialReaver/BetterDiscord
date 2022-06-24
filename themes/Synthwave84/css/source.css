@@ -17,7 +17,7 @@
   --rs-large-width: 4px;
   --rs-width: 2px;
   --rs-avatar-shape: 50%;
-  --rs-online-color: ##72f1b8;
+  --rs-online-color: #72f1b8;
   --rs-idle-color: #fede5d;
   --rs-dnd-color: #fe4450;
   --rs-offline-color: #b6b1b1;
@@ -481,6 +481,28 @@ body {
   max-height: 50vh !important;
   border-radius: 8px !important;
   border: 3px groove #fc28a880 !important;
+}
+#app-mount .searchBar-jGtisZ {
+  font-variant: JIS83;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  height: 30px;
+  width: 144px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  cursor: text;
+  overflow: hidden;
+  padding: 0 2px;
+  color: var(--text-normal);
+  background-color: var(--backgroundColor02);
+  border: 3px double #643da7;
 }
 #app-mount .channelTextArea-1FufC0,
 #app-mount .circleIconButton-1VxDrg,
