@@ -194,7 +194,7 @@
   -o-transform: translateX(-100%);
   transform: translateX(-100%);
 }
-#app-mount .link-39sEB3 {
+#app-mount .link-39sEB3::after {
   content: "";
   position: absolute;
   left: 0;
@@ -575,7 +575,7 @@ svg aria-hidden {
   height: 0;
   position: absolute;
   width: 0;
-  display: none;
+  /*display: none;*/
 }
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
