@@ -580,10 +580,10 @@ svg aria-hidden {
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
   content: "SYNTHWAVE '84";
-  top: 7px;
-  height: 10px;
-  width: 100px;
-  margin-left: -10px;
+  /*top: 7px;*/
+  height: 20px;
+  width: 115px;
+  margin-left: 10px;
   background-image: url("https://i.imgur.com/U6yhTRx.png") !important;
   /*color: var(--mainColor);
   background: -webkit-linear-gradient(
@@ -596,6 +596,7 @@ svg aria-hidden {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  content-visibility: hidden;
 }
 #app-mount .container-2o3qEW {
   background: 0 0 !important;
