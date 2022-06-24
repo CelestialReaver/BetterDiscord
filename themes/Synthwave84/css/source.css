@@ -64,6 +64,8 @@ body {
   z-index: 2;
   color: var(--text-normal);
   border-top: 1px ridge #f92aad;
+  background-color: var(--backgroundColor02) !important;
+  border: none !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
@@ -459,6 +461,11 @@ body {
 #app-mount .replyBar-1oi75v,
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
 #app-mount .searchBar-zdmu7v,
+#app-mount .searchBar-jGtisZ {
+  background-color: var(--backgroundColor01) !important;
+  border: 1px ridge var(--gradientColor02) !important;
+}
+.searchBarComponent-3N7dCG,
 #app-mount .threadSuggestionBar-3ExSyc {
   background: var(--backgroundColor01) !important;
 }
@@ -1633,6 +1640,10 @@ svg aria-hidden {
     var(--gradientColor02),
     var(--gradientColor01) 75.25%
   );
+}
+#app-mount .header-2Kx1US {
+  background-color: var(--backgroundColor02) !important;
+  border: none !important;
 }
 #app-mount .cardWrapper-CyvwQv {
   background-color: var(--backgroundColor01) !important;
