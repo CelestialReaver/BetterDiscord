@@ -453,6 +453,10 @@ body {
   border: 1px solid #fede5d !important;
   border-color: #fede5d !important;
 }
+#app-mount .searchBar-jGtisZ {
+  background-color: var(--backgroundColor01) !important;
+  border: 1px ridge var(--gradientColor02) !important;
+}
 #app-mount .channelTextArea-1FufC0,
 #app-mount .circleIconButton-1VxDrg,
 #app-mount .circleIconButton-3lUBQk,
@@ -461,10 +465,6 @@ body {
 #app-mount .replyBar-1oi75v,
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
 #app-mount .searchBar-zdmu7v,
-#app-mount .searchBar-jGtisZ {
-  background-color: var(--backgroundColor01) !important;
-  border: 1px ridge var(--gradientColor02) !important;
-}
 .searchBarComponent-3N7dCG,
 #app-mount .threadSuggestionBar-3ExSyc {
   background: var(--backgroundColor01) !important;
