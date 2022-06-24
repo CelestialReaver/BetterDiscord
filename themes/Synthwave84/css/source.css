@@ -27,6 +27,7 @@
   --rs-phone-color: var(--rs-online-color);
   --customFont: "Whitney";
 }
+
 body {
   line-height: 1;
   margin: 0;
@@ -81,10 +82,10 @@ body {
 #app-mount .header-2Kx1US {
   font-size: 12px;
   font-weight: 700;
-  font-family: var(--font-display);
+  font-family: var(--customFont);
   line-height: 16px;
   text-transform: uppercase;
-  color: var(--backgroundColor01);
+  color: var(--backgroundColor01) !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
