@@ -67,10 +67,20 @@ body {
 }
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
   background: var(--backgroundColor01) !important;
+  color: var(--backgroundColor01) !important;
 }
 #app-mount .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
   background: var(--backgroundColor01) !important;
   border-bottom: none !important;
+  color: var(--backgroundColor01) !important;
+}
+#app-mount .header-2Kx1US {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--backgroundColor01);
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
