@@ -68,9 +68,9 @@ body {
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
   background: var(--backgroundColor01) !important;
 }
-#app-mount
-  .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV {
+#app-mount .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
   background: var(--backgroundColor01) !important;
+  border-bottom: none !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
