@@ -27,6 +27,7 @@
   --rs-phone-color: var(--rs-online-color);
   --customFont: "Whitney";
 }
+
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
 #app-mount .chat-2ZfjoI,
@@ -587,8 +588,10 @@ svg defs {
   -webkit-text-fill-color: transparent;
   background-clip: text;*/
   background-position: center;
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
+  display: none;
+  opacity: 0;
 }
 #app-mount .container-2o3qEW {
   background: 0 0 !important;
