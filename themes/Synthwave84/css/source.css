@@ -194,7 +194,7 @@
   -o-transform: translateX(-100%);
   transform: translateX(-100%);
 }
-#app-mount .link-39sEB3::after {
+#app-mount .layout-1LjVue::after {
   content: "";
   position: absolute;
   left: 0;
@@ -571,6 +571,12 @@ svg defs {
   position: absolute;
   width: 0;
 }
+svg aria-hidden {
+  height: 0;
+  position: absolute;
+  width: 0;
+  display: none;
+}
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
   content: "SYNTHWAVE '84";
@@ -590,8 +596,6 @@ svg defs {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  display: none;
-  opacity: 0;
 }
 #app-mount .container-2o3qEW {
   background: 0 0 !important;
