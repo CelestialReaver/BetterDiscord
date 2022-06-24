@@ -34,7 +34,7 @@
 #app-mount .container-2cd8Mz,
 #app-mount .container-7Unqij,
 #app-mount .container-ZMc96U.themed-Hp1KC_,
-#app-mount .container-1eFtFS.webkit-QgSAqd {
+/*#app-mount .container-1eFtFS.webkit-QgSAqd {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -45,7 +45,7 @@
   border-radius: 15px !important;
   border: 1px solid #f92aad !important;
   border-color: #f92aad !important;
-}
+}*/
 #app-mount .contentRegion-3HkfJJ,
 #app-mount .contentRegionScroller-2_GT_N,
 #app-mount .emptyPreview-1SMLD4,
@@ -111,7 +111,7 @@
   transition: box-shadow 0.2s ease;
   color: #fff !important;
 }
-#app-mount .winButton-3UMjdf {
+.winButton-3UMjdf {
   position: relative;
   top: -4px;
   cursor: pointer;
@@ -313,7 +313,7 @@
   font-weight: 700;
   text-align: center;
 }
-/*.scrollableContainer-15eg7h {
+.scrollableContainer-15eg7h {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   background-color: var(--backgroundColor01) !important;
@@ -321,7 +321,7 @@
   border-radius: 8px !important;
   border: 1px solid #fede5d !important;
   border-color: #fede5d !important;
-}*/
+}
 #app-mount .channelTextArea-1FufC0,
 #app-mount .circleIconButton-1VxDrg,
 #app-mount .circleIconButton-3lUBQk,
