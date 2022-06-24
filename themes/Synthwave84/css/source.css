@@ -882,7 +882,6 @@ svg aria-hidden {
 #app-mount .clickable-vvKY2q .header-3OsQeK:hover,
 #app-mount .selected-1GtAC5 .header-3OsQeK {
   background-color: var(--backgroundColor02) !important;
-  border-top: 1px inset #f92aad !important;
 }
 #app-mount .bf-toolbar::before {
   background: var(--backgroundColor01) !important;
@@ -1075,7 +1074,9 @@ svg aria-hidden {
 }
 #app-mount .bannedUser-26qsXF,
 #app-mount .header-2o-2hj,
-#app-mount .header-3OsQeK,
+#app-mount .header-3OsQeK {
+  background-color: var(--backgroundColor01) !important;
+}
 #app-mount .inviteSettingsInviteRow-1rZeIM,
 #app-mount .member-1q7VfX,
 #app-mount .searchBar-3TnChZ {
