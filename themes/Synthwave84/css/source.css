@@ -79,9 +79,16 @@ body {
   color: var(--backgroundColor01) !important;
 }
 #app-mount .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
-  background: var(--backgroundColor01) !important;
-  border-bottom: none !important;
-  color: var(--backgroundColor01) !important;
+  text-transform: none;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--customFont) !important;
+  border-bottom: none;
+  background: var(--backgroundColor02) !important;
+}
+#app-mount .ChannelDms-channelmembers-wrap {
+  background: var(--backgroundColor02) !important;
 }
 #app-mount .header-2Kx1US {
   font-size: 12px;
