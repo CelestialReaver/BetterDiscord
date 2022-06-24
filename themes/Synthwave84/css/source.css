@@ -27,7 +27,10 @@
   --rs-phone-color: var(--rs-online-color);
   --customFont: "Whitney";
 }
-
+#app-mount .appMount-2yBXZl {
+  border: 0.5px double #fc28a8 !important;
+  border-radius: 4px;
+}
 body {
   line-height: 1;
   margin: 0;
@@ -35,14 +38,15 @@ body {
   font-family: var(--font-primary);
   overflow: hidden;
   background: transparent;
-  /*border-radius: 4px;*/
-  border-style: outset !important;
+  border-radius: 5px;
+  /*border-style: outset !important;
   border-left: 1px !important;
   border-left-color: linear-gradient(
     to top,
     var(--gradientColor01),
     var(--gradientColor02)
-  ) !important;
+  ) !important;*/
+  border: 0.5px groove #03edf9 !important;
 }
 #app-mount .titleBar-1it3bQ {
   border-bottom: 3px double var(--gradientColor02) !important;
