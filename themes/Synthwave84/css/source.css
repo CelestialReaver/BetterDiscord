@@ -5,8 +5,8 @@
   --mainColor: #03edf9;
   --backgroundColor01: #2a2139;
   --backgroundColor02: #241b2f;
-  /*--backgroundCode: #262335;
-  --backgroundName: rgba(0, 0, 0, 0.2);*/
+  --backgroundCode: #262335;
+  --backgroundName: rgba(0, 0, 0, 0.2);
   --gradientColor01: #36f9f6;
   --gradientColor02: #f92aad;
   --rs-small-spacing: 2px;
@@ -109,7 +109,7 @@
   -webkit-app-region: no-drag;
   color: #e0e722 !important;
 }
-/*#app-mount .container-1eFtFS.webkit-QgSAqd {
+#app-mount .container-1eFtFS.webkit-QgSAqd {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -117,10 +117,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 15px !important;
+  border-radius: 8px !important;
   border: 1px solid #f92aad !important;
-  border-color: #f92aad !important;
-}*/
+  /*border-color: #f92aad !important;*/
+}
 #app-mount .bd-button:not(.bd-button-danger):hover,
 #app-mount .lookFilled-yCfaCM.colorBrand-21Le_q:hover,
 #app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79:hover,
