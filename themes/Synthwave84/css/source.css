@@ -68,7 +68,8 @@ body {
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
   background: var(--backgroundColor01) !important;
 }
-#app-mount .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
+#app-mount
+  .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV {
   background: var(--backgroundColor01) !important;
 }
 #app-mount .applicationStore-2nk7Lo,
@@ -516,7 +517,7 @@ body {
 }
 #app-mount .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 #app-mount .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-  background-color: var(--gradientColor02) !important;
+  background-color: var(--rs-streaming-color) !important;
 }
 #app-mount .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
 #app-mount
