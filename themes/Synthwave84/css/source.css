@@ -43,6 +43,9 @@ body {
     var(--gradientColor02)
   ) !important;
 }
+#app-mount .titleBar-1it3bQ {
+  border-bottom: 3px double var(--gradientColor02) !important;
+}
 #app-mount .container-ZMc96U {
   position: relative;
   display: -webkit-box;
@@ -63,7 +66,7 @@ body {
   cursor: default;
   z-index: 2;
   color: var(--text-normal);
-  border-top: 1px double #f92aad;
+  /*border-top: 3px double #f92aad;*/
   background-color: var(--backgroundColor01) !important;
 }
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
