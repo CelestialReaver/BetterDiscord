@@ -34,8 +34,8 @@ body {
   font-family: var(--font-primary);
   overflow: hidden;
   background: transparent;
-  border-radius: 4px;
-  border-style: inset !important;
+  /*border-radius: 4px;*/
+  border-style: outset !important;
   border-left: 1px !important;
   border-left-color: linear-gradient(
     to top,
