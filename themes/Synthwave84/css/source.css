@@ -588,7 +588,7 @@ svg defs {
   -webkit-text-fill-color: transparent;
   background-clip: text;*/
   background-position: center;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   display: none;
   opacity: 0;
