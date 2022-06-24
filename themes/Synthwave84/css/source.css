@@ -506,11 +506,11 @@ body {
 #app-mount .mediaBarProgress-38I317,
 #app-mount .mediaBarProgress-38I317:after,
 #app-mount .mediaBarProgress-38I317:before {
-  background-color: var(--mainColor) !important;
+  background-color: var(--gradientColor02) !important;
 }
 #app-mount .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 #app-mount .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-  background-color: var(--mainColor) !important;
+  background-color: var(--gradientColor02) !important;
 }
 #app-mount .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
 #app-mount
@@ -1593,6 +1593,15 @@ svg aria-hidden {
 #app-mount .primary-38Hs-h:hover:not(.disabled-184-il) svg path,
 #app-mount .secondary-2bzKEX svg path {
   fill: var(--mainColor) !important;
+}
+#app-mount .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
+  text-transform: none;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-primary);
+  /* border-bottom: thin solid var(--background-modifier-accent); */
+  background: var(--backgroundColor02) !important;
 }
 #app-mount .button-YGmtzG:hover,
 #app-mount .notice-2olXi7 {
