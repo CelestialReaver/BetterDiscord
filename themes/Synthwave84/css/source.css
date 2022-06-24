@@ -63,7 +63,7 @@ body {
   cursor: default;
   z-index: 2;
   color: var(--text-normal);
-  border-top: 1px inset #f92aad;
+  border-top: 1px ridge #f92aad;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
@@ -97,7 +97,9 @@ body {
 #app-mount .threadSidebar-1o3BTy,
 #app-mount .tile-2TcwiO,
 #app-mount .videoWrapper-3rtb_V,
-#app-mount .wrapper-1_HaEi,
+#app-mount .wrapper-1_HaEi {
+  border-top: 1px ridge #f92aad;
+}
 #app-mount .wrapper-1gVUIN {
   background: var(--backgroundColor02) !important;
 }
@@ -616,6 +618,13 @@ body {
   color: var(--mainColor) !important;
   background-color: var(--backgroundColor01) !important;
 }
+#app-mount .titleBar-1it3bQ {
+  z-index: 3001;
+  -webkit-app-region: drag;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-bottom: 1px double #f92aad !important;
+}
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
 #app-mount .arrow-2HswgU,
@@ -861,7 +870,6 @@ svg aria-hidden {
 #app-mount .clickable-vvKY2q .header-3OsQeK:hover,
 #app-mount .selected-1GtAC5 .header-3OsQeK {
   background-color: var(--backgroundColor02) !important;
-  border-top: 1px inset #f92aad !important;
 }
 #app-mount .bf-toolbar::before {
   background: var(--backgroundColor01) !important;
