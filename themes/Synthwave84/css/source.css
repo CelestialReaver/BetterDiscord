@@ -472,8 +472,7 @@ body {
   background-color: var(--backgroundColor01) !important;
   max-height: 50vh !important;
   border-radius: 8px !important;
-  border: 1px solid #fede5d !important;
-  border-color: #fede5d !important;
+  border: 3px groove #fc28a8 !important;
 }
 #app-mount .channelTextArea-1FufC0,
 #app-mount .circleIconButton-1VxDrg,
