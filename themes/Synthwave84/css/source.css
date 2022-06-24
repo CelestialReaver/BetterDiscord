@@ -85,7 +85,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: var(--customFont) !important;
-  border-bottom: none;
+  border-bottom: none !important;
   background: var(--backgroundColor02) !important;
 }
 #app-mount .ChannelDms-channelmembers-wrap {
@@ -98,6 +98,11 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   color: var(--backgroundColor01) !important;
+}
+#app-mount
+  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV {
+  background: var(--backgroundColor01) !important;
+  border-bottom: none !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
@@ -480,7 +485,7 @@ body {
   background-color: var(--backgroundColor01) !important;
   max-height: 50vh !important;
   border-radius: 8px !important;
-  border: 3px groove #fc28a880 !important;
+  border: 3px double #643da7 !important;
 }
 #app-mount .searchBar-jGtisZ {
   font-variant: JIS83;
