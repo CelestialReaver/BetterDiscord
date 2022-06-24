@@ -100,7 +100,7 @@ body {
 #app-mount .tile-2TcwiO,
 #app-mount .videoWrapper-3rtb_V,
 #app-mount .wrapper-1_HaEi {
-  border-top: 1px ridge #f92aad;
+  border-top: 1px ridge #f92aad !important;
 }
 #app-mount .wrapper-1gVUIN {
   background: var(--backgroundColor02) !important;
