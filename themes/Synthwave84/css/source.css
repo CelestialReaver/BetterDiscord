@@ -64,8 +64,6 @@ body {
   z-index: 2;
   color: var(--text-normal);
   border-top: 1px ridge #f92aad;
-  background-color: var(--backgroundColor02) !important;
-  border: none !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
@@ -100,7 +98,7 @@ body {
 #app-mount .tile-2TcwiO,
 #app-mount .videoWrapper-3rtb_V,
 #app-mount .wrapper-1_HaEi {
-  border-top: 1px ridge #f92aad !important;
+  border-top: 1px ridge #f92aad;
 }
 #app-mount .wrapper-1gVUIN {
   background: var(--backgroundColor02) !important;
@@ -453,10 +451,6 @@ body {
   border: 1px solid #fede5d !important;
   border-color: #fede5d !important;
 }
-#app-mount .searchBar-jGtisZ {
-  background-color: var(--backgroundColor01) !important;
-  border: 1px ridge var(--gradientColor02) !important;
-}
 #app-mount .channelTextArea-1FufC0,
 #app-mount .circleIconButton-1VxDrg,
 #app-mount .circleIconButton-3lUBQk,
@@ -465,7 +459,6 @@ body {
 #app-mount .replyBar-1oi75v,
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
 #app-mount .searchBar-zdmu7v,
-.searchBarComponent-3N7dCG,
 #app-mount .threadSuggestionBar-3ExSyc {
   background: var(--backgroundColor01) !important;
 }
@@ -1640,10 +1633,6 @@ svg aria-hidden {
     var(--gradientColor02),
     var(--gradientColor01) 75.25%
   );
-}
-#app-mount .header-2Kx1US {
-  background-color: var(--backgroundColor02) !important;
-  border: none !important;
 }
 #app-mount .cardWrapper-CyvwQv {
   background-color: var(--backgroundColor01) !important;
