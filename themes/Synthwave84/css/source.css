@@ -78,7 +78,8 @@ body {
   background: var(--backgroundColor01) !important;
   color: var(--backgroundColor01) !important;
 }
-#app-mount .ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
+#app-mount
+  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
   text-transform: none;
   padding: 10px 0;
   align-items: center;
