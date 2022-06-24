@@ -65,6 +65,9 @@ body {
   color: var(--text-normal);
   border-top: 1px inset #f92aad;
 }
+.container-ZMc96U.themed-Hp1KC {
+  background: var(--backgroundColor01) !important;
+}
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
 #app-mount .chat-2ZfjoI,
