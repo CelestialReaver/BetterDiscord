@@ -28,7 +28,7 @@
   --customFont: "Whitney";
 }
 #app-mount .appMount-2yBXZl {
-  border: 0.5px double #fc28a8 !important;
+  border: 0.5px double #fc28a880 !important;
   border-radius: 4px;
 }
 body {
@@ -38,7 +38,7 @@ body {
   font-family: var(--font-primary);
   overflow: hidden;
   background: transparent;
-  border-radius: 5px;
+  border-radius: 3px;
   /*border-style: outset !important;
   border-left: 1px !important;
   border-left-color: linear-gradient(
@@ -46,7 +46,7 @@ body {
     var(--gradientColor01),
     var(--gradientColor02)
   ) !important;*/
-  border: 0.5px groove #03edf9 !important;
+  border: 0.5px groove #03edf975 !important;
 }
 #app-mount .titleBar-1it3bQ {
   border-bottom: 3px double var(--gradientColor02) !important;
