@@ -35,7 +35,7 @@ body {
   line-height: 1;
   margin: 0;
   padding: 0;
-  font-family: var(--font-primary);
+  font-family: var(--customFont);
   overflow: hidden;
   background: transparent;
   border-radius: 3px;
@@ -78,7 +78,7 @@ body {
   background: var(--backgroundColor01) !important;
   color: var(--backgroundColor01) !important;
 }
-#app-mount
+/*#app-mount
   .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header {
   text-transform: none;
   padding: 10px 0;
@@ -87,11 +87,11 @@ body {
   font-family: var(--customFont) !important;
   border-bottom: none !important;
   background: var(--backgroundColor02) !important;
-}
+}*/
 #app-mount .ChannelDms-channelmembers-wrap {
   background: var(--backgroundColor02) !important;
 }
-#app-mount .header-2Kx1US {
+/*#app-mount .header-2Kx1US {
   font-size: 12px;
   font-weight: 700;
   font-family: var(--customFont);
@@ -103,7 +103,7 @@ body {
   .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV {
   background: var(--backgroundColor01) !important;
   border-bottom: none !important;
-}
+}*/
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
 #app-mount .chat-2ZfjoI,
@@ -882,8 +882,8 @@ svg aria-hidden {
 }
 #app-mount .wrapper-1ZcZW- {
   background-color: var(--gradientColor02);
-  color: #fff;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.7);
+  color: #03edf9;
+  text-shadow: 0 1px rgba(254, 222, 93 0.7);
 }
 #app-mount .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 #app-mount .menu-1QACrS {
