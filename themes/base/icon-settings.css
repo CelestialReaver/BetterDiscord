@@ -2,8 +2,10 @@
 @import url("https://celestialreaver.github.io/themes/base/font.css");
 @import url("https://celestialreaver.github.io/themes/base/hljs.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Monoton");
 :root {
-  --customFont: "Open Sans";
+  /*--customFont: "Open Sans"*/
+  --customFont: "Monoton";
 }
 .sidebar-nqHbhN
   .side-2ur1Qk
