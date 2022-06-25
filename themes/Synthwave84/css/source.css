@@ -779,7 +779,7 @@ svg aria-hidden {
   background-image: linear-gradient(to right, #fc28a898, #03edf998);
   -webkit-mask-box-image: url("https://i.imgur.com/U6yhTRx.png");
   mask-image: url("https://i.imgur.com/U6yhTRx.png");
-  background-position: top;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   content-visibility: hidden;
