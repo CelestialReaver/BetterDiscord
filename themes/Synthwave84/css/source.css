@@ -775,10 +775,10 @@ svg aria-hidden {
   height: 20px;
   width: 140px;
   margin-left: 10px;
-  /*background-image: url("https://i.imgur.com/U6yhTRx.png") !important;*/
-  background-image: linear-gradient(to right, #fc28a898, #03edf998);
+  background-image: url("https://i.imgur.com/U6yhTRx.png") !important;
+  /*background-image: linear-gradient(to right, #fc28a898, #03edf998);
   -webkit-mask-box-image: url("https://i.imgur.com/U6yhTRx.png");
-  mask-image: url("https://i.imgur.com/U6yhTRx.png");
+  mask-image: url("https://i.imgur.com/U6yhTRx.png");*/
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
