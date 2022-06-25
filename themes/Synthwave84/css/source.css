@@ -104,6 +104,21 @@ body {
   background: var(--backgroundColor01) !important;
   border-bottom: none !important;
 }*/
+#app-mount .ChannelDms-channelpopout-header {
+  background: var(--backgroundColor01) !important;
+}
+#app-mount
+  .ChannelDms-channelpopout-popout
+  .ChannelDms-channelpopout-content
+  > section
+  > div {
+  height: 100%;
+  background: #2a2139;
+  border-radius: 3px;
+}
+#app-mount .forms-3gdLxP {
+  background-color: var(--backgroundColor01);
+}
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
 #app-mount .chat-2ZfjoI,
@@ -1103,7 +1118,7 @@ svg aria-hidden {
 #app-mount .children-3xh0VB:after,
 #app-mount .content-1jQy2l:before,
 #app-mount .divider-3LgWDL,
-#app-mount .form-3gdLxP:before,
+/*#app-mount .form-3gdLxP:before,*/
 #app-mount .guildSeparator-33mFX6,
 #app-mount .libraryHeader-2loraV:before,
 #app-mount .roleRow-3LoHQ6:before,
