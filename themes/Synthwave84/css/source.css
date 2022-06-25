@@ -36,7 +36,7 @@
   line-height: 1;
   margin: 0;
   padding: 0;
-  font-family: var(--customFont);
+  font-family: var(--customFont) !important;
   overflow: hidden;
   background: transparent;
   border-radius: 3px;
@@ -54,7 +54,7 @@
   line-height: 1;
   margin: 0;
   padding: 0;
-  font-family: var(--customFont);
+  font-family: var(--customFont) !important;
   overflow: hidden;
   background: transparent;
   border-radius: 3px;
