@@ -25,7 +25,7 @@
   --rs-invisible-color: #b6b1b1;
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
-  --customFont: "Monoton";
+  --customFont: "Whitney";
 }
 #app-mount .appMount-2yBXZl {
   border: 0.5px double #fc28a880 !important;
@@ -37,7 +37,6 @@
   margin: 0;
   padding: 0;
   font-family: var(--customFont) !important;
-  font-size: 12px !important;
   overflow: hidden;
   background: transparent;
   border-radius: 3px;
