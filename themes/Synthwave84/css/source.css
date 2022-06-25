@@ -46,7 +46,7 @@ body {
     var(--gradientColor01),
     var(--gradientColor02)
   ) !important;*/
-  border: 0.5px groove #03edf975 !important;
+  border: 0.5px double #03edf975 !important;
 }
 #app-mount .titleBar-1it3bQ {
   border-bottom: 3px double #fc28a880 !important;
