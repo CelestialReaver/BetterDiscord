@@ -776,7 +776,7 @@ svg aria-hidden {
   width: 140px;
   margin-left: 10px;
   /*background-image: url("https://i.imgur.com/U6yhTRx.png") !important;*/
-  background-image: linear-gradient(to right, #03edf920, #fc28a890),
+  background-image: linear-gradient(to right, #fc28a890, #03edf990),
     url("https://i.imgur.com/U6yhTRx.png") !important;
   /*background: -webkit-linear-gradient(
     var(--gradientColor01),
