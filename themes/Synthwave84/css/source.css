@@ -222,6 +222,34 @@
   background-clip: content-box !important;
   border-radius: 50% !important;
 }
+.icon-3AqZ2e:before {
+  display: block;
+  width: 48px;
+  height: 48px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  pointer-events: none;
+  object-fit: cover;
+  pointer-events: none;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 4px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 10px 3px !important;
+  background-clip: content-box !important;
+  border-radius: 50% !important;
+}
+.icon-3AqZ2e:after {
+  display: block;
+  width: 48px;
+  height: 48px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  pointer-events: none;
+  object-fit: cover;
+  pointer-events: none;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 4px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 10px 3px !important;
+  background-clip: content-box !important;
+  border-radius: 50% !important;
+}
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
   width: 100%;
   height: 28px;
@@ -241,6 +269,15 @@
   border: 3px double #643da6 !important;
   box-shadow: rgba(210, 109, 208, 0.3) 0px 1px 2px 0px,
     rgba(210, 109, 208, 0.15) 0px 2px 6px 3px !important;
+}
+.communityInfoVisible-3zc5_s .header-3OsQeK,
+.communityInfoVisible-3zc5_s .header-3OsQeK:hover,
+.hasBanner-2IrYih .header-3OsQeK,
+.hasBanner-2IrYih .header-3OsQeK:hover {
+  -webkit-box-shadow: none;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
+  background-color: transparent;
+  opacity: 60%;
 }
 #app-mount .layer-86YKbF ~ .layer-86YKbF {
   position: absolute !important;
