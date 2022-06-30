@@ -725,7 +725,6 @@
 #app-mount .circleIconButton-1VxDrg,
 #app-mount .circleIconButton-3lUBQk,
 #app-mount .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
-#app-mount .inner-2pOSmK,
 #app-mount .replyBar-1oi75v,
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
 #app-mount .searchBar-zdmu7v,
@@ -1624,11 +1623,11 @@ svg aria-hidden {
   background-color: var(--backgroundColor02) !important;
   box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.3);
 }
-#app-mount .popoutListInput-1w4TxY .inner-2pOSmK {
+/*#app-mount .popoutListInput-1w4TxY .inner-2pOSmK {
   border-radius: 4px;
   background-color: var(--backgroundColor02) !important;
   padding: 4px;
-}
+}*/
 #app-mount .popoutList-10IFAa {
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
 }
@@ -2159,10 +2158,10 @@ svg aria-hidden {
     0 0 10px 0 rgba(0, 0, 0, 0.5);
   border: none !important;
 }
-#app-mount .container-2O1UgZ .inner-2pOSmK {
+/*#app-mount .container-2O1UgZ .inner-2pOSmK {
   background-color: var(--backgroundColor02) !important;
   border: 1px solid rgba(0, 0, 0, 0.2);
-}
+}*/
 #app-mount .container-2O1UgZ .focused-qp-W9B,
 #app-mount .container-2O1UgZ .item-1BCeuB:hover {
   background-color: var(--backgroundColor02) !important;
