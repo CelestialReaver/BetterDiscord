@@ -114,14 +114,15 @@
   color: var(--backgroundColor01) !important;
 }*/
 #app-mount
-  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV:after {
+  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV:before {
+  content: "";
   background: var(--backgroundColor01) !important;
   border-bottom: none !important;
 }
 #app-mount .ChannelDms-channelpopout-header {
   background: var(--backgroundColor01) !important;
 }
-#app-mount
+/*#app-mount
   .ChannelDms-channelpopout-popout
   .ChannelDms-channelpopout-content
   > section
@@ -129,12 +130,13 @@
   height: 100%;
   background: #2a2139;
   border-radius: 3px;
-}
+}*/
 #app-mount .forms-3gdLxP {
   background-color: var(--backgroundColor01) !important;
 }
-#app-mount .forms-3gdLxP:after {
-  background-color: var(--backgroundColor02) !important;
+#app-mount .forms-3gdLxP:before {
+  content: "";
+  background: var(--backgroundColor02) !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
