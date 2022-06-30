@@ -992,9 +992,12 @@ svg aria-hidden {
 #app-mount .scroller-1bVxF5 .separator-1So4YB {
   display: none;
 }
-#app-mount .clickable-vvKY2q .header-3OsQeK:hover,
+#app-mount .clickable-vvKY2q .header-3OsQeK:hover {
+  opacity: 90%;
+}
 #app-mount .selected-1GtAC5 .header-3OsQeK {
-  background-color: var(--backgroundColor02) !important;
+  background-color: var(--backgroundColor01) !important;
+  opacity: 50%;
 }
 #app-mount .bf-toolbar::before {
   background: var(--backgroundColor01) !important;
