@@ -124,11 +124,12 @@
 }
 .ChannelDms-channelpopout-popout {
   color: #ddd;
-  background: var(--backgroundColor02) !important;
+  background: var(--background-primary);
   width: 400px;
   height: 600px;
   position: relative;
-  box-shadow: var(--elevation-high);
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 10px 10px !important;
 }
 .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-collapseButton {
   position: absolute;
