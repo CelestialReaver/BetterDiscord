@@ -102,17 +102,16 @@
   border-bottom: none !important;
   background: var(--backgroundColor02) !important;
 }
-/*#app-mount .ChannelDms-channelmembers-wrap {
-  background: var(--backgroundColor02) !important;
-}
-#app-mount .header-2Kx1US {
-  font-size: 12px;
-  font-weight: 700;
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+  text-transform: none;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
   font-family: var(--customFont);
-  line-height: 16px;
-  text-transform: uppercase;
-  color: var(--backgroundColor01) !important;
-}*/
+  border-bottom: thin solid var(--background-modifier-accent);
+  --background-modifier-selected: var(--background-accent);
+  background: var(--backgroundColor02);
+}
 .topPill-3DJJNV {
   content: "";
   background: var(--backgroundColor01) !important;
@@ -122,7 +121,12 @@
   background: var(--backgroundColor01) !important;
 }
 .ChannelDms-channelpopout-popout {
+  color: #ddd;
   background: var(--backgroundColor01) !important;
+  width: 400px;
+  height: 600px;
+  position: relative;
+  box-shadow: var(--elevation-high);
 }
 /*  .ChannelDms-channelpopout-content
   > section
@@ -131,12 +135,13 @@
   background: #2a2139;
   border-radius: 3px;
 }*/
-.forms-3gdLxP {
+.form-3gdLxP:before {
   content: "";
-  background-color: var(--backgroundColor01) !important;
-}
-.theme-dark.forms-3gdLxP:before {
-  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.5rem;
+  width: 1.25rem;
   background: var(--backgroundColor02) !important;
 }
 #app-mount .applicationStore-2nk7Lo,
