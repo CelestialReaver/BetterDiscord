@@ -113,29 +113,29 @@
   text-transform: uppercase;
   color: var(--backgroundColor01) !important;
 }*/
-#app-mount
-  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV:before {
+.topPill-3DJJNV {
   content: "";
   background: var(--backgroundColor01) !important;
   border-bottom: none !important;
 }
-#app-mount .ChannelDms-channelpopout-header {
+.ChannelDms-channelpopout-header {
   background: var(--backgroundColor01) !important;
 }
-/*#app-mount
-  .ChannelDms-channelpopout-popout
-  .ChannelDms-channelpopout-content
+.ChannelDms-channelpopout-popout {
+  background: var(--backgroundColor01) !important;
+}
+/*  .ChannelDms-channelpopout-content
   > section
   > div {
   height: 100%;
   background: #2a2139;
   border-radius: 3px;
 }*/
-#app-mount .forms-3gdLxP {
+.forms-3gdLxP {
   content: "";
   background-color: var(--backgroundColor01) !important;
 }
-#app-mount .theme-dark.forms-3gdLxP:before {
+.theme-dark.forms-3gdLxP:before {
   content: "";
   background: var(--backgroundColor02) !important;
 }
