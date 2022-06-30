@@ -133,7 +133,7 @@
 #app-mount .forms-3gdLxP {
   background-color: var(--backgroundColor01);
 }
-#app-mount .forms-3gdLxP::before {
+#app-mount .forms-3gdLxP:before {
   background-color: var(--backgroundColor01);
 }
 #app-mount .applicationStore-2nk7Lo,
