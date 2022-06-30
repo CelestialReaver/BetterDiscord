@@ -110,7 +110,7 @@
   font-family: var(--customFont);
   border-bottom: thin solid linear-gradient(to right, #03edf920, #fc28a890) !important;
   /*--background-modifier-selected: var(--background-accent);*/
-  background: var(--backgroundColor02);
+  background: var(--backgroundColor02) !important;
 }
 .topPill-3DJJNV {
   content: "";
