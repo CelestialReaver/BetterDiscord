@@ -108,7 +108,7 @@
   align-items: center;
   justify-content: center;
   font-family: var(--customFont);
-  border-bottom: thin solid var(--background-modifier-accent);
+  border-bottom: thin solid linear-gradient(180deg, rgba(54, 57, 63, 0) 0, var(--background-primary));
   --background-modifier-selected: var(--background-accent);
   background: var(--backgroundColor02);
 }
