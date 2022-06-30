@@ -134,7 +134,7 @@
 #app-mount .forms-3gdLxP {
   background-color: var(--backgroundColor01) !important;
 }
-#app-mount .theme.forms-3gdLxP:before {
+#app-mount .theme-dark.forms-3gdLxP:before {
   content: "";
   background: var(--backgroundColor02) !important;
 }
