@@ -112,12 +112,12 @@
   line-height: 16px;
   text-transform: uppercase;
   color: var(--backgroundColor01) !important;
-}
+}*/
 #app-mount
-  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV {
+  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header.topPill-3DJJNV:before {
   background: var(--backgroundColor01) !important;
   border-bottom: none !important;
-}*/
+}
 #app-mount .ChannelDms-channelpopout-header {
   background: var(--backgroundColor01) !important;
 }
