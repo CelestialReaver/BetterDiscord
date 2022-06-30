@@ -85,12 +85,14 @@
   cursor: default;
   z-index: 2;
   color: var(--text-normal);
-  /*border-top: 3px double #f92aad;*/
+  /* border-top: 3px double #f92aad; */
   background-color: var(--backgroundColor01) !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
 }
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
   background: var(--backgroundColor01) !important;
   color: var(--backgroundColor01) !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
 }
 #app-mount
   .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header:after {
@@ -162,7 +164,63 @@
 .directionRight-2cNgoe {
   -webkit-transform: rotate3d(0, 0, -1, 90deg);
   transform: rotate3d(0, 0, -1, 90deg);
-  background: var(--gradientColor02);
+}
+#app-mount .actionIcon-2sw4Sl,
+#app-mount .addButtonIcon-3rJeaD,
+#app-mount .arrow-2HswgU,
+#app-mount .attachButtonPlus-3IYelE,
+#app-mount .button-12Fmur svg,
+#app-mount .button-2BMPJJ,
+#app-mount .buttonWrapper-3YFQGJ svg,
+#app-mount .channelNameIcon-2d0YcP,
+#app-mount .colorDefault-CDqZdO .checkbox-hADx5o,
+#app-mount .colorDefault-CDqZdO .radioSelection-1UHp0b,
+#app-mount .colorDefault-CDqZdO .subtext-2GlkbE,
+#app-mount .colorLink-2apWfY,
+#app-mount .connectedAccountOpenIcon-1yfBsb,
+#app-mount .container-7Unqij svg,
+#app-mount .flowerStar-2tNFCR path,
+#app-mount .icon-1WVg4I,
+#app-mount .icon-1zidb7,
+#app-mount .icon-2W8DHg,
+#app-mount .icon-2xnN2Y,
+#app-mount .icon-3CDcPB,
+#app-mount .icon-3N9zCW,
+#app-mount .icon-E4cW1l,
+#app-mount .iconContainer-1-SsTR,
+#app-mount .linkButtonIcon-7rsZcu,
+#app-mount .option-2KkUJO.selected-rZcOL- .plusIcon-2V7coV,
+#app-mount .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
+#app-mount .resultsGroup-1BPR25 .searchLearnMore-7__o_n a,
+#app-mount .topSectionNormal-2-vo2m .additionalActionsIcon-3Cy8UU {
+  color: var(--mainColor) !important;
+  fill: var(--mainColor) !important;
+  border-radius: 50% !important;
+  box-shadow: rgb(3 237 249) 0px 6px 30px -10px !important;
+  background-clip: content-box !important;
+  /* padding: 1px; */
+}
+.button-Jt-tIg {
+  border-radius: 4px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 1.3;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 6px 6px !important;
+}
+.icon-3AqZ2e {
+  display: block;
+  width: 48px;
+  height: 48px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  pointer-events: none;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 4px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 10px 3px !important;
+  background-clip: content-box !important;
+  border-radius: 50% !important;
 }
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
   width: 100%;
@@ -181,6 +239,26 @@
   white-space: nowrap;
   border-radius: 8px !important;
   border: 3px double #643da6 !important;
+  box-shadow: rgba(210, 109, 208, 0.3) 0px 1px 2px 0px,
+    rgba(210, 109, 208, 0.15) 0px 2px 6px 3px !important;
+}
+#app-mount .layer-86YKbF ~ .layer-86YKbF {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background: var(--settingsmodalbackground) !important;
+  border-radius: 5px !important;
+  /* box-shadow: var(--elevation-high) !important; */
+  width: var(--settingsmodalwidth) !important;
+  height: var(--settingsmodalheight) !important;
+  margin: auto !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  contain: unset !important;
+  z-index: 1000 !important;
+  box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
@@ -564,6 +642,8 @@
   max-height: 50vh !important;
   border-radius: 8px !important;
   border: 3px double #643da7 !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 6px 6px !important;
 }
 #app-mount .searchBar-jGtisZ {
   font-variant: JIS83;
@@ -586,6 +666,8 @@
   color: var(--text-normal);
   background-color: var(--backgroundColor02);
   border: 3px double #643da7;
+  box-shadow: rgba(210, 109, 208, 0.3) 0px 1px 2px 0px,
+    rgba(210, 109, 208, 0.15) 0px 2px 6px 3px !important;
 }
 #app-mount .channelTextArea-1FufC0,
 #app-mount .circleIconButton-1VxDrg,
@@ -994,9 +1076,11 @@ svg aria-hidden {
 }
 #app-mount .clickable-vvKY2q .header-3OsQeK:hover {
   opacity: 90%;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px important!;
 }
 #app-mount .selected-1GtAC5 .header-3OsQeK {
   background-color: var(--backgroundColor01) !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px important!;
   opacity: 50%;
 }
 #app-mount .bf-toolbar::before {
@@ -1067,7 +1151,7 @@ svg aria-hidden {
   background: var(--backgroundColor01) !important;
 }
 #app-mount .quickSelectPopoutOption-2E2UmS:hover {
-  background-color: var(--backgroundColor02);
+  background-color: var(--backgroundColor02) !important;
   color: #fff;
 }
 #app-mount .attachedBars-2BCP3l,
