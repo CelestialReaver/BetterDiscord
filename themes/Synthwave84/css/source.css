@@ -132,6 +132,7 @@
   border-radius: 3px;
 }*/
 #app-mount .forms-3gdLxP {
+  content: "";
   background-color: var(--backgroundColor01) !important;
 }
 #app-mount .theme-dark.forms-3gdLxP:before {
