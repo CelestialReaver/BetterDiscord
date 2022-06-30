@@ -1061,7 +1061,7 @@ svg aria-hidden {
 #app-mount .quickswitcher-pKcM9U,
 #app-mount .scroller-2qwVWY,
 #app-mount .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .bgScale-1iWuPF {
-  background: inherit;
+  background: var(--backgroundColor01) !important;
 }
 #app-mount .input-3r5zZY {
   background: var(--backgroundColor01) !important;
