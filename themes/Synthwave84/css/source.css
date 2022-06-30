@@ -93,7 +93,7 @@
   color: var(--backgroundColor01) !important;
 }
 #app-mount
-  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header:after {
+  .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header:before {
   text-transform: none;
   padding: 10px 0;
   align-items: center;
@@ -131,10 +131,10 @@
   border-radius: 3px;
 }
 #app-mount .forms-3gdLxP {
-  background-color: var(--backgroundColor01);
+  background-color: var(--backgroundColor01) !important;
 }
 #app-mount .forms-3gdLxP:before {
-  background-color: var(--backgroundColor02);
+  background-color: var(--backgroundColor02) !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
