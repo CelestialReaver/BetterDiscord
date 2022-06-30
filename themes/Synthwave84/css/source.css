@@ -136,6 +136,10 @@
   border-radius: 100px;
   z-index: 999999;
 }
+.ChannelDms-channelpopout-content .messagesWrapper-RpOMA3.group-spacing-16 {
+  background: var(--backgroundColor02) !important;
+  color: var(--backgroundColor02) !important;
+}
 .form-3gdLxP:before {
   content: "";
   position: absolute;
