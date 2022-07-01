@@ -30,7 +30,7 @@
 #app-mount .appMount-2yBXZl {
   border: 0.5px double #fc28a880 !important;
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
 }
 #app-mount .body {
   line-height: 1;
@@ -38,8 +38,8 @@
   padding: 0;
   font-family: var(--customFont) !important;
   overflow: hidden;
-  background: transparent;
-  border-radius: 3px;
+  /*background: transparent;*/
+  /*border-radius: 3px;*/
   /*border-style: outset !important;
   border-left: 1px !important;
   border-left-color: linear-gradient(
@@ -47,7 +47,7 @@
     var(--gradientColor01),
     var(--gradientColor02)
   ) !important;*/
-  border: 0.5px double #03edf975 !important;
+  /*border: 0.5px double #03edf975 !important;*/
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
 }
 #app-mount .body.folderContentIsOpen-zz6Fg {
