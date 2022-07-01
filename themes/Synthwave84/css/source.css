@@ -171,9 +171,8 @@
   height: 20px;
   margin-bottom: 0px;
   border-radius: 1px !important;
-  box-shadow: rgb(210 109 208) 0px 6px 30px -1px !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -5px !important;
   border-bottom: 1px solid #643da6 !important;
-  background: #000;
 }
 .theme-dark .form-3gdLxP:before {
   background: -webkit-gradient(
