@@ -167,6 +167,14 @@
   width: 1.25rem;
   background: var(--backgroundColor02) !important;
 }
+.withFrame-2dL45i {
+  height: 20px;
+  margin-bottom: 0px;
+  border-radius: 1px !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -1px !important;
+  border-bottom: 1px solid #643da6 !important;
+  background: #000;
+}
 .theme-dark .form-3gdLxP:before {
   background: -webkit-gradient(
     linear,
@@ -1094,7 +1102,7 @@ svg aria-hidden {
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
   content: "SYNTHWAVE '84";
-  top: 3px;
+  top: -3px;
   height: 20px;
   width: 140px;
   margin-left: 10px;
