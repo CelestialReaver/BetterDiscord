@@ -124,7 +124,7 @@
 }
 .ChannelDms-channelpopout-popout {
   color: #ddd;
-  background: var(--background-primary);
+  background: var(--backgroundColor02) !important;
   width: 400px;
   height: 600px;
   position: relative;
@@ -182,6 +182,15 @@
   );
   background: var(--backgroundColor02) !important;
 }
+.form-3gdLxP {
+  position: relative;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: -8px;
+  background: var(--backgroundColor02) !important;
+}
 .directionRight-2cNgoe {
   -webkit-transform: rotate3d(0, 0, -1, 90deg);
   transform: rotate3d(0, 0, -1, 90deg);
@@ -219,6 +228,19 @@ body {
   text-rendering: optimizeLegibility;
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
   border-bottom: none;
+}
+.modeConnected-NrO4cP .name-28HaxV,
+.modeConnected-NrO4cP:hover .name-28HaxV,
+.modeSelected-3DmyhH .name-28HaxV,
+.modeSelected-3DmyhH:hover .name-28HaxV,
+.modeUnread-3Cxepe .name-28HaxV,
+.modeUnread-3Cxepe:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+  color: var(--interactive-active);
+  box-shadow: rgb(210 109 208) 1px 4px 100px px !important;
+  border-radius: 2px;
+  border: 1px solid transparent;
 }
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
