@@ -1,4 +1,4 @@
-<h1 align="center">Synthwave '84</h1>
+<h1 align="center"><a href="https://imgur.com/30naVqy"><img src="https://i.imgur.com/30naVqy.png" title="source: imgur.com" /></a></h1>
 <p align="center">A clean retro theme that provides the perfect glow to vibe and chill.</p>
 
 ![](https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/assets/preview.png)
