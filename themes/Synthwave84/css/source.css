@@ -403,7 +403,7 @@ body {
   overflow: hidden !important;
   contain: unset !important;
   z-index: 1000 !important;
-  box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
+  box-shadow: rgb(210, 109, 208) r 0px 6px 30px -10px !important;
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
@@ -1181,9 +1181,12 @@ svg aria-hidden {
   background-color: var(--mainColor);
 }
 #app-mount .wrapper-1ZcZW- {
-  background-color: var(--gradientColor02);
-  color: #03edf9;
-  text-shadow: 0 1px rgba(254, 222, 93 0.7);
+  background: #643da698 !important;
+  color: var(--rs-idle-color) !important;
+  box-shadow: var(--elevation-high) !important;
+  border-radius: 6px !important;
+  border: 1px groove #643da6 !important;
+  font-style: oblique !important;
 }
 #app-mount .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 #app-mount .menu-1QACrS {
