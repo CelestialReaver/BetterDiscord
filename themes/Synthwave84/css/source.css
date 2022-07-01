@@ -239,6 +239,19 @@ body {
   border: transparent !important;
   background-clip: content-box !important;
 }
+.inner-2pOSmK {
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 1px;
+  min-width: 0;
+  color: var(--text-normal);
+  -webkit-text-fill-color: var(--text-normal) !important;
+}
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
 #app-mount .arrow-2HswgU,
