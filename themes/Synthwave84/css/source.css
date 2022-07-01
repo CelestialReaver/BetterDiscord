@@ -238,7 +238,7 @@ body {
   border-radius: 4px !important;
   border: transparent !important;
   background-clip: content-box !important;
-  animation: pulse 5s infinite !important;
+  animation: pulse 3s infinite !important;
   will-change: transform !important;
 }
 .inner-2pOSmK {
