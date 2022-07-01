@@ -238,9 +238,9 @@ body {
 .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
 .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
   color: var(--interactive-active);
-  box-shadow: rgb(210 109 208) 1px 4px 100px px !important;
+  box-shadow: rgb(114, 241, 184) 1px 4px 100px px !important;
   border-radius: 2px;
-  border: 1px solid transparent;
+  border: transparent;
 }
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
