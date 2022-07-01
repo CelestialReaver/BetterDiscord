@@ -149,6 +149,9 @@
   box-shadow: rgba(210, 109, 208, 0.3) 0px 1px 2px 0px,
     rgba(210, 109, 208, 0.15) 0px 2px 6px 3px !important;
 }
+.input-2m5SfJ {
+  color: var(--backgroundColor01) !important;
+}
 #app-mount .root-g14mjS {
   background: var(--backgroundColor02) !important;
   box-shadow: rgb(210 109 208 / 30%) 0px 1px 6px 0px,
