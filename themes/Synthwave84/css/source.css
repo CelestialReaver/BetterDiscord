@@ -249,7 +249,7 @@ body {
   flex-wrap: wrap;
   padding: 1px;
   min-width: 0;
-  color: var(--text-normal);
+  color: var(--text-normal) !important;
   -webkit-text-fill-color: var(--text-normal) !important;
 }
 #app-mount .actionIcon-2sw4Sl,
