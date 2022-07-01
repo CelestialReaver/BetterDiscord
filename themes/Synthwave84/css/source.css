@@ -270,6 +270,21 @@ body {
   margin-left: -4px;
   background: linear-gradient(-180deg, #03edf998, #fc28a898) !important;
 }
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  color: #ffffff;
+  background-color: #72f1b892 !important;
+}
+.ShowAllActivities-wrapper-wrapper .ShowAllActivities-wrapper-controls {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: var(--backgroundColor01) !important;
+  border-radius: 3px;
+  flex: 1 0;
+  margin-top: -5px;
+}
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
 #app-mount .arrow-2HswgU,
