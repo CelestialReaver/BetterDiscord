@@ -238,6 +238,8 @@ body {
   border-radius: 4px !important;
   border: transparent !important;
   background-clip: content-box !important;
+  animation: pulse 2s infinite !important;
+  will-change: transform !important;
 }
 .inner-2pOSmK {
   position: relative;
