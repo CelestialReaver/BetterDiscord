@@ -204,6 +204,13 @@ style attribute {
   box-shadow: rgb(3 237 249 / 30%) 0px 1px 5px 0px,
     rgb(3 237 249 / 15%) 0px 3px 10px 6px !important;
 }
+.pictureInPictureWindow-3ms5Zy {
+  position: absolute;
+  background-clip: content-box !important;
+  /* border: 3px solid var(--gradientColor01) !important; */
+  box-shadow: rgb(3 237 249 / 30%) 0px 1px 5px 0px,
+    rgb(3 237 249 / 15%) 0px 3px 10px 6px !important;
+}
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
 #app-mount .arrow-2HswgU,
