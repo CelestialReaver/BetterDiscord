@@ -29,7 +29,7 @@
 }
 #app-mount .appMount-2yBXZl {
   border: 0.5px double #fc28a880 !important;
-  background: linear-gradient(to right, #03edf920, #fc28a890) !important;
+  background: linear-gradient(-180deg, #03edf920, #fc28a890) !important;
   /*border-radius: 4px;*/
 }
 #app-mount .body {
@@ -48,7 +48,7 @@
     var(--gradientColor02)
   ) !important;*/
   /*border: 0.5px double #03edf975 !important;*/
-  background: linear-gradient(to right, #03edf920, #fc28a890) !important;
+  background: linear-gradient(-180eg, #03edf920, #fc28a890) !important;
 }
 #app-mount .body.folderContentIsOpen-zz6Fg {
   line-height: 1;
