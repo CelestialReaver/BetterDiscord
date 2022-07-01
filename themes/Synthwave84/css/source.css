@@ -252,6 +252,14 @@ body {
   color: var(--text-normal) !important;
   -webkit-text-fill-color: var(--text-normal) !important;
 }
+.item-2LIpTv {
+  position: absolute;
+  display: block;
+  width: 8px;
+  border-radius: 0 4px 4px 0;
+  margin-left: -4px;
+  background: linear-gradient(-180deg, #03edf995, #fc28a895) !important;
+}
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
 #app-mount .arrow-2HswgU,
