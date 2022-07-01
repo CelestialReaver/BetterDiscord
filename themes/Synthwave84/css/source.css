@@ -215,7 +215,7 @@ style attribute {
 }
 .appMount-2yBXZl,
 body {
-  background-color: var(--background-tertiary);
+  /*background-color: var(--background-tertiary);*/
   text-rendering: optimizeLegibility;
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
   border-bottom: none;
