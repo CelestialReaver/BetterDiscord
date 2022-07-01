@@ -449,7 +449,7 @@ body {
   /* background: transparent !important; */
   background-color: var(--backgroundColor02) !important;
   -webkit-box-reflect: #03edf998 !important;
-  border-radius: px !important;
+  border-radius: 3px !important;
   background-clip: content-box !important;
   /* flood-color: var(--backgroundColor02) !important; */
 }
