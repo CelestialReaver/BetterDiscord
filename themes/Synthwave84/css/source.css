@@ -291,12 +291,44 @@ body {
 #app-mount .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
 #app-mount .resultsGroup-1BPR25 .searchLearnMore-7__o_n a,
 #app-mount .topSectionNormal-2-vo2m .additionalActionsIcon-3Cy8UU {
-  color: var(--mainColor) !important;
-  fill: var(--mainColor) !important;
-  border-radius: 50% !important;
-  box-shadow: rgb(3 237 249) 0px 6px 30px -10px !important;
+  color: #03edf998 !important;
+  fill: #03edf998 !important;
+  border-radius: 20% !important;
+  box-shadow: rgb(3 237 249) 0px 6px 30px -9px !important;
   background-clip: content-box !important;
   /* padding: 1px; */
+}
+#app-mount .actionIcon-2sw4Sl,
+#app-mount .addButtonIcon-3rJeaD,
+#app-mount .arrow-2HswgU,
+#app-mount .attachButtonPlus-3IYelE,
+#app-mount .button-12Fmur svg,
+#app-mount .button-2BMPJJ,
+#app-mount .buttonWrapper-3YFQGJ svg,
+#app-mount .channelNameIcon-2d0YcP,
+#app-mount .colorDefault-CDqZdO .checkbox-hADx5o,
+#app-mount .colorDefault-CDqZdO .radioSelection-1UHp0b,
+#app-mount .colorDefault-CDqZdO .subtext-2GlkbE,
+#app-mount .colorLink-2apWfY,
+#app-mount .connectedAccountOpenIcon-1yfBsb,
+#app-mount .container-7Unqij svg,
+#app-mount .flowerStar-2tNFCR path,
+#app-mount .icon-1WVg4I,
+#app-mount .icon-1zidb7,
+#app-mount .icon-2W8DHg,
+#app-mount .icon-2xnN2Y,
+#app-mount .icon-3CDcPB,
+#app-mount .icon-3N9zCW,
+#app-mount .icon-E4cW1l,
+#app-mount .iconContainer-1-SsTR,
+#app-mount .linkButtonIcon-7rsZcu,
+#app-mount .option-2KkUJO.selected-rZcOL- .plusIcon-2V7coV,
+#app-mount .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
+#app-mount .resultsGroup-1BPR25 .searchLearnMore-7__o_n a,
+#app-mount .topSectionNormal-2-vo2m .additionalActionsIcon-3Cy8UU {
+  color: #03edf998 !important;
+  border-radius: 0.5px !important;
+  box-shadow: rgb(3 237 249) 0px 6px 20px -09px !important;
 }
 .button-Jt-tIg {
   border-radius: 4px;
@@ -404,6 +436,22 @@ body {
   contain: unset !important;
   z-index: 1000 !important;
   box-shadow: rgb(210, 109, 208) r 0px 6px 30px -10px !important;
+}
+.title-17SveM,
+.toolbar-3_r2xA {
+  -webkit-box-flex: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* background: transparent !important; */
+  background-color: var(--backgroundColor02) !important;
+  -webkit-box-reflect: #03edf998 !important;
+  border-radius: px !important;
+  background-clip: content-box !important;
+  /* flood-color: var(--backgroundColor02) !important; */
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
