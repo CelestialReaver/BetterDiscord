@@ -1158,8 +1158,7 @@ body {
   transform: translateX(100%);
 }
 #app-mount .wrapper-1VLyxH {
-  border-radius: 500px;
-  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 2px, rgb(210 109 208 / 15%) 0px 2px 6px 5px !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
   background-clip: content-box !important;
 }
 #app-mount .unread-36eUEm:hover:after {
