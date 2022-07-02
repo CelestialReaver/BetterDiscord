@@ -1133,6 +1133,35 @@ body {
   box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 2px, rgb(210 109 208 / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
 }
+#app-mount .layout-1qmrhw::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--gradientColor01);
+  background-image: linear-gradient(
+  -45deg,
+  var(--gradientColor01),
+  var(--gradientColor02)
+) !important;
+  -webkit-transition: transform 0.2s ease;
+  -ms-transition: transform 0.2s ease;
+  -o-transition: transform 0.2s ease;
+  -moz-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+}
+#app-mount .wrapper-1VLyxH {
+  border-radius: 500px;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 2px, rgb(210 109 208 / 15%) 0px 2px 6px 5px !important;
+  background-clip: content-box !important;
+}
 #app-mount .unread-36eUEm:hover:after {
   animation: none;
 }
