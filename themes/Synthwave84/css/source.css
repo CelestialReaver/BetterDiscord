@@ -1164,6 +1164,22 @@ body {
 #app-mount .unread-36eUEm:hover:after {
   animation: none;
 }
+.marquee {
+  position: relative;
+  overflow: hidden;
+  background: var(--backgroundColor02);
+  color: #fff;
+}
+.activityText-1rR-8O {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 100%;
+  animation: marquee 4s ease-in-out forwards;
+}
 @keyframes pulse {
   0% {
     transform: scale(1);
