@@ -1,5 +1,5 @@
 <h1 align="center"><a href="https://imgur.com/U6yhTRx"><img src="https://i.imgur.com/U6yhTRx.png" title="source: imgur.com" /></a></h1>
-<p align="center">A clean retro theme that provides the perfect glow to vibe and chill.</p>
+<p align="center">A clean retro theme that provides the perfect glow and vibe to your Discord.</p>
 
 ![](https://i.imgur.com/gJ5vjQP.png)
 
