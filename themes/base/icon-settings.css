@@ -113,14 +113,8 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 .side-2ur1Qk .item-3XjbnG[aria-controls="logout-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/logout.png");
 }
-.side-2ur1Qk .item-3XjbnG[aria-controls="pluginrepo-tab"]::before {
-  background-image: url("https://i.imgur.com/7roT5L8.png");
-}
-.side-2ur1Qk .item-3XjbnG[aria-controls="themerepo-tab"]::before {
-  background-image: url("https://i.imgur.com/SCOhTfi.png");
-}
 
-/* better discord settings */
+/* better discord settings icons */
 .side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/bdsettings.png");
 }
@@ -135,4 +129,13 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 }
 .side-2ur1Qk .item-3XjbnG[aria-controls="themes-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/theme.png");
+}
+.side-2ur1Qk .item-3XjbnG[aria-controls="pluginrepo-tab"]::before {
+  background-image: url("https://i.imgur.com/7roT5L8.png");
+}
+.side-2ur1Qk .item-3XjbnG[aria-controls="themerepo-tab"]::before {
+  background-image: url("https://i.imgur.com/SCOhTfi.png");
+}
+.side-2ur1Qk .item-3XjbnG[aria-controls="experiments-tab"]::before {
+  background-image: url("https://i.imgur.com/narp17n.png");
 }
