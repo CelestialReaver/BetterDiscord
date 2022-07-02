@@ -1131,6 +1131,14 @@ body {
   background-color: var(--backgroundColor01);
   box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.15);
 }
+#app-mount .bd-button:not(.bd-button-danger), #app-mount .lookFilled-yCfaCM.colorBrand-21Le_q.disabled, #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ, #app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79, #app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled, #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B, #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B.disabled, #app-mount .lookFilled-yCfaCM.colorPrimary-1arORx, #app-mount .lookFilled-yCfaCM.colorPrimary-1arORx.disabled, #app-mount .lookInverted-2mDUMi.colorBrand-21Le_q, #app-mount .lookInverted-2mDUMi.colorBrand-21Le_q.disabled {
+  background-color: var(--rs-streaming-color) !important;
+  box-shadow: var(--elevation-high) !important;
+  -o-transition: box-shadow 0.2s ease;
+  -moz-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  color: #fff !important;
+}
 #bd-editor-panel {
   border-radius: 8px;
   overflow: hidden;
