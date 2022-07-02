@@ -1199,6 +1199,14 @@ body {
     margin-left: 100%;
   }
 }
+#app-mount .userPopout-2j1gM4 {
+  background-color: var(#34294f) !important;
+  -webkit-box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
+  -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
+}
 #app-mount .newMessagesBar-1hF-9G {
   background-color: var(--mainColor);
 }
