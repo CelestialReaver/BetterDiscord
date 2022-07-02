@@ -105,6 +105,14 @@
   border-bottom: none !important;
   background: var(--backgroundColor02) !important;
 }
+.medium-2NClDM .input-2m5SfJ,
+.medium-2NClDM .tag-Pxnlt9 {
+  font-size: 16px;
+  line-height: 32px;
+  height: 30px;
+  padding: 0 8px;
+  color: #ffffff !important;
+}
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
   text-transform: none;
   padding: 10px 0;
