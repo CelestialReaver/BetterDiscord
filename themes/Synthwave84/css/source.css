@@ -152,12 +152,6 @@
   background: var(--backgroundColor02) !important;
   color: var(--backgroundColor02) !important;
 }
-.inner-2pOSmK {
-  /*border-radius: 8px !important;
-  border: 3px double #643da6 !important;*/
-  box-shadow: rgba(210, 109, 208, 0.3) 0px 1px 2px 0px,
-    rgba(210, 109, 208, 0.15) 0px 2px 6px 3px !important;
-}
 .input-2m5SfJ {
   color: var(--backgroundColor01) !important;
 }
@@ -270,6 +264,10 @@ body {
   min-width: 0;
   color: var(--text-normal) !important;
   -webkit-text-fill-color: var(--text-normal) !important;
+  border: 3px double var(--rs-streaming-color) !important;
+  border-radius: 8px !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 6px 6px !important;
 }
 .item-2LIpTv {
   position: absolute;
@@ -2125,11 +2123,6 @@ svg aria-hidden {
   background-color: var(--backgroundColor02) !important;
   box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.3);
 }
-/*#app-mount .popoutListInput-1w4TxY .inner-2pOSmK {
-  border-radius: 4px;
-  background-color: var(--backgroundColor02) !important;
-  padding: 4px;
-}*/
 #app-mount .popoutList-10IFAa {
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
 }
@@ -2660,10 +2653,6 @@ svg aria-hidden {
     0 0 10px 0 rgba(0, 0, 0, 0.5);
   border: none !important;
 }
-/*#app-mount .container-2O1UgZ .inner-2pOSmK {
-  background-color: var(--backgroundColor02) !important;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}*/
 #app-mount .container-2O1UgZ .focused-qp-W9B,
 #app-mount .container-2O1UgZ .item-1BCeuB:hover {
   background-color: var(--backgroundColor02) !important;
