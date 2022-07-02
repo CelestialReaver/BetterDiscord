@@ -119,6 +119,16 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 .side-2ur1Qk .item-3XjbnG[aria-controls="developer-options-tab"]::before {
   background-image: url("https://i.imgur.com/pGlwxbY.png");
 }
+.side-2ur1Qk .item-3XjbnG[aria-controls="hotspot-options-tab"]::before {
+  background-image: url("https://i.imgur.com/efYEgNs.png");
+}
+.side-2ur1Qk
+  .item-3XjbnG[aria-controls="dismissible-content-options-tab"]::before {
+  background-image: url("https://i.imgur.com/VtYOo4I.png");
+}
+.side-2ur1Qk .item-3XjbnG[aria-controls="payment-flow-modals-tab"]::before {
+  background-image: url("https://i.imgur.com/4jNwfFY.png");
+}
 
 /* better discord settings icons */
 .side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab"]::before {
