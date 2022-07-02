@@ -459,7 +459,7 @@ body {
   overflow: hidden !important;
   contain: unset !important;
   z-index: 1000 !important;
-  box-shadow: rgb(210, 109, 208) r 0px 6px 30px -10px !important;
+  box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
 }
 .theme-light {
   --header-primary: #fff;
