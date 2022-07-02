@@ -782,6 +782,8 @@ body {
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #dcddde;
+  --brightness: calc(1.5 - var(--saturation-factor, 1) * 0.5);
+  --contrast: var(--saturation-factor, 1);
 }
 .title-17SveM,
 .toolbar-3_r2xA {
