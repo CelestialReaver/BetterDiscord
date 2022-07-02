@@ -113,6 +113,12 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 .side-2ur1Qk .item-3XjbnG[aria-controls="logout-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/logout.png");
 }
+.side-2ur1Qk .item-3XjbnG[aria-controls="pluginrepo-tab"]::before {
+  background-image: url("https://i.imgur.com/UnE0eJt.png");
+}
+.side-2ur1Qk .item-3XjbnG[aria-controls="themerepo-tab"]::before {
+  background-image: url("https://i.imgur.com/4HGfLln.png");
+}
 
 /* better discord settings */
 .side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab"]::before {
