@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://imgur.com/U6yhTRx"><img src="https://i.imgur.com/U6yhTRx.png" title="source: imgur.com" /></a></h1>
-<p align="center">A clean retro theme that provides the perfect glow to vibe and chill.</p>
+<p align="center">A clean retro theme that provides the perfect glow and vibe to your Discord.</p>
 
-![](https://i.imgur.com/S84q1Sl.png)
+![](https://i.imgur.com/gJ5vjQP.png)
 
 ---
 
@@ -11,11 +11,11 @@
 * Chill
 
 ## Screenshots
-![](https://i.imgur.com/bISgZ4H.png)
+![](https://i.imgur.com/RR13Oy4.png)
 
-![](https://i.imgur.com/LMk2jjs.png)
+![](https://i.imgur.com/XvskaUM.png)
 
-![](https://i.imgur.com/KaUr4nz.png)
+![](https://i.imgur.com/nAKmnqL.png)
 
 ## Credits
 <a href="https://github.com/CelestialReaver">CelestialReaver</a>
