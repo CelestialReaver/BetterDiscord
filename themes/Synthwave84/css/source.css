@@ -432,6 +432,7 @@ body {
   border-radius: 4px !important;
   background-clip: content-box !important;
   background: #fc28a820 !important;
+  top: -1px !important;
 }
 .communityInfoVisible-3zc5_s .header-3OsQeK,
 .communityInfoVisible-3zc5_s .header-3OsQeK:hover,
