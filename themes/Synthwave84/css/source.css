@@ -1174,6 +1174,15 @@ body {
     opacity: 0;
   }
 }
+@keyframes marquee {
+  from {
+    transform: translateX(0);     
+    margin-left: 0;}
+  to {
+    transform: translateX(-100%); 
+    margin-left: 100%;
+  }
+}
 #app-mount .newMessagesBar-1hF-9G {
   background-color: var(--mainColor);
 }
