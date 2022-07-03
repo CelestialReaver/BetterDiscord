@@ -1,22 +1,10 @@
-<h1 align="center"><a href="https://imgur.com/U6yhTRx"><img src="https://i.imgur.com/U6yhTRx.png" title="source: imgur.com" /></a></h1>
-<p align="center">A clean retro theme that provides the perfect glow and vibe to your Discord.</p>
-
-![](https://i.imgur.com/gJ5vjQP.png)
+<h1 align="center"><a href="https://i.imgur.com/IxPTqbi.png"><img src="https://i.imgur.com/IxPTqbi.png" title="source: imgur.com" /></a></h1>
+<p align="center">This will marquee the activity status of server members and friends.</p>
 
 ---
 
 ## Features
-* Sleek and clean
-* Neon glow
-* Status marquee built-in
-* Totally chill
-
-## Screenshots
-![](https://i.imgur.com/RR13Oy4.png)
-
-![](https://i.imgur.com/XvskaUM.png)
-
-![](https://i.imgur.com/nAKmnqL.png)
+* Status marquee - never miss the full status
 
 ## Credits
 <a href="https://github.com/CelestialReaver">CelestialReaver</a>
