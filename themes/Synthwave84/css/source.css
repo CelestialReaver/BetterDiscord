@@ -1170,7 +1170,7 @@ body {
 /*.activityText-1rR-8O {
   visibility: hidden;
 }*/
-.activity-2EQDZv {
+#app-mount .activity-2EQDZv::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1208,7 +1208,7 @@ body {
   -webkit-animation: marquee 15s linear infinite;
   animation: marquee 15s linear infinite;
 }*/
-#app-mount .activity-2EQDZv {
+#app-mount .activity-2EQDZv::after {
   animation-play-state: paused;
 }
 @-moz-keyframes marquee {
