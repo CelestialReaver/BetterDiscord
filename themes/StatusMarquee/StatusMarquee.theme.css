@@ -1,0 +1,29 @@
+/*
+* @name StatusMarquee
+* @version 1.0.0
+* @description This will marquee the activity status of server members and friends.
+* @author CelestialReaver
+* @authorId 859547769798656001
+* @invite 
+* @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/StatusMarquee
+* @website https://github.com/CelestialReaver
+* @updateUrl https://celestialreaver.github.io/BetterDiscord/themes/StatusMarquee/StatusMarquee.theme.css
+*/
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/StatusMarquee/css/source.css");
+
+:root {
+--rs-small-spacing: 2px;
+--rs-medium-spacing: 3px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #636b75;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #747f8d;
+--rs-phone-color: var(--rs-online-color);
+--rs-phone-visible: block;
+}

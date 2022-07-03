@@ -26,6 +26,7 @@
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
   --customFont: "Whitney";
+  --rs-version: "1.0.0";
 }
 #app-mount .appMount-2yBXZl {
   /*border: 0.5px double #fc28a880 !important;*/
