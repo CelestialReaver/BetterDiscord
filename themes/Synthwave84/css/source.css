@@ -1188,6 +1188,11 @@ body {
   animation-play-state: paused;
 }
 .activityText-1rR-8O {
+  visibility: hidden;
+}
+.activityText-1rR-8O::after {
+  content: "";
+  visibility: visible;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
