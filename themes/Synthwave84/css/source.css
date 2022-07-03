@@ -1170,6 +1170,23 @@ body {
   background: var(--backgroundColor02);
   color: #fff;
 }
+.marquee span {   
+  display: inline-block;
+  white-space: nowrap;
+  color: #fff; 
+  width: var(--tw);
+  text-shadow: var(--tw) 0 currentColor, 
+               calc(var(--tw) * 2) 0 currentColor, 
+               calc(var(--tw) * 3) 0 currentColor,
+               calc(var(--tw) * 4) 0 currentColor;
+
+  will-change: transform;
+  animation: marquee var(--ad) linear infinite;
+  animation-play-state: running;
+}
+.marquee:hover span {
+  animation-play-state: paused;
+}
 .activityText-1rR-8O {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
@@ -1191,13 +1208,8 @@ body {
   }
 }
 @keyframes marquee {
-  from {
-    transform: translateX(0);     
-    margin-left: 0;}
-  to {
-    transform: translateX(-100%); 
-    margin-left: 100%;
-  }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
 #app-mount .userPopout-2j1gM4 {
   background-color: var(#34294f) !important;
