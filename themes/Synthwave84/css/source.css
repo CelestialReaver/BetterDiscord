@@ -29,9 +29,7 @@
   --rs-version: "1.0.0";
 }
 #app-mount .appMount-2yBXZl {
-  /*border: 0.5px double #fc28a880 !important;*/
   background: linear-gradient(-180deg, #03edf920, #fc28a890) !important;
-  /*border-radius: 4px;*/
 }
 #app-mount .body {
   line-height: 1;
@@ -40,16 +38,6 @@
   font-family: var(--customFont) !important;
   font-size: 14px !important;
   overflow: hidden;
-  /*background: transparent;*/
-  /*border-radius: 3px;*/
-  /*border-style: outset !important;
-  border-left: 1px !important;
-  border-left-color: linear-gradient(
-    to top,
-    var(--gradientColor01),
-    var(--gradientColor02)
-  ) !important;*/
-  /*border: 0.5px double #03edf975 !important;*/
   background: linear-gradient(-180eg, #03edf920, #fc28a890) !important;
 }
 #app-mount .body.folderContentIsOpen-zz6Fg {
@@ -60,7 +48,6 @@
   overflow: hidden;
   background: transparent;
   border-radius: 3px;
-  /* border: 0.5px double #03edf975 !important; */
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
 }
 #app-mount .titleBar-1it3bQ {
@@ -87,7 +74,6 @@
   cursor: default;
   z-index: 2;
   color: var(--text-normal);
-  /* border-top: 3px double #f92aad; */
   background-color: var(--backgroundColor01) !important;
   box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
 }
@@ -121,7 +107,6 @@
   justify-content: center;
   font-family: var(--customFont);
   border-bottom: linear-gradient(to right, #03edf920, #fc28a890) !important;
-  /*--background-modifier-selected: var(--background-accent);*/
   background: var(--backgroundColor02) !important;
 }
 .topPill-3DJJNV {
@@ -206,7 +191,6 @@
   background: #000;
   border-radius: 3px !important;
   border-bottom: 1px solid #643da6 !important;
-  /*box-shadow: rgb(210 109 208 / 30%) 0px 0.5px 6px 0px, rgb(210 109 208 / 15%) 0px 3px 15px 1px !important;*/
   box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
   background-clip: content-box !important;
 }
@@ -222,7 +206,6 @@ style attribute {
 .pictureInPictureWindow-3ms5Zy {
   position: absolute;
   background-clip: content-box !important;
-  /* border: 3px solid var(--gradientColor01) !important; */
   box-shadow: rgb(3 237 249 / 30%) 0px 1px 5px 0px,
     rgb(3 237 249 / 15%) 0px 3px 10px 6px !important;
   border-radius: 7px !important;
@@ -230,7 +213,6 @@ style attribute {
 }
 .appMount-2yBXZl,
 body {
-  /*background-color: var(--background-tertiary);*/
   text-rendering: optimizeLegibility;
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
   border-bottom: none;
@@ -250,8 +232,6 @@ body {
   border-radius: 4px !important;
   border: transparent !important;
   background-clip: content-box !important;
-  /*animation: pulse 3s infinite !important;
-  will-change: transform !important;*/
 }
 .inner-2pOSmK {
   position: relative;
@@ -326,7 +306,6 @@ body {
   border-radius: 20% !important;
   box-shadow: rgb(3 237 249) 0px 6px 30px -9px !important;
   background-clip: content-box !important;
-  /* padding: 1px; */
 }
 #app-mount .actionIcon-2sw4Sl,
 #app-mount .addButtonIcon-3rJeaD,
@@ -467,7 +446,6 @@ body {
   left: 0 !important;
   background: var(--settingsmodalbackground) !important;
   border-radius: 5px !important;
-  /* box-shadow: var(--elevation-high) !important; */
   width: var(--settingsmodalwidth) !important;
   height: var(--settingsmodalheight) !important;
   margin: auto !important;
@@ -812,12 +790,10 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  /* background: transparent !important; */
   background-color: var(--backgroundColor02) !important;
   -webkit-box-reflect: #03edf998 !important;
   border-radius: 3px !important;
   background-clip: content-box !important;
-  /* flood-color: var(--backgroundColor02) !important; */
 }
 #app-mount .applicationStore-2nk7Lo,
 #app-mount .bg-1QIAus,
@@ -910,7 +886,6 @@ body {
   display: flex;
   border-radius: 8px !important;
   border: 1px solid #f92aad !important;
-  /*border-color: #f92aad !important;*/
 }
 #app-mount .bd-button:not(.bd-button-danger):hover,
 #app-mount .lookFilled-yCfaCM.colorBrand-21Le_q:hover,
@@ -1139,7 +1114,6 @@ body {
   flex: 0 0 auto;
   pointer-events: none;
   z-index: 1;
-  /* border-radius: 3px; */
   box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 2px, rgb(210 109 208 / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
 }
@@ -1553,23 +1527,10 @@ body {
   height: 56px;
   border-radius: 16px;
   overflow: hidden;
-  /*top: 6px;
-  left: 6px;*/
   background-image: url("https://i.imgur.com/vxOebtr.png") !important;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  /*  background-image: linear-gradient(
-    -45deg,
-    var(--gradientColor01),
-    var(--gradientColor02)
-  );
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  -webkit-mask-box-image: url("https://i.imgur.com/vxOebtr.png");
-  mask-image: url("https://i.imgur.com/vxOebtr.png");
-  */
 }
 #app-mount .folder-241Joy {
   background-color: transparent !important;
@@ -1630,9 +1591,6 @@ body {
   background: var(--mainColor) !important;
   -webkit-mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
 }
-/*#app-mount .wordmarkWindows-2dq6rw {
-  color: var(--mainColor) !important;
-}*/
 svg defs {
   height: 0;
   position: absolute;
@@ -1642,7 +1600,6 @@ svg aria-hidden {
   height: 0;
   position: absolute;
   width: 0;
-  /*display: none;*/
 }
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
@@ -1652,9 +1609,6 @@ svg aria-hidden {
   width: 140px;
   margin-left: 10px;
   background-image: url("https://i.imgur.com/U6yhTRx.png") !important;
-  /*background-image: linear-gradient(to right, #fc28a898, #03edf998);
-  -webkit-mask-box-image: url("https://i.imgur.com/U6yhTRx.png");
-  mask-image: url("https://i.imgur.com/U6yhTRx.png");*/
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2017,7 +1971,6 @@ svg aria-hidden {
 #app-mount .children-3xh0VB:after,
 #app-mount .content-1jQy2l:before,
 #app-mount .divider-3LgWDL,
-/*#app-mount .form-3gdLxP:before,*/
 #app-mount .guildSeparator-33mFX6,
 #app-mount .libraryHeader-2loraV:before,
 #app-mount .roleRow-3LoHQ6:before,
