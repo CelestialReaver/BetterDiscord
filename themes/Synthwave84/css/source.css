@@ -1190,7 +1190,7 @@ body {
 /*.activityText-1rR-8O {
   visibility: hidden;
 }*/
-#app-mount .activityText-1rR-8O::after {
+#app-mount .activityText-1rR-8O {
   visibility: visible;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
@@ -1200,10 +1200,51 @@ body {
   overflow: hidden;
   color: #fff;
   min-width: 100%;
-  animation: marquee 4s ease-in-out forwards;
+  text-align: left;
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: marquee 15s linear infinite;
+  -webkit-animation: marquee 15s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 #app-mount .activityText-1rR-8O:hover {
   animation-play-state: paused;
+}
+@-moz-keyframes marquee {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(100%);
+    /* Firefox bug fix */
+    -webkit-transform: translateX(100%);
+    /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    /* Firefox bug fix */
+    -webkit-transform: translateX(-100%);
+    /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
 }
 @keyframes pulse {
   0% {
@@ -1215,10 +1256,10 @@ body {
     opacity: 0;
   }
 }
-@keyframes marquee {
+/*@keyframes marquee {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
-}
+}*/
 #app-mount .userPopout-2j1gM4 {
   background-color: var(#34294f) !important;
   -webkit-box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
