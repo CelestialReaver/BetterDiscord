@@ -1183,6 +1183,7 @@ body {
   visibility: hidden !important;
 }
 .activity-2EQDZv::after {
+  content-visibility: visible !important;
   visibility: visible !important;
   display: -webkit-box;
   display: -ms-flexbox;
