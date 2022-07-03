@@ -1191,7 +1191,6 @@ body {
   visibility: hidden;
 }
 .activityText-1rR-8O::after {
-  content: "";
   visibility: visible;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
