@@ -1179,7 +1179,11 @@ body {
 /*.activityText-1rR-8O {
   visibility: hidden;
 }*/
-#app-mount .activity-2EQDZv::after {
+.activity-2EQDZv {
+  visibility: hidden !important;
+}
+.activity-2EQDZv::after {
+  visibility: visible !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1199,25 +1203,7 @@ body {
   -webkit-animation: marquee 15s linear infinite;
   animation: marquee 15s linear infinite;
 }
-/*#app-mount .activityText-1rR-8O {
-  visibility: visible;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  color: #fff;
-  min-width: 100%;
-  text-align: left;
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  -moz-animation: marquee 15s linear infinite;
-  -webkit-animation: marquee 15s linear infinite;
-  animation: marquee 15s linear infinite;
-}*/
-#app-mount .activity-2EQDZv::after {
+.activity-2EQDZv:hover:after {
   animation-play-state: paused;
 }
 @-moz-keyframes marquee {
