@@ -9,7 +9,7 @@
 * Sleek and clean
 * Neon glow
 * Marquee status built-in
-* Totally chill
+* Totally chill - perfect for dark theme and light theme lovers!
 
 ## Screenshots
 ![](https://i.imgur.com/RR13Oy4.png)
