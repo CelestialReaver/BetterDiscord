@@ -1184,12 +1184,12 @@ body {
   animation: marquee var(--ad) linear infinite;
   animation-play-state: running;
 }
-.marquee:hover span {
+.activityText-1rR-8O::hover {
   animation-play-state: paused;
 }
-.activityText-1rR-8O {
+/*.activityText-1rR-8O {
   visibility: hidden;
-}
+}*/
 #app-mount .activityText-1rR-8O::after {
   visibility: visible;
   -webkit-box-flex: 0;
@@ -1201,6 +1201,9 @@ body {
   color: #fff;
   min-width: 100%;
   animation: marquee 4s ease-in-out forwards;
+}
+#app-mount .activityText-1rR-8O::hover {
+  animation-play-state: paused;
 }
 @keyframes pulse {
   0% {
