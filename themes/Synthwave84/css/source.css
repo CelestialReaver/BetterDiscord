@@ -1213,20 +1213,18 @@ body {
   -webkit-animation: marquee 20s linear infinite !important;
   animation: marquee 20s linear infinite !important;
   color: var!important;
-  /* box-shadow: var(--elevation-low) !important; */
-  /* margin-right: 3px !important; */
   width: 100% !important;
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
 }
 .activityText-ev7Z1T {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 0 1 auto !important;
+  flex: 0 1 auto !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
@@ -1234,8 +1232,6 @@ body {
   -webkit-animation: marquee1 20s linear infinite !important;
   animation: marquee1 20s linear infinite !important;
   color: var!important;
-  /* box-shadow: var(--elevation-low) !important; */
-  /* margin-right: 3px !important; */
   width: 100% !important;  
 }
 @-moz-keyframes marquee {
