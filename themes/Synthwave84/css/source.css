@@ -1198,6 +1198,7 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  color: #fff;
   min-width: 100%;
   animation: marquee 4s ease-in-out forwards;
 }
