@@ -8,7 +8,7 @@
 ## Features
 * Sleek and clean
 * Neon glow
-* Marquee status built-in
+* Status marquee built-in
 * Totally chill
 
 ## Screenshots
