@@ -1173,31 +1173,47 @@ body {
 #app-mount .unread-36eUEm:hover:after {
   animation: none;
 }
-.activityText-1rR-80 {
-  /*content-visibility: visible !important;
-  visibility: visible !important;*/
-  /*display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;*/
+.activityEmoji-SDBJp8 {
+  margin-right: 4px;
+  width: 14px;
+  height: 14px;
+  opacity: 100 !important;
+  z-index: 9999 !important;
+}
+.activity-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  /*font-size: 12px;
-  line-height: 16px;*/
-  /*color: var(--channels-default);
-  font-weight: 500;*/
-   /* Starting position */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  /* Apply animation to this element */
-  -moz-animation: marquee 15s linear infinite;
-  -webkit-animation: marquee 15s linear infinite;
-  animation: marquee 15s linear infinite;
+  flex: 0 0 auto;
+  z-index: 9999 !important;
+  opacity: 100% !important;
+  color: #fff !important;
+  background: var(--backgroundColor02) !important;
+  background-image: var(--backgroundColor02) !important;
+}
+.activityText-1rR-8O {
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 0 1 auto !important;
+  flex: 0 1 auto !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  -moz-transform: translateX(100%) !important;
+  -webkit-transform: translateX(100%) !important;
+  transform: translateX(100%) !important;
+  -moz-animation: marquee 20s linear infinite !important;
+  -webkit-animation: marquee 20s linear infinite !important;
+  animation: marquee 20s linear infinite !important;
+  color: var!important;
+  /* box-shadow: var(--elevation-low) !important; */
+  /* margin-right: 3px !important; */
+  width: 100% !important;
 }
 .activityText-1rR-80:hover {
-  animation-play-state: paused;
+  animation-play-state: paused !important;
 }
+
 @-moz-keyframes marquee {
   0% {
     -moz-transform: translateX(100%);
