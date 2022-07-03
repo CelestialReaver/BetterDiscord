@@ -8,8 +8,8 @@
 ## Features
 * Sleek and clean
 * Neon glow
-* Marquee status built-in
-* Totally chill
+* Status marquee built-in
+* Perfect for dark theme and light theme lovers
 
 ## Screenshots
 ![](https://i.imgur.com/RR13Oy4.png)
