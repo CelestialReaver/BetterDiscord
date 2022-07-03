@@ -1170,7 +1170,27 @@ body {
 /*.activityText-1rR-8O {
   visibility: hidden;
 }*/
-#app-mount .activityText-1rR-8O {
+.activity-2EQDZv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--channels-default);
+  font-weight: 500;
+   /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: marquee 15s linear infinite;
+  -webkit-animation: marquee 15s linear infinite;
+  animation: marquee 15s linear infinite;
+}
+/*#app-mount .activityText-1rR-8O {
   visibility: visible;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
@@ -1181,16 +1201,14 @@ body {
   color: #fff;
   min-width: 100%;
   text-align: left;
-  /* Starting position */
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
-  /* Apply animation to this element */
   -moz-animation: marquee 15s linear infinite;
   -webkit-animation: marquee 15s linear infinite;
   animation: marquee 15s linear infinite;
-}
-#app-mount .activityText-1rR-8O:hover {
+}*/
+#app-mount .activity-2EQDZv {
   animation-play-state: paused;
 }
 @-moz-keyframes marquee {
