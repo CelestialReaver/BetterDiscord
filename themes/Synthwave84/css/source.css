@@ -1184,9 +1184,9 @@ body {
   animation: marquee var(--ad) linear infinite;
   animation-play-state: running;
 }
-.activityText-1rR-8O::hover {
+/*.activityText-1rR-8O:hover {
   animation-play-state: paused;
-}
+}*/
 /*.activityText-1rR-8O {
   visibility: hidden;
 }*/
@@ -1202,7 +1202,7 @@ body {
   min-width: 100%;
   animation: marquee 4s ease-in-out forwards;
 }
-#app-mount .activityText-1rR-8O::hover {
+#app-mount .activityText-1rR-8O:hover {
   animation-play-state: paused;
 }
 @keyframes pulse {
