@@ -8,7 +8,8 @@
 ## Features
 * Sleek and clean
 * Neon glow
-* Chill
+* Marquee status built-in
+* Totally chill
 
 ## Screenshots
 ![](https://i.imgur.com/RR13Oy4.png)
