@@ -1164,26 +1164,6 @@ body {
 #app-mount .unread-36eUEm:hover:after {
   animation: none;
 }
-.marquee {
-  position: relative;
-  overflow: hidden;
-  background: var(--backgroundColor02);
-  color: #fff;
-}
-.marquee span {   
-  display: inline-block;
-  white-space: nowrap;
-  color: #fff; 
-  width: var(--tw);
-  text-shadow: var(--tw) 0 currentColor, 
-               calc(var(--tw) * 2) 0 currentColor, 
-               calc(var(--tw) * 3) 0 currentColor,
-               calc(var(--tw) * 4) 0 currentColor;
-
-  will-change: transform;
-  animation: marquee var(--ad) linear infinite;
-  animation-play-state: running;
-}
 /*.activityText-1rR-8O:hover {
   animation-play-state: paused;
 }*/
@@ -1221,7 +1201,6 @@ body {
     -moz-transform: translateX(-100%);
   }
 }
-
 @-webkit-keyframes marquee {
   0% {
     -webkit-transform: translateX(100%);
@@ -1256,10 +1235,6 @@ body {
     opacity: 0;
   }
 }
-/*@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}*/
 #app-mount .userPopout-2j1gM4 {
   background-color: var(#34294f) !important;
   -webkit-box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
