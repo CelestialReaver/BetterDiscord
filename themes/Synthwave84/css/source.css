@@ -1173,28 +1173,19 @@ body {
 #app-mount .unread-36eUEm:hover:after {
   animation: none;
 }
-/*.activityText-1rR-8O:hover {
-  animation-play-state: paused;
-}*/
-/*.activityText-1rR-8O {
-  visibility: hidden;
-}*/
-.activity-2EQDZv {
-  visibility: hidden !important;
-}
-.activity-2EQDZv::after {
-  content-visibility: visible !important;
-  visibility: visible !important;
-  display: -webkit-box;
+.activityText-1rR-80 {
+  /*content-visibility: visible !important;
+  visibility: visible !important;*/
+  /*display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-size: 12px;
-  line-height: 16px;
-  color: var(--channels-default);
-  font-weight: 500;
+  display: flex;*/
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  /*font-size: 12px;
+  line-height: 16px;*/
+  /*color: var(--channels-default);
+  font-weight: 500;*/
    /* Starting position */
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
@@ -1204,7 +1195,7 @@ body {
   -webkit-animation: marquee 15s linear infinite;
   animation: marquee 15s linear infinite;
 }
-.activity-2EQDZv:hover:after {
+.activityText-1rR-80:hover {
   animation-play-state: paused;
 }
 @-moz-keyframes marquee {
