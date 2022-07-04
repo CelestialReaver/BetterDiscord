@@ -2884,3 +2884,7 @@ svg aria-hidden {
 #app-mount .newBrand .textBadge-1fdDPJ[style*="rgb(88, 101, 242)"] {
   background-color: var(--mainColor) !important;
 }
+#app-mount .info-3pQQBb .line-18uChy:last-child:after {
+  content: "Synthwave '84 " var(--rs-version);
+  display: block;
+}

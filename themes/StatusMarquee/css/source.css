@@ -121,3 +121,7 @@
     transform: translateX(-100%);
   }
 }
+#app-mount .info-3pQQBb .line-18uChy:last-child:after {
+  content: "Status Marquee " var(--rs-version);
+  display: block;
+}
