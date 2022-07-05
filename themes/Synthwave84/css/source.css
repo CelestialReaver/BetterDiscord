@@ -1590,6 +1590,7 @@ body {
 #app-mount .check-K_srvn {
   background: var(--mainColor) !important;
   -webkit-mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
+  mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
 }
 svg defs {
   height: 0;
