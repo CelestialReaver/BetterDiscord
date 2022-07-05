@@ -221,6 +221,75 @@ body {
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
   border-bottom: none;
 }
+.barButtonBase-Sk2mdB {
+  text-align: left;
+  background: var(--backgroundColor01) !important;
+  color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 500;
+  padding: 0 12px;
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  backdrop-filter: blur(3.5px) !important;
+  /*opacity FONT-WEIGHT: 500;*/
+  border-bottom: 1px transparent !important;
+  border-radius: 15px!important;
+  box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
+}
+.barBase-3xxDXu {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 2;
+  min-height: 24px;
+  text-transform: capitalize;
+  -webkit-transition: opacity .15s;
+  transition: opacity .15s;
+  opacity: .90;
+  cursor: pointer;
+  background: var(--backgroundColor02) !important;
+  backdrop-filter: blur(3.5px) !important;
+  box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
+}
+.bf-toolbar {
+  user-select: none;
+  white-space: nowrap;
+  font-size: 85%;
+  display: block;
+  position: absolute;
+  color: var(--backgroundCOlor02) !important;
+  width: auto!important;
+  right: 0;
+  bottom: auto;
+  border-radius: 3px;
+  height: 27px!important;
+  top: 0px;
+  transform: translate(0,-100%);
+  opacity: 1;
+  overflow: hidden!important;
+  pointer-events: none;
+  padding: 10px 30px 15px 5px;
+  margin: 0 5px 0 0;
+}
+
 /* Props to @carrot#8812 for the assist for lines 224-244 */
 /* change plugin buttons into the same color as the rest */
 .scrollableContainer-15eg7h
