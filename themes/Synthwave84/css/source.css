@@ -183,6 +183,33 @@
   margin-top: -8px;
   background: var(--backgroundColor02) !important;
 }
+.bar-2eAyLE {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--gradientColor02) !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 12px;
+  pointer-events: auto;
+  -webkit-box-shadow: rgb(210 109 208) 2px 3px 15px -6px !important;
+  box-shadow: rgb(210 109 208) 2px 3px 15px -6px !important;
+  -webkit-app-region: no-drag;
+  border: 3px groove #03edf940 !important;
+  background-clip: content-box !important;
+}
 .layerContainer-2v_Sit .tooltip-14MtrL {
   backdrop-filter: blur(3.5px);
 }
