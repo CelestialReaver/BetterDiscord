@@ -29,9 +29,9 @@
   --customFont: "Whitney";
   --rs-version: "1.0.0";
 }
-#app-mount .appMount-2yBXZl {
+/*#app-mount .appMount-2yBXZl {
   background: linear-gradient(-180deg, #03edf920, #fc28a890) !important;
-}
+}*/
 #app-mount .body {
   line-height: 1;
   margin: 0;
