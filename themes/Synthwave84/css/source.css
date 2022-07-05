@@ -1,6 +1,7 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/icon-settings.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/font.css);
+@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
 :root {
   --mainColor: #03edf9;
   --backgroundColor01: #2a2139;
@@ -182,6 +183,9 @@
   margin-top: -8px;
   background: var(--backgroundColor02) !important;
 }
+.layerContainer-2v_Sit .tooltip-14MtrL {
+  backdrop-filter: blur(3.5px);
+}
 .directionRight-2cNgoe {
   -webkit-transform: rotate3d(0, 0, -1, 90deg);
   transform: rotate3d(0, 0, -1, 90deg);
@@ -216,6 +220,28 @@ body {
   text-rendering: optimizeLegibility;
   background: linear-gradient(to right, #03edf920, #fc28a890) !important;
   border-bottom: none;
+}
+/* Props to @carrot#8812 for the assist for lines 224-244 */
+/* change plugin buttons into the same color as the rest */
+.scrollableContainer-15eg7h
+  .buttons-uaqb-5
+  :is(.timestamp-button
+    > svg
+    > path, .InvisibleTyping-typingButton-invisibleTypingTooltip svg > path) {
+  fill: #03edf9;
+}
+/* fix the margin-right on the textbar buttons */
+.scrollableContainer-15eg7h .buttons-uaqb-5 {
+  margin-right: 6px;
+}
+/* turn the emoji button into the same color as the rest */
+.scrollableContainer-15eg7h
+  .buttons-uaqb-5
+  .emojiButton-3FRTuj
+  > .contents-3ca1mk
+  > .sprite-2lxwfc {
+  filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(890deg)
+    saturate(500%) !important;
 }
 .modeConnected-NrO4cP .name-28HaxV,
 .modeConnected-NrO4cP:hover .name-28HaxV,
@@ -1099,7 +1125,7 @@ body {
 .avatar-2e8lTP {
   position: absolute;
   left: 16px;
-  margin-top: calc(4px - .125rem);
+  margin-top: calc(4px - 0.125rem);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1114,7 +1140,8 @@ body {
   flex: 0 0 auto;
   pointer-events: none;
   z-index: 1;
-  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 2px, rgb(210 109 208 / 15%) 0px 2px 6px 9px !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 2px,
+    rgb(210 109 208 / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
 }
 #app-mount .layout-1qmrhw::after {
@@ -1126,10 +1153,10 @@ body {
   width: 100%;
   background-color: var(--gradientColor01);
   background-image: linear-gradient(
-  -45deg,
-  var(--gradientColor01),
-  var(--gradientColor02)
-) !important;
+    -45deg,
+    var(--gradientColor01),
+    var(--gradientColor02)
+  ) !important;
   -webkit-transition: transform 0.2s ease;
   -ms-transition: transform 0.2s ease;
   -o-transition: transform 0.2s ease;
@@ -1142,7 +1169,8 @@ body {
   transform: translateX(100%);
 }
 #app-mount .wrapper-1VLyxH {
-  box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px,
+    rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
   background-clip: content-box !important;
 }
 #app-mount .unread-36eUEm:hover:after {
@@ -1189,7 +1217,7 @@ body {
   -webkit-animation: marquee 20s linear infinite !important;
   overflow-x: marquee-line !important;
   animation: marquee 20s linear infinite !important;
-  color: var!important;
+  color: var !important;
   width: 100% !important;
 }
 .activityText-1rR-80:hover {
@@ -1210,8 +1238,8 @@ body {
   -webkit-animation: marquee1 20s linear infinite !important;
   overflow-x: marquee1-line !important;
   animation: marquee1 20s linear infinite !important;
-  color: var!important;
-  width: 100% !important;  
+  color: var !important;
+  width: 100% !important;
 }
 @-moz-keyframes marquee {
   0% {
@@ -1237,7 +1265,7 @@ body {
   }
   100% {
     -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
 }
@@ -1265,7 +1293,7 @@ body {
   }
   100% {
     -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
 }
@@ -1281,11 +1309,13 @@ body {
 }
 #app-mount .userPopout-2j1gM4 {
   background-color: var(#34294f) !important;
-  -webkit-box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
+  -webkit-box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px,
+    rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
   -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px, rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px,
+    rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
 }
 #app-mount .newMessagesBar-1hF-9G {
   background-color: var(--mainColor);
@@ -1294,7 +1324,17 @@ body {
   background-color: var(--backgroundColor01);
   box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.15);
 }
-#app-mount .bd-button:not(.bd-button-danger), #app-mount .lookFilled-yCfaCM.colorBrand-21Le_q.disabled, #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ, #app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79, #app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled, #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B, #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B.disabled, #app-mount .lookFilled-yCfaCM.colorPrimary-1arORx, #app-mount .lookFilled-yCfaCM.colorPrimary-1arORx.disabled, #app-mount .lookInverted-2mDUMi.colorBrand-21Le_q, #app-mount .lookInverted-2mDUMi.colorBrand-21Le_q.disabled {
+#app-mount .bd-button:not(.bd-button-danger),
+#app-mount .lookFilled-yCfaCM.colorBrand-21Le_q.disabled,
+#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+#app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79,
+#app-mount .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled,
+#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B,
+#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B.disabled,
+#app-mount .lookFilled-yCfaCM.colorPrimary-1arORx,
+#app-mount .lookFilled-yCfaCM.colorPrimary-1arORx.disabled,
+#app-mount .lookInverted-2mDUMi.colorBrand-21Le_q,
+#app-mount .lookInverted-2mDUMi.colorBrand-21Le_q.disabled {
   background-color: var(--rs-streaming-color) !important;
   box-shadow: var(--elevation-high) !important;
   -o-transition: box-shadow 0.2s ease;
