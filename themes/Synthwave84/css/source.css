@@ -101,6 +101,18 @@
   padding: 0 8px;
   color: #ffffff !important;
 }
+.markup-eYLPri code {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-indent: 0;
+  white-space: pre-wrap;
+  scrollbar-width: thin;
+  scrollbar-color: var(--background-tertiary) var(--background-secondary);
+  background: var(--background-secondary);
+  border: 1px solid #fc28a890 !important;
+  border-radius: 8px !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
+}
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
   text-transform: none;
   padding: 10px 0;
