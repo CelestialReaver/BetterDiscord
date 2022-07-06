@@ -101,6 +101,18 @@
   padding: 0 8px;
   color: #ffffff !important;
 }
+.markup-eYLPri code.inline {
+  width: auto;
+  height: auto;
+  padding: 0.2em;
+  margin: -.2em 0;
+  border-radius: 3px;
+  font-size: 85%;
+  font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+  text-indent: 0;
+  border: none !important;
+  white-space: pre-wrap;
+}
 .markup-eYLPri code {
   font-size: 0.875rem;
   line-height: 1.125rem;
@@ -109,7 +121,7 @@
   scrollbar-width: thin;
   scrollbar-color: var(--background-tertiary) var(--background-secondary);
   background: var(--background-secondary);
-  border: 1px solid #fc28a890 !important;
+  border: 1px groove #fc28a890 !important;
   border-radius: 8px !important;
   box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
 }
