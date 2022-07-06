@@ -1410,14 +1410,14 @@ body {
   width: 14px;
   height: 14px;
   opacity: 100 !important;
-  z-index: 9999 !important;
+  z-index: 9 !important;
 }
 .activityEmoji-24oKjc {
   margin-right: 4px;
   width: 14px;
   height: 14px;
   opacity: 100 !important;
-  z-index: 9999 !important;
+  z-index: 9 !important;
 }
 .activity-icon {
   width: 16px;
@@ -1425,7 +1425,7 @@ body {
   margin-left: 2px;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  z-index: 9999 !important;
+  z-index: 9 !important;
   opacity: 100% !important;
   color: #fff !important;
   background: var(--backgroundColor02) !important;
