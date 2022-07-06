@@ -174,6 +174,104 @@
   );
   background: var(--backgroundColor02) !important;
 }
+.guildSubscriptionSlot-1mef6n {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px 0px;
+  border-bottom: 3px groove#643da645 !important;
+}
+.guildsSection-30CJxX {
+  border-top: 3px groove#643da645 !important;
+  margin-bottom: 60px;
+  margin-top: 32px;
+  padding-top: 32px;
+}
+.divider-1wnNcY {
+  margin: 40px 0;
+  height: 1px;
+  background-color: 3px groove#643da645 !important;
+}
+.card-2xlCYc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--backgroundColor01) !important;
+}
+.card-2xlCYc:hover {
+  background-color: var(--backgroundColor02) !important;
+}
+.marketingRefreshSectionTier1-1chtWC {
+  color: var(--text-normal);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 3px groove#643da645 !important;
+  margin-top: 48px;
+  padding-top: 48px;
+}
+.noItemsCard-5EOcCl {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 16px;
+  padding: 16px 19px;
+  border: none;
+  color: var(--interactive-active);
+  background-color: var(--backgroundColor01) !important;
+}
+.promotionCard-mo7ClH {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: var(--backgroundColor01) !important;
+}
+.codeRedemptionRedirect-2hYMSQ {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 40px;
+  padding: 16px 22px;
+  background-color: var(--backgroundColor01) !important;
+  border-color: var(--backgroundColor02) !important;
+}
+.pageButtonNext-2_bbdk, .pageButtonPrev-3q9rh8 {
+  padding: 14px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 42px;
+  height: 42px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  border: 1px groove var(--backgroundColor02) !important;
+  color: var(--interactive-normal);
+}
+.pageIndicator-cOEPV8 {
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  border-color: var(--backgroundColor01);
+  border-style: solid;
+  border-width: 1px 0;
+}
 .form-3gdLxP {
   position: relative;
   -ms-flex-negative: 0;
@@ -209,6 +307,37 @@
   -webkit-app-region: no-drag;
   border: 3px groove #03edf940 !important;
   background-clip: content-box !important;
+}
+.subscriptionsRedirectContainer-zD3U79 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: var(--backgroundColor01) !important;
+  padding: 8px;
+  border: none;
+  margin-bottom: 24px;
+}
+.guildHeader-1EPPBS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: var(--backgroundColor01) !important;
+  position: relative;
+}
+#app-mount .premiumIndicator-22GgcZ {
+  background-color: rgb(210 109 208) !important;
+  box-shadow: rgb(210 109 208) 2px 3px 21px -3px !important;
+}
+.defaultColor-2cKwKo {
+  color: #fff;
+  font: var(--customFont) !important;
+  font-size: 20px !important;
 }
 .layerContainer-2v_Sit .tooltip-14MtrL {
   backdrop-filter: blur(3.5px);
