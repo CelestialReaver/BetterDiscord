@@ -302,8 +302,8 @@
   text-transform: uppercase;
   border-radius: 12px;
   pointer-events: auto;
-  -webkit-box-shadow: rgb(210 109 208) 2px 3px 15px -6px !important;
-  box-shadow: rgb(210 109 208) 2px 3px 15px -6px !important;
+  -webkit-box-shadow: rgb(210 109 208) 0px 0px 0px 0.3px !important;
+  box-shadow: rgb(210 109 208) 0px 0px 0px 0.3px !important;
   -webkit-app-region: no-drag;
   border: 3px groove #03edf940 !important;
   background-clip: content-box !important;
