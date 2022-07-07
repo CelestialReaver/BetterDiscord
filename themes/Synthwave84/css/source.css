@@ -137,6 +137,48 @@
   color: var(--interactive-normal);
   background: var(--backgroundColor01) !important;
 }
+.option-ayUoaq {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 0 10px;
+  padding: 0 10px;
+  height: 34px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--backgroundColor01) !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+  rgb(210 109 208 / 15%) 0px 2px 6px 6px !important
+}
+.option-ayUoaq:hover {
+  background: var(--backgroundColor02) !important;
+}
+.menu-1QACrS {
+  position: relative;
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  cursor: default;
+  max-height: calc(100vh - 32px);
+  -webkit-box-shadow: var(--elevation-high);
+  box-shadow: var(--elevation-high);
+  background: var(--background-floating);
+  border-radius: 8px;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+  rgb(210 109 208 / 15%) 0px 2px 6px 6px !important
+}
+.menu-1QACrS:hover {
+  background-color: var(--backgroundColor01) !important;
+}
 .medium-2NClDM .input-2m5SfJ,
 .medium-2NClDM .tag-Pxnlt9 {
   font-size: 16px;
@@ -2142,6 +2184,10 @@ svg aria-hidden {
 }
 #app-mount .scroller-1bVxF5 {
   padding: 6px 8px !important;
+  border-radius: 8px !important;
+  background: var(--backgroundColor01) !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+  rgb(210 109 208 / 15%) 0px 2px 6px 6px !important
 }
 #app-mount .scroller-1bVxF5 .separator-1So4YB {
   display: none;
