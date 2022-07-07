@@ -53,8 +53,11 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 .side-2ur1Qk .item-3XjbnG[aria-controls="nitro-server-boost-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/boost.png");
 }
-.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {
+/*.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {
   display: none;
+}*/
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]::before {
+  background-image: url("https://i.imgur.com/eCrvMQI.png");
 }
 .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/boost.png");

@@ -113,6 +113,26 @@
   opacity: 0.15;
   border-radius: 13px;
 }
+.theme-dark .card-x5zW6z {
+  background-color: var(--backgroundColor01) !important;
+  border-color: var(--backgroundColor01) !important;
+}
+.card-x5zW6z {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--activity-card-background);
+  border: 2px solid var(--backgroundColor02) !important;
+  border-radius: 8px;
+  box-shadow: var(--elevation-medium);
+  height: 370px;
+  width: 100%;
+  overflow: hidden;
+  transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out,border .2s ease-out,opacity .2s ease-in;
+}
+.theme-dark .iconWrapper-eK7GO6 {
+  background-color: var(--backgroundColor02) !important;
+}
 #app-mount .container-ZMc96U-themed-Hp1KC_ {
   background: var(--backgroundColor01) !important;
   color: var(--backgroundColor01) !important;
