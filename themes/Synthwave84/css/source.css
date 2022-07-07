@@ -39,7 +39,12 @@
   font-family: var(--customFont) !important;
   font-size: 14px !important;
   overflow: hidden;
-  background: linear-gradient(-180eg, #03edf920, #fc28a890) !important;
+  /*background: linear-gradient(-180eg, #03edf920, #fc28a890) !important;*/
+}
+#app-mount .appMount-2yBXZl, body {
+  text-rendering: optimizeLegibility;
+  /* background: linear-gradient(to right, #03edf920, #fc28a890) !important; */
+  border-bottom: none;
 }
 #app-mount .body.folderContentIsOpen-zz6Fg {
   line-height: 1;
@@ -131,6 +136,31 @@
   box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
   border: 1.4px groove #fc28a835 !important;
   border-radius: 2px !important;
+}
+.interactiveSelected-29CP8y {
+  background-color: #fc28a815 !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
+  background-clip: border-box !important;
+  border-radius: 12px !important;
+  border: 1px groove #fc28a835 !important;
+}
+.interactive-iyXY_x {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  color: var(--channels-default);
+  background-color: var(--backgroundColor01) !important;
+}
+.interactive-1vLZ_I {
+  cursor: pointer;
+  color: var(--interactive-normal);
+  border-radius: inherit;
 }
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
   text-transform: none;
