@@ -85,8 +85,8 @@
 }
 #app-mount .mentioned-Tre-dv:before {
   background-color: none !important;
-  border-radius: 18px !important;
-  width: 4px;
+  border-radius: 0px !important;
+  width: 0px;
 }
 #app-mount .mentioned-Tre-dv {
   FONT-VARIANT: JIS83;
@@ -99,7 +99,7 @@
   background-clip: border-content !important;
   background-image: transparent !important;
 }
-#app-mount .mentioned-Tre-dv::after {
+#app-mount .mentioned-Tre-dv:after {
   position: absolute;
   content: "";
   width: 100%;
