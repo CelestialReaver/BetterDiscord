@@ -125,6 +125,13 @@
   border-radius: 8px !important;
   box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
 }
+.container-rr3Ruk {
+  width: 100%;
+  display: grid;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
+  border: 1.4px groove #fc28a835 !important;
+  border-radius: 2px !important;
+}
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
   text-transform: none;
   padding: 10px 0;
