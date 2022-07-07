@@ -96,6 +96,8 @@
   margin: unset !important;
   padding: unset !important;
   background: var(--backgroundColor02) !important;
+  border-radius: 5px !important;
+  box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
 }
 #app-mount
   .header-2Kx1US.ChannelDms-channelmembers-wrap.ChannelDms-channelmembers-header:after {
