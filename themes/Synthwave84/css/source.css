@@ -85,8 +85,8 @@
 }
 #app-mount .mentioned-Tre-dv:before {
   background-color: none !important;
+  width: 0px !important;
   border-radius: 0px !important;
-  width: 0px;
 }
 #app-mount .mentioned-Tre-dv {
   FONT-VARIANT: JIS83;
