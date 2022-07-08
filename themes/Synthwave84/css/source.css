@@ -1630,7 +1630,8 @@ body {
   flex-wrap: nowrap !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  align-items: end !important;
+  text-align: right !important;
+  align-items: right !important;
   overflow: visible !important;
   overflow-x: -webkit-marquee !important;
   -moz-animation: marquee 30s linear infinite !important;
@@ -1653,7 +1654,8 @@ body {
   flex-wrap: nowrap !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  align-items: end !important;
+  text-align: right !important;
+  align-items: right !important;
   overflow: visible !important;
   overflow-x: -webkit-marquee !important;
   -moz-animation: marquee 30s linear infinite !important;
