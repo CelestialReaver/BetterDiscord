@@ -1640,7 +1640,8 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   --total-marquee-items: 5;
-  width: 100vw !important;
+  width: 100% !important;
+  max-width: 100% !important;
   position: relative !important;
 }
 .activityText-1rR-80:hover {
@@ -1664,7 +1665,8 @@ body {
   -webkit-animation: marquee 30s linear infinite !important;
   animation: marquee 30s linear infinite !important;
   color: var !important;
-  width: 100vw !important;
+  width: 100% !important;
+  max-width: 100% !important;
   position: relative !important;
 }
 .activityText-ev7Z1T:hover {
@@ -1674,30 +1676,30 @@ body {
 }
 @-moz-keyframes marquee {
   0% {
-    -moz-transform: translateX(100vw) !important;
+    -moz-transform: translateX(100%) !important;
   }
   100% {
-    -moz-transform: translateX(-100vw) !important;
+    -moz-transform: translateX(-100%) !important;
   }
 }
 @-webkit-keyframes marquee {
   0% {
-    -webkit-transform: translateX(100vw) !important;
+    -webkit-transform: translateX(100%) !important;
   }
   100% {
-    -webkit-transform: translateX(-100vw) !important;
+    -webkit-transform: translateX(-100%) !important;
   }
 }
 @keyframes marquee {
   0% {
-    -moz-transform: translate(100vw) !important;
-    -webkit-transform: translateX(100vw) !important;
-    transform: translateX(100vw) !important;
+    -moz-transform: translate(100%) !important;
+    -webkit-transform: translateX(100%) !important;
+    transform: translateX(100%) !important;
   }
   100% {
-    -moz-transform: translateX(-100vw) !important;
-    -webkit-transform: translateX(-100vw) !important;
-    transform: translateX(-100vw) !important;
+    -moz-transform: translateX(-100%) !important;
+    -webkit-transform: translateX(-100%) !important;
+    transform: translateX(-100%) !important;
   }
 }
 @keyframes pulse {
