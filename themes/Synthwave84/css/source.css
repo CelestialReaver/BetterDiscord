@@ -1630,6 +1630,7 @@ body {
   white-space: nowrap !important;
   overflow: hidden !important;
   overflow-x: marquee !important;
+  text-overflow: ellipsis !important;
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
@@ -1651,6 +1652,7 @@ body {
   white-space: nowrap !important;
   overflow: hidden !important;
   overflow-x: marquee !important;
+  text-overflow: ellipsis !important;
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
