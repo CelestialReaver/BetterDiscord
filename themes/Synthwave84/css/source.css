@@ -1631,7 +1631,7 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   align-items: end !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   overflow-x: -webkit-marquee !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
@@ -1654,7 +1654,7 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   align-items: end !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   overflow-x: -webkit-marquee !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
