@@ -32,8 +32,7 @@
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
   white-space: nowrap !important;
-  overflow: hidden !important;
-  overflow-x: marquee !important;
+  overflow-x: visible !important;
   text-overflow: ellipsis !important;
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
@@ -54,8 +53,7 @@
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
   white-space: nowrap !important;
-  overflow: hidden !important;
-  overflow-x: marquee !important;
+  overflow-x: visible !important;
   text-overflow: ellipsis !important;
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
