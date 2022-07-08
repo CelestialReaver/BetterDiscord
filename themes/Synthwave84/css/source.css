@@ -1636,7 +1636,7 @@ body {
   -webkit-marquee-speed: normal !important;
   animation: marquee 30s linear infinite !important;
   color: var !important;
-  width: 350% !important;
+  width: 400% !important;
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -1656,7 +1656,7 @@ body {
   -webkit-marquee-speed: normal !important;
   animation: marquee 30s linear infinite !important;
   color: var !important;
-  width: 350% !important;
+  width: 400% !important;
 }
 .activityText-ev7Z1T:hover {
   animation-play-state: paused !important;
