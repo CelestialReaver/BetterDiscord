@@ -1651,7 +1651,6 @@ body {
   flex: 0 1 auto !important;
   flex-wrap: nowrap !important;
   white-space: nowrap !important;
-  text-overflow: ellipsis !important;
   overflow: hidden !important;
   overflow-x: hidden !important;
   -moz-transform: translateX(100%);
