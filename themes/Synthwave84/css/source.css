@@ -1630,14 +1630,14 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  overflow-x: -webit-marquee !important;
+  /*overflow-x: -webit-marquee !important;*/
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee 30s linear infinite !important;
-  -webkit-animation: marquee 30s linear infinite !important;
-  overflow-x: marquee-line !important;
-  animation: marquee 30s linear infinite !important;
+  -moz-animation: marquee 20s linear infinite !important;
+  -webkit-animation: marquee 20s linear infinite !important;
+  overflow-x: marquee !important;
+  animation: marquee 20s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
@@ -1651,14 +1651,14 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  overflow-x: -webit-marquee1 !important;
+  /*overflow-x: -webit-marquee1 !important;*/
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee1 30s linear infinite !important;
-  -webkit-animation: marquee1 30s linear infinite !important;
-  overflow-x: marquee1-line !important;
-  animation: marquee1 30s linear infinite !important;
+  -moz-animation: marquee 20s linear infinite !important;
+  -webkit-animation: marquee 20s linear infinite !important;
+  overflow-x: marquee !important;
+  animation: marquee 20s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
@@ -1673,17 +1673,17 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  overflow-x: -webkit-marquee !important;
+  /*overflow-x: -webkit-marquee !important;*/
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee1 30s linear infinite !important;
-  -webkit-animation: marquee1 30s linear infinite !important;
-  overflow-x: marquee1-line !important;
-  animation: marquee 30s linear infinite !important;
+  -moz-animation: marquee 20s linear infinite !important;
+  -webkit-animation: marquee 20s linear infinite !important;
+  overflow-x: marquee !important;
+  animation: marquee 20s linear infinite !important;
   /*color: var !important;*/
   width: 100% !important;
-  position: absolute !important;
+  /*position: absolute !important;*/
 }
 #app-mount .subText-OGOWMj:hover {
   -moz-binding: none !important;
@@ -1691,35 +1691,35 @@ body {
 #app-mount .container-1oeRFJ:hover {
   -moz-binding: none !important;
 }
-@-moz-keyframes marquee {
+/*@-moz-keyframes marquee {
   0% {
-    -moz-transform: translateX(100%);
+    -moz-transform: translateX(100vw);
   }
   100% {
-    -moz-transform: translateX(-100%);
+    -moz-transform: translateX(-100vw);
   }
 }
 @-webkit-keyframes marquee {
   0% {
-    -webkit-transform: translateX(100%);
+    -webkit-transform: translateX(100vw);
   }
   100% {
-    -webkit-transform: translateX(-100%);
+    -webkit-transform: translateX(-100vw);
   }
-}
+}*/
 @keyframes marquee {
   0% {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -moz-transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
   }
   100% {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -moz-transform: translateX(-100vw);
+    -webkit-transform: translateX(-100vw);
+    transform: translateX(-100vw);
   }
 }
-@-moz-keyframes marquee1 {
+/*@-moz-keyframes marquee1 {
   0% {
     -moz-transform: translateX(100%);
   }
@@ -1737,16 +1737,16 @@ body {
 }
 @keyframes marquee1 {
   0% {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -moz-transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
   }
   100% {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -moz-transform: translateX(-100vw);
+    -webkit-transform: translateX(-100vw);
+    transform: translateX(-100vw);
   }
-}
+}*/
 @keyframes pulse {
   0% {
     transform: scale(1);
