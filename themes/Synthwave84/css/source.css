@@ -1666,7 +1666,7 @@ body {
 }
 @-moz-keyframes marquee {
   0% {
-    -moz-transform: translateX(0%);
+    -moz-transform: translateX(100%);
   }
   100% {
     -moz-transform: translateX(-100%);
@@ -1674,7 +1674,7 @@ body {
 }
 @-webkit-keyframes marquee {
   0% {
-    -webkit-transform: translateX(0%);
+    -webkit-transform: translateX(100%);
   }
   100% {
     -webkit-transform: translateX(100%);
@@ -1682,9 +1682,9 @@ body {
 }
 @keyframes marquee {
   0% {
-    -moz-transform: translateX(0%);
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
   }
   100% {
     -moz-transform: translateX(-100%);
