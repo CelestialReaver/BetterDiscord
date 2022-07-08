@@ -1634,15 +1634,18 @@ body {
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee 20s linear infinite !important;
-  -webkit-animation: marquee 20s linear infinite !important;
+  -moz-animation: marquee 10s linear infinite !important;
+  -webkit-animation: marquee 10s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  animation: marquee 20s linear infinite !important;
+  animation: marquee 10s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
 #app-mount .activityText-1rR-80:hover {
   -moz-binding: none !important;
+  animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -webkit-animation-play-state: paused !important;
 }
 #app-mount .activityText-ev7Z1T {
   -webkit-box-flex: 1 !important;
@@ -1655,14 +1658,17 @@ body {
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee 20s linear infinite !important;
-  -webkit-animation: marquee 20s linear infinite !important;
-  animation: marquee 20s linear infinite !important;
+  -moz-animation: marquee 10s linear infinite !important;
+  -webkit-animation: marquee 10s linear infinite !important;
+  animation: marquee 10s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
 #app-mount .activityText-ev7Z1T:hover {
   -moz-binding: none !important;
+  animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -webkit-animation-play-state: paused !important;
 }
 /*#app-mount .subText-OGOWMj {
   margin-top: -2px;
