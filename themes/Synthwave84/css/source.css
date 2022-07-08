@@ -1628,7 +1628,7 @@ body {
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
   white-space: nowrap !important;
-  overflow-x: visible !important;
+  overflow: visible !important;
   text-overflow: ellipsis !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
@@ -1646,7 +1646,7 @@ body {
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
   white-space: nowrap !important;
-  overflow-x: visible !important;
+  overflow: visible !important;
   text-overflow: ellipsis !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
