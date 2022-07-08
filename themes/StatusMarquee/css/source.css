@@ -8,14 +8,14 @@
   width: 14px;
   height: 14px;
   opacity: 100 !important;
-  z-index: 9999 !important;
+  z-index: 9 !important;
 }
 #app-mount .activityEmoji-24oKjc {
   margin-right: 4px;
   width: 14px;
   height: 14px;
   opacity: 100 !important;
-  z-index: 9999 !important;
+  z-index: 9 !important;
 }
 #app-mount .activity-icon {
   width: 16px;
@@ -23,7 +23,7 @@
   margin-left: 2px;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  z-index: 9999 !important;
+  z-index: 9 !important;
   opacity: 100% !important;
   color: #fff !important;
 }
