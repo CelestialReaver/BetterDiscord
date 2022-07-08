@@ -1640,7 +1640,7 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   --total-marquee-items: 5;
-  width: calc(250px * (var(--total-marquee-items)));
+  width: 100vw !important;
   position: relative !important;
 }
 .activityText-1rR-80:hover {
@@ -1664,8 +1664,7 @@ body {
   -webkit-animation: marquee 30s linear infinite !important;
   animation: marquee 30s linear infinite !important;
   color: var !important;
-  --total-marquee-items: 5;
-  width: calc(250px * (var(--total-marquee-items)));
+  width: 100vw !important;
   position: relative !important;
 }
 .activityText-ev7Z1T:hover {
@@ -1675,30 +1674,30 @@ body {
 }
 @-moz-keyframes marquee {
   0% {
-    -moz-transform: translateX(100%);
+    -moz-transform: translateX(100vw) !important;
   }
   100% {
-    -moz-transform: translateX(-100%);
+    -moz-transform: translateX(-100vw) !important;
   }
 }
 @-webkit-keyframes marquee {
   0% {
-    -webkit-transform: translateX(100%);
+    -webkit-transform: translateX(100vw) !important;
   }
   100% {
-    -webkit-transform: translateX(-100%);
+    -webkit-transform: translateX(-100vw) !important;
   }
 }
 @keyframes marquee {
   0% {
-    -moz-transform: left 100%;
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -moz-transform: translate(100vw) !important;
+    -webkit-transform: translateX(100vw) !important;
+    transform: translateX(100vw) !important;
   }
   100% {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -moz-transform: translateX(-100vw) !important;
+    -webkit-transform: translateX(-100vw) !important;
+    transform: translateX(-100vw) !important;
   }
 }
 @keyframes pulse {
