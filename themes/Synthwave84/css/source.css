@@ -1627,10 +1627,9 @@ body {
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
-  flex-wrap: nowrap !important;
   white-space: nowrap !important;
   overflow: hidden !important;
-  overflow-x: hidden !important;
+  overflow-x: marquee !important;
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
@@ -1649,10 +1648,9 @@ body {
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
-  flex-wrap: nowrap !important;
   white-space: nowrap !important;
   overflow: hidden !important;
-  overflow-x: hidden !important;
+  overflow-x: marquee !important;
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
