@@ -1639,6 +1639,11 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 0.5rem !important;
+  position: relative !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -1660,6 +1665,11 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 0.5rem !important;
+  position: relative !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
 }
 .activityText-ev7Z1T:hover {
   animation-play-state: paused !important;
@@ -1679,7 +1689,7 @@ body {
     -webkit-transform: translateX(100%);
   }
   100% {
-    -webkit-transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
   }
 }
 @keyframes marquee {
