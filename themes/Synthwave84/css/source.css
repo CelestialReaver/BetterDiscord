@@ -1639,11 +1639,7 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
-  box-sizing: border-box !important;
-  padding: 0.5rem !important;
   position: relative !important;
-  -moz-box-sizing: border-box !important;
-  -webkit-box-sizing: border-box !important;
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -1665,11 +1661,7 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
-  box-sizing: border-box !important;
-  padding: 0.5rem !important;
   position: relative !important;
-  -moz-box-sizing: border-box !important;
-  -webkit-box-sizing: border-box !important;
 }
 .activityText-ev7Z1T:hover {
   animation-play-state: paused !important;
@@ -1678,26 +1670,30 @@ body {
 }
 @-moz-keyframes marquee {
   0% {
-    left: 100%;
+    -moz-transform: translateX(100%);
   }
   100% {
-    left: -100%;
+    -moz-transform: translateX(-100%);
   }
 }
 @-webkit-keyframes marquee {
   0% {
-    left: 100%;
+    -webkit-transform: translateX(100%);
   }
   100% {
-    left: -100%;
+    -webkit-transform: translateX(-100%);
   }
 }
 @keyframes marquee {
   0% {
-    left: 100%;
+    -moz-transform: left 100%;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
   }
   100% {
-    left: -100%;
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 @keyframes pulse {
