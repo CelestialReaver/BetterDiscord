@@ -1637,7 +1637,6 @@ body {
   -moz-animation: marquee 20s linear infinite !important;
   -webkit-animation: marquee 20s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  marquee-speed: normal !important;
   animation: marquee 20s linear infinite !important;
   color: var !important;
   width: 100% !important;
@@ -1666,7 +1665,7 @@ body {
 #app-mount .activityText-ev7Z1T:hover {
   -moz-binding: none !important;
 }
-#app-mount .subText-OGOWMj {
+/*#app-mount .subText-OGOWMj {
   margin-top: -2px;
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
@@ -1690,7 +1689,7 @@ body {
 }
 #app-mount .container-1oeRFJ:hover {
   -moz-binding: none !important;
-}
+}*/
 @-moz-keyframes marquee {
   0% {
     -moz-transform: translateX(100vw);
