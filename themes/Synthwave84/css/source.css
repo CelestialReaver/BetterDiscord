@@ -1664,30 +1664,30 @@ body {
 }
 @-moz-keyframes marquee {
   0% {
-    -moz-transform: translateX(300%);
+    -moz-transform: translateX(0%);
   }
   100% {
-    -moz-transform: translateX(-300%);
+    -moz-transform: translateX(-100%);
   }
 }
 @-webkit-keyframes marquee {
   0% {
-    -webkit-transform: translateX(300%);
+    -webkit-transform: translateX(0%);
   }
   100% {
-    -webkit-transform: translateX(-300%);
+    -webkit-transform: translateX(100%);
   }
 }
 @keyframes marquee {
   0% {
-    -moz-transform: translateX(300%);
-    -webkit-transform: translateX(300%);
-    transform: translateX(300%);
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
   }
   100% {
-    -moz-transform: translateX(-300%);
-    -webkit-transform: translateX(-300%);
-    transform: translateX(-300%);
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 @keyframes pulse {
