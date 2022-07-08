@@ -1627,6 +1627,7 @@ body {
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
+  flex-wrap: nowrap !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: hidden !important;
@@ -1647,6 +1648,7 @@ body {
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
+  flex-wrap: nowrap !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: hidden !important;
