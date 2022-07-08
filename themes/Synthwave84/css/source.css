@@ -1629,7 +1629,7 @@ body {
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   overflow-x: -webit-marquee !important;
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
@@ -1642,7 +1642,7 @@ body {
   width: 100% !important;
 }
 .activityText-1rR-80:hover {
-  animation-play-state: paused !important;
+  -moz-binding: none !important;
 }
 .activityText-ev7Z1T {
   -webkit-box-flex: 1 !important;
@@ -1650,7 +1650,7 @@ body {
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   overflow-x: -webit-marquee1 !important;
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
@@ -1661,6 +1661,35 @@ body {
   animation: marquee1 20s linear infinite !important;
   color: var !important;
   width: 100% !important;
+}
+.activityText-ev7Z1T:hover {
+  -moz-binding: none !important;
+}
+.subText-OGOWMj {
+  margin-top: -2px;
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 0 1 auto !important;
+  flex: 0 1 auto !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: visible !important;
+  overflow-x: -webkit-marquee !important;
+  -moz-transform: translateX(100%) !important;
+  -webkit-transform: translateX(100%) !important;
+  transform: translateX(100%) !important;
+  -moz-animation: marquee1 20s linear infinite !important;
+  -webkit-animation: marquee1 20s linear infinite !important;
+  overflow-x: marquee1-line !important;
+  animation: marquee 20s linear infinite !important;
+  /*color: var !important;*/
+  width: 100% !important;
+  position: absolute !important;
+}
+.subText-OGOWMj:hover {
+  -moz-binding: none !important;
+}
+.container-1oeRFJ:hover {
+  -moz-binding: none !important;
 }
 @-moz-keyframes marquee {
   0% {
