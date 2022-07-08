@@ -1640,7 +1640,7 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   --total-marquee-items: 5;
-  width: calc(250px * (var(--total-marquee-items))) !important;
+  width: calc(250px * (var(--total-marquee-items)));
   position: relative !important;
 }
 .activityText-1rR-80:hover {
@@ -1664,7 +1664,7 @@ body {
   animation: marquee 30s linear infinite !important;
   color: var !important;
   --total-marquee-items: 5;
-  width: calc(250px * (var(--total-marquee-items))) !important;
+  width: calc(250px * (var(--total-marquee-items)));
   position: relative !important;
 }
 .activityText-ev7Z1T:hover {
