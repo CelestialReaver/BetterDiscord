@@ -1634,10 +1634,10 @@ body {
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee 20s linear infinite !important;
-  -webkit-animation: marquee 20s linear infinite !important;
+  -moz-animation: marquee 30s linear infinite !important;
+  -webkit-animation: marquee 30s linear infinite !important;
   overflow-x: marquee-line !important;
-  animation: marquee 20s linear infinite !important;
+  animation: marquee 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
@@ -1655,10 +1655,10 @@ body {
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee1 20s linear infinite !important;
-  -webkit-animation: marquee1 20s linear infinite !important;
+  -moz-animation: marquee1 30s linear infinite !important;
+  -webkit-animation: marquee1 30s linear infinite !important;
   overflow-x: marquee1-line !important;
-  animation: marquee1 20s linear infinite !important;
+  animation: marquee1 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
@@ -1677,10 +1677,10 @@ body {
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee1 20s linear infinite !important;
-  -webkit-animation: marquee1 20s linear infinite !important;
+  -moz-animation: marquee1 30s linear infinite !important;
+  -webkit-animation: marquee1 30s linear infinite !important;
   overflow-x: marquee1-line !important;
-  animation: marquee 20s linear infinite !important;
+  animation: marquee 30s linear infinite !important;
   /*color: var !important;*/
   width: 100% !important;
   position: absolute !important;
