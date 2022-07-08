@@ -1632,14 +1632,15 @@ body {
   text-overflow: ellipsis !important;
   text-align: right !important;
   align-items: right !important;
-  overflow: visible !important;
-  overflow-x: -webkit-marquee !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
   -webkit-marquee-speed: normal !important;
   animation: marquee 30s linear infinite !important;
   color: var !important;
-  width: 100% !important;
+  --total-marquee-items: 5;
+  width: calc(250px * (var(--total-marquee-items))) !important;
   position: relative !important;
 }
 .activityText-1rR-80:hover {
@@ -1656,13 +1657,14 @@ body {
   text-overflow: ellipsis !important;
   text-align: right !important;
   align-items: right !important;
-  overflow: visible !important;
-  overflow-x: -webkit-marquee !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
   animation: marquee 30s linear infinite !important;
   color: var !important;
-  width: 100% !important;
+  --total-marquee-items: 5;
+  width: calc(250px * (var(--total-marquee-items))) !important;
   position: relative !important;
 }
 .activityText-ev7Z1T:hover {
