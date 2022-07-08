@@ -1630,9 +1630,6 @@ body {
   white-space: nowrap !important;
   overflow-x: visible !important;
   text-overflow: ellipsis !important;
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
   animation: marquee 30s linear infinite !important;
@@ -1651,9 +1648,6 @@ body {
   white-space: nowrap !important;
   overflow-x: visible !important;
   text-overflow: ellipsis !important;
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
   animation: marquee 30s linear infinite !important;
