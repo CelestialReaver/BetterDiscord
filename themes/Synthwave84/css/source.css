@@ -1631,13 +1631,13 @@ body {
   text-overflow: ellipsis !important;
   overflow: visible !important;
   overflow-x: -webkit-marquee !important;
-  -moz-transform: translateX(100%) !important;
+  /*-moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
-  transform: translateX(100%) !important;
-  -moz-animation: marquee 30s linear infinite !important;
-  -webkit-animation: marquee 30s linear infinite !important;
+  transform: translateX(100%) !important;*/
+  -moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  animation: marquee 30s linear infinite !important;
+  animation: marquee 15s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
@@ -1654,12 +1654,12 @@ body {
   text-overflow: ellipsis !important;
   overflow: visible !important;
   overflow-x: -webkit-marquee !important;
-  -moz-transform: translateX(100%) !important;
+  /*-moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
-  transform: translateX(100%) !important;
-  -moz-animation: marquee 30s linear infinite !important;
-  -webkit-animation: marquee 30s linear infinite !important;
-  animation: marquee 30s linear infinite !important;
+  transform: translateX(100%) !important;*/
+  -moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;
+  animation: marquee 15s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
