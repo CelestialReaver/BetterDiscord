@@ -1632,8 +1632,8 @@ body {
   text-overflow: ellipsis !important;
   text-align: right !important;
   align-items: right !important;
-  overflow: hidden !important;
-  overflow-x: hidden !important;
+  overflow: visible !important;
+  overflow-x: visible !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
   -webkit-marquee-speed: normal !important;
@@ -1657,8 +1657,9 @@ body {
   text-overflow: ellipsis !important;
   text-align: right !important;
   align-items: right !important;
-  overflow: hidden !important;
-  overflow-x: hidden !important;
+  overflow: visible !important;
+  overflow-x: visible !important;
+  -moz-animation: marquee 30s linear infinite !important;
   -moz-animation: marquee 30s linear infinite !important;
   -webkit-animation: marquee 30s linear infinite !important;
   animation: marquee 30s linear infinite !important;
