@@ -1631,12 +1631,12 @@ body {
   text-overflow: ellipsis !important;
   overflow: hidden !important;
   overflow-x: -webkit-marquee !important;
-  -moz-animation: marquee 40s linear infinite !important;
-  -webkit-animation: marquee 40s linear infinite !important;
+  -moz-animation: marquee 30s linear infinite !important;
+  -webkit-animation: marquee 30s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  animation: marquee 40s linear infinite !important;
+  animation: marquee 30s linear infinite !important;
   color: var !important;
-  width: 300% !important;
+  width: 350% !important;
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -1651,12 +1651,12 @@ body {
   text-overflow: ellipsis !important;
   overflow: hidden !important;
   overflow-x: -webkit-marquee !important;
-  -moz-animation: marquee 40s linear infinite !important;
-  -webkit-animation: marquee 40s linear infinite !important;
+  -moz-animation: marquee 30s linear infinite !important;
+  -webkit-animation: marquee 30s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  animation: marquee 40s linear infinite !important;
+  animation: marquee 30s linear infinite !important;
   color: var !important;
-  width: 300% !important;
+  width: 350% !important;
 }
 .activityText-ev7Z1T:hover {
   animation-play-state: paused !important;
