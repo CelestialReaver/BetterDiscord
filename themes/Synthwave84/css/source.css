@@ -1630,14 +1630,14 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  /*overflow-x: -webit-marquee !important;*/
+  overflow-x: -webit-marquee !important;
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
   -moz-animation: marquee 20s linear infinite !important;
   -webkit-animation: marquee 20s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  /*marquee-speed: normal !important;*/
+  marquee-speed: normal !important;
   overflow-x: marquee !important;
   animation: marquee 20s linear infinite !important;
   color: var !important;
@@ -1697,7 +1697,7 @@ body {
 #app-mount .container-1oeRFJ:hover {
   -moz-binding: none !important;
 }
-/*@-moz-keyframes marquee {
+@-moz-keyframes marquee {
   0% {
     -moz-transform: translateX(100vw);
   }
@@ -1712,17 +1712,17 @@ body {
   100% {
     -webkit-transform: translateX(-100vw);
   }
-}*/
+}
 @keyframes marquee {
   0% {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -moz-transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(100vw);
   }
   100% {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -moz-transform: translateX(-100vw);
+    -webkit-transform: translateX(-100vw);
+    transform: translateX(-100vw);
   }
 }
 /*@-moz-keyframes marquee1 {
