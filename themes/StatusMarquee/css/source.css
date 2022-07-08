@@ -31,7 +31,7 @@
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
-  white-space: nowrap !important;
+  /*white-space: nowrap !important;*/
   text-overflow: ellipsis !important;
   overflow: hidden !important;
   overflow-x: -webkit-marquee !important;
@@ -52,7 +52,7 @@
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
-  white-space: nowrap !important;
+  /*white-space: nowrap !important;*/
   text-overflow: ellipsis !important;
   overflow: hidden !important;
   overflow-x: -webkit-marquee !important;
