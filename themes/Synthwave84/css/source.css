@@ -1634,10 +1634,10 @@ body {
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee 10s linear infinite !important;
-  -webkit-animation: marquee 10s linear infinite !important;
+  -moz-animation: marquee 30s linear infinite !important;
+  -webkit-animation: marquee 30s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  animation: marquee 10s linear infinite !important;
+  animation: marquee 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
@@ -1657,9 +1657,9 @@ body {
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
-  -moz-animation: marquee 10s linear infinite !important;
-  -webkit-animation: marquee 10s linear infinite !important;
-  animation: marquee 10s linear infinite !important;
+  -moz-animation: marquee 30s linear infinite !important;
+  -webkit-animation: marquee 30s linear infinite !important;
+  animation: marquee 30s linear infinite !important;
   color: var !important;
   width: 100% !important;
 }
