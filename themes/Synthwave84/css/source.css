@@ -1630,7 +1630,7 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  overflow-x: -webit-marquee !important;
+  overflow-x: -webkit-marquee !important;
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
@@ -1638,7 +1638,6 @@ body {
   -webkit-animation: marquee 20s linear infinite !important;
   -webkit-marquee-speed: normal !important;
   marquee-speed: normal !important;
-  overflow-x: marquee !important;
   animation: marquee 20s linear infinite !important;
   color: var !important;
   width: 100% !important;
@@ -1653,16 +1652,14 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  /*overflow-x: -webit-marquee1 !important;*/
+  overflow-x: -webkit-marquee !important;
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
   -moz-animation: marquee 20s linear infinite !important;
   -webkit-animation: marquee 20s linear infinite !important;
-  overflow-x: marquee !important;
   animation: marquee 20s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  /*marquee-speed: normal !important;*/
   color: var !important;
   width: 100% !important;
 }
@@ -1677,19 +1674,16 @@ body {
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  /*overflow-x: -webkit-marquee !important;*/
+  overflow-x: -webkit-marquee !important;
   -moz-transform: translateX(100%) !important;
   -webkit-transform: translateX(100%) !important;
   transform: translateX(100%) !important;
   -moz-animation: marquee 20s linear infinite !important;
   -webkit-animation: marquee 20s linear infinite !important;
-  overflow-x: marquee !important;
   animation: marquee 20s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  /*marquee-speed: normal !important;*/
-  /*color: var !important;*/
+  color: var !important;
   width: 100% !important;
-  /*position: absolute !important;*/
 }
 #app-mount .subText-OGOWMj:hover {
   -moz-binding: none !important;
