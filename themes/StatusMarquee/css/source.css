@@ -31,7 +31,7 @@
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
-  /*white-space: nowrap !important;*/
+  white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: hidden !important;
   overflow-x: -webkit-marquee !important;
@@ -42,8 +42,9 @@
   -webkit-animation: marquee 20s linear infinite !important;
   overflow-x: marquee-line !important;
   animation: marquee 20s linear infinite !important;
-  color: var !important;
+  /*color: var !important;*/
   width: 100% !important;
+  position: absolute !important;
 }
 #app-mount .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -52,7 +53,7 @@
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
-  /*white-space: nowrap !important;*/
+  white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: hidden !important;
   overflow-x: -webkit-marquee !important;
@@ -63,8 +64,9 @@
   -webkit-animation: marquee1 20s linear infinite !important;
   overflow-x: marquee1-line !important;
   animation: marquee1 20s linear infinite !important;
-  color: var !important;
+  /*color: var !important;*/
   width: 100% !important;
+  position: absolute !important;
 }
 @-moz-keyframes marquee {
   0% {
