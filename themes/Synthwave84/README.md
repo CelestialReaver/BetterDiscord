@@ -6,10 +6,10 @@
 ---
 
 ## Features
-* Sleek and clean
-* Neon glow
-* Status marquee built-in
-* Perfect for dark theme and light theme lovers
+* _**Sleek, clean, retro, and unique**_ - one of a kind! 
+* _**Soft neon glow**_ - soothing not distracting! 
+* _**Status marquee built-in**_ - see someone's entire status as it scrolls. Hover over their status to stop and read it! 
+* _**Perfect for dark theme and light theme fans**_ - you'll love it! 
 
 ## Screenshots
 ![](https://i.imgur.com/RR13Oy4.png)
