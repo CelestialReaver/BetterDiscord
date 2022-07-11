@@ -1563,8 +1563,14 @@ body {
   -moz-animation-play-state: paused !important;
   -webkit-animation-play-state: paused !important;
 }
+.unreadRelevant-2f-VSK {
+  visibility: hidden !important;
+}
+.modeConnected-NrO4cP .name-28HaxV,
+.modeConnected-NrO4cP:hover .name-28HaxV,
 .modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV
+.modeSelected-3DmyhH:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
 .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
   color: transparent !important;
   font-weight: bold;
@@ -1574,9 +1580,6 @@ body {
   background-clip: text;
   animation: shine-reversed 7s linear infinite;
   background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(228,175,205,1) 15%, rgba(212,177,211,1) 30%, rgba(201,179,215,1) 45%, rgba(188,181,220,1) 60%, rgba(177,183,224,1) 75%, rgba(163,185,228,1) 90%, rgba(148,187,233,1) 100%);
-}
-.unreadRelevant-2f-VSK {
-  visibility: hidden !important;
 }
 .avatar-2e8lTP {
   position: absolute;
