@@ -669,22 +669,6 @@ body {
   filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(890deg)
     saturate(500%) !important;
 }
-.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP:hover .name-28HaxV,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV,
-.modeUnread-3Cxepe .name-28HaxV,
-.modeUnread-3Cxepe:hover .name-28HaxV,
-.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
-  color: var(--interactive-active);
-  background: linear-gradient(-45deg, #03edf920, #fc28a890) !important;
-  box-shadow: rgb(3 237 249 / 20%) 0px 1px 3px 0px,
-    rgb(3 237 249 / 15%) 0px 3px 10px 2px !important;
-  border-radius: 4px !important;
-  border: transparent !important;
-  background-clip: content-box !important;
-}
 .inner-2pOSmK {
   position: relative;
   -webkit-box-orient: horizontal;
@@ -1548,6 +1532,9 @@ body {
   color: transparent !important;
   font-weight: bold;
   background-size: 300%;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  border: none !important;
   -webkit-background-clip: text;
   -webkit-animation: shine-reversed 7s linear infinite;
   background-clip: text;
