@@ -249,7 +249,7 @@ body {
     box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
 }
 .originalLink-Azwuo9 {
-  position: absolute;
+  position: absolute  !important;
   top: 0;
   right: 0;
   bottom: 0;
@@ -257,6 +257,12 @@ body {
   z-index: 1;
   border: 1px groove #fc28a835 !important;
   border-radius: 8px !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
+}
+.clickable-LksVCf {
+  cursor: pointer;
+  border: transparent !important;
+  border-radius: 10px !important;
   box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
 }
 .grid-1aWVsE {
