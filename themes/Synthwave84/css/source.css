@@ -1722,7 +1722,7 @@ body {
 }
 @keyframes pulse {
   0% {
-    /*transform: scale(1);*/
+    transform: scale(1);
     opacity: 0;
   }
   50% {
