@@ -1,5 +1,5 @@
-<h1 align="center"><a href="https://github.com/CelestialReaver/BetterDiscord/blob/main/plugins/NewsFeed/assets/NewsFeeder-Transparent-Cropped.png"><img src="https://github.com/CelestialReaver/BetterDiscord/blob/main/plugins/NewsFeed/assets/NewsFeeder-Transparent-Cropped.png" title="source: github.com" /></a></h1>
-<p align="center">Get breaking news delivered to you while you Discord.</p>
+<h1 align="center"><a href="https://github.com/CelestialReaver/BetterDiscord/blob/main/plugins/NewsFeed/assets/NewsFeeder-Transparent-Cropped.png"><img src="https://github.com/CelestialReaver/BetterDiscord/blob/main/plugins/NewsFeed/assets/NewsFeeder-Transparent-Cropped.png" width="475" height="300" title="source: github.com" /></a></h1>
+<p align="center">Breaking news delivered while you Discord.</p>
 
 </br>
 
