@@ -1598,7 +1598,8 @@ body {
   animation: none;
 }
 #app-mount .link-39sEB3.private-channels-uid_1673___nitro {
-  display: hidden !important
+  display: hidden !important;
+  visibility: hidden !important;
 }
 .activityEmoji-SDBJp8 {
   margin-right: 4px;
