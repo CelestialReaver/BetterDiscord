@@ -1550,15 +1550,13 @@ body {
 }*/
 .modeUnread-3Cxepe .name-28HaxV {
   color: var(--interactive-active);
-  background: linear-gradient(-45deg, #03edf920, #fc28a890) !important;
+  background: linear-gradient(-45deg, #03edf920, #fc28a850) !important;
   box-shadow: rgb(3 237 249 / 20%) 0px 1px 3px 0px,
     rgb(3 237 249 / 15%) 0px 3px 10px 2px !important;
   border-radius: 4px !important;
   border: transparent !important;
   background-clip: content-box !important;
-  /*animation: pulse 2s infinite !important;*/
   animation: heartbeat 2s infinite;
-  /*will-change: transform !important;*/
 }
 .modeUnread-3Cxepe:hover .name-28HaxV {
   animation-play-state: paused !important;
