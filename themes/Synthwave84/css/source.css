@@ -1567,17 +1567,13 @@ body {
 .modeSelected-3DmyhH:hover .name-28HaxV
 .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
   color: transparent !important;
-  font-weight: bold !important;
+  font-weight: bold;
   background-size: 300%;
-  /*border-radius: 8px !important;
-  border: 1px groove #643da7 !important;
-  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
-    rgb(210 109 208 / 15%) 0px 2px 6px 6px !important;*/
-  -webkit-background-clip: text !important;
-  -webkit-animation: shine-reversed 5s linear infinite !important;
-  background-clip: text !important;
-  animation: shine-reversed 5s linear infinite !important;
-  background-image: linear-gradient(90deg, rgba(3,237,249,1) 0%, rgba(37,210,238,1) 15%, rgba(72,182,227,1) 30%, rgba(105,156,217,1) 45%, rgba(131,135,209,1) 60%, rgba(163,109,199,1) 75%, rgba(208,74,185,1) 90%, rgba(249,42,173,1) 100%) !important;
+  -webkit-background-clip: text;
+  -webkit-animation: shine-reversed 7s linear infinite;
+  background-clip: text;
+  animation: shine-reversed 7s linear infinite;
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(228,175,205,1) 15%, rgba(212,177,211,1) 30%, rgba(201,179,215,1) 45%, rgba(188,181,220,1) 60%, rgba(177,183,224,1) 75%, rgba(163,185,228,1) 90%, rgba(148,187,233,1) 100%);
 }
 .unreadRelevant-2f-VSK {
   visibility: hidden !important;
@@ -1759,6 +1755,29 @@ body {
   
   100% {
       transform: scale(1);
+  }
+}
+@-webkit-keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: 300% center;
+  }
+}
+
+@-webkit-keyframes shine-reversed {
+  to {
+    background-position: -300% center;
+  }
+}
+
+@keyframes shine-reversed {
+  to {
+    background-position: -300% center;
   }
 }
 #app-mount .userPopout-2j1gM4 {
