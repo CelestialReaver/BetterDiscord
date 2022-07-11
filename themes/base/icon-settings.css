@@ -101,6 +101,9 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 .side-2ur1Qk .item-3XjbnG[aria-controls="advanced-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/settings.png");
 }
+.side-2ur1Qk .item-3XjbnG[aria-controls="activity-privacy-tab"]::before {
+  background-image: url("https://i.imgur.com/pjv9srp.png");
+}
 .side-2ur1Qk .item-3XjbnG[aria-controls="game-activity-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/activity.png");
 }
