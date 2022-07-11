@@ -1546,7 +1546,7 @@ body {
   border-radius: 100%;
   z-index: -2;
   animation: pulse 2s infinite;
-  will-change: auto;
+  will-change: transform;
 }*/
 .modeUnread-3Cxepe .name-28HaxV {
   color: var(--interactive-active);
@@ -1564,6 +1564,9 @@ body {
   animation-play-state: paused !important;
   -moz-animation-play-state: paused !important;
   -webkit-animation-play-state: paused !important;
+}
+.unreadRelevant-2f-VSK {
+  visibility: hidden !important;
 }
 .avatar-2e8lTP {
   position: absolute;
