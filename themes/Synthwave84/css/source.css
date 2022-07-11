@@ -1566,15 +1566,15 @@ body {
   -webkit-animation-play-state: paused !important;
 }
 .modeSelected-3DmyhH .name-28HaxV,
+.modeSelected-3DmyhH:hover .name-28HaxV
 .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
   color: transparent !important;
   font-weight: bold !important;
-  font-style: italic !important;
   background-size: 300%;
-  border-radius: 8px !important;
+  /*border-radius: 8px !important;
   border: 1px groove #643da7 !important;
   box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
-    rgb(210 109 208 / 15%) 0px 2px 6px 6px !important;
+    rgb(210 109 208 / 15%) 0px 2px 6px 6px !important;*/
   -webkit-background-clip: text !important;
   -webkit-animation: shine-reversed 5s linear infinite !important;
   background-clip: text !important;
