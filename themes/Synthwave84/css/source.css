@@ -1530,14 +1530,13 @@ body {
 .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
 .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
   color: transparent !important;
-  font-weight: bold !important;
-  font-style: italic !important;
+  font-weight: bold;
   background-size: 300%;
-  -webkit-background-clip: text !important;
-  -webkit-animation: shine-reversed 7s linear infinite !important;
-  background-clip: text !important;
-  animation: shine-reversed 7s linear infinite !important;
-  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(228, 175, 205, 1) 15%, rgba(212, 177, 211, 1) 30%, rgba(201, 179, 215, 1) 45%, rgba(188, 181, 220, 1) 60%, rgba(177, 183, 224, 1) 75%, rgba(163, 185, 228, 1) 90%, rgba(148, 187, 233, 1) 100%) !important;
+  -webkit-background-clip: text;
+  -webkit-animation: shine-reversed 7s linear infinite;
+  background-clip: text;
+  animation: shine-reversed 7s linear infinite;
+  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(228, 175, 205, 1) 15%, rgba(212, 177, 211, 1) 30%, rgba(201, 179, 215, 1) 45%, rgba(188, 181, 220, 1) 60%, rgba(177, 183, 224, 1) 75%, rgba(163, 185, 228, 1) 90%, rgba(148, 187, 233, 1) 100%);
 }
 .avatar-2e8lTP {
   position: absolute;
