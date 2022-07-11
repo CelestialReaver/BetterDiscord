@@ -1557,7 +1557,7 @@ body {
   border: transparent !important;
   background-clip: content-box !important;
   /*animation: pulse 2s infinite !important;*/
-  animation: heartbeat 1s infinite;
+  animation: heartbeat 2s infinite;
   /*will-change: transform !important;*/
 }
 .modeUnread-3Cxepe:hover .name-28HaxV::after {
@@ -1736,7 +1736,7 @@ body {
   }
 
   25% {
-      transform: scale(2);
+      transform: scale(1.1);
   }
   
   50% {
