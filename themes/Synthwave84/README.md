@@ -6,10 +6,11 @@
 ---
 
 ## Features
-* _**Sleek, clean, retro, and unique**_ - one of a kind! 
-* _**Soft neon glow**_ - soothing not distracting! 
-* _**Status marquee built-in**_ - see someone's entire status as it scrolls. Hover over their status to stop and read it! 
-* _**Perfect for dark theme and light theme fans**_ - you'll love it! 
+* _**Sleek, clean, retro, and unique**_ - carefully crafted theme that gives you a clean and unique retro experience. 
+* _**Soft neon glow**_ - soothing not distracting, the neon glow adds to your experience and does not disctract.
+* _**Gentle unread animation**_ - never miss an unread. you will be given a gentle animated visual notification of unreads.
+* _**Status marquee built-in**_ - see someone's entire status as it scrolls. hover over their status to stop the scrolling and read it! 
+* _**Perfect for dark theme and light theme fans**_ - not too bright, not too dark. a well balanced theme.
 
 ## Screenshots
 ![](https://i.imgur.com/RR13Oy4.png)
