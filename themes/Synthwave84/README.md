@@ -22,11 +22,15 @@
 ![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/MarqueeStatus.gif)
 
 ## Screenshots
-![](https://i.imgur.com/RR13Oy4.png)
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave-Preview1.png)
 
-![](https://i.imgur.com/XvskaUM.png)
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave-Preview2.png)
 
-![](https://i.imgur.com/nAKmnqL.png)
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave-Preview3.png)
+
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave-Preview4.png)
+
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave-Preview5.png)
 
 ## Credits
 <a href="https://github.com/CelestialReaver">CelestialReaver</a>
