@@ -1,7 +1,41 @@
 //META{"name":"DateViewer","displayName":"Date Viewer","website":"https://github.com/hammy1/BDStuff/tree/master/Plugins/dateViewer","source":"https://raw.githubusercontent.com/hammy1/BDStuff/master/Plugins/dateViewer/dateViewer.plugin.js"}*//
 
-var DateViewer = (() => {
-	const config = { "info": { "name": "Date Viewer", "authors": [{ "name": "hammy", "discord_id": "256531049222242304", "github_username": "hammy1" }], "version": "0.2.5", "description": "Displays current time, date and day of the week on your right side. The way it's displayed depends on your locale conventions.", "github": "https://github.com/hammy1/BDStuff/tree/master/Plugins/dateViewer", "github_raw": "https://raw.githubusercontent.com/hammy1/BDStuff/master/Plugins/dateViewer/dateViewer.plugin.js" }, "changelog": [{ "title": "Bugs Squashed!", "type": "fixed", "items": ["Actually renders in the memberlist again. But this time properly positioned."] }, { "title": "Improvements!", "type": "improved", "items": ["Now uses discords css variables."] }], "main": "index.js" };
+var NewsFeeder = (() => {
+	const config = {
+		"info": {
+			"name": "NewsFeeder",
+			"authors": [{
+				"name": "CelestialReaver",
+				"discord_id": "8594569799486560298",
+				"github_username": "CelestialReaver"
+			}],
+			"version": "0.0.1",
+			"description": "The latest breaking news delivered to you in Discord.",
+			"github": "https://celestialreaver.github.io/BetterDiscord/Pplugins/NewsFeed/NewsFeed.plugin.js",
+			"github_raw": "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/plugins/NewsFeed/NewsFeed.plugin.js"
+		},
+		"changelog": [{
+			"title": "Initial Release",
+			"type": "Release",
+			"items": ["Please report any issues or recommendations."]
+		},
+		{
+			"title": "Initial Release",
+			"type": "Release",
+			"items": ["Please report any issues or recommendations."]
+		}],
+		"main": "index.js"
+	};
+
+	const url = 'https://newsapi.org/v2/top-headlines?' +
+		'country=us&' +
+		'apiKey=2caa6ff544204247a37b69c8dacb5120';
+
+	var req = new Request(url);
+	fetch(req)
+		.then(function (response) {
+			console.log(response.json());
+		})
 
 	return !global.ZeresPluginLibrary ? class {
 		getName() { return config.info.name; }
@@ -62,7 +96,7 @@ var DateViewer = (() => {
 				}
 
 				update() {
-					const date = new Date();
+					const NewsFeeder = new Date();
 					const lang = document.documentElement.lang;
 					this.setState({
 						time: date.toLocaleTimeString(lang),
@@ -176,4 +210,4 @@ var DateViewer = (() => {
 	})(global.ZeresPluginLibrary.buildPlugin(config));
 })();
 
-module.exports = DateViewer;
+module.exports = NewsFeeder;
