@@ -1565,6 +1565,21 @@ body {
   -moz-animation-play-state: paused !important;
   -webkit-animation-play-state: paused !important;
 }
+.modeSelected-3DmyhH .name-28HaxV,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  border-radius: 8px !important;
+  border: 1px groove #643da7 !important;
+  box-shadow: rgb(210 109 208 / 30%) 0px 1px 2px 0px,
+    rgb(210 109 208 / 15%) 0px 2px 6px 6px !important;
+  -webkit-background-clip: text;
+  -webkit-animation: shine-reversed 5s linear infinite;
+  background-clip: text;
+  animation: shine-reversed 5s linear infinite;
+  background-image: linear-gradient(90deg, rgba(3,237,249,1) 0%, rgba(37,210,238,1) 15%, rgba(72,182,227,1) 30%, rgba(105,156,217,1) 45%, rgba(131,135,209,1) 60%, rgba(163,109,199,1) 75%, rgba(208,74,185,1) 90%, rgba(249,42,173,1) 100%);
+}
 .unreadRelevant-2f-VSK {
   visibility: hidden !important;
 }
