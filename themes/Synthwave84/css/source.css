@@ -1523,21 +1523,32 @@ body {
 .unreadRelevant-2f-VSK {
   visibility: hidden !important;
 }
-.modeConnected-NrO4cP .name-28HaxV,
+/*.modeConnected-NrO4cP .name-28HaxV,
 .modeConnected-NrO4cP:hover .name-28HaxV,
 .modeSelected-3DmyhH .name-28HaxV,
 .modeSelected-3DmyhH:hover .name-28HaxV,
 .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV,*/
+.channelName-3KPsGw:focus {
   color: transparent !important;
-  font-weight: bold;
-  background-size: 300%;
-  -webkit-background-clip: text;
-  -webkit-animation: shine-reversed 7s linear infinite;
-  background-clip: text;
-  animation: shine-reversed 7s linear infinite;
-  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(228, 175, 205, 1) 15%, rgba(212, 177, 211, 1) 30%, rgba(201, 179, 215, 1) 45%, rgba(188, 181, 220, 1) 60%, rgba(177, 183, 224, 1) 75%, rgba(163, 185, 228, 1) 90%, rgba(148, 187, 233, 1) 100%);
+  font-weight: bold !important;
+  background-size: 300% !important;
+  -webkit-background-clip: text !important;
+  -webkit-animation: shine-reversed 7s linear infinite !important;
+  background-clip: text !important;
+  animation: shine-reversed 7s linear infinite !important;
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(91,90,229,1) 15%, rgba(116,87,210,1) 30%, rgba(143,84,189,1) 45%, rgba(173,80,167,1) 60%, rgba(197,77,149,1) 75%, rgba(223,74,129,1) 90%, rgba(252,70,107,1) 100%) !important;
 }
+
+.modeConnected-NrO4cP .name-28HaxV,
+.modeConnected-NrO4cP:hover .name-28HaxV,
+.modeSelected-3DmyhH .name-28HaxV,
+.modeSelected-3DmyhH:hover .name-28HaxV,
+.modeUnread-3Cxepe .name-28HaxV,
+.modeUnread-3Cxepe:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV,
+
 .avatar-2e8lTP {
   position: absolute;
   left: 16px;
