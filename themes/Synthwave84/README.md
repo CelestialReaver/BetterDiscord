@@ -1,9 +1,7 @@
-<h1 align="center"><a href="https://imgur.com/U6yhTRx"><img src="https://i.imgur.com/U6yhTRx.png" title="source: imgur.com" /></a></h1>
+<h1 align="center"><a href="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/SynthwaveIntro-BetterDiscord.gif"><img src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/SynthwaveIntro-BetterDiscord.gif" title="source: github.com" /></a></h1>
 <p align="center">A unique retro theme that provides the perfect glow and vibe to your Discord.</p>
 
-![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/SynthwaveIntro.gif)
-
----
+</br>
 
 ## Features
 * _**Sleek, clean, retro, and unique**_ - carefully crafted theme that gives you a clean and unique retro experience. 
@@ -13,7 +11,7 @@
 * _**Perfect for dark theme and light theme fans**_ - not too bright, not too dark. a well balanced theme.
 
 ## Unique Features
-<p align="left"><b>Unread Notifications</b>:</p>
+<p align="left"><b>Gentle Unread Animation</b>:</p>
 
 ![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/heartbeatUnread.gif)
 
