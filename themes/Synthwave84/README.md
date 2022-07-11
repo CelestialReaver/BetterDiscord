@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://imgur.com/U6yhTRx"><img src="https://i.imgur.com/U6yhTRx.png" title="source: imgur.com" /></a></h1>
 <p align="center">A unique retro theme that provides the perfect glow and vibe to your Discord.</p>
 
-![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave84.gif)
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/synthwaveCoverGif.gif)
 
 ---
 
