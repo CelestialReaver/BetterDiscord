@@ -240,10 +240,10 @@ body {
   color: #ffffff !important;
 }
 .message-embed > * {
-    --background-secondary: rgba(0, 0, 0, 0.1);
-    --background-secondary-alt: rgba(0, 0, 0, 0.1);
+    --background-secondary: var(--backgroundColor02) !important;
+    --background-secondary-alt: var(--backgroundColor01) !important;
     padding-right: 48px;
-    background: none;
+    background: var(--backgroundColor01) !important;
     border: 1px groove #fc28a835 !important;
     border-radius: 8px !important;
     box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
