@@ -13,10 +13,12 @@
 * _**Perfect for dark theme and light theme fans**_ - not too bright, not too dark. a well balanced theme.
 
 ## Unique Features
-Unread Notifications:
+<p align="left"><b>Unread Notifications</b>:</p>
+
 ![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/heartbeatUnread.gif)
 
-Status Marquee:
+<p align="left"><b>Status Marquee</b>:</p>
+
 ![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/MarqueeStatus.gif)
 
 ## Screenshots
