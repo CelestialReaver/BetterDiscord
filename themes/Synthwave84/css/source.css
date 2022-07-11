@@ -1597,6 +1597,9 @@ body {
 #app-mount .unread-36eUEm:hover:after {
   animation: none;
 }
+.private-channels-uid_1673___nitro {
+  display: hidden !important
+}
 .activityEmoji-SDBJp8 {
   margin-right: 4px;
   width: 14px;
