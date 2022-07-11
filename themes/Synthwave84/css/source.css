@@ -1530,12 +1530,9 @@ body {
 .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
 .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
   color: transparent !important;
-  font-weight: bold;
+  font-weight: bold !important;
   font-style: italic !important;
   background-size: 300%;
-  border-radius: 0px !important;
-  box-shadow: none !important;
-  border: none !important;
   -webkit-background-clip: text !important;
   -webkit-animation: shine-reversed 7s linear infinite !important;
   background-clip: text !important;
