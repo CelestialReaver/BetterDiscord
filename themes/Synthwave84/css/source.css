@@ -1521,33 +1521,6 @@ body {
 #app-mount .wrapper-2fEmwW .total-1c5KCN:after {
   border-right-color: var(--backgroundColor01) !important;
 }
-/*#app-mount .unread-36eUEm {
-  height: 8px;
-  width: 8px;
-  border-radius: 4px;
-  left: 4px;
-  -webkit-transition: box-shadow 0.2s ease;
-  -ms-transition: box-shadow 0.2s ease;
-  -o-transition: box-shadow 0.2s ease;
-  -moz-transition: box-shadow 0.2s ease;
-  transition: box-shadow 0.2s ease;
-  background-color: #ffffff00;
-  z-index: 10;
-  position: absolute;
-}
-#app-mount .unread-36eUEm:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--mainColor);
-  border-radius: 100%;
-  z-index: -2;
-  animation: pulse 2s infinite;
-  will-change: transform;
-}*/
 .modeUnread-3Cxepe .name-28HaxV {
   color: var(--interactive-active);
   background: linear-gradient(-45deg, #03edf920, #fc28a850) !important;
