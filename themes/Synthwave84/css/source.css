@@ -1597,7 +1597,7 @@ body {
 #app-mount .unread-36eUEm:hover:after {
   animation: none;
 }
-#app-mount .link-39sEB3.private-channels-uid_1673___nitro {
+#app-mount .link-39sEB3 .private-channels-uid_1673___nitro {
   display: hidden !important;
   visibility: hidden !important;
 }
