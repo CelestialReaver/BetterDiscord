@@ -1726,8 +1726,8 @@ body {
     opacity: 0;
   }
   50% {
-    transform: scale(1.4);
-    opacity: 0.4;
+    transform: scale(1.2);
+    opacity: 0;
   }
 }
 #app-mount .userPopout-2j1gM4 {
