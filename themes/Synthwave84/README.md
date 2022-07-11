@@ -12,6 +12,13 @@
 * _**Status marquee built-in**_ - see someone's entire status as it scrolls. hover over their status to stop the scrolling and read it! 
 * _**Perfect for dark theme and light theme fans**_ - not too bright, not too dark. a well balanced theme.
 
+## Unique Features
+Unread Notifications:
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/heartbeatUnread.gif)
+
+Status Marquee:
+![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/MarqueeStatus.gif)
+
 ## Screenshots
 ![](https://i.imgur.com/RR13Oy4.png)
 
