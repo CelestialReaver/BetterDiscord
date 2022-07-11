@@ -255,7 +255,6 @@ body {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background: var(--backgroundColor01) !important;
   border: 1px groove #fc28a835 !important;
   border-radius: 8px !important;
   box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
