@@ -38,22 +38,21 @@ var NewsFeeder = (() => {
 		"main": "index.js"
 	};
 
-	const url = 'https://newsapi.org/v2/top-headlines?' +
+	var url = 'https://newsapi.org/v2/top-headlines?' +
 		'country=us&' +
 		'apiKey=2caa6ff544204247a37b69c8dacb5120';
-
 	var req = new Request(url);
 	fetch(req)
 		.then(function (response) {
 			console.log(response.json());
-		})
+		});
 
 	return !global.ZeresPluginLibrary ? class {
 		getName() { return config.info.name; }
 		getAuthor() { return config.info.authors.map(a => a.name).join(", "); }
 		getDescription() { return config.info.description; }
 		getVersion() { return config.info.version; }
-		load() { window.BdApi.alert("Library Missing", `The library plugin needed for ${config.info.name} is missing.<br /><br /> <a href="https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js" target="_blank">Click here to download the library!</a>`); }
+		load() { window.BdApi.alert("Library Missing", `The library plugin needed for ${config.info.name} is missing.<br /><br /> <a href="https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js" target="_blank">Click here to download.</a>`); }
 		start() { }
 		stop() { }
 	} : (([Plugin, Api]) => {
@@ -107,7 +106,7 @@ var NewsFeeder = (() => {
 				}
 
 				update() {
-					const NewsFeeder = new Date();
+					const NewsFeeder = new NewsA();
 					const lang = document.documentElement.lang;
 					this.setState({
 						time: date.toLocaleTimeString(lang),
