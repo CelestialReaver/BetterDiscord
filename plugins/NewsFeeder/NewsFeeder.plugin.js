@@ -1,4 +1,15 @@
-//META{"name":"DateViewer","displayName":"Date Viewer","website":"https://github.com/hammy1/BDStuff/tree/master/Plugins/dateViewer","source":"https://raw.githubusercontent.com/hammy1/BDStuff/master/Plugins/dateViewer/dateViewer.plugin.js"}*//
+/**
+ * @name NewsFeeder
+ * @author CelestialReaver
+ * @authorId 859547769798656001
+ * @version 0.0.1
+ * @description Breaking news delivered to you in Discord.
+ * @invite 0Tmfo5ZbORCRqbAd
+ * @buymeacoffee https://www.buymeacoffee.com/celestialreaver
+ * @website https://github.com/CelestialReaver
+ * @source https://github.com/CelestialReaver/BetterDiscord/tree/main/plugins/NewsFeeder
+ * @updateUrl https://celestialreaver.github.io/BetterDiscord/plugins/NewsFeeder/NewsFeeder.plugin.js
+ */
 
 var NewsFeeder = (() => {
 	const config = {
@@ -6,7 +17,7 @@ var NewsFeeder = (() => {
 			"name": "NewsFeeder",
 			"authors": [{
 				"name": "CelestialReaver",
-				"discord_id": "8594569799486560298",
+				"discord_id": "859547769798656001",
 				"github_username": "CelestialReaver"
 			}],
 			"version": "0.0.1",
