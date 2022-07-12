@@ -10,7 +10,7 @@ var NewsFeeder = (() => {
 				"github_username": "CelestialReaver"
 			}],
 			"version": "0.0.1",
-			"description": "The latest breaking news delivered to you in Discord.",
+			"description": "Breaking news delivered to you in Discord.",
 			"github": "https://celestialreaver.github.io/BetterDiscord/Pplugins/NewsFeed/NewsFeed.plugin.js",
 			"github_raw": "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/plugins/NewsFeed/NewsFeed.plugin.js"
 		},
