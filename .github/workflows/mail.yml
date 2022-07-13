@@ -1,0 +1,153 @@
+name: build, test, publish
+
+on:
+  push:
+    branches:
+      - development
+      - feature/*
+  workflow_dispatch:
+    inputs:
+      plugin:
+        description: What plugin to build. Omit for all.
+        required: false
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: compile plugins
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: clean working directory
+        run: rm -rf /home/runner/work/${{ github.repository }}
+
+      - name: checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: retrieve latest bdbuilder version
+        run: |
+          echo '//npm.pkg.github.com/:_authToken=${{ secrets.GH_NPM_TOKEN }}' >> .npmrc
+          npm i @kyza/bdbuilder@latest
+
+      - name: setup nodejs
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: detect changed files
+        id: files
+        uses: jitterbit/get-changed-files@v1
+        continue-on-error: true # needed for force-push support
+
+      - name: build plugins
+        run: >-
+          .github/workflows/run-bdbuilder
+          "--trigger=${{ github.event_name }}"
+          "--plugin=${{ github.event.inputs.plugin }}"
+          ${{ steps.files.outputs.all }} BetterBannedUsers
+
+      - name: stage build
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-artifact
+          path: .
+          retention-days: 1
+
+  test:
+    name: test plugins (on *stable* discord)
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+
+      - name: setup nodejs
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: npm i
+        run: |
+          echo '//npm.pkg.github.com/:_authToken=${{ secrets.GH_NPM_TOKEN }}' >> .npmrc
+          npm i
+
+      - name: install discord
+        run: >-
+          curl --fail -L "https://discord.com/api/download?platform=linux&format=tar.gz"
+          | sudo tar -xz --directory /opt
+          && sudo ln -sf /opt/Discord/Discord /usr/bin/Discord
+
+      - name: download discord_desktop_core
+        run: npm exec -- xvfb-maybe /usr/bin/Discord 2>&1 | tee module-download.log
+        timeout-minutes: 1
+        continue-on-error: true
+        env:
+          ELECTRON_ENABLE_LOGGING: true
+          ELECTRON_ENABLE_STACK_DUMPING: true
+          ELECTRON_LOG_ASAR_READS: true
+
+      - name: install BetterDiscord
+        run: |
+          DISCORD_HOST=$(grep -m 1 ^Discord module-download.log | cut -d ' ' -f 2)
+          sudo killall -wv -9 Discord
+          echo 'require("/home/runner/.config/BetterDiscord/data/betterdiscord.asar");module.exports=require("./core.asar");' \
+            > '/home/runner/.config/discord/'"$DISCORD_HOST"'/modules/discord_desktop_core/index.js'
+          echo '✅ Injection successful'
+          mkdir -p /home/runner/.config/BetterDiscord/data/stable/
+          .github/workflows/download-bd /home/runner/.config/BetterDiscord/data/betterdiscord.asar
+          echo '{ "general": { "download": false } }' > /home/runner/.config/BetterDiscord/data/stable/emotes.json
+          echo '✅ Emotes download disabled'
+
+      - name: run discord
+        run: npm exec -- xvfb-maybe /usr/bin/Discord 2>&1 | tee discord.log
+        timeout-minutes: 3
+        env:
+          ELECTRON_ENABLE_LOGGING: true
+          ELECTRON_ENABLE_STACK_DUMPING: true
+          ELECTRON_LOG_ASAR_READS: true
+
+      - name: uninstall discord
+        if: ${{ always() }}
+        run: |
+          sudo killall -wv -9 Discord
+          rm -rf /home/runner/.config/discord
+          sudo rm -rf /opt/Discord
+          sudo rm /usr/bin/Discord
+
+  publish:
+    name: publish plugins
+    runs-on: ubuntu-latest
+    needs: test
+    if: ${{ 'refs/heads/development' == github.ref }}
+
+    steps:
+      - name: restore repo
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: apply build
+        uses: actions/download-artifact@v2
+        with:
+          name: build-artifact
+          path: .
+
+      - name: commit
+        run: |
+          git config advice.addIgnoredFile false
+          git add --no-all ./**
+          git config --local user.email "actions@github.com"
+          git config --local user.name "PluginBuilder"
+          git commit -m "publish build" || true
+
+      - name: push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
+          branch: master # *release* branch

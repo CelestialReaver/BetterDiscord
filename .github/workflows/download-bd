@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+
+// noinspection SpellCheckingInspection
+const phin = require("phin");
+const fs = require("fs");
+
+// https://github.com/BetterDiscord/Installer/blob/1bf733dbb989c00ecf17a755ef931fa961195812/src/renderer/actions/install.js#L48-L68
+const getJSON = phin.defaults({ method: "GET", parse: "json", headers: { "User-Agent": "BetterDiscord Plugin Test-Runner" } });
+const downloadFile = phin.defaults({ method: "GET", followRedirects: true, headers: { "User-Agent": "BetterDiscord Plugin Test-Runner", "Accept": "application/octet-stream" } });
+const asarPath = process.argv[2];
+async function downloadAsar() {
+    let downloadUrl = "https://api.github.com/repos/rauenzi/BetterDiscordApp/releases";
+    try {
+        const response = await getJSON(downloadUrl);
+        const releases = response.body;
+        const asset = releases[0].assets.find(a => a.name === "betterdiscord.asar");
+        downloadUrl = asset.url;
+
+        const resp = await downloadFile(downloadUrl);
+        await fs.promises.writeFile(asarPath, resp.body);
+        console.log("✅ Package downloaded");
+    }
+    catch (err) {
+        console.error(`❌ Failed to download package ${downloadUrl}`);
+        console.error(`❌ ${err.message}\n${err.stack}`);
+        throw "not funny";
+    }
+}
+
+downloadAsar()
+    .then(() => {
+        process.exit(0);
+    })
+    .catch(() => {
+        process.exit(1);
+    });
