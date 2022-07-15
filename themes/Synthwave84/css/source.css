@@ -28,6 +28,7 @@
   --rs-phone-color: var(--rs-online-color);
   --customFont: "Whitney";
   --rs-version: "1.0.0";
+  --logo-gif: url('https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/SynthwaveIntro.gif');
 }
 /*#app-mount .appMount-2yBXZl {
   background: linear-gradient(-180deg, #03edf920, #fc28a890) !important;
@@ -160,6 +161,17 @@ body {
   font-family: var(--customFont) !important;
   border-bottom: none !important;
   background: var(--backgroundColor02) !important;
+}
+.container-1eFtFS::before {
+  content: "";
+  position: fixed;
+  top: 220px;
+  bottom: 85px;
+  right: 70px;
+  z-index: -1;
+  width: 300px;
+  border-radius: var(--border-radius);
+  background: var(--logo-gif) bottom/40% no-repeat;
 }
 .ctaBar-Nhk8yY {
   background-repeat: no-repeat;
