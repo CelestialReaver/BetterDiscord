@@ -41,6 +41,7 @@
 
 ![](https://i.imgur.com/MA2fwa2.png)
 
-<audio controls autoplay loop preload="metadata" >
-    <source src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave84.mp3" />
-</audio>
+<video controls autoplay>
+  <source src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Sythnwave84.mp4" type="video/mp4">
+</video>
+
