@@ -44,4 +44,3 @@
 <video controls autoplay>
   <source src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Sythnwave84.mp4" type="video/mp4">
 </video>
-
