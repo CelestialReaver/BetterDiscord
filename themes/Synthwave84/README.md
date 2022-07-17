@@ -41,4 +41,4 @@
 
 ![](https://i.imgur.com/MA2fwa2.png)
 
-<h1 align="center"><audio controls autoplay loop preload="auto"><source src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Sythnwave84.mp3" type="audio/mpeg"></audio></h1>
+<h3 align="center"><audio controls autoplay loop preload="auto"><source src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Sythnwave84.mp3" type="audio/mpeg"></audio></h3>
