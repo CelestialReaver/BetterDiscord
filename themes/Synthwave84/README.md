@@ -36,11 +36,5 @@
 * If you need support, please ask in the _#theme-support_ channel on the <a href="https://discord.gg/0Tmfo5ZbORCRqbAd">BetterDiscord</a> Discord server.
 * If you like this theme, please consider giving it a <a href="https://betterdiscord.app/theme/Synthwave%20%2784">like</a>. It will help other people discover this theme.
 
-## Credits
-<a href="https://github.com/CelestialReaver">CelestialReaver</a>
 
-![](https://i.imgur.com/MA2fwa2.png)
-
-<video width="300" height="200" autoplay="autoplay">
-  <source src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave84.mp4" type="video/mp4" />
-</video>
+https://user-images.githubusercontent.com/331055/179427239-603aa1ae-2c8f-49d3-b128-2a3b6b74183c.mp4
