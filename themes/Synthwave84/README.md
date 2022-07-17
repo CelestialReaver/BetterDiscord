@@ -42,5 +42,5 @@
 ![](https://i.imgur.com/MA2fwa2.png)
 
 <video width="300" height="200" autoplay="autoplay">
-  <source src="assets/Synthwave84.mp4" type="video/mp4" />
+  <source src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/Synthwave84.mp4" type="video/mp4" />
 </video>
