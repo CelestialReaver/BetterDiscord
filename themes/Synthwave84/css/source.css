@@ -2,7 +2,35 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/font.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
-:root, .theme-dark {
+:root {
+  --mainColor: #03edf9;
+  --backgroundColor01: #2a2139;
+  --backgroundColor02: #241b2f;
+  --backgroundCode: #262335;
+  --backgroundName: rgba(0, 0, 0, 0.2);
+  --gradientColor01: #36f9f6;
+  --gradientColor02: #f92aad;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #72f1b8;
+  --rs-idle-color: #fede5d;
+  --rs-dnd-color: #fe4450;
+  --rs-offline-color: #b6b1b1;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #b6b1b1;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+  --customFont: "Whitney";
+  --rs-version: "1.0.2";
+  --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
+}
+/*:root, .theme-dark {
   --mainColor: #03edf9;
   --backgroundColor01: #2a2139;
   --backgroundColor02: #241b2f;
@@ -65,8 +93,9 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  font-size: 15px !important;
   color: #fff;
-}
+}*/
 /*.theme-light {
   --customFont: "aveden" !important;
   font-weight: normal;
