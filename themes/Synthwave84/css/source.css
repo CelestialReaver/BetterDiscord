@@ -11,6 +11,8 @@
   --backgroundName: rgba(0, 0, 0, 0.2);
   --gradientColor01: #36f9f6;
   --gradientColor02: #f92aad;
+  --header-primary: var(--backgroundColor02);
+  --header-secondary: var(--backgroundColor01);
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 3px;
   --rs-large-spacing: 4px;
