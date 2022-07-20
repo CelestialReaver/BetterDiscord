@@ -27,7 +27,7 @@
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
   --customFont: "Whitney";
-  --rs-version: "1.0.1";
+  --rs-version: "1.0.2";
   --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
 }
 :root, .theme-light {
@@ -55,7 +55,7 @@
   --rs-phone-visible: block;
   --rs-phone-color: var(--rs-online-color);
   --customFont: "aveden";
-  --rs-version: "1.0.1";
+  --rs-version: "1.0.2";
   --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
   --text-normal: #fff;
   --text-muted: #5e6772;
