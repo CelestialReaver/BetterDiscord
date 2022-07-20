@@ -1,3 +1,5 @@
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/aveden.woff");
+
 :root {
   --font-primary: var(--customFont), "Whitney";
   --font-display: var(--customFont), "Whitney";
