@@ -31,7 +31,12 @@
   --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
 }
 .theme-light {
-  --customFont: "aveden";
+  --customFont: "aveden" !important;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  color: #fff !important;
+  font-size: 14px !important;
 }
 #app-mount .body {
   line-height: 1;
