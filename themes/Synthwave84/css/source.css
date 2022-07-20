@@ -57,6 +57,11 @@
   --customFont: "aveden";
   --rs-version: "1.0.1";
   --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
+  --text-normal: #fff;
+  --text-muted: #5e6772;
+  --chat-input-container-background: var(--backgroundColor01);
+  --input-background: var(--backgroundColor01);
+  --input-placeholder-text: #fff;
   font-weight: normal;
   font-style: normal;
   font-display: swap;
