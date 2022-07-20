@@ -31,7 +31,7 @@
   --logo-gif: url('https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/SynthwaveIntro.gif');
 }
 .theme-light {
-  --customFont:"Aveden";
+  --customFont:"aveden";
 }
 #app-mount .body {
   line-height: 1;
