@@ -1,11 +1,11 @@
-@import url("https://crearts-community.github.io/Friends-Grid/src/source.css");
+/*@import url("https://crearts-community.github.io/Friends-Grid/src/source.css");*/
 @import url("https://mr-miner1.github.io/Better-Badges/BetterBadges(BD).theme.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
 @import url("https://NYRI4.github.io/Discolored/main.css");
 
 /*Friends-Grid Customizations*/
-:root {
+/*:root {
     --FA-version: "v1.0.10-CelestialReaver";
 
     --FG-row: 1fr 1fr 1fr;
@@ -105,4 +105,4 @@
     --FG-cards-button-icon-hover: var(--activity-card-background);
     --FG-cards-button-background-normal: rgba(255, 255, 255, 0.3);
     --FG-cards-button-background-hover: rgba(255, 255, 255, 0.6);
-}
+}*/
