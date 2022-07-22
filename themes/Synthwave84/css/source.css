@@ -338,7 +338,7 @@ body {
   background-color: var(--backgroundColor01) !important;
 }
 
-.menu-1QACrS,
+/*.menu-1QACrS,
 .emojiPicker-6YCk8a,
 .browser-mnQ1T7,
 .messagesPopoutWrap-3zryHW,
@@ -359,7 +359,7 @@ body {
   100% {
     transform: scaleY(1);
   }
-}
+}*/
 
 .medium-2NClDM .input-2m5SfJ,
 .medium-2NClDM .tag-Pxnlt9 {
@@ -897,7 +897,7 @@ body {
   filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(890deg) saturate(500%) !important;
 }
 
-.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+/*.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
   content: " (" attr(aria-label) ")";
   color: var(--text-muted);
   font-size: 0.625rem;
@@ -937,7 +937,7 @@ body {
 .base-2v-uc0:hover {
   transition: all 0s;
   transform: scale(1.02);
-}
+}*/
 
 .inner-2pOSmK {
   position: relative;
@@ -2070,7 +2070,7 @@ body {
   /*animation: spinHome 0.8s ease;*/
 }
 
-@keyframes spinHome {
+/*@keyframes spinHome {
   0% {
     transform: rotate(0deg);
   }
@@ -2086,7 +2086,7 @@ body {
   100% {
     transform: rotate(360deg);
   }
-}
+}*/
 
 #app-mount .folder-241Joy {
   background-color: transparent !important;
