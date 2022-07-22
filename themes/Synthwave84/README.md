@@ -41,5 +41,3 @@
 * If you like this theme, please consider giving it a <a href="https://betterdiscord.app/theme/Synthwave%20%2784">like</a>. It will help other people discover this theme.
 
 ![](https://i.imgur.com/MA2fwa2.png)
-
-https://user-images.githubusercontent.com/331055/179427239-603aa1ae-2c8f-49d3-b128-2a3b6b74183c.mp4
