@@ -3,11 +3,20 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
 @import url("https://NYRI4.github.io/Discolored/main.css");
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+
+/*Server Rings - Gibbu#1211*/
+:root {
+    --server-unread-colour: rgba(3, 237, 249, 0.13);
+    --server-hover-colour: rgb(100, 61, 167);
+    --server-selected-colour: rgb(210 109 208);
+    --server-spacing: 16px;
+    --server-glow-intensity: 1;
+}
 
 /*Friends-Grid Customizations*/
 /*:root {
     --FA-version: "v1.0.10-CelestialReaver";
-
     --FG-row: 1fr 1fr 1fr;
 
     --FG-search-radius: 8px;
