@@ -315,6 +315,27 @@ body {
 .menu-1QACrS:hover {
   background-color: var(--backgroundColor01) !important;
 }
+.menu-1QACrS,
+.emojiPicker-6YCk8a,
+.browser-mnQ1T7,
+.messagesPopoutWrap-3zryHW,
+.wrapper-1NB3WY,
+.container-3u7RcY,
+.container-2o3qEW,
+.container-2ebMPP,
+.userPopout-2j1gM4 {
+  animation: custom-menu-animation 250ms ease;
+  transform-origin: top;
+}
+@keyframes custom-menu-animation {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
 .medium-2NClDM .input-2m5SfJ,
 .medium-2NClDM .tag-Pxnlt9 {
   font-size: 16px;
@@ -808,6 +829,40 @@ body {
   > .sprite-2lxwfc {
   filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(890deg)
     saturate(500%) !important;
+}
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+  content: " (" attr(aria-label) ")";
+  color: var(--text-muted);
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: lowercase;
+}
+.edited-1v5nT8:not(.message-translate-indicator) {
+	display: none;
+}
+.assetsLargeImageSpotify-17ME3M {
+	animation: spin 3s linear infinite;
+	border-radius: 50%
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.embedVideoImageComponent-3Clc3C {
+  justify-content: unset;
+  align-items: unset;
+}
+.base-2v-uc0 {
+  transition: all 0.5s;
+}
+.base-2v-uc0:hover {
+  transition: all 0s;
+  transform: scale(1.02);
 }
 .inner-2pOSmK {
   position: relative;
@@ -1829,6 +1884,21 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  animation: spinHome 0.8s ease;
+}
+@keyframes spinHome {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  70% {
+    transform: rotate(380deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  } 
 }
 #app-mount .folder-241Joy {
   background-color: transparent !important;
