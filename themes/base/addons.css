@@ -11,7 +11,7 @@
     --server-hover-colour: rgb(100, 61, 167);
     --server-selected-colour: rgb(210 109 208);
     --server-spacing: 16px;
-    --server-glow-intensity: 1;
+    --server-glow-intensity: 0.5;
 }
 
 /*Friends-Grid Customizations*/
