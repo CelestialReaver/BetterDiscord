@@ -1062,7 +1062,17 @@ body {
 #app-mount .members-3WRCEx > div,
 #app-mount .modalTitle-2skSKy,
 #app-mount .nowPlayingColumn-1eCBCN,
-#app-mount .panels-3wFtMD,
+.panels-3wFtMD:not(:hover) > :not(:last-child), .panels-3wFtMD:not(:hover) > .wrapper-3Hk90B ~ div  {
+  background-color: var(--backgroundColor02) !important;
+  -webkit-box-shadow: var(--elevation-high) !important;
+  box-shadow: var(--elevation-high) !important;
+  border-radius: 3px !important;
+  background-clip: content-box !important;
+  padding: 0;
+	overflow: hidden;
+	height: 0;
+	min-height: 0;
+}
 #app-mount .privateChannels-oVe7HL,
 #app-mount .scroller-1TOeMq,
 #app-mount .scroller-29cQFV,
