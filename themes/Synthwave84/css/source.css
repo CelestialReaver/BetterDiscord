@@ -2067,7 +2067,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  animation: spinHome 0.8s ease;
+  /*animation: spinHome 0.8s ease;*/
 }
 
 @keyframes spinHome {
