@@ -19,7 +19,7 @@
 
 ![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/MarqueeStatus.gif)
 
-<p align="left"><b>Spotify Controls Clean and Animated</b>:</p>
+<p align="left"><b>Clean and Animated Spotify Controls </b>:</p>
 
 ![](https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Synthwave84/assets/SpotifyControls.gif)
 
