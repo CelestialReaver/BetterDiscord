@@ -138,12 +138,17 @@ module.exports = (() => {
 			start() { }
 			stop() { }
 		}
-		: (([Plugin, Library]) => {
-			const { Settings } = Library;
+		: (([Plugin, Api]) => {
+					const plugin = (Plugin, Library) => {
+			const { Toasts, Logger, Patcher, Settings, Utilities, ReactTools, DOMTools, DiscordModules, WebpackModules, DiscordSelectors, PluginUtilities } = Library;
 			const selectedMusic ="https://cdn.discordapp.com/attachments/888564315555233803/1000480968999706624/Synthwave.mp3";
 			const playlist = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1457406223&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false";
 			
 			return class StreamMusic extends Plugin {
+				initialize() {
+					this.initialized = true;
+					Toasts.info(`${config.info.name} ${config.info.version} has started!`, { timeout: 2e3 });
+				}
 				start() {
 					this.volume = BdApi.loadData(config.info.name, "volume") ?? 0.25;
 					this.music =
@@ -164,38 +169,47 @@ module.exports = (() => {
 				}
 				stop() {
 					window.sm.pause();
+					Toasts.info(`${config.info.name} ${config.info.version} has stopped!`, { timeout: 2e3 });
 				}
 				getSettingsPanel() {
 					return Settings.SettingPanel.build(
 						this.saveSettings.bind(this),
-						new Settings.Slider(
-							"Volume",
-							"Volume control for StreamMusic.",
-							0,
-							1,
-							this.volume,
-							(e) => {
-								this.volume = e;
-								window.sm.volume = this.volume;
-							}
-						),
-						new Settings.Textbox(
-							"Music",
-							"Put the URL of music you'd like to play. Leave blank for default music.",
-							this.music !== selectedMusic ? this.music : null,
-							(e, d) => {
-								this.music = e;
-								this.currentMusic();
-							},
-							{
-								placeholder:
-									"Paste the URL of the music you'd like to play here.",
-							}
-						),
-						new Settings.Button(
-							"Play",
-							
-						)
+							new SettingGroup('Configurations').append(
+								new Settings.Slider(
+									"Volume",
+									"Volume control for StreamMusic.",
+									0,
+									1,
+									this.volume,
+									(e) => {
+										this.volume = e;
+										window.sm.volume = this.volume;
+									}
+								),
+								new Settings.Textbox(
+									"Music",
+									"Put the URL of music you'd like to play. Leave blank for default music.",
+									this.music !== selectedMusic ? this.music : null,
+									(e, d) => {
+										this.music = e;
+										this.currentMusic();
+									},
+									{
+										placeholder:
+											"Paste the URL of the music you'd like to play here.",
+									}
+								),
+							),
+							/*new SettingsGroup('Controls').append(
+								new Settings.Textbox(
+									"Hi",
+									"This is a placeholder for a Controls.",
+									{
+										placeholder:
+											"Paste the URL of the music you'd like to play here.",
+									}
+								),
+							),*/
 					);
 				}
 				saveSettings() {
@@ -203,7 +217,8 @@ module.exports = (() => {
 					BdApi.saveData(config.info.name, "music", this.music);
 				}
 			};
-			return plugin(Plugin, Library);
+		};
+			return plugin(Plugin, Api);
 		})(global.ZeresPluginLibrary.buildPlugin(config));
 })();
 /*@end@*/
