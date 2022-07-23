@@ -140,14 +140,14 @@ module.exports = (() => {
 		}
 		: (([Plugin, Library]) => {
 			const { Settings } = Library;
-			const defaultMp3 ="https://cdn.discordapp.com/attachments/888564315555233803/1000480968999706624/Synthwave.mp3";
+			const selectedMusic ="https://cdn.discordapp.com/attachments/888564315555233803/1000480968999706624/Synthwave.mp3";
 			const playlist = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1457406223&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false";
 			
 			return class StreamMusic extends Plugin {
 				start() {
 					this.volume = BdApi.loadData(config.info.name, "volume") ?? 0.25;
 					this.music =
-						BdApi.loadData(config.info.name, "music") ?? defaultMp3;
+						BdApi.loadData(config.info.name, "music") ?? selectedMusic;
 					window.sm = new Audio(this.music);
 					window.sm.pause();
 					window.sm.loop = true;
@@ -156,7 +156,7 @@ module.exports = (() => {
 				}
 				updateMusic() {
 					window.sm.pause();
-					window.sm = new Audio(this.music === "" ? defaultMp3 : this.music);
+					window.sm = new Audio(this.music === "" ? selectedMusic : this.music);
 					window.sm.pause();
 					window.sm.loop = true;
 					window.sm.volume = this.volume;
@@ -183,7 +183,7 @@ module.exports = (() => {
 						new Settings.Textbox(
 							"Music",
 							"Put the URL of music you'd like to play. Leave blank for default music.",
-							this.music !== defaultMp3 ? this.music : null,
+							this.music !== selectedMusic ? this.music : null,
 							(e, d) => {
 								this.music = e;
 								this.updateMusic();
