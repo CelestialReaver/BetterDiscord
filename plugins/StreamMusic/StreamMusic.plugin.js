@@ -148,23 +148,23 @@ module.exports = (() => {
 					this.volume = BdApi.loadData(config.info.name, "volume") ?? 0.25;
 					this.music =
 						BdApi.loadData(config.info.name, "music") ?? defaultMp3;
-					window.bgm = new Audio(this.music);
-					window.bgm.pause();
-					window.bgm.loop = true;
-					window.bgm.volume = this.volume;
-					window.bgm.play();
+					window.sm = new Audio(this.music);
+					window.sm.pause();
+					window.sm.loop = true;
+					window.sm.volume = this.volume;
+					window.sm.play();
 				}
 				updateMusic() {
-					window.bgm.pause();
-					window.bgm = new Audio(this.music === "" ? defaultMp3 : this.music);
-					window.bgm.pause();
-					window.bgm.loop = true;
-					window.bgm.volume = this.volume;
-					window.bgm.play();
+					window.sm.pause();
+					window.sm = new Audio(this.music === "" ? defaultMp3 : this.music);
+					window.sm.pause();
+					window.sm.loop = true;
+					window.sm.volume = this.volume;
+					window.sm.play();
 				}
 
 				stop() {
-					window.bgm.pause();
+					window.sm.pause();
 				}
 				getSettingsPanel() {
 					return Settings.SettingPanel.build(
@@ -177,12 +177,12 @@ module.exports = (() => {
 							this.volume,
 							(e) => {
 								this.volume = e;
-								window.bgm.volume = this.volume;
+								window.sm.volume = this.volume;
 							}
 						),
 						new Settings.Textbox(
 							"Music",
-							"Put the URL of music you'd like to play. Leave blank for default.",
+							"Put the URL of music you'd like to play. Leave blank for default music.",
 							this.music !== defaultMp3 ? this.music : null,
 							(e, d) => {
 								this.music = e;
