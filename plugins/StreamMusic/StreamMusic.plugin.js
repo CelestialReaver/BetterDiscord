@@ -44,7 +44,7 @@ module.exports = (() => {
 					github_username: "CelestialReaver",
 				},
 			],
-			version: "1.0.1",
+			version: "0.0.1",
 			description: "Stream music in the background while you Discord.",
 			github:
 				"https://github.com/CelestialReaver/BetterDiscord/tree/main/plugins/StreamMusic",
@@ -164,10 +164,6 @@ module.exports = (() => {
 				}
 				stop() {
 					window.sm.pause();
-				}
-				initialize() {
-					this.initialized = true;
-					PluginUtilities.showToast(this.getName() + " " + this.getVersion() + " has started.");
 				}
 				getSettingsPanel() {
 					return Settings.SettingPanel.build(
