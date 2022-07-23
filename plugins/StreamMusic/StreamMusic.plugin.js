@@ -8,8 +8,8 @@
  * @invite 0Tmfo5ZbORCRqbAd
  * @description Stream music in the background while you Discord.
  * @website https://celestialreaver.github.io/
- * @source https://github.com/CelestialReaver/BetterDiscord/plugins/StreamMusic
- * @updateUrl https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/plugins/StreamMusic/master/StreamMusic.plugin.js
+ * @source https://github.com/CelestialReaver/BetterDiscord/tree/main/plugins/StreamMusic
+ * @updateUrl https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/plugins/StreamMusic/StreamMusic.plugin.js
  */
 /*@cc_on
 	@if (@_jscript)	
@@ -44,11 +44,11 @@ https: module.exports = (() => {
 				},
 			],
 			version: "1.0.1",
-			description: "Play Background Music in discord lol",
+			description: "Stream music in the background while you Discord.",
 			github:
-				"https://github.com/CelestialReaver/BetterDiscord/plugins/StreamMusic",
-			github_raw:
-				"https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/plugins/master/StreamMusic.plugin.js",
+				"https://github.com/CelestialReaver/BetterDiscord/tree/main/plugins/StreamMusic",
+			/*github_raw:
+				"https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/plugins/StreamMusic/StreamMusic.plugin.js",*/
 		},
 		changelog: [
 			{
@@ -57,11 +57,9 @@ https: module.exports = (() => {
 			},
 			/* Future release notes go below.*/
 			/*{
-					  title: "v0.0.2",
-					  items: [
-						  "Update notes here."
-					  ]
-				  },*/
+				title: "v0.0.2",
+				items: ["Update notes here."]
+			},*/
 		],
 		main: "StreamMusic.plugin.js",
 	};
@@ -87,12 +85,12 @@ https: module.exports = (() => {
 					global.ZeresPluginLibrary.PluginUpdater.checkForUpdate(
 						config.info.name,
 						config.info.version,
-						config.info.github_raw
+						/*config.info.github_raw*/
 					);
 				} catch (err) {
 					console.error(
 						this.getName(),
-						"Plugin Updater could not be reached.",
+						"Plugin updater could not be reached.",
 						err
 					);
 				}
@@ -108,7 +106,7 @@ https: module.exports = (() => {
 								async (error, response, body) => {
 									if (error) {
 										return BdApi.showConfirmationModal("Error Downloading", [
-											"Library plugin download failed. Manually install plugin library from the link below.",
+											"Library plugin download failed. Manually install the plugin library from the link below.",
 											BdApi.React.createElement(
 												"a",
 												{
@@ -141,7 +139,7 @@ https: module.exports = (() => {
 		: (([Plugin, Library]) => {
 			const { Settings } = Library;
 			const defaultMp3 =
-				"https://cdn.discordapp.com/attachments/887750789781676092/980267519623446558/Lost_of_Words_.mp3";
+				"https://cdn.discordapp.com/attachments/888564315555233803/1000480968999706624/Synthwave.mp3";
 			return class StreamMusic extends Plugin {
 				start() {
 					this.volume = BdApi.loadData(config.info.name, "volume") ?? 0.25;
@@ -170,7 +168,7 @@ https: module.exports = (() => {
 						this.saveSettings.bind(this),
 						new Settings.Slider(
 							"Volume",
-							"Volume for the music",
+							"Volume control for this plugin.",
 							0,
 							1,
 							this.volume,
@@ -181,7 +179,7 @@ https: module.exports = (() => {
 						),
 						new Settings.Textbox(
 							"Music",
-							"Link To Audio File of the music you want. Default Track: Lost of Words Nisekoi",
+							"Put the URL of music you'd like to play. Leave blank for default.",
 							this.music !== defaultMp3 ? this.music : null,
 							(e, d) => {
 								this.music = e;
@@ -189,7 +187,7 @@ https: module.exports = (() => {
 							},
 							{
 								placeholder:
-									"Paste you File Link. Mp3 is prefered audio format",
+									"Paste the URL of the music you'd like to play here.",
 							}
 						)
 					);
