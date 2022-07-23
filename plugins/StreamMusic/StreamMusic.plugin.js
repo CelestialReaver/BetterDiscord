@@ -172,9 +172,8 @@ module.exports = (() => {
 					Toasts.info(`${config.info.name} ${config.info.version} has stopped!`, { timeout: 2e3 });
 				}
 				getSettingsPanel() {
-					return Settings.SettingPanel.build(
-						this.saveSettings.bind(this),
-							new SettingGroup('Configurations').append(
+					return Settings.SettingPanel.build(() => this.saveSettings.bind(this),
+							new SettingGroup('Plugin Settings').append(
 								new Settings.Slider(
 									"Volume",
 									"Volume control for StreamMusic.",
@@ -200,7 +199,7 @@ module.exports = (() => {
 									}
 								),
 							),
-							/*new SettingsGroup('Controls').append(
+							new SettingsGroup('Controls').append(
 								new Settings.Textbox(
 									"Hi",
 									"This is a placeholder for a Controls.",
@@ -209,8 +208,8 @@ module.exports = (() => {
 											"Paste the URL of the music you'd like to play here.",
 									}
 								),
-							),*/
-					);
+							),
+					);	
 				}
 				saveSettings() {
 					BdApi.saveData(config.info.name, "volume", this.volume);
