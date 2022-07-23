@@ -1,5 +1,3 @@
-/*w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1457406223&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false*/
-
 /**
  * @name StreamMusic
  * @author CelestialReaver
@@ -142,8 +140,9 @@ module.exports = (() => {
 		}
 		: (([Plugin, Library]) => {
 			const { Settings } = Library;
-			const defaultMp3 =
-				"https://cdn.discordapp.com/attachments/888564315555233803/1000480968999706624/Synthwave.mp3";
+			const defaultMp3 ="https://cdn.discordapp.com/attachments/888564315555233803/1000480968999706624/Synthwave.mp3";
+			const playlist = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1457406223&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false";
+			
 			return class StreamMusic extends Plugin {
 				start() {
 					this.volume = BdApi.loadData(config.info.name, "volume") ?? 0.25;
