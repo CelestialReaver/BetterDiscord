@@ -154,7 +154,7 @@ module.exports = (() => {
 					window.sm.volume = this.volume;
 					window.sm.play();
 				}
-				updateMusic() {
+				currentMusic() {
 					window.sm.pause();
 					window.sm = new Audio(this.music === "" ? selectedMusic : this.music);
 					window.sm.pause();
@@ -162,16 +162,19 @@ module.exports = (() => {
 					window.sm.volume = this.volume;
 					window.sm.play();
 				}
-
 				stop() {
 					window.sm.pause();
+				}
+				initialize() {
+					this.initialized = true;
+					PluginUtilities.showToast(this.getName() + " " + this.getVersion() + " has started.");
 				}
 				getSettingsPanel() {
 					return Settings.SettingPanel.build(
 						this.saveSettings.bind(this),
 						new Settings.Slider(
 							"Volume",
-							"Volume control for this plugin.",
+							"Volume control for StreamMusic.",
 							0,
 							1,
 							this.volume,
@@ -186,12 +189,16 @@ module.exports = (() => {
 							this.music !== selectedMusic ? this.music : null,
 							(e, d) => {
 								this.music = e;
-								this.updateMusic();
+								this.currentMusic();
 							},
 							{
 								placeholder:
 									"Paste the URL of the music you'd like to play here.",
 							}
+						),
+						new Settings.Button(
+							"Play",
+							
 						)
 					);
 				}
