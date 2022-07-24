@@ -1945,6 +1945,19 @@ body {
   background: var(--backgroundColor01) !important;
 }
 
+.wrapper-2SplAX {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  padding: 16px 0;
+  width: 100%;
+  background-color: var(--backgroundColor01) !important;
+  border-radius: 8px !important;
+  border: 1px groove #fc28a835 !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
+}
+
 #app-mount .attachment-1PZZB2,
 #app-mount .autocomplete-3NRXG8,
 #app-mount .bar-AokMp3,
