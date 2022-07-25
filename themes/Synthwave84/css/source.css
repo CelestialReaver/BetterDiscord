@@ -355,7 +355,7 @@ body {
   transform: scale(.5);
   margin-right: -.4em;
   transform-origin: left center;
-}*/
+}
 
 span[class*="username-"] {
   -webkit-text-fill-color: var(--text-normal)
@@ -372,7 +372,8 @@ span[class*="username-"] {
   height: 100%;
   opacity: .3;
   border-radius: 50px;
-}
+}*/
+
 .iconWrapper-eK7GO6 {
   background-color: var(--backgroundColor02) !important;
 }
