@@ -217,6 +217,162 @@ body {
     background 0.2s ease-out, border 0.2s ease-out, opacity 0.2s ease-in;
 }
 
+.card-YtRIQ2 {
+  text-align: center;
+  background: var(--backgroundColor02) !important;
+  border-radius: 12px !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
+  margin-bottom: 12px !important;
+}
+
+#app-mount .emptyCard-KDifrB, #app-mount .wrapper-2RrXDg {
+  text-align: center;
+  background: var(--backgroundColor02) !important;
+  border-radius: 12px !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
+  margin-bottom: 12px !important;
+}
+
+.pd-mutualGuilds.pd-container div {
+  margin: 0.5px !important;
+}
+.pd-mutualGuilds.pd-container {
+  margin: 0px !important;
+}
+
+.role-2TIOKu {
+  transform: translate(0);
+  border-radius: 50px;
+}
+
+.rolesList-3uZoaa .roleRemoveIcon-387wKV {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.rolesList-3uZoaa .roleRemoveIcon-387wKV>path {
+  display: none;
+}
+
+.roleRemoveButton-17oXnT {
+  position: static;
+}
+
+/* General profile padding changes */
+#app-mount .userPopout-2j1gM4 {
+  padding-bottom: 16px;
+  -webkit-box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px,
+    rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
+  -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px,
+    rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
+}
+
+#app-mount .userPopout-2j1gM4 .body-2wLx-E>div {
+  margin-bottom: 8px;
+}
+
+/* Profile info (Rolenames, activity, notes etc) */
+/* Stylized subtitles, divider style */
+#app-mount .userPopout-2j1gM4 .body-2wLx-E:is(h3, .activity-1gTu-L .headerContainer-1wJjOa) {
+  height: 1px;
+  background-color: var(--backgroundColor02) !important;
+  margin-bottom: 8px;
+  font-size: 0px;
+}
+
+#app-mount .userPopout-2j1gM4 .divider-1wtgZ3 {
+  display: none;
+}
+
+/* Roles */
+#app-mount .userPopout-2j1gM4 .body-2wLx-E .rolesList-3uZoaa {
+  margin: 0 0 4px;
+}
+
+#app-mount .userPopout-2j1gM4 .body-2wLx-E div[aria-label="No Roles"]+.bodyTitle-2Az3VQ {
+  display: none;
+}
+
+/* Activity, Spotify */
+#app-mount .userPopout-2j1gM4 .activity-1gTu-L {
+  padding: 0;
+}
+
+#app-mount .userPopout-2j1gM4 .activity-1gTu-L:is(.headerContainer-1wJjOa, .bodyNormal-250CQK) h3 {
+  display: none;
+}
+
+#app-mount .userPopout-2j1gM4 .activity-1gTu-L .headerContainer-1wJjOa~div {
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+#app-mount .userPopout-2j1gM4 .activity-1gTu-L .platformIcon-k3yytQ {
+  display: none;
+}
+
+/* User notes */
+#app-mount .userPopout-2j1gM4 .note-Go5ZP2 {
+  margin: 0;
+}
+
+/* User DM */
+#app-mount .userPopout-2j1gM4 .footer-3naVBw {
+  padding: 8px 16px 0;
+}
+
+/* PronounDB support - move pronouns up */
+#app-mount .userPopout-2j1gM4 .bodyInnerWrapper-2bQs1k {
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+#app-mount .userPopout-2j1gM4 .note-Go5ZP2+.bodyTitle-2Az3VQ {
+  display: none;
+}
+
+#app-mount .userPopout-2j1gM4 .bodyTitle-2Az3VQ+.size14-3fJ-ot {
+  order: -1;
+  margin-bottom: 8px;
+  color: var(--text-normal);
+}
+
+span[class*="username-"]::before {
+  content: "";
+  width: 1.375rem;
+  height: 1.375rem;
+  vertical-align: bottom;
+  display: inline-flex;
+  background-color: currentColor;
+  border-radius: 100px;
+  transform: scale(.5);
+  margin-right: -.4em;
+  transform-origin: left center;
+}
+
+span[class*="username-"] {
+  -webkit-text-fill-color: var(--text-normal)
+}
+
+.roleCircle-3K9O3d:before {
+  content: '';
+  position: absolute;
+  background: inherit;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  border-radius: 50px;
+}
 .iconWrapper-eK7GO6 {
   background-color: var(--backgroundColor02) !important;
 }
@@ -337,29 +493,6 @@ body {
 .menu-1QACrS:hover {
   background-color: var(--backgroundColor01) !important;
 }
-
-/*.menu-1QACrS,
-.emojiPicker-6YCk8a,
-.browser-mnQ1T7,
-.messagesPopoutWrap-3zryHW,
-.wrapper-1NB3WY,
-.container-3u7RcY,
-.container-2o3qEW,
-.container-2ebMPP,
-.userPopout-2j1gM4 {
-  animation: custom-menu-animation 250ms ease;
-  transform-origin: top;
-}
-
-@keyframes custom-menu-animation {
-  0% {
-    transform: scaleY(0);
-  }
-
-  100% {
-    transform: scaleY(1);
-  }
-}*/
 
 .medium-2NClDM .input-2m5SfJ,
 .medium-2NClDM .tag-Pxnlt9 {
@@ -1786,7 +1919,7 @@ body {
   }
 }
 
-#app-mount .userPopout-2j1gM4 {
+/*#app-mount .userPopout-2j1gM4 {
   background-color: var(#34294f) !important;
   -webkit-box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px,
     rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
@@ -1795,7 +1928,7 @@ body {
   -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   box-shadow: rgb(210 109 208 / 30%) 0px 0px 2px 3px,
     rgb(210 109 208 / 15%) 0px 0px 8px -1px !important;
-}
+}*/
 
 #app-mount .newMessagesBar-1hF-9G {
   background-color: var(--mainColor);

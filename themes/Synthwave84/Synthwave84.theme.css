@@ -1,6 +1,6 @@
 /**
 * @name Synthwave '84
-* @version 1.0.1
+* @version 1.0.2
 * @description A clean retro theme that provides the perfect glow and vibe to your Discord.
 * @author CelestialReaver
 * @authorId 859547769798656001
@@ -11,25 +11,11 @@
 */
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/Synthwave84/css/source.css");
 
-:root {
-  --mainColor: #03edf9;
-  --backgroundColor01: #2a2139;
-  --backgroundColor02: #241b2f;
-  --gradientColor01: #36f9f6;
-  --gradientColor02: #f92aad;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 3px;
-  --rs-large-spacing: 4px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 3px;
-  --rs-large-width: 4px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #72f1b8;
-  --rs-idle-color: #fede5d;
-  --rs-dnd-color: #fe4450;
-  --rs-offline-color: #b6b1b1;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #b6b1b1;
-  --rs-phone-visible: block;
-  --rs-phone-color: var(--rs-online-color);
-}
+/* This is not a customizable theme. People have reached out about customizing but my intention
+is to keep this theme as true to my original vision as possible. 
+
+For those that want a theme that is more customizable, I am currently working one that will
+have a similar feel to Synthwave '84 but will allow you to put your creative touch on it.
+
+Thank you for all of the feedback - it's been helpful in creating a theme that we can all
+enjoy! */
