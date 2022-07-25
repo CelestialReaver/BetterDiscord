@@ -343,45 +343,59 @@ body {
   margin-bottom: 12px !important;
 }
 
-.pd-mutualGuilds.pd-container div {
-  margin: 0.5px !important;
-}
-.pd-mutualGuilds.pd-container {
-  margin: 0px !important;
-}
-
-.role-2TIOKu {
+#app-mount .rolesList-3uZoaa>.role-2TIOKu {
+  border: none ;
+  border-radius: 0px ;
   transform: translate(0);
-  border-radius: 50px;
+  --border: 1;
 }
 
-.rolesList-3uZoaa .roleRemoveIcon-387wKV {
-  top: 0;
-  left: 0;
+.role-2TIOKu>.roleRemoveButton-17oXnT {
+  position: static;
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+.role-2TIOKu .roleCircle-3K9O3d:before,
+.role-2TIOKu .roleCircle-3K9O3d:after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
   width: 100%;
   height: 100%;
-  margin: 0;
-}
-
-.rolesList-3uZoaa .roleRemoveIcon-387wKV>path {
-  display: none;
-}
-
-.roleRemoveButton-17oXnT {
-  position: static;
-}
-
-.roleCircle-3K9O3d:before {
-  content: '';
-  position: absolute;
-  background: inherit;
   top: 0;
   left: 0;
   z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: .3;
-  border-radius: 50px;
+  border-radius: 4px;
+}
+
+.role-2TIOKu .roleCircle-3K9O3d:before {
+  background: inherit;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  -webkit-mask: linear-gradient(rgba(0, 0, 0, var(--border)) 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.role-2TIOKu .roleCircle-3K9O3d:after {
+  background: linear-gradient(to right, var(--background-secondary-alt), transparent);
+}
+
+.role-2TIOKu:focus .roleRemoveIcon-387wKV,
+.role-2TIOKu:hover .roleRemoveIcon-387wKV,
+.roleRemoveIconFocused-1BliR4 .roleRemoveIcon-387wKV {
+  display: inline-block;
+}
+
+.role-2TIOKu>.roleRemoveButton-17oXnT>.roleRemoveIcon-387wKV {
+  position: static;
+  transform: translate(6px, -13px);
+}
+
+.role-2TIOKu>.roleRemoveButton-17oXnT>.roleCircle-3K9O3d {
+  display: inline-block;
+  margin: 0;
 }
 
 .iconWrapper-eK7GO6 {
