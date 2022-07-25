@@ -344,7 +344,7 @@ body {
   color: var(--text-normal);
 }
 
-span[class*="username-"]::before {
+/*span[class*="username-"]::before {
   content: "";
   width: 1.375rem;
   height: 1.375rem;
@@ -355,7 +355,7 @@ span[class*="username-"]::before {
   transform: scale(.5);
   margin-right: -.4em;
   transform-origin: left center;
-}
+}*/
 
 span[class*="username-"] {
   -webkit-text-fill-color: var(--text-normal)
