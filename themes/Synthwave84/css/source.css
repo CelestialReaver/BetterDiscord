@@ -33,80 +33,6 @@
   --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
 }
 
-/*:root, .theme-dark {
-  --mainColor: #03edf9;
-  --backgroundColor01: #2a2139;
-  --backgroundColor02: #241b2f;
-  --backgroundCode: #262335;
-  --backgroundName: rgba(0, 0, 0, 0.2);
-  --gradientColor01: #36f9f6;
-  --gradientColor02: #f92aad;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 3px;
-  --rs-large-spacing: 4px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 3px;
-  --rs-large-width: 4px;
-  --rs-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #72f1b8;
-  --rs-idle-color: #fede5d;
-  --rs-dnd-color: #fe4450;
-  --rs-offline-color: #b6b1b1;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #b6b1b1;
-  --rs-phone-visible: block;
-  --rs-phone-color: var(--rs-online-color);
-  --customFont: "Whitney";
-  --rs-version: "1.0.2";
-  --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
-}
-:root, .theme-light {
-  --mainColor: #03edf9;
-  --backgroundColor01: #2a2139;
-  --backgroundColor02: #241b2f;
-  --backgroundCode: #262335;
-  --backgroundName: rgba(0, 0, 0, 0.2);
-  --gradientColor01: #36f9f6;
-  --gradientColor02: #f92aad;
-  --rs-small-spacing: 2px;
-  --rs-medium-spacing: 3px;
-  --rs-large-spacing: 4px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 3px;
-  --rs-large-width: 4px;
-  --rs-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #72f1b8;
-  --rs-idle-color: #fede5d;
-  --rs-dnd-color: #fe4450;
-  --rs-offline-color: #b6b1b1;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #b6b1b1;
-  --rs-phone-visible: block;
-  --rs-phone-color: var(--rs-online-color);
-  --customFont: "aveden";
-  --rs-version: "1.0.2";
-  --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
-  --text-normal: #fff;
-  --text-muted: #5e6772;
-  --chat-input-container-background: var(--backgroundColor01);
-  --input-background: var(--backgroundColor01);
-  --input-placeholder-text: #fff;
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  font-size: 15px !important;
-  color: #fff;
-}*/
-/*.theme-light {
-  --customFont: "aveden" !important;
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  color: #fff !important;
-  font-size: 14px !important;
-}*/
 #app-mount .body {
   line-height: 1;
   margin: 0;
@@ -114,13 +40,11 @@
   font-family: var(--customFont) !important;
   font-size: 14px !important;
   overflow: hidden;
-  /*background: linear-gradient(-180eg, #03edf920, #fc28a890) !important;*/
 }
 
 #app-mount .appMount-2yBXZl,
 body {
   text-rendering: optimizeLegibility;
-  /* background: linear-gradient(to right, #03edf920, #fc28a890) !important; */
   border-bottom: none;
 }
 
@@ -866,7 +790,6 @@ body {
   -ms-flex-pack: start;
   justify-content: flex-start;
   backdrop-filter: blur(3.5px) !important;
-  /*opacity FONT-WEIGHT: 500;*/
   border-bottom: 1px transparent !important;
   border-radius: 15px !important;
   box-shadow: rgb(210, 109, 208) 0px 6px 30px -10px !important;
@@ -930,38 +853,6 @@ body {
 .scrollableContainer-15eg7h .buttons-uaqb-5 .emojiButton-3FRTuj>.contents-3ca1mk>.sprite-2lxwfc {
   filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(890deg) saturate(500%) !important;
 }
-
-/*.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
-  content: " (" attr(aria-label) ")";
-  color: var(--text-muted);
-  font-size: 0.625rem;
-  font-weight: 400;
-  line-height: 1;
-  text-transform: lowercase;
-}
-
-.edited-1v5nT8:not(.message-translate-indicator) {
-  display: none;
-}
-
-.assetsLargeImageSpotify-17ME3M {
-  animation: spin 3s linear infinite;
-  border-radius: 50%
-}
-
-.embedVideoImageComponent-3Clc3C {
-  justify-content: unset;
-  align-items: unset;
-}
-
-.base-2v-uc0 {
-  transition: all 0.5s;
-}
-
-.base-2v-uc0:hover {
-  transition: all 0s;
-  transform: scale(1.02);
-}*/
 
 .inner-2pOSmK {
   position: relative;
@@ -1188,7 +1079,6 @@ body {
   background: var(--backgroundColor01) !important;
   border-radius: 10px !important;
   border: 2px groove #fc28a820 !important;
-  /* box-shadow: rgb(210 109 208 / 30%) 0px 3px 4px 0px,    rgb(210 109 208 / 15%) 0px 2px 10px 9px !important; */
 }
 
 .cover-SwJ-ck {
@@ -1270,19 +1160,6 @@ body {
 #app-mount .modalTitle-2skSKy,
 #app-mount .nowPlayingColumn-1eCBCN,
 #app-mount .panels-3wFtMD,
-/*.panels-3wFtMD:not(:hover)> :not(:last-child),
-.panels-3wFtMD:not(:hover)>.wrapper-3Hk90B~div {
-  background-color: var(--backgroundColor02) !important;
-  -webkit-box-shadow: var(--elevation-high) !important;
-  box-shadow: var(--elevation-high) !important;
-  border-radius: 3px !important;
-  background-clip: content-box !important;
-  padding: 0;
-  overflow: hidden;
-  height: 0;
-  min-height: 0;
-}*/
-
 #app-mount .privateChannels-oVe7HL,
 #app-mount .scroller-1TOeMq,
 #app-mount .scroller-29cQFV,
@@ -1582,22 +1459,6 @@ body {
   visibility: hidden !important;
 }
 
-/*.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP:hover .name-28HaxV,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV,
-.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV,*/
-/*.channelName-3KPsGw:focus {
-  color: transparent !important;
-  font-weight: bold !important;
-  background-size: 300% !important;
-  -webkit-background-clip: text !important;
-  -webkit-animation: shine-reversed 7s linear infinite !important;
-  background-clip: text !important;
-  animation: shine-reversed 7s linear infinite !important;
-  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(91,90,229,1) 15%, rgba(116,87,210,1) 30%, rgba(143,84,189,1) 45%, rgba(173,80,167,1) 60%, rgba(197,77,149,1) 75%, rgba(223,74,129,1) 90%, rgba(252,70,107,1) 100%) !important;
-}*/
 .avatar-2e8lTP {
   position: absolute;
   left: 16px;
@@ -2142,26 +2003,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  /*animation: spinHome 0.8s ease;*/
 }
-
-/*@keyframes spinHome {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  20% {
-    transform: rotate(-20deg);
-  }
-
-  70% {
-    transform: rotate(380deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}*/
 
 #app-mount .folder-241Joy {
   background-color: transparent !important;
