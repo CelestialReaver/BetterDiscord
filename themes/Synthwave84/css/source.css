@@ -184,7 +184,7 @@ body {
 }
 
 #status-picker-custom-status,
-#status-picker div[role=group] {
+#status-picker div[role=menuitem] {
   grid-column: 1/5;
 }
 
@@ -2270,8 +2270,8 @@ body {
 
 #app-mount .check-K_srvn {
   background: var(--mainColor) !important;
-  -webkit-mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
-  mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
+  -webkit-mask-image: url(https://cdn.discordapp.com/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
+  mask-image: url(https://cdn.discordapp.com/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
 }
 
 svg defs {
@@ -2496,12 +2496,12 @@ svg aria-hidden {
 
 #app-mount .clickable-vvKY2q .header-3OsQeK:hover {
   opacity: 90%;
-  box-shadow: rgb(210 109 208) 0px 6px 30px -10px important !;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
 }
 
 #app-mount .selected-1GtAC5 .header-3OsQeK {
   background-color: var(--backgroundColor01) !important;
-  box-shadow: rgb(210 109 208) 0px 6px 30px -10px important !;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -10px !important;
   opacity: 50%;
 }
 
