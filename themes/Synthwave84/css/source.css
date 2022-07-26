@@ -176,6 +176,7 @@ body {
 .base-2v-uc0:hover {
   transition: all 0s;
   transform: scale(1.02);
+  background-color: var(--backgroundColor02) !important;
 }
 
 #status-picker .scrollerBase-_bVAAt {
