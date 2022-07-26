@@ -8,31 +8,60 @@
 * @website https://celestialreaver.github.io/
 * @updateUrl https://celestialreaver.github.io/BetterDiscord/themes/Hacker/Hacker.theme.css
 */
-@import url("https://celestialreaver.github.io/BetterDiscord/themes/Synthwave84/css/source.css");
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/css/source.css");
 
+/* Do not edit anything above this line. */
+
+/*-----------------------------------------------------------------------------------------------*/
+/* Any custom CSS you wish to implement can go below. I have provided the options you can change. */
+/*-----------------------------------------------------------------------------------------------*/
+
+/* Theme colors */
+/*:root {
+  --background: #100d23;
+  --background-text: #1e1e44;
+  --button: #00ff9da6;
+  --button-alt: #00e676;
+  --button-alt-svg: invert(15%) sepia(81%) saturate(952%) hue-rotate(186deg) brightness(88%) contrast(102%);
+  --text: #00ff9c;
+  --text-svg: invert(50%) sepia(85%) saturate(1552%) hue-rotate(144deg) brightness(101%) contrast(92%);
+  --text-alt: rgba(0, 195, 255, .6);
+  --accent: #ff4081;
+  --accent-svg: invert(17%) sepia(98%) saturate(7408%) hue-rotate(299deg) brightness(106%) contrast(108%);
+  --select: #002f6de8;
+  --select-alt: #283593;
+  --green: #009550;
+}
+
+/* Theme background picture. */
+:root {
+    --bg-picture: url(https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/Hacker/assets/cyberpunkCity-Dark.jpg);
+}
+
+/* You may edit the background-image by changing the url below to a picture of your choice. */
 .appMount-2yBXZl {
-    background-image: url(https://media.discordapp.net/attachments/860621068250775582/949396525203722320/jshwEyA.png) !important;
-    background-color: rgba(16,13,35, 0) !important;
+    background-image: var(--bg-picture) !important;
+    background-color: rgba(16, 13, 35, 0) !important;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
 }
 
-/* Modify transparency here. */
+/* Modify remaining dark theme colors and transparency by adjusting the values below to your choosing. */
 .theme-dark {
-    --background-primary: rgba(16,13,35, .4) !important;
-    --background-secondary: rgba(19, 19, 65, .4)  !important;
+    --background-primary: rgba(16, 13, 35, .4) !important;
+    --background-secondary: rgba(19, 19, 65, .4) !important;
     --background-tertiary: rgba(19, 19, 65, .4) !important;
-    --deprecated-panel-background: rgba(16,13,35, .4) !important;
-    --channeltextarea-background: rgba(0, 255, 200, .7) !important;
-    --background-secondary-alt: rgba(16,13,35, .7) !important;
+    --deprecated-panel-background: rgba(16, 13, 35, .4) !important;
+    --channeltextarea-background: rgba(40, 53, 147, .7) !important;
+    --background-secondary-alt: rgba(16, 13, 35, .7) !important;
 
 }
+
 .theme-dark .inset-3sAvek {
     background-color: var(--channeltextarea-background) !important;
 }
+
 .theme-dark .container-2cd8Mz {
     background-color: transparent;
 }
-/* Your custom CSS can go below here. */
