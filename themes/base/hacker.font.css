@@ -1,0 +1,15 @@
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/firacode/FiraCode-Regular.woff2");
+
+:root {
+  --font-primary: var(--customFont), "FiraCode";
+  --font-display: var(--customFont), "FiraCode";
+}
+
+::placeholder,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--customFont) !important;
+}

@@ -1,7 +1,7 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/icon-settings.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/font.css);
-/*@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);*/
+@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hacker.font.css);
+@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
 
 :root {
@@ -10,7 +10,7 @@
   --button: #00ff9da6;
   --button-alt: #00e676;
   --button-alt-svg: invert(15%) sepia(81%) saturate(952%) hue-rotate(186deg) brightness(88%) contrast(102%);
-  --text: #00ff9c;
+  --text: #4AF626;
   --text-svg: invert(50%) sepia(85%) saturate(1552%) hue-rotate(144deg) brightness(101%) contrast(92%);
   --text-alt: rgba(0, 195, 255, .6);
   --accent: #ff4081;
@@ -42,7 +42,7 @@
   --brand-experiment: #00ff9da6 !important;
   --brand-experiment-30a: transparent !important;
   --brand-experiment-200: #009550 !important;
-  --brand-experiment-360: #00ff9c !important;
+  --brand-experiment-360: #4AF626 !important;
   --brand-experiment-500: #283593 !important;
   --brand-experiment-560: #283593 !important;
   --brand-experiment-600: #283593 !important;
@@ -55,39 +55,49 @@
   --deprecated-quickswitcher-input-background: #00ff9da6 !important;
   --deprecated-quickswitcher-input-placeholder: rgba(0, 195, 255, .3) !important;
   --deprecated-store-bg: #1e1e44 !important;
-  --deprecated-text-input-bg: #131341 !important;
+  --deprecated-text-input-bg: #100d23 !important;
   --deprecated-text-input-border-disabled: #202225 !important;
   --deprecated-text-input-border-hover: #ff4081 !important;
-  --deprecated-text-input-border: #00ff9c !important;
+  --deprecated-text-input-border: #4AF626 !important;
   --deprecated-text-input-prefix: #dcddde !important;
   --divider-color: #09040f !important;
   --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24) !important;
   --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05) !important;
   --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4) !important;
   --header-primary: #ff4081 !important;
-  --header-secondary: #00ff9c !important;
+  --header-secondary: #4AF626 !important;
   --info-warning-foreground: #ff004c !important;
   --interactive-active: #ff004c !important;
   --interactive-hover: #ff4081 !important;
   --interactive-muted: rgba(0, 195, 255, .6) !important;
-  --interactive-normal: #00ff9c !important;
+  --interactive-normal: #4AF626 !important;
   --logo-primary: #ff4081 !important;
   --font-primary: var(--customFont);
   --font-display: var(--customFont);
-  --scrollbar-auto-scrollbar-color-thumb: #00ff9c !important;
+  --scrollbar-auto-scrollbar-color-thumb: #4AF626 !important;
   --scrollbar-auto-scrollbar-color-track: #100d23 !important;
-  --scrollbar-auto-thumb: #00ff9c !important;
+  --scrollbar-auto-thumb: #4AF626 !important;
   --scrollbar-auto-track: #100d23 !important;
-  --scrollbar-thin-thumb: #00ff9c !important;
+  --scrollbar-thin-thumb: #4AF626 !important;
   --scrollbar-thin-track: transparent !important;
   --spoiler-revealed-background: #009550 !important;
   --spoiler-hidden-background: #009550 !important;
   --text-positive: #009550 !important;
   --text-warning: #693300e8 !important;
   --text-link: #3d81fe !important;
-  --text-muted: rgba(0, 195, 255, .6) !important;
-  --text-normal: #00ff9c !important;
+  --text-muted: #4AF62675 !important;
+  --text-normal: #4AF626 !important;
   --textbox-markdown-syntax: #26506d !important;
+}
+
+.scrollableContainer-15eg7h {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: var(--channeltextarea-background);
+  max-height: 50vh;
+  border-radius: 8px;
+  border: 0.3px solid var(--text-positive) !important;
+  box-shadow: var(--elevation-high) !important;
 }
 
 .winButton-iRh8-Z:hover {
@@ -121,12 +131,12 @@
 .CodeMirror-line>span::selection,
 .CodeMirror-line>span>span::selection,
 .note textarea::selection {
-  color: #00ff9c;
+  color: #4AF626;
   background: #002f6de8;
 }
 
 .da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
-  background-color: #00ff9c !important;
+  background-color: #4AF626 !important;
   border-color: #1e1e44 !important;
 }
 
@@ -163,7 +173,7 @@ html {
 
 .theme-dark .text-GwUZgS,
 .theme-dark .title-2BxgL2 {
-  color: #00ff9c;
+  color: #4AF626;
 }
 
 ::-webkit-input-placeholder {
@@ -179,7 +189,7 @@ html {
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  color: #00ff9c;
+  color: #4AF626;
 }
 
 .numberBadge-37OJ3S {
@@ -214,12 +224,12 @@ html {
 }
 
 .icon-3s6X1M>path:nth-child(1) {
-  fill: #00ff9c;
+  fill: #4AF626;
 }
 
 .guildsError-b7zR5H {
   background: #1e1e44;
-  color: #00ff9c !important;
+  color: #4AF626 !important;
   border-color: #ff0000;
 }
 
@@ -698,13 +708,13 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .theme-dark .base-gE7OpD span {
-  color: #00ff9c;
+  color: #4AF626;
 }
 
 .colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
 .colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b,
 .colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE {
-  color: #00ff9c;
+  color: #4AF626;
 }
 
 .searchAnswer-23w-CH,
@@ -804,12 +814,12 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 #app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.container-2cd8Mz>section>div.children-3xh0VB>div.tabBar-ra-EuL.topPill-3DJJNV>div:nth-child(5) {
   background-color: #00ff9da6 !important;
-  color: #00ff9c !important;
+  color: #4AF626 !important;
 }
 
 #app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.container-2cd8Mz>section>div.children-3xh0VB>div.tabBar-ra-EuL.topPill-3DJJNV>div:nth-child(5):hover {
   background-color: #283593 !important;
-  color: #00ff9c !important;
+  color: #4AF626 !important;
 }
 
 .theme-dark .subtitle-3v29zT {
@@ -921,11 +931,11 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .theme-dark .subText-1gefwV,
 .theme-light .subText-1gefwV {
-  color: #00ff9c;
+  color: #4AF626;
 }
 
 .theme-dark .codeRedemptionRedirect-3SBiCp {
-  color: #00ff9c;
+  color: #4AF626;
   background-color: var(--background-text);
   border-color: var(--background-text);
 }
@@ -1025,7 +1035,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .theme-dark .header-sJd8D7 {
-  color: #00ff9c;
+  color: #4AF626;
 }
 
 .theme-dark .footer-2gL1pp {
@@ -1035,7 +1045,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span {
-  border-color: #00ff9c;
+  border-color: #4AF626;
 }
 
 .lookLink-9FtZy-.colorBrand-3pXr91 {
