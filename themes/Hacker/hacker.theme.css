@@ -1,0 +1,38 @@
+/**
+* @name Hacker
+* @version 1.0.0
+* @description A dark cyberpunk theme for all of your hacking needs.
+* @author CelestialReaver
+* @authorId 859547769798656001
+* @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/Hacker
+* @website https://celestialreaver.github.io/
+* @updateUrl https://celestialreaver.github.io/BetterDiscord/themes/Hacker/Hacker.theme.css
+*/
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/Synthwave84/css/source.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/css/source.css");
+
+.appMount-2yBXZl {
+    background-image: url(https://media.discordapp.net/attachments/860621068250775582/949396525203722320/jshwEyA.png) !important;
+    background-color: rgba(16,13,35, 0) !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+/* Modify transparency here. */
+.theme-dark {
+    --background-primary: rgba(16,13,35, .4) !important;
+    --background-secondary: rgba(19, 19, 65, .4)  !important;
+    --background-tertiary: rgba(19, 19, 65, .4) !important;
+    --deprecated-panel-background: rgba(16,13,35, .4) !important;
+    --channeltextarea-background: rgba(0, 255, 200, .7) !important;
+    --background-secondary-alt: rgba(16,13,35, .7) !important;
+
+}
+.theme-dark .inset-3sAvek {
+    background-color: var(--channeltextarea-background) !important;
+}
+.theme-dark .container-2cd8Mz {
+    background-color: transparent;
+}
+/* Your custom CSS can go below here. */
