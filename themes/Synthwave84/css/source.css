@@ -184,7 +184,7 @@ body {
 }
 
 #status-picker-custom-status,
-#status-picker div[role=menuitem] {
+#status-picker div[role=group] {
   grid-column: 1/5;
 }
 
