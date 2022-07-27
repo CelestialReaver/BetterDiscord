@@ -870,6 +870,14 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   box-shadow: none;
 }
 
+.editor-H2NA06 {
+  caret-color: var(--text) !important;
+  text-align: left;
+  word-break: break-word;
+  white-space: break-spaces!important;
+  caret-color: var(--cursor-color) !important;
+}
+
 .channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
   background: #100d23 url(/assets/8fdb69b7684b8e1ecb3fdde909daca41.svg) no-repeat center 35px;
 }
