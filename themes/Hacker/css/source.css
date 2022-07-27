@@ -3,6 +3,7 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hacker.font.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
+@import url(https://celestialreaver.github.io/BetterDiscord/themes/StatusMarquee/css/source.css);
 
 :root {
   --background: #100d23;
@@ -143,6 +144,27 @@ html,body::before, .root-2zfUH6::before,
   border: 0.5px groove var(--text-positive)  !important;
   box-shadow: var(
   --elevation-high) !important;
+}
+
+.chatContent-3KubbW {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  background-color: var(--background);
+}
+
+.scroller-WSmht3 {
+  background-color: #37296335;
 }
 
 .circleIconButton-1VxDrg {
