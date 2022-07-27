@@ -1,8 +1,8 @@
-@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/firacode/FiraCode-Medium.woff2");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/vt323/VT323-Regular.woff2");
 
 :root {
-  --font-primary: var(--customFont), "FiraCode";
-  --font-display: var(--customFont), "FiraCode";
+  --font-primary: var(--customFont), "VT323";
+  --font-display: var(--customFont), "VT323";
 }
 
 ::placeholder,
