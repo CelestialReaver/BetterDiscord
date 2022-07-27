@@ -30,6 +30,7 @@
   --font-weight: 450 !important;
   --cursor-color: #ffff00;
   --main-color: var(--text);
+  --friends-channels-list-color: #37296335;
 }
 
 .theme-dark {
@@ -207,7 +208,7 @@ body *, .userPopout-3XzG_A * {
 }
 
 .scroller-WSmht3 {
-  background-color: #37296335;
+  background-color: var(--friends-channels-list-color);
 }
 
 .avatar-2e8lTP {
@@ -231,6 +232,64 @@ body *, .userPopout-3XzG_A * {
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
+}
+
+[class*="jumpToPresentBar"] {
+  display: contents;
+}
+
+[class*="jumpToPresentBar"]>button:first-child {
+  display: none;
+}
+
+[class*="jumpToPresentBar"]>button:last-child {
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: var(--friends-channels-list-color) !important;
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+
+[class*="jumpToPresentBar"]>button svg {
+  order: -1;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
+  top: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: var(--text);
+  transition: margin .6s;
+}
+
+[class*="jumpToPresentBar"]:hover>button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: var(--text);
+  transition: font-size .2s, color .2s .1s, padding .4s;
+}
+
+[class*="jumpToPresentBar"]:hover>button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
+
+.base-2v-uc0 {
+  transition: all 0.5s;
+}
+
+.base-2v-uc0:hover {
+  transition: all 0s;
+  transform: scale(1.02);
+  background-color: var(--friends-channels-list-color) !important;
 }
 
 .circleIconButton-1VxDrg {
