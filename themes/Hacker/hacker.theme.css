@@ -33,6 +33,7 @@
   --green: #009550;
   --avatar-rgb: 40 53 147;
   --main-color: var(--text);
+  --rs-avatar-shape: circle;
 }
 
 /* Theme background picture. */
