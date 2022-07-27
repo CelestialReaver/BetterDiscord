@@ -179,6 +179,7 @@ body {
   background-color: var(--backgroundColor02) !important;
 }
 
+/*
 #status-picker .scrollerBase-_bVAAt {
   display: grid;
 }
@@ -307,7 +308,7 @@ body {
   width: 1px;
   height: 24px;
 }
-
+*/
 .card-x5zW6z {
   background-color: var(--backgroundColor01) !important;
   border-color: var(--backgroundColor01) !important;
