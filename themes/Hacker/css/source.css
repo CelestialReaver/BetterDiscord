@@ -20,6 +20,8 @@
   --select-alt: #283593;
   --green: #009550;
   --customFont: "VT323";
+  --font-code: var(--customFont);
+  --font-headline: var(--customFont);
   --avatar-rgb: 40 53 147;
   --main-color: var(--text);
   --rs-avatar-shape: circle;

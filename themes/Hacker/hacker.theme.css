@@ -34,7 +34,10 @@
   --avatar-rgb: 40 53 147;
   --main-color: var(--text);
   --rs-avatar-shape: circle;
-  --font-size: 12px
+  --customFont: "VT323";
+  --font-code: var(--customFont);
+  --font-headline: var(--customFont);
+  --font-size: 12px;
   --cursor-color: #ffff00;
 }
 
