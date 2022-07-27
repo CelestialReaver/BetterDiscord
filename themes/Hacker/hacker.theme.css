@@ -34,6 +34,8 @@
   --avatar-rgb: 40 53 147;
   --main-color: var(--text);
   --rs-avatar-shape: circle;
+  --font-size: 12px
+  --cursor-color: #ffff00;
 }
 
 /* Theme background picture. */
