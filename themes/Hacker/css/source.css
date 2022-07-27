@@ -24,6 +24,7 @@
   --main-color: var(--text);
   --rs-avatar-shape: circle;
   --font-size: 12px;
+  --cursor-color: #ffff00;
 }
 
 .theme-dark {
@@ -168,8 +169,8 @@ body *, .userPopout-3XzG_A * {
   max-height: 50vh;
   border-radius: 8px;
   border: 0.5px groove var(--text-positive)  !important;
-  box-shadow: var(
-  --elevation-high) !important;
+  box-shadow: var(--elevation-high) !important;
+  caret-color: var(--cursor-color);
 }
 
 .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
