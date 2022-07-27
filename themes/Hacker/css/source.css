@@ -168,6 +168,17 @@ body *, .userPopout-3XzG_A * {
   --elevation-high) !important;
 }
 
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+  background-color: var(--background);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-height: 50vh;
+  border-radius: 8px;
+  border: 0.5px groove var(--text-positive)  !important;
+  box-shadow: var(
+  --elevation-high) !important;
+}
+
 .chatContent-3KubbW {
   position: relative;
   display: -webkit-box;
