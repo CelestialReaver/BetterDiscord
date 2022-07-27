@@ -42,7 +42,7 @@
   --brand-experiment: #00ff9da6 !important;
   --brand-experiment-30a: transparent !important;
   --brand-experiment-200: #009550 !important;
-  --brand-experiment-360: #4AF626 !important;
+  --brand-experiment-360: #ff4081 !important;
   --brand-experiment-500: #283593 !important;
   --brand-experiment-560: #283593 !important;
   --brand-experiment-600: #283593 !important;
@@ -70,15 +70,15 @@
   --interactive-active: #ff004c !important;
   --interactive-hover: #ff4081 !important;
   --interactive-muted: rgba(0, 195, 255, .6) !important;
-  --interactive-normal: #4AF626 !important;
+  --interactive-normal: #ff004c !important;
   --logo-primary: #ff4081 !important;
   --font-primary: var(--customFont);
   --font-display: var(--customFont);
-  --scrollbar-auto-scrollbar-color-thumb: #4AF626 !important;
+  --scrollbar-auto-scrollbar-color-thumb: #ff408180 !important;
   --scrollbar-auto-scrollbar-color-track: #100d23 !important;
-  --scrollbar-auto-thumb: #4AF626 !important;
+  --scrollbar-auto-thumb: #ff408180 !important;
   --scrollbar-auto-track: #100d23 !important;
-  --scrollbar-thin-thumb: #4AF626 !important;
+  --scrollbar-thin-thumb: #ff408180 !important;
   --scrollbar-thin-track: transparent !important;
   --spoiler-revealed-background: #009550 !important;
   --spoiler-hidden-background: #009550 !important;
@@ -136,7 +136,7 @@
 }
 
 .da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
-  background-color: #4AF626 !important;
+  background-color: var(--scrollbar-auto-scrollbar-color-thumb) !important;
   border-color: #1e1e44 !important;
 }
 
@@ -146,7 +146,7 @@
 }
 
 html {
-  scrollbar-color: var(--text) var(--background) !important;
+  scrollbar-color: var(--scrollbar-auto-scrollbar-color-thumb) var(--background) !important;
 }
 
 .theme-dark .tooltipBlack-PPG47z,
@@ -173,7 +173,7 @@ html {
 
 .theme-dark .text-GwUZgS,
 .theme-dark .title-2BxgL2 {
-  color: #4AF626;
+  color: #ff4081;
 }
 
 ::-webkit-input-placeholder {
@@ -189,7 +189,7 @@ html {
 }
 
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  color: #4AF626;
+  color: var(--accent);
 }
 
 .numberBadge-37OJ3S {
@@ -224,7 +224,7 @@ html {
 }
 
 .icon-3s6X1M>path:nth-child(1) {
-  fill: #4AF626;
+  fill: var(var(--accent));
 }
 
 .guildsError-b7zR5H {
@@ -818,7 +818,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 #app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.container-2cd8Mz>section>div.children-3xh0VB>div.tabBar-ra-EuL.topPill-3DJJNV>div:nth-child(5):hover {
-  background-color: #283593 !important;
+  background-color: #ff004c !important;
   color: #4AF626 !important;
 }
 
@@ -1035,7 +1035,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .theme-dark .header-sJd8D7 {
-  color: #4AF626;
+  color:#ff004c;
 }
 
 .theme-dark .footer-2gL1pp {
@@ -1045,7 +1045,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span {
-  border-color: #4AF626;
+  border-color: #ff004c;
 }
 
 .lookLink-9FtZy-.colorBrand-3pXr91 {
