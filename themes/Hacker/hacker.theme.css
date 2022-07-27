@@ -32,6 +32,7 @@
   --select-alt: #283593;
   --green: #009550;
   --avatar-rgb: 40 53 147;
+  --main-color: var(--text);
 }
 
 /* Theme background picture. */

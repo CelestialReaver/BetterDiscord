@@ -21,6 +21,7 @@
   --green: #009550;
   --customFont: "VT323";
   --avatar-rgb: 40 53 147;
+  --main-color: var(--text);
 }
 
 .theme-dark {
