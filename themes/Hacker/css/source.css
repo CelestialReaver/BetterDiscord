@@ -25,7 +25,8 @@
   --avatar-rgb: 40 53 147;
   --main-color: var(--text);
   --rs-avatar-shape: circle !important;
-  --font-size: 0.85rem !important;
+  --font-size-custom: 0.85rem;
+  --font-size: var(--font-size-custom) !important;
   --font-weight: 450 !important;
   --cursor-color: #ffff00;
   --main-color: var(--text);

@@ -37,7 +37,7 @@
   --customFont: "VT323";
   --font-code: var(--customFont) !important;
   --font-headline: var(--customFont) !important;
-  --font-size: 0.85rem !important;
+  --font-size-custom: 0.85rem !important;
   --font-weight: 450 !important;
   --cursor-color: #ffff00;
 }
