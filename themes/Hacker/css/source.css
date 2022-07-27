@@ -24,16 +24,32 @@
   --font-headline: var(--customFont);
   --avatar-rgb: 255 0 76;
   --main-color: var(--text);
-  --rs-avatar-shape: circle !important;
   --font-size-custom: 0.85rem;
   --font-size: var(--font-size-custom) !important;
   --font-weight: 450 !important;
   --cursor-color: #ffff00;
   --main-color: var(--text);
+  --mainColor: var(--text);
   --friends-channels-list-color: #37296335;
 }
 
 .theme-dark {
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #72f1b8;
+  --rs-idle-color: #fede5d;
+  --rs-dnd-color: #fe4450;
+  --rs-offline-color: #b6b1b1;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #b6b1b1;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
   --activity-card-background: #100d23 !important;
   --background-accent: #283593 !important;
   --background-floating: #1e1e44 !important;
