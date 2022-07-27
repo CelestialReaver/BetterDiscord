@@ -22,7 +22,7 @@
   --customFont: "VT323";
   --font-code: var(--customFont);
   --font-headline: var(--customFont);
-  --avatar-rgb: 40 53 147;
+  --avatar-rgb: 255 0 76;
   --main-color: var(--text);
   --rs-avatar-shape: circle !important;
   --font-size-custom: 0.85rem;
@@ -103,12 +103,22 @@
 }
 
 /* --== Add CRT effect ==-- */
-html,body::before, .root-2zfUH6::before,
-.standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
-.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-cfY57t::before,
-.theme-dark .root-g14mjS::after, .container-ZMc96U.themed-Hp1KC_::after,
-.drawerSizingWrapper-1txdWG::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
-.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after,
+html,
+body::before,
+.root-2zfUH6::before,
+.standardSidebarView-E9Pc3j::before,
+.userPopout-2j1gM4::before,
+.inner-1ilYF7::before,
+.container-1Lk8p7::before,
+.resultsGroup-cfY57t::before,
+.theme-dark .root-g14mjS::after,
+.container-ZMc96U.themed-Hp1KC_::after,
+.drawerSizingWrapper-1txdWG::after,
+.layer-2aCOJ3::after,
+.container-ZMc96U::after,
+.quickswitcher-pKcM9U::after,
+.wrapper-3ByaVZ::after,
+.form-2oOOG9::after,
 .autocompleteInner-y1mjDl::after {
   content: " ";
   display: block;
@@ -123,14 +133,19 @@ html,body::before, .root-2zfUH6::before,
   pointer-events: none;
 }
 
-body *, .userPopout-3XzG_A * {
+body *,
+.userPopout-3XzG_A * {
   pointer-events: auto;
 }
 
-.target-1eRTCg, .centerTarget-S6BLFQ,
+.target-1eRTCg,
+.centerTarget-S6BLFQ,
 .spoilerText-27bIiA.hidden-3B-Rum .inlineContent-2YnoDy .wrapper-1ZcZW-,
-.layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m,
-.cannonWrapper-2iHppQ, .cannon-c47sK_ {
+.layer-1Ixpg3,
+.cannonWrapper-3dB5_m,
+.cannon-3uTo6m,
+.cannonWrapper-2iHppQ,
+.cannon-c47sK_ {
   pointer-events: none !important;
 }
 
@@ -141,6 +156,7 @@ body *, .userPopout-3XzG_A * {
 .hidden-tnoHf9 {
   display: none;
 }
+
 /* ----------------------- */
 
 .info-3pQQBb:last-child::after {
@@ -157,13 +173,14 @@ body *, .userPopout-3XzG_A * {
 .wordmarkWindows-2dq6rw svg {
   width: 0px;
 }
+
 .wordmarkWindows-2dq6rw::after {
   content: '';
   display: inline-block;
   -webkit-mask-image: url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/assets/svg/HackerLogo1.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
-  background-color: var(--highlight);
+  background-color: var(--background);
   width: 240px !important;
   height: 14px !important;
 }
@@ -174,20 +191,20 @@ body *, .userPopout-3XzG_A * {
   background-color: var(--background);
   max-height: 50vh;
   border-radius: 8px;
-  border: 0.5px groove var(--text-positive)  !important;
+  border: 0.5px groove var(--text-positive) !important;
   box-shadow: var(--elevation-high) !important;
   caret-color: var(--cursor-color);
 }
 
-.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ {
   background-color: var(--background);
   overflow-x: hidden;
   overflow-y: hidden;
   max-height: 50vh;
   border-radius: 8px;
-  border: 0.5px groove var(--text-positive)  !important;
-  box-shadow: var(
-  --elevation-high) !important;
+  border: 0.5px groove var(--text-positive) !important;
+  box-shadow: var(--elevation-high) !important;
 }
 
 .chatContent-3KubbW {
@@ -232,6 +249,25 @@ body *, .userPopout-3XzG_A * {
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
+}
+
+.theme-dark .searchFilter-2UfsDk {
+  border-radius: 2.5px;
+  color: var(--accent);
+  padding: 0 3px;
+}
+
+.theme-dark .searchAnswer-23w-CH {
+  padding: 0 2px;
+  margin-right: 2px;
+  margin-left: -2px;
+  border-radius: 2.5px;
+  color: var(--cursor-color);
+  padding: 0 3px;
+}
+
+#app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
+  border-color: var(--accent) !important;
 }
 
 [class*="jumpToPresentBar"] {
@@ -287,7 +323,7 @@ body *, .userPopout-3XzG_A * {
   box-shadow: var(--elevation-high) !important;
   background-color: var(--background-text);
   border-radius: 8px !important;
-  border: 0.5px dotted var(--text-positive)  !important;
+  border: 0.5px dotted var(--text-positive) !important;
 }
 
 .base-2v-uc0 {
@@ -1240,7 +1276,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .theme-dark .header-sJd8D7 {
-  color:#ff004c;
+  color: #ff004c;
 }
 
 .theme-dark .footer-2gL1pp {
