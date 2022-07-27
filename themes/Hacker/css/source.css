@@ -60,9 +60,9 @@
   --background-mobile-primary: #1e1e44 !important;
   --background-mobile-secondary: #100d23 !important;
   --background-modifier-accent: rgba(0, 195, 255, .4) !important;
-  --background-modifier-active: rgba(183, 0, 255, .6) !important;
+  --background-modifier-active: rgba(183, 0, 255, .25) !important;
   --background-modifier-hover: #131341 !important;
-  --background-modifier-selected: rgba(183, 0, 255, .6) !important;
+  --background-modifier-selected: rgba(183, 0, 255, .25) !important;
   --background-primary: #1e1e44 !important;
   --background-secondary-alt: #1e1e44 !important;
   --background-secondary: #100d23 !important;
