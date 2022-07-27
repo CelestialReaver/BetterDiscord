@@ -137,11 +137,17 @@ html,body::before, .root-2zfUH6::before,
 .scrollableContainer-15eg7h {
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: var(--channeltextarea-background);
+  background-color: var(--background);
   max-height: 50vh;
   border-radius: 8px;
-  border: 0.3px solid var(--text-positive) !important;
-  box-shadow: var(--elevation-high) !important;
+  border: 0.5px groove var(--text-positive)  !important;
+  box-shadow: var(
+  --elevation-high) !important;
+}
+
+.circleIconButton-1VxDrg {
+  color: var(--accent);
+  background-color: var(--button-alt);
 }
 
 .winButton-iRh8-Z:hover {
