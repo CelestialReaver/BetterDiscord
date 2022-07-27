@@ -27,7 +27,7 @@
   --rs-avatar-shape: circle;
   --font-size: 12px;
   --cursor-color: #ffff00;
-  --main-color: var(--cursor-color);
+  --main-color: var(--text);
 }
 
 .theme-dark {
