@@ -126,7 +126,7 @@ html,body::before, .root-2zfUH6::before,
 .wordmarkWindows-2dq6rw::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/assetss/svg/HackerLogo1.svg");
+  -webkit-mask-image: url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/assets/svg/HackerLogo1.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
