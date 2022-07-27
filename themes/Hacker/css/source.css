@@ -212,6 +212,13 @@ body *,
   caret-color: var(--cursor-color);
 }
 
+.itemCard-3Etziu {
+  margin-top: 8px;
+  border-radius: 8px;
+  box-shadow: var(--elevation-high) !important;
+  border: 0.10px groove var(--green) !important;
+}
+
 .modeSelected-3DmyhH .content-1gYQeQ,
 .modeSelected-3DmyhH:hover .content-1gYQeQ {
   background-color: var(--background);
