@@ -282,6 +282,14 @@ body *, .userPopout-3XzG_A * {
   margin-left: -6px;
 }
 
+.scroller-18M1mG {
+  padding-bottom: 8px;
+  box-shadow: var(--elevation-high) !important;
+  background-color: var(--background-text);
+  border-radius: 8px !important;
+  border: 0.5px dotted var(--text-positive)  !important;
+}
+
 .base-2v-uc0 {
   transition: all 0.5s;
 }
@@ -289,7 +297,7 @@ body *, .userPopout-3XzG_A * {
 .base-2v-uc0:hover {
   transition: all 0s;
   transform: scale(1.02);
-  background-color: var(--friends-channels-list-color) !important;
+  background-color: var(--background);
 }
 
 .circleIconButton-1VxDrg {
