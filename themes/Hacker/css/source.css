@@ -22,6 +22,7 @@
   --customFont: "VT323";
   --avatar-rgb: 40 53 147;
   --main-color: var(--text);
+  --rs-avatar-shape: circle;
 }
 
 .theme-dark {
