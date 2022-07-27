@@ -298,17 +298,17 @@ html {
 }
 
 .numberBadge-37OJ3S {
-  color: var(--text);
+  color: var(--accent);
   background-color: var(--select) !important;
 }
 
 .iconBadge-32fMme {
-  color: var(--text);
+  color: var(--accent);
   background-color: var(--select-alt);
 }
 
 .circleIconButton-1VxDrg {
-  color: var(--text);
+  color: var(--accent);
   background-color: var(--select-alt);
 }
 
@@ -318,13 +318,13 @@ html {
 }
 
 .childWrapper-1j_1ub {
-  background-color: var(--button-alt);
-  color: var(--text-normal);
+  background-color: var(--select-alt);
+  color: var(--accent);
 }
 
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-  color: var(--text);
+  color: var(--accent);
   background-color: var(--select-alt);
 }
 
