@@ -111,6 +111,25 @@ html,body::before, .root-2zfUH6::before,
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
 }
+
+body *, .userPopout-3XzG_A * {
+  pointer-events: auto;
+}
+
+.target-1eRTCg, .centerTarget-S6BLFQ,
+.spoilerText-27bIiA.hidden-3B-Rum .inlineContent-2YnoDy .wrapper-1ZcZW-,
+.layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m,
+.cannonWrapper-2iHppQ, .cannon-c47sK_ {
+  pointer-events: none !important;
+}
+
+.autoPointerEvents-2oNo2f {
+  pointer-events: auto !important;
+}
+
+.hidden-tnoHf9 {
+  display: none;
+}
 /* ----------------------- */
 
 .info-3pQQBb:last-child::after {
@@ -124,6 +143,9 @@ html,body::before, .root-2zfUH6::before,
   color: var(--text);
 }
 
+.wordmarkWindows-2dq6rw svg {
+  width: 0px;
+}
 .wordmarkWindows-2dq6rw::after {
   content: '';
   display: inline-block;
