@@ -1,4 +1,4 @@
-@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/firacode/FiraCode-Regular.woff2");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/firacode/FiraCode-Medium.woff2");
 
 :root {
   --font-primary: var(--customFont), "FiraCode";
@@ -11,5 +11,5 @@ button,
 input,
 select,
 textarea {
-  font-family: var(--customFont) !important;
+  font-family: var(--customFont), monospace;
 }

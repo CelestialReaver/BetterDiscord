@@ -90,6 +90,50 @@
   --textbox-markdown-syntax: #26506d !important;
 }
 
+/* --== Add CRT effect ==-- */
+html,body::before, .root-2zfUH6::before,
+.standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
+.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-cfY57t::before,
+.theme-dark .root-g14mjS::after, .container-ZMc96U.themed-Hp1KC_::after,
+.drawerSizingWrapper-1txdWG::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
+.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after,
+.autocompleteInner-y1mjDl::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+/* ----------------------- */
+
+.info-3pQQBb:last-child::after {
+  content: "Hacker 1.0.0";
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text);
+}
+
+.colorMuted-20987_ {
+  color: var(--text);
+}
+
+.wordmarkWindows-2dq6rw::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/assetss/svg/HackerLogo1.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 240px !important;
+  height: 14px !important;
+}
+
 .scrollableContainer-15eg7h {
   overflow-x: hidden;
   overflow-y: scroll;
