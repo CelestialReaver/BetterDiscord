@@ -880,7 +880,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
-  background-color: var(--button);
+  background-color: none !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX:hover,
