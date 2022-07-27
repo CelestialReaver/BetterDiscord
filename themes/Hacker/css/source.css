@@ -20,6 +20,7 @@
   --select-alt: #283593;
   --green: #009550;
   --customFont: "VT323";
+  --avatar-rgb: 40 53 147;
 }
 
 .theme-dark {
@@ -198,6 +199,29 @@ body *, .userPopout-3XzG_A * {
 
 .scroller-WSmht3 {
   background-color: #37296335;
+}
+
+.avatar-2e8lTP {
+  position: absolute;
+  left: 16px;
+  margin-top: calc(4px - 0.125rem);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  pointer-events: none;
+  z-index: 1;
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  background-clip: content-box !important;
 }
 
 .circleIconButton-1VxDrg {
