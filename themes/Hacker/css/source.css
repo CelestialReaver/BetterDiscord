@@ -202,7 +202,7 @@ body *, .userPopout-3XzG_A * {
 
 .circleIconButton-1VxDrg {
   color: var(--accent);
-  background-color: var(--button-alt);
+  background-color: var(--select-alt);
 }
 
 .winButton-iRh8-Z:hover {
@@ -309,7 +309,7 @@ html {
 
 .circleIconButton-1VxDrg {
   color: var(--text);
-  background-color: var(--button-alt);
+  background-color: var(--select-alt);
 }
 
 .circleIconButton-1VxDrg.selected-2r1Hvo {
