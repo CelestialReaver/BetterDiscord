@@ -901,6 +901,15 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   background-image: radial-gradient(circle, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
 }
 
+.listItem-3SmSlK .bd-guild .bd-unread .blobContainer-ikKyFs {
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-animation: shine-reversed 5s radial infinite;
+  background-clip: content-box;
+  animation: shine-reversed 5s radial infinite;
+  background-image: radial-gradient(circle, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
+}
+
 .unreadRelevant-2f-VSK {
   /* background-color: var(--interactive-active); */
   display: none !important;
