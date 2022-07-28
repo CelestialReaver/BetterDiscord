@@ -221,13 +221,21 @@ body *,
 
 .modeSelected-3DmyhH .content-1gYQeQ,
 .modeSelected-3DmyhH:hover .content-1gYQeQ {
-  background-color: var(--background);
+  /*background-color: var(--background);
   overflow-x: hidden;
   overflow-y: hidden;
   max-height: 50vh;
   border-radius: 8px;
-  border: 0.5px groove var(--text-positive) !important;
+  border: 0.5px groove var(--text-positive) !important;*/
   box-shadow: var(--elevation-high) !important;
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-animation: shine-reversed 5s linear infinite;
+  background-clip: text;
+  animation: shine-reversed 5s radial infinite;
+  background-image: radial-gradient(circle, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
 }
 
 .chatContent-3KubbW {
@@ -883,15 +891,16 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .unread-2wipsx {
-  /*color: var(--text);*/
-  color: transparent !important;
-  font-weight: bold;
-  background-size: 300%;
-  -webkit-background-clip: text;
-  -webkit-animation: shine-reversed 5s linear infinite;
-  background-clip: text;
-  animation: shine-reversed 5s linear infinite;
-  background-image: radial-gradient(circle, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
+  color: var(--text);
+}
+
+.newMessagesBar-1hF-9G {
+  top: 0;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--brand-experiment);
+  -webkit-box-shadow: var(--elevation-medium);
+  box-shadow: var(--elevation-medium);
+  opacity: 0.95 !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX,
