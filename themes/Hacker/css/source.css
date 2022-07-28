@@ -210,6 +210,7 @@ body *,
   border: 0.5px groove var(--text-positive) !important;
   box-shadow: var(--elevation-high) !important;
   caret-color: var(--cursor-color);
+  caret-shape: underscore;
 }
 
 .itemCard-3Etziu {
