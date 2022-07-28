@@ -1650,30 +1650,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   }
 }
 
-@-webkit-keyframes shine-reversed {
-  to {
-    background-position: -300% center;
-  }
-}
-
-@keyframes shine-text {
-  to {
-    background-position: 300% center;
-  }
-  from {
-    background-position: -300% center
-  }
-}
-
-@-webkit-keyframes shine-text {
-  to {
-    background-position: 300% center;
-  }
-  from {
-    background-position: -300% center
-  }
-}
-
 @keyframes pulse {
   0% {
     transform: scale(1);
