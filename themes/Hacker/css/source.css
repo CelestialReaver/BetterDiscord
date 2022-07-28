@@ -870,6 +870,19 @@ body {
   border: 1px groove var(--rs-dnd-color);
 }
 
+.lookInverted-2mDUMi.colorBrand-I6CyqQ {
+  color: #fff !important;
+  background-color: transparent !important;
+  border: 2px groove var(--rs-phone-color);
+  box-shadow: var(--elevation-high);
+  font-weight: bold !important;
+  border-radius: 8px !important;
+}
+
+.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+  background-color: var(--select-alt);
+}
+
 .input-2m5SfJ {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
