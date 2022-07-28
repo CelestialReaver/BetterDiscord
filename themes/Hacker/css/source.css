@@ -229,6 +229,11 @@ body *,
   border: 0.5px groove var(--text-positive) !important;
 }
 
+/*.rtcConnectionQualityFine-3zZrSa {
+  fill: var(--rs-dnd-color);
+}*/
+
+#app-mount .radioBar-3w9XY-[style*="#ed4245"] svg path
 .chatContent-3KubbW {
   position: relative;
   display: -webkit-box;
