@@ -301,6 +301,20 @@ body *,
   background: var(--accent) !important;
 }
 
+.sectionDivider-189lqb {
+  height: 1px;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 8px;
+  /* background-color: var(--background-modifier-accent); */
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  background-clip: content-box !important;
+  background-color: var(--accent) !important;
+  border-radius: 12px !important;
+  background: var(--accent) !important;
+}
+
 .separator-2wx7h6 {
   FONT-WEIGHT: 100;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
