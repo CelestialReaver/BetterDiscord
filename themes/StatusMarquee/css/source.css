@@ -62,6 +62,13 @@
   color: var !important;
   width: 350% !important;
 }
+
+.activityText-ev7Z1T:hover {
+  animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
+  -webkit-animation-play-state: paused !important;
+}
+
 @-moz-keyframes marquee {
   0% {
     -moz-transform: translateX(100%);
