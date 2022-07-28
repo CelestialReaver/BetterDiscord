@@ -919,11 +919,18 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .item-2LIpTv {
   position: absolute;
-  display: hidden !important;
+  display: none !important;
   width: 8px;
   border-radius: 0 4px 4px 0;
   margin-left: -4px;
   background-color: none !important;
+}
+
+.pill-2RsI5Q {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none !important;
 }
 
 .newMessagesBar-1hF-9G {
