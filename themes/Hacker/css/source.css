@@ -577,7 +577,7 @@ html {
 
 .theme-dark .tooltipRed-8-9NeP,
 .theme-light .tooltipRed-8-9NeP {
-  color: #002212ec;
+  color: var(--background-secondary-alt);
   background-color: #ff0000;
 }
 
@@ -923,7 +923,6 @@ body {
   border: 1px dotted !important;
   border-radius: 4px !important;
   caret-color: var(--cursor-color) !important;
-  caret-shape: underscore !important;
 }
 
 .mention-3XBnnZ {
