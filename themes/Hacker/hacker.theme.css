@@ -58,7 +58,7 @@
 
 /* Modify remaining dark theme colors and transparency by adjusting the values below to your choosing. */
 .theme-dark {
-    --background-primary: rgba(16, 13, 35, .4) !important;
+    --background-primary: rgba(16, 13, 35, .7) !important;
     --background-secondary: rgba(19, 19, 65, .4) !important;
     --background-tertiary: rgba(19, 19, 65, .4) !important;
     --deprecated-panel-background: rgba(16, 13, 35, .4) !important;
