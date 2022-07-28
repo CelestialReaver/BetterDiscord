@@ -864,6 +864,33 @@ body {
   background-color: var(--select-alt);
 }
 
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+  background-color: transparent !important;
+  color: #fff;
+  border: 1px groove var(--rs-dnd-color);
+}
+
+.input-2m5SfJ {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  resize: none;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 48px;
+  margin: 1px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: var(--text-normal);
+  border: 1px dotted !important;
+  border-radius: 4px !important;
+  caret-color: var(--cursor-color) !important;
+  caret-shape: underscore !important;
+}
+
 .mention-3XBnnZ {
   background-color: var(--select-alt);
 }
