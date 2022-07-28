@@ -903,7 +903,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .listItem-3SmSlK .bd-guild .bd-unread .blobContainer-ikKyFs {
   background-size: 300%;
-  -webkit-background-clip: text;
+  -webkit-background-clip: content-box;
   -webkit-animation: shine-reversed 5s radial infinite;
   background-clip: content-box;
   animation: shine-reversed 5s radial infinite;
