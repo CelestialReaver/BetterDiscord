@@ -1046,6 +1046,11 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   color: var(--text);
 }
 
+.unread-36eUEm {
+  background-color: transparent !important;
+  display: none !important;
+}
+
 .modeUnread-3Cxepe .name-28HaxV {
   color: transparent !important;
   font-weight: bold;
