@@ -844,11 +844,23 @@ body {
 }
 
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
-  color: var(--text);
-  background-color: var(--button);
+    color: #fff;
+    background-color: transparent;
+    border: 1px groove var(--rs-dnd-color);
 }
 
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+  background-color: var(--select-alt);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  background-color: transparent !important;
+  color: #fff;
+  background-color: transparent;
+  border: 1px groove var(--rs-dnd-color);
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
   background-color: var(--select-alt);
 }
 
