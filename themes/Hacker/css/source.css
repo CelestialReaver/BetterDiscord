@@ -1100,9 +1100,9 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   -webkit-mask-composite: xor;
 }
 
-.role-2TIOKu .roleCircle-3K9O3d:after {
+/*.role-2TIOKu .roleCircle-3K9O3d:after {
   background: linear-gradient(to right, var(--accent), transparent);
-}
+}*/
 
 .role-2TIOKu:focus .roleRemoveIcon-387wKV,
 .role-2TIOKu:hover .roleRemoveIcon-387wKV,
@@ -1125,18 +1125,18 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   font-weight: bold;
   background-size: 300%;
   -webkit-background-clip: text;
-  -webkit-animation: shine-reversed 5s pulse infinite;
+  -webkit-animation: shine-reversed 7s linear infinite;
   background-clip: text;
-  animation: shine-reversed 5s pulse infinite;
+  animation: shine-reversed 7s linear infinite;
   background-image: linear-gradient(90deg, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
 }
 
 .listItem-3SmSlK .bd-guild .bd-unread .blobContainer-ikKyFs {
   background-size: 300%;
   -webkit-background-clip: content-box;
-  -webkit-animation: shine 5s pulse infinite;
+  -webkit-animation: pulse 7s radial infinite;
   background-clip: content-box;
-  animation: shine 5s pulse infinite;
+  animation: pulse 7s radial infinite;
   background-image: radial-gradient(center, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
 }
 
