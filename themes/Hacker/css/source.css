@@ -1164,7 +1164,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .newMessagesBar-1hF-9G {
   top: 0;
   border-radius: 0 0 8px 8px;
-  background-color: var(--brand-experiment);
+  background-color: var(--green);
   -webkit-box-shadow: var(--elevation-medium);
   box-shadow: var(--elevation-medium);
   opacity: 0.95 !important;
