@@ -1184,8 +1184,10 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: none !important;
 }
 
-zalgo-26OfGz[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]),
-.header-2jRmjb[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]) {
+.zalgo-26OfGz[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]),
+.header-2jRmjb[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]),
+.avatar-2e8lTP.clickable-31pE3P:before[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]),
+.avatar-2e8lTP.clickable-31pE3P:before[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]) {
   /*display: flex !important;*/
   flex-direction: row-reverse !important;
 }
