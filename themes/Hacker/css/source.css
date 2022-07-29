@@ -1184,13 +1184,27 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: none !important;
 }
 
-.zalgo-26OfGz[data-author-id="859547769798656001"]> :not(.repliedMessage-3Z6XBG[data-author-id="859547769798656001"]) {
+/*.zalgo-26OfGz[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]),
+.header-2jRmjb[data-is-author-self="true"]> :not(.repliedMessage-3Z6XBG[data-is-author-self="true"]) {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}*/
+
+/*.repliedMessage-3Z6XBG:before[data-is-author-self="true"] {
+
+}*/
+
+.hasReply-2Cr4KE> :is(.hasReply-2Cr4KE[data-is-author-self="true"]) {
   display: flex !important;
   flex-direction: row-reverse !important;
 }
 
-.hasReply-2Cr4KE> :not(.repliedMessage-3Z6XBG[data-author-id="859547769798656001"]) {
+.hasReply-2Cr4KE> :not(.hasReply-2Cr4KE[data-is-author-self="true"]) {
   margin-left: 25px !important;
+}
+
+.repliedMessage-3Z6XBG {
+  font-style: italic !important;
 }
 
 .item-2LIpTv {
