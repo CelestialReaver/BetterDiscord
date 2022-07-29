@@ -1130,7 +1130,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   background-image: linear-gradient(90deg, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
 }*/
 
-.unread-36eUEm {
+/*.unread-36eUEm {
   color: transparent !important;
   font-weight: bold;
   background-size: 300%;
@@ -1139,7 +1139,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   background-clip: text;
   animation: shine-reversed 7s linear infinite;
   background-image: linear-gradient(90deg, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
-}
+}(*/
 
 .modeUnread-3Cxepe .name-28HaxV {
   color: transparent !important;
@@ -1149,7 +1149,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   -webkit-animation: shine-reversed 7s linear infinite;
   background-clip: text;
   animation: shine-reversed 7s linear infinite;
-  background-image: linear-gradient(90deg, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
+  background-image: radial-gradient(circle, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
 }
 
 .bd-unread {
