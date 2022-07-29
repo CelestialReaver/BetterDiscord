@@ -44,7 +44,8 @@
 
 /* Theme background picture. */
 :root {
-    --bg-picture: url(https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/Hacker/assets/backgrounds/cyberpunkCity-Dark.jpg);
+    --bg-picture: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/Hacker/assets/backgrounds/cyberpunkCity-Dark.jpg");
+    --theme-logo: url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/assets/logo/HackerLogo1.png");
 }
 
 /* You may edit the background-image by changing the url below to a picture of your choice. */

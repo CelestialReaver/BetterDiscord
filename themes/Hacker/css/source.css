@@ -190,15 +190,29 @@ body *,
   width: 0px;
 }
 
-.wordmarkWindows-2dq6rw::after {
+/*.wordmarkWindows-2dq6rw::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://celestialreaver.github.io/BetterDiscord/themes/Hacker/assets/svg/HackerLogo1.svg");
+  -webkit-mask-image: url(--var-logo);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--background);
   width: 240px !important;
   height: 14px !important;
+}*/
+
+#app-mount .wordmarkWindows-2dq6rw {
+  position: absolute;
+  content: "Hacker";
+  top: -3px;
+  height: 20px;
+  width: 140px;
+  margin-left: 10px;
+  background-image: var(--theme-logo);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  content-visibility: hidden;
 }
 
 .scrollableContainer-15eg7h {
