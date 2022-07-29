@@ -175,6 +175,13 @@ body *,
 
 /* ----------------------- */
 
+/*.info-3pQQBb:last-child::after {
+  content: "Hacker 1.0.0";
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text);
+}*/
+
 .info-3pQQBb:last-child::after {
   content: "Hacker 1.0.0";
   font-size: 12px;
