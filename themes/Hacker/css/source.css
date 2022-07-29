@@ -1173,13 +1173,13 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: none !important;
 }
 
-.message-2CShn3[data-author-id="859547769798656001"]> :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
-.channel-1Shao0[data-user-id="859547769798656001"] .overflow-1wOqNV,
-.member-2gU6Ar[data-user-id="859547769798656001"] .username-i5-wv->span,
-.userPopout-2j1gM4[data-user-id="859547769798656001"] .username-3JLfHz,
-.root-8LYsGj[data-user-id="859547769798656001"] .username-3JLfHz {
+.message-2CShn3[data-author-id="859547769798656001"]> :not(.repliedMessage-3Z6XBG) {
   display: flex !important;
   flex-direction: row-reverse !important;
+}
+
+.hasReply-2Cr4KE {
+  margin-left: 25px !important;
 }
 
 .item-2LIpTv {
