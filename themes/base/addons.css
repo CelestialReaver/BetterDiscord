@@ -5,6 +5,11 @@
 @import url("https://NYRI4.github.io/Discolored/main.css");
 /*@import url("https://discordstyles.github.io/SoftX/ServerRings.css");*/
 
+/* Move replies to the right for a more visual queue of resplies. -- CelestialReaver */
+.hasReply-2Cr4KE {
+    margin-left: 25px !important;
+}
+
 /*Server Rings - Gibbu#1211*/
 /*:root {
     --server-unread-colour: rgba(3, 237, 249, 0.13);
