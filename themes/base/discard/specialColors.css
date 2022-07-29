@@ -1,14 +1,14 @@
-/*.userPopout-2j1gM4 .avatarWrapper-eenWra[data-user-id="859547769798656001"] + div > .profileBadges-2pItdR::before {
+.userPopout-2j1gM4 .avatarWrapper-eenWra[data-user-id="878107994846560298"] + div > .profileBadges-2pItdR::before {
   content: "";
   position: relative;
   width: 20px;
   height: 17px;
   margin: 1.5px 6px 0 0;
   pointer-events: none;
-  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") center/100% no-repeat;
-}*/
+  background: url("https://cdn.discordapp.com/emojis/991011089745608734.gif?v=1") center/100% no-repeat;
+}
 
-/*.member-2gU6Ar .wrapper-1VLyxH[data-user-id="859547769798656001"]::before {
+.member-2gU6Ar .wrapper-1VLyxH[data-user-id="859547769798656001"]::before {
   content: "";
   position: absolute;
   width: 18px;
@@ -16,11 +16,11 @@
   bottom: -3px;
   left: -5px;
   z-index: 2;
-  background: url("https://cdn.discordapp.com/emojis/813060332704366642.png?v=1") no-repeat;
+  background: url("https://cdn.discordapp.com/emojis/991011089745608734.gif?v=1") no-repeat;
   background-size: 85%;
   border-radius: 0 5px 0 0;
   pointer-events: none;
-}*/
+}
 
 .message-2CShn3[data-author-id="878107994846560298"]> :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .channel-1Shao0[data-user-id="878107994846560298"] .overflow-1wOqNV,
