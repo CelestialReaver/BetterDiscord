@@ -193,6 +193,15 @@ body *,
   color: var(--text);
 }
 
+.sendIcon-1HcEzu {
+  padding-top: 2px;
+  width: 20px!important;
+  height: 20px!important;
+  color: var(--rs-dnd-color) !important;
+}
+
+
+
 .wordmarkWindows-2dq6rw svg {
   width: 0px;
 }
@@ -344,6 +353,21 @@ body *,
   background-color: var(--accent) !important;
   border-radius: 12px !important;
   background: var(--accent) !important;
+}
+
+.separator-3ng7S5:before {
+  content: " ";
+  height: 65%;
+  margin-top: auto;
+  margin-bottom: auto;
+  FONT-WEIGHT: 100;
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
+  rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  background-clip: content-box !important;
+  background-color: var(--accent) !important;
+  border-radius: 12px !important;
+  background: var(--accent) !important;
+  border: 1px groove var(--accent) !important;
 }
 
 .isUnread-3Lojb- {
