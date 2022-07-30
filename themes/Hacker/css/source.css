@@ -481,6 +481,32 @@ body *,
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
 }
 
+.container-6sXIoE.withTimeline-824fT_ {
+  padding-top: 8px;
+  box-shadow: var(--elevation-high) !important;
+  background: var(--background-floating) !important;
+  border-radius: 10px !important;
+  border: 2px groove var(--accent) !important;
+}
+
+.barFill-Dhkah7 {
+  border-radius: 2px;
+  height: 100%;
+  min-width: 4px;
+  border-radius: 2px;
+  background: linear-gradient(-45deg, var(--text), var(--info-warning-foreground))!important;
+}
+
+.cover-SwJ-ck {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: var(--background);
+  object-fit: cover;
+  border-radius: 50% !important;
+  animation: spin 3s linear infinite !important;
+}
+
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
   border-color: transparent !important;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
@@ -1771,5 +1797,15 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   100% {
     transform: scale(2);
     opacity: 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
