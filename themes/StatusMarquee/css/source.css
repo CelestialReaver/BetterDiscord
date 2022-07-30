@@ -1,6 +1,6 @@
 @import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
 :root {
-  --rs-version: "1.0.0";
+  --rs-version: "1.0.1";
 }
 
 #app-mount .activityEmoji-SDBJp8 {
@@ -8,14 +8,14 @@
   width: 14px;
   height: 14px;
   opacity: 100 !important;
-  z-index: 9 !important;
+  z-index: 3 !important;
 }
 #app-mount .activityEmoji-24oKjc {
   margin-right: 4px;
   width: 14px;
   height: 14px;
   opacity: 100 !important;
-  z-index: 9 !important;
+  z-index: 3 !important;
 }
 #app-mount .activity-icon {
   width: 16px;
@@ -23,7 +23,7 @@
   margin-left: 2px;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
-  z-index: 9 !important;
+  z-index: 3 !important;
   opacity: 100% !important;
   color: #fff !important;
 }
@@ -33,14 +33,19 @@
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: visible !important;
+  /*overflow: visible !important;*/
+  overflow: marquee !important;
   overflow-x: -webkit-marquee !important;
-  -moz-animation: marquee 30s linear infinite !important;
-  -webkit-animation: marquee 30s linear infinite !important;
+  /*-moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;*/
   -webkit-marquee-speed: normal !important;
-  animation: marquee 30s linear infinite !important;
-  color: var !important;
-  width: 350% !important;
+  /*animation: marquee 15s linear infinite !important;*/
+  max-block-size: fit-content !important;
+  min-block-size: fit-content !important;
+  max-width: fit-content !important;
+  min-width: fit-content !important;
+  max-inline-size: fit-content !important;
+  min-inline-size: fit-content !important;
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -53,14 +58,19 @@
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: visible !important;
+  /*overflow: visible !important;*/
+  overflow: marquee !important;
   overflow-x: -webkit-marquee !important;
-  -moz-animation: marquee 30s linear infinite !important;
-  -webkit-animation: marquee 30s linear infinite !important;
+  /*-moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;*/
   -webkit-marquee-speed: normal !important;
-  animation: marquee 30s linear infinite !important;
-  color: var !important;
-  width: 350% !important;
+  /*animation: marquee 15s linear infinite !important;*/
+  max-block-size: fit-content !important;
+  min-block-size: fit-content !important;
+  max-width: fit-content !important;
+  min-width: fit-content !important;
+  max-inline-size: fit-content !important;
+  min-inline-size: fit-content !important;
 }
 
 .activityText-ev7Z1T:hover {
