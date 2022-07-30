@@ -182,6 +182,21 @@ body *,
   color: var(--text);
 }*/
 
+.markup-eYLPri {
+  font-size: 0.80rem;
+  line-height: 1.375rem;
+  white-space: pre-wrap;
+  white-space: break-spaces;
+  word-wrap: break-word;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  color: var(--text-normal);
+  font-weight: 400;
+}
+
+
 .info-3pQQBb:last-child::after {
   content: "Hacker 1.0.0";
   font-size: 12px;
@@ -505,6 +520,25 @@ body *,
   object-fit: cover;
   border-radius: 50% !important;
   animation: spin 3s linear infinite !important;
+}
+
+.size14-k_3Hy4 {
+  font-size: 8px;
+  line-height: 18px;
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 0 1 auto !important;
+  flex: 0 1 auto !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: visible !important;
+  overflow-x: -webkit-marquee !important;
+  -moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;
+  -webkit-marquee-speed: normal !important;
+  animation: marquee 15s linear infinite !important;
+  color: var !important;
+  width: 50% !important;
+  margin-left: 40px !important;
 }
 
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
