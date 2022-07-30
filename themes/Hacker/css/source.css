@@ -546,7 +546,7 @@ body *,
   animation: spin 3s linear infinite !important;
 }
 
-.size14-k_3Hy4 {
+/*.size14-k_3Hy4 {
   font-size: 8px;
   line-height: 18px;
   -webkit-box-flex: 1 !important;
@@ -563,7 +563,7 @@ body *,
   color: var !important;
   width: 50% !important;
   margin-left: 40px !important;
-}
+}*.
 
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
   border-color: transparent !important;
