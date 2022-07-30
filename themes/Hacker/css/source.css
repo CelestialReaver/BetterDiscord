@@ -183,7 +183,7 @@ body *,
 }*/
 
 .markup-eYLPri {
-  font-size: 0.80rem;
+  font-size: 0.80rem !important;
   line-height: 1.375rem;
   white-space: pre-wrap;
   white-space: break-spaces;
@@ -200,7 +200,7 @@ body *,
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 0.9rem;
+  font-size: 0.9rem !important;
 }
 
 .info-3pQQBb:last-child::after {
