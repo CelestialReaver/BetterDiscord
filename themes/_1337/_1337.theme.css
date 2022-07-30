@@ -1,14 +1,14 @@
 /**
-* @name _1337
+* @name .1337
 * @version 1.0.0
-* @description A dark yet colorful theme for all of your _1337 needs.
+* @description A dark yet colorful theme for all of your .1337 needs.
 * @author CelestialReaver
 * @authorId 859547769798656001
-* @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/_1337
+* @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/.1337
 * @website https://celestialreaver.github.io/
-* @updateUrl https://celestialreaver.github.io/BetterDiscord/themes/_1337/_1337.theme.css
+* @updateUrl https://celestialreaver.github.io/BetterDiscord/themes/.1337/.1337.theme.css
 */
-@import url("https://celestialreaver.github.io/BetterDiscord/themes/_1337/css/source.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/.1337/css/source.css");
 
 /* Do not edit anything above this line. */
 
@@ -44,7 +44,7 @@
 
 /* Theme background picture. */
 :root {
-    --bg-picture: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/_1337/assets/backgrounds/cyberpunkCity-Dark.jpg");
+    --bg-picture: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/.1337/assets/backgrounds/cyberpunkCity-Dark.jpg");
     --theme-logo: url("YourCustomThemeLogoURLHere");
 }
 
