@@ -1,10 +1,10 @@
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/1337.icon-settings.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/1337.font.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/server-rings.css);
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/StatusMarquee/css/source.css);
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/1337.icon-settings.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/1337.font.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/server-rings.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/StatusMarquee/css/source.css");
 
 :root {
   --background: #100d23;
@@ -197,7 +197,8 @@ body *,
   font-weight: 400;
 }
 
-.channelName-3KPsGw, .subtitle-3PyFgf {
+.channelName-3KPsGw,
+.subtitle-3PyFgf {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -210,8 +211,8 @@ body *,
 
 .sendIcon-1HcEzu {
   padding-top: 2px;
-  width: 20px!important;
-  height: 20px!important;
+  width: 20px !important;
+  height: 20px !important;
   color: var(--rs-dnd-color) !important;
 }
 
@@ -220,17 +221,6 @@ body *,
 .wordmarkWindows-2dq6rw svg {
   width: 0px;
 }
-
-/*.wordmarkWindows-2dq6rw::after {
-  content: '';
-  display: inline-block;
-  -webkit-mask-image: url(--var-logo);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  background-color: var(--background);
-  width: 240px !important;
-  height: 14px !important;
-}*/
 
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
@@ -279,8 +269,7 @@ body *,
   fill: var(--rs-dnd-color);
 }*/
 
-#app-mount .radioBar-3w9XY-[style*="#ed4245"] svg path
-.chatContent-3KubbW {
+#app-mount .radioBar-3w9XY-[style*="#ed4245"] svg path .chatContent-3KubbW {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,7 +366,7 @@ body *,
   margin-bottom: auto;
   FONT-WEIGHT: 100;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
-  rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
   background-color: var(--accent) !important;
   border-radius: 12px !important;
@@ -416,7 +405,7 @@ body *,
 }
 
 .theme-dark .elevationBorderHigh-3drnJX {
-  opacity: 0.95 important!;
+  opacity: 0.95 important !;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
@@ -427,7 +416,7 @@ body *,
   /*opacity: 0.95;*/
 }
 
-#app-mount .layer-86YKbF ~ .layer-86YKbF {
+#app-mount .layer-86YKbF~.layer-86YKbF {
   position: absolute !important;
   top: 0 !important;
   right: 0 !important;
@@ -443,7 +432,7 @@ body *,
   overflow: hidden !important;
   contain: unset !important;
   z-index: 1000 !important;
-  opacity: 0.95 important!;
+  opacity: 0.95 important !;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
@@ -453,8 +442,7 @@ body *,
   position: relative;
   padding: 12px;
   background-color: var(--background);
-  box-shadow: rgb(var(
-    --avatar-rgb) / 30%) 0px 1px 2px 2px,
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   opacity: 0.90 !important;
@@ -475,14 +463,14 @@ body *,
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: var(--background);
-  box-shadow: rgb(var(
-    --avatar-rgb) / 30%) 0px 1px 2px 2px,
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   opacity: 0.95 !important;
 }
 
-.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
   background-color: none !important;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
@@ -523,7 +511,7 @@ body *,
   height: 100%;
   min-width: 4px;
   border-radius: 2px;
-  background: linear-gradient(-45deg, var(--text), var(--info-warning-foreground))!important;
+  background: linear-gradient(-45deg, var(--text), var(--info-warning-foreground)) !important;
 }
 
 .cover-SwJ-ck {
@@ -535,7 +523,7 @@ body *,
   border-radius: 50% !important;
   -webkit-background-clip: cover !important;
   background-clip: cover !important;
-  box-shadow: rgb(var( --avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   animation: spin 3s linear infinite !important;
 }
@@ -560,8 +548,8 @@ body *,
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
   border-color: transparent !important;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
-  rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
---webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
 }
 
 [class*="jumpToPresentBar"] {
@@ -987,9 +975,9 @@ body {
 }
 
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
-    color: #fff;
-    background-color: transparent;
-    border: 1px groove var(--rs-dnd-color);
+  color: #fff;
+  background-color: transparent;
+  border: 1px groove var(--rs-dnd-color);
 }
 
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
@@ -1168,7 +1156,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   caret-shape: underscore;
   text-align: left;
   word-break: break-word;
-  white-space: break-spaces!important;
+  white-space: break-spaces !important;
   caret-color: var(--cursor-color) !important;
 }
 
@@ -1186,8 +1174,8 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 #app-mount .rolesList-3uZoaa>.role-2TIOKu {
-  border: none ;
-  border-radius: 0px ;
+  border: none;
+  border-radius: 0px;
   transform: translate(0);
   --border: 1;
 }
@@ -1270,7 +1258,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   -webkit-animation: shine-reversed 7s linear infinite;
   background-clip: text;
   animation: shine-reversed 7s linear infinite;
-  background-image: radial-gradient(circle, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
+  background-image: radial-gradient(circle, rgba(254, 68, 80, 1) 0%, rgba(254, 94, 82, 1) 15%, rgba(254, 117, 84, 1) 30%, rgba(254, 135, 86, 1) 45%, rgba(254, 154, 88, 1) 60%, rgba(254, 181, 90, 1) 75%, rgba(254, 204, 92, 1) 90%, rgba(254, 222, 93, 1) 100%);
 }
 
 .bd-unread {
@@ -1279,7 +1267,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   -webkit-animation: pulse 7s radial infinite;
   background-clip: content-box;
   animation: pulse 7s radial infinite;
-  background-image: radial-gradient(center, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
+  background-image: radial-gradient(center, rgba(254, 68, 80, 1) 0%, rgba(254, 94, 82, 1) 15%, rgba(254, 117, 84, 1) 30%, rgba(254, 135, 86, 1) 45%, rgba(254, 154, 88, 1) 60%, rgba(254, 181, 90, 1) 75%, rgba(254, 204, 92, 1) 90%, rgba(254, 222, 93, 1) 100%);
 }
 
 .blobContainer-ikKyFs {
@@ -1288,7 +1276,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   -webkit-animation: pulse 7s radial infinite;
   background-clip: content-box;
   animation: pulse 7s radial infinite;
-  background-image: radial-gradient(center, rgba(254,68,80,1) 0%, rgba(254,94,82,1) 15%, rgba(254,117,84,1) 30%, rgba(254,135,86,1) 45%, rgba(254,154,88,1) 60%, rgba(254,181,90,1) 75%, rgba(254,204,92,1) 90%, rgba(254,222,93,1) 100%);
+  background-image: radial-gradient(center, rgba(254, 68, 80, 1) 0%, rgba(254, 94, 82, 1) 15%, rgba(254, 117, 84, 1) 30%, rgba(254, 135, 86, 1) 45%, rgba(254, 154, 88, 1) 60%, rgba(254, 181, 90, 1) 75%, rgba(254, 204, 92, 1) 90%, rgba(254, 222, 93, 1) 100%);
 }
 
 /*.listItem-3SmSlK .bd-guild .bd-unread .blobContainer-ikKyFs {
@@ -1844,6 +1832,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
     transform: scale(1);
     opacity: 1;
   }
+
   100% {
     transform: scale(2);
     opacity: 0;
