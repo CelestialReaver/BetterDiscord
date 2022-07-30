@@ -1,6 +1,6 @@
-@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/.1337.icon-settings.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/_1337.icon-settings.css");
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css");
-@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/.1337.font.css");
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/_1337.font.css");
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/addons.css");
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/discard/specialColors.css");
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/server-rings.css");
@@ -177,7 +177,7 @@ body *,
 /* ----------------------- */
 
 .info-3pQQBb:last-child::after {
-  content: ".1337 - 1.0.0";
+  content: "_1337 - 1.0.0";
   font-size: 12px;
   line-height: 16px;
   color: var(--text);
@@ -222,7 +222,7 @@ body *,
 
 #app-mount .wordmarkWindows-2dq6rw {
   position: absolute;
-  content: ".1337";
+  content: "_1337";
   top: -3px;
   height: 20px;
   width: 140px;
