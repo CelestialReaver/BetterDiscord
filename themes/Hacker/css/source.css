@@ -517,12 +517,12 @@ body *,
   flex-grow: 1;
   margin-right: 0px;
   user-select: text;
-  max-block-size: max-content !important;
-  min-block-size: min-content !important;
-  max-width: max-content !important;
-  min-width: min-content !important;
-  max-inline-size: max-content !important;
-  min-inline-size: min-content !important;
+  max-block-size: fit-content !important;
+  min-block-size: fit-content !important;
+  max-width: fit-content !important;
+  min-width: fit-content !important;
+  max-inline-size: fit-content !important;
+  min-inline-size: fit-content !important;
 }
 
 .barFill-Dhkah7 {
@@ -555,10 +555,10 @@ body *,
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: visible !important;
-  overflow-x: visible !important;
- /* overflow-x: -webkit-marquee !important;
-  -moz-animation: marquee 15s linear infinite !important;
+  /*overflow: visible !important;*/
+  overflow: marquee !important;
+  overflow-x: -webkit-marquee !important;
+ /* -moz-animation: marquee 15s linear infinite !important;
   -webkit-animation: marquee 15s linear infinite !important;
   -webkit-marquee-speed: normal !important;
   animation: marquee 15s linear infinite !important;
