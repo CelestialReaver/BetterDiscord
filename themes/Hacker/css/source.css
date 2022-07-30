@@ -512,6 +512,18 @@ body *,
   padding: 12px;
 }
 
+.details-ntX2k5 {
+  flex-grow: 1;
+  margin-right: 0px;
+  user-select: text;
+  max-block-size: max-content !important;
+  min-block-size: min-content !important;
+  max-width: max-content !important;
+  min-width: min-content !important;
+  max-inline-size: max-content !important;
+  min-inline-size: min-content !important;
+}
+
 .barFill-Dhkah7 {
   border-radius: 2px;
   height: 100%;
