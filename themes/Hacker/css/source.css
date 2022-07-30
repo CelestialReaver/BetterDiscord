@@ -547,7 +547,7 @@ body *,
   animation: spin 3s linear infinite !important;
 }
 
-/*.size14-k_3Hy4 {
+.size14-k_3Hy4 {
   font-size: 8px;
   line-height: 18px;
   -webkit-box-flex: 1 !important;
@@ -556,15 +556,14 @@ body *,
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   overflow: visible !important;
-  overflow-x: -webkit-marquee !important;
+  overflow-x: visible !important;
+ /* overflow-x: -webkit-marquee !important;
   -moz-animation: marquee 15s linear infinite !important;
   -webkit-animation: marquee 15s linear infinite !important;
   -webkit-marquee-speed: normal !important;
   animation: marquee 15s linear infinite !important;
-  color: var !important;
-  width: 50% !important;
-  margin-left: 40px !important;
-}*/
+  color: var !important;*/
+}
 
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
   border-color: transparent !important;
