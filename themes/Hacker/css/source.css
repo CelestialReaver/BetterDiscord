@@ -184,7 +184,7 @@ body *,
 }*/
 
 .markup-eYLPri {
-  font-size: 0.80rem !important;
+  font-size: 0.85rem !important;
   line-height: 1.375rem;
   white-space: pre-wrap;
   white-space: break-spaces;
@@ -540,15 +540,15 @@ body *,
   color: var(--background);
   object-fit: cover;
   border-radius: 50% !important;
-  -webkit-background-clip: border-radius !important;
-  background-clip: border-radius !important;
+  -webkit-background-clip: object-fit !important;
+  background-clip: object-fit !important;
   box-shadow: rgb(var( --avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   animation: spin 3s linear infinite !important;
 }
 
 .size14-k_3Hy4 {
-  font-size: 8px;
+  font-size: 12px;
   line-height: 18px;
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
@@ -558,11 +558,10 @@ body *,
   /*overflow: visible !important;*/
   overflow: marquee !important;
   overflow-x: -webkit-marquee !important;
- /* -moz-animation: marquee 15s linear infinite !important;
-  -webkit-animation: marquee 15s linear infinite !important;
+  /*-moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;*/
   -webkit-marquee-speed: normal !important;
-  animation: marquee 15s linear infinite !important;
-  color: var !important;*/
+  /*animation: marquee 15s linear infinite !important;*/
 }
 
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {
