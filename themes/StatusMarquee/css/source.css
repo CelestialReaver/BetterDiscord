@@ -27,7 +27,7 @@
   opacity: 100% !important;
   color: #fff !important;
 }
-.activity-2EQDZv {
+/*.activity-2EQDZv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,14 +44,14 @@
   min-width: fit-content !important;
   max-inline-size: fit-content !important;
   min-inline-size: fit-content !important;
-}
+}*/
 .activityText-1rR-8O {
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: visible !important;
+  /*overflow: visible !important;*/
   overflow: marquee !important;
   overflow-x: -webkit-marquee !important;
   /*-moz-animation: marquee 15s linear infinite !important;
@@ -70,7 +70,7 @@
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: visible !important;
+  /*overflow: visible !important;*/
   overflow: marquee !important;
   overflow-x: -webkit-marquee !important;
   /*-moz-animation: marquee 15s linear infinite !important;
