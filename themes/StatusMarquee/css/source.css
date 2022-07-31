@@ -31,6 +31,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  user-select: text;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -58,6 +59,7 @@
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
   white-space: nowrap !important;
+  user-select: text;
   text-overflow: ellipsis !important;
   /*overflow: visible !important;*/
   overflow: marquee !important;
@@ -76,6 +78,7 @@
   -webkit-box-flex: 1 !important;
   -ms-flex: 0 1 auto !important;
   flex: 0 1 auto !important;
+  user-select: text;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
   /*overflow: visible !important;*/
