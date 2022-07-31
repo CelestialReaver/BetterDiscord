@@ -548,7 +548,7 @@ body *,
   /*-moz-animation: marquee 15s linear infinite !important;
   -webkit-animation: marquee 15s linear infinite !important;*/
   -webkit-marquee-speed: normal !important;
-  animation: marquee 15s linear infinite !important;
+  /*animation: marquee 15s linear infinite !important;*/
 }
 
 #app-mount .accountProfileCard-lbN7n- .avatar-3mTjvZ {

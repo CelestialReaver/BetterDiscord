@@ -57,7 +57,7 @@
   /*-moz-animation: marquee 15s linear infinite !important;
   -webkit-animation: marquee 15s linear infinite !important;*/
   -webkit-marquee-speed: normal !important;
-  animation: marquee 15s linear infinite !important;
+  /*animation: marquee 15s linear infinite !important;*/
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -76,7 +76,7 @@
   /*-moz-animation: marquee 15s linear infinite !important;
   -webkit-animation: marquee 15s linear infinite !important;*/
   -webkit-marquee-speed: normal !important;
-  animation: marquee 15s linear infinite !important;
+  /*animation: marquee 15s linear infinite !important;*/
 }
 
 .activityText-ev7Z1T:hover {
