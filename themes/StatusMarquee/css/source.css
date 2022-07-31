@@ -27,25 +27,38 @@
   opacity: 100% !important;
   color: #fff !important;
 }
-.activityText-1rR-8O {
-  -webkit-box-flex: 1 !important;
-  -ms-flex: 0 1 auto !important;
-  flex: 0 1 auto !important;
-  white-space: nowrap !important;
-  text-overflow: ellipsis !important;
-  overflow: visible !important;
-  overflow: marquee !important;
-  overflow-x: -webkit-marquee !important;
-  -moz-animation: marquee 15s linear infinite !important;
-  -webkit-animation: marquee 15s linear infinite !important;
-  -webkit-marquee-speed: normal !important;
-  animation: marquee 15s linear infinite !important;
+.activity-2EQDZv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--channels-default);
+  font-weight: 500;
   max-block-size: fit-content !important;
   min-block-size: fit-content !important;
   max-width: fit-content !important;
   min-width: fit-content !important;
   max-inline-size: fit-content !important;
   min-inline-size: fit-content !important;
+}
+.activityText-1rR-8O {
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 0 1 auto !important;
+  flex: 0 1 auto !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  text-overflow: ellipsis !important;
+  /*overflow: visible !important;*/
+  overflow: marquee !important;
+  overflow-x: -webkit-marquee !important;
+  /*-moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;*/
+  -webkit-marquee-speed: normal !important;
+  /*animation: marquee 15s linear infinite !important;*/
 }
 .activityText-1rR-80:hover {
   animation-play-state: paused !important;
@@ -58,19 +71,13 @@
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  overflow: visible !important;
-  overflow: scroll, marquee !important;
+  /*overflow: visible !important;*/
+  overflow: marquee !important;
   overflow-x: -webkit-marquee !important;
-  --moz-animation: marquee 15s linear infinite !important;
-  -webkit-animation: marquee 15s linear infinite !important;
+  /*-moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;*/
   -webkit-marquee-speed: normal !important;
-  animation: marquee 15s linear infinite !important;
-  max-block-size: fit-content !important;
-  min-block-size: fit-content !important;
-  max-width: fit-content !important;
-  min-width: fit-content !important;
-  max-inline-size: fit-content !important;
-  min-inline-size: fit-content !important;
+  /*animation: marquee 15s linear infinite !important;*/
 }
 
 .activityText-ev7Z1T:hover {
