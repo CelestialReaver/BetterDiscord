@@ -33,13 +33,13 @@
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  /*overflow: visible !important;*/
+  overflow: visible !important;
   overflow: marquee !important;
   overflow-x: -webkit-marquee !important;
-  /*-moz-animation: marquee 15s linear infinite !important;
-  -webkit-animation: marquee 15s linear infinite !important;*/
+  -moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  /*animation: marquee 15s linear infinite !important;*/
+  animation: marquee 15s linear infinite !important;
   max-block-size: fit-content !important;
   min-block-size: fit-content !important;
   max-width: fit-content !important;
@@ -58,13 +58,13 @@
   flex: 0 1 auto !important;
   white-space: nowrap !important;
   text-overflow: ellipsis !important;
-  /*overflow: visible !important;*/
-  overflow: marquee !important;
+  overflow: visible !important;
+  overflow: scroll, marquee !important;
   overflow-x: -webkit-marquee !important;
-  /*-moz-animation: marquee 15s linear infinite !important;
-  -webkit-animation: marquee 15s linear infinite !important;*/
+  --moz-animation: marquee 15s linear infinite !important;
+  -webkit-animation: marquee 15s linear infinite !important;
   -webkit-marquee-speed: normal !important;
-  /*animation: marquee 15s linear infinite !important;*/
+  animation: marquee 15s linear infinite !important;
   max-block-size: fit-content !important;
   min-block-size: fit-content !important;
   max-width: fit-content !important;
