@@ -4,7 +4,7 @@
   --server-hover-colour: 254, 222, 93;
   --server-selected-colour: 254, 68, 80;
   --server-spacing: 14px;
-  --server-glow-intensity: 1;
+  --server-glow-intensity: 2;
 }
 
 #app-mount .wrapper-38slSD ul[role=group] {
