@@ -184,7 +184,7 @@ body *,
 }
 
 .markup-eYLPri {
-  font-size: 0.85rem !important;
+  font-size: var(--font-size) !important;
   line-height: 1.375rem;
   white-space: pre-wrap;
   white-space: break-spaces;
