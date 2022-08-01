@@ -1355,7 +1355,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   position: absolute;
   left: 0;
   top: 0;
-  display: none !important;
+  display: flex !important;
 }
 
 .newMessagesBar-1hF-9G {
