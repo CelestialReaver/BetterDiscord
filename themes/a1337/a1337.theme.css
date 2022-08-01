@@ -44,7 +44,7 @@
 
 /* Theme background picture. */
 :root {
-    --bg-picture: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG.gif");
+    --bg-picture: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_code.gif");
     --theme-logo: url("YourCustomThemeLogoURLHere");
 }
 
@@ -55,6 +55,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 /* Modify remaining dark theme colors and transparency by adjusting the values below to your choosing. */

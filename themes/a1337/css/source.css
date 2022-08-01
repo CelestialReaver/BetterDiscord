@@ -1330,7 +1330,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .item-2LIpTv {
   position: absolute;
-  display: none !important;
+  display: flex !important;
   width: 8px;
   border-radius: 0 4px 4px 0;
   margin-left: -4px;
