@@ -1,8 +1,8 @@
 /* Original - https://discordstyles.github.io/SoftX/ServerRings.css*/
 :root {
-  --server-unread-colour: var(--rs-online-color);
-  --server-hover-colour: var(--rs-idle-color);
-  --server-selected-colour: var(--rs-dnd-color);
+  --server-unread-colour: 114, 241, 184;
+  --server-hover-colour: 254, 222, 93;
+  --server-selected-colour: 254, 68, 80;
   --server-spacing: 14px;
   --server-glow-intensity: 1;
 }
