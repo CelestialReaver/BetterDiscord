@@ -209,6 +209,20 @@ body *,
   color: var(--text);
 }
 
+.titleBar-1it3bQ {
+  z-index: 3001;
+  -webkit-app-region: drag;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background: var(--background) !important;
+}
+
+.withFrame-2dL45i {
+  height: 18px;
+  margin-top: auto;
+  background: var(--background) !important;
+}
+
 .sendIcon-1HcEzu {
   padding-top: 2px;
   width: 20px !important;
