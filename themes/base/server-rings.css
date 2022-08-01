@@ -1,8 +1,8 @@
 /* Original - https://discordstyles.github.io/SoftX/ServerRings.css*/
 :root {
   --server-unread-colour: var(--rs-online-color);
-  --server-hover-colour: var(--friends-channels-list-color);
-  --server-selected-colour: var(--deprecated-text-input-prefix);
+  --server-hover-colour: var(--rs-idle-color);
+  --server-selected-colour: var(--rs-dnd-color);
   --server-spacing: 14px;
   --server-glow-intensity: 1;
 }
@@ -41,8 +41,8 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: calc(var(--server-size, 48px) + 8px);
-  height: calc(var(--server-size, 48px) + 8px);
+  width: calc(var(--server-size, 48px) + 4px);
+  height: calc(var(--server-size, 48px) + 4px);
   overflow: visible;
   margin-left: -2px;
 }
