@@ -55,7 +55,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    backdrop-filter: blur(10px);
 }
 
 /* Modify remaining dark theme colors and transparency by adjusting the values below to your choosing. */
