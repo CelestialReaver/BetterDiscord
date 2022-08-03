@@ -54,6 +54,7 @@
 
     Example: CRT OFF - be sure to keep the whitespace between the : and the ;
     --crt: ;
+   Lastly, make sure you keep !important at the end of the declaration.
 */
 :root {
     --crt: initial !important;
