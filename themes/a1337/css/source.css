@@ -138,7 +138,7 @@ body::before,
 .wrapper-3ByaVZ::after,
 .form-2oOOG9::after,
 .autocompleteInner-y1mjDl::after {
-  --crt: ;
+  --crt: initial;
   --gradient-background: linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   content: " ";
   display: block;
@@ -147,7 +147,7 @@ body::before,
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--crt, var(--gradient-background), var(--gradient-background), var(--background));
+  background: var(--crt, var(--gradient-background, var(--gradient-background, var(--background))));
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
@@ -166,7 +166,8 @@ body *,
 .cannon-3uTo6m,
 .cannonWrapper-2iHppQ,
 .cannon-c47sK_ {
-  pointer-events: none !important;
+  --crt: initial;
+  pointer-events: var(--crt, none, " ") !important;
 }
 
 .autoPointerEvents-2oNo2f {
@@ -174,14 +175,15 @@ body *,
 }
 
 .hidden-tnoHf9 {
-  display: none;
+  --crt: initial;
+  display: var(--crt, none, " ");
 }
 
 /* ----------------------- */
 
 /* Is CRT effect on or off? */
 
-#app-mount html,
+/*#app-mount html,
 #app-mount body::before,
 #app-mount .root-2zfUH6::before,
 #app-mount .standardSidebarView-E9Pc3j::before,
@@ -199,7 +201,7 @@ body *,
 #app-mount .form-2oOOG9::after,
 #app-mount .autocompleteInner-y1mjDl::after {
   --crt: initial !important;
-}
+}*/
 
 /* ----------------------- */
 
