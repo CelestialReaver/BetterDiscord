@@ -146,7 +146,7 @@ body::before,
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--crt, linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(--var(crt), 90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06))) transparent;
+  background: var(--crt, linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06))) transparent;
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
@@ -154,7 +154,8 @@ body::before,
 
 body *,
 .userPopout-3XzG_A * {
-  pointer-events: auto;
+  --crt: ;
+  pointer-events: var(--crt, auto);
 }
 
 .target-1eRTCg,
@@ -165,16 +166,18 @@ body *,
 .cannon-3uTo6m,
 .cannonWrapper-2iHppQ,
 .cannon-c47sK_ {
-  pointer-events: none !important;
+  --crt: ;
+  pointer-events: var(--crt, none) !important;
 }
 
 .autoPointerEvents-2oNo2f {
-  pointer-events: auto !important;
+  --crt: ;
+  pointer-events: var(--crt, auto) !important;
 }
 
 .hidden-tnoHf9 {
   --crt: ;
-  display: var(--crt, none) none;
+  display: var(--crt, none);
 }
 
 /* ----------------------- */
