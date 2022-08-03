@@ -138,7 +138,7 @@ body::before,
 .wrapper-3ByaVZ::after,
 .form-2oOOG9::after,
 .autocompleteInner-y1mjDl::after {
-  --crt: initial;
+  --crt: ;
   --gradient-background: linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   content: " ";
   display: block;
@@ -166,7 +166,7 @@ body *,
 .cannon-3uTo6m,
 .cannonWrapper-2iHppQ,
 .cannon-c47sK_ {
-  --crt: initial;
+  --crt: ;
   pointer-events: var(--crt, none, " ") !important;
 }
 
@@ -175,7 +175,7 @@ body *,
 }
 
 .hidden-tnoHf9 {
-  --crt: initial;
+  --crt: ;
   display: var(--crt, none, " ");
 }
 
