@@ -120,6 +120,7 @@
 }
 
 /* --== Add CRT effect ==-- */
+
 html,
 body::before,
 .root-2zfUH6::before,
@@ -137,6 +138,7 @@ body::before,
 .wrapper-3ByaVZ::after,
 .form-2oOOG9::after,
 .autocompleteInner-y1mjDl::after {
+  --crt: ;
   content: " ";
   display: block;
   position: absolute;
@@ -144,7 +146,7 @@ body::before,
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background: linear-gradient(var(--crt), rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(--var(crt), 90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)), transparent;
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
