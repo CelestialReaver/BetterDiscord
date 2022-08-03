@@ -54,9 +54,69 @@
 
     Example: CRT OFF - be sure to keep the whitespace between the : and the ;
     --crt: ;
+   Lastly, make sure you keep !important at the end of the declaration.
 */
 :root {
+    --crt: initial !important;/**
+* @name a1337
+* @version 1.0.0
+* @description A dark and colorful theme for all of your 1337 endeavors.
+* @author CelestialReaver
+* @authorId 859547769798656001
+* @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/a1337
+* @website https://celestialreaver.github.io/
+* @updateUrl https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/a1337.theme.css
+*/
+@import url("https://celestialreaver.github.io/BetterDiscord/themes/a1337/css/source.css");
+
+/* Do not edit anything above this line. */
+
+/*-----------------------------------------------------------------------------------------------*/
+/* Any custom CSS you wish to implement can go below. I have provided the options you can change. */
+/*-----------------------------------------------------------------------------------------------*/
+
+/* Theme colors */
+/*:root {
+  --background: #100d23;
+  --background-text: #1e1e44;
+  --button: #00ff9da6;
+  --button-alt: #00e676;
+  --button-alt-svg: invert(15%) sepia(81%) saturate(952%) hue-rotate(186deg) brightness(88%) contrast(102%);
+  --text: #00ff9c;
+  --text-svg: invert(50%) sepia(85%) saturate(1552%) hue-rotate(144deg) brightness(101%) contrast(92%);
+  --text-alt: rgba(0, 195, 255, .6);
+  --accent: #ff4081;
+  --accent-svg: invert(17%) sepia(98%) saturate(7408%) hue-rotate(299deg) brightness(106%) contrast(108%);
+  --select: #002f6de8;
+  --select-alt: #283593;
+  --green: #009550;
+  --avatar-rgb: 40 53 147;
+  --main-color: var(--text);
+  --rs-avatar-shape: circle;
+  --customFont: "VT323";
+  --font-code: var(--customFont) !important;
+  --font-headline: var(--customFont) !important;
+  --font-size-custom: 0.85rem !important;
+  --font-weight: 450 !important;
+  --cursor-color: #ffff00;
+} */
+
+/* Theme background picture. */
+:root {
+    --bg-picture: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity-Dark.jpg");
+    --theme-logo: url("YourCustomThemeLogoURLHere");
+}
+
+/* Enable or disable the CRT effects. The 'initial' value denotes CRT is on, empty value denotes CRT is off .
+    Example: CRT ON
     --crt: initial;
+
+    Example: CRT OFF - be sure to keep the whitespace between the : and the ;
+    --crt: ;
+   Lastly, make sure you keep !important at the end of the declaration.
+*/
+:root {
+    --crt: initial !important;
 }
 
 /* You may edit the background-image by changing the url below to a picture of your choice. */
