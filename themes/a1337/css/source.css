@@ -139,6 +139,7 @@ body::before,
 .form-2oOOG9::after,
 .autocompleteInner-y1mjDl::after {
   --crt: ;
+  --gradient-background: linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   content: " ";
   display: block;
   position: absolute;
@@ -146,7 +147,7 @@ body::before,
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--crt, linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06))) transparent;
+  background: var(--crt, var(--gradient-background), var(--gradient-background), var(--background));
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
@@ -154,8 +155,7 @@ body::before,
 
 body *,
 .userPopout-3XzG_A * {
-  --crt: ;
-  pointer-events: var(--crt, auto);
+  pointer-events: auto;
 }
 
 .target-1eRTCg,
@@ -166,50 +166,39 @@ body *,
 .cannon-3uTo6m,
 .cannonWrapper-2iHppQ,
 .cannon-c47sK_ {
-  --crt: ;
-  pointer-events: var(--crt, none) !important;
+  pointer-events: none !important;
 }
 
 .autoPointerEvents-2oNo2f {
-  --crt: ;
-  pointer-events: var(--crt, auto) !important;
+  pointer-events: auto !important;
 }
 
 .hidden-tnoHf9 {
-  --crt: ;
-  display: var(--crt, none);
+  display: none;
 }
 
 /* ----------------------- */
 
 /* Is CRT effect on or off? */
-/*
-html,
-body::before,
-.root-2zfUH6::before,
-.standardSidebarView-E9Pc3j::before,
-.userPopout-2j1gM4::before,
-.inner-1ilYF7::before,
-.container-1Lk8p7::before,
-.resultsGroup-cfY57t::before,
-.theme-dark .root-g14mjS::after,
-.container-ZMc96U.themed-Hp1KC_::after,
-.drawerSizingWrapper-1txdWG::after,
-.layer-2aCOJ3::after,
-.container-ZMc96U::after,
-.quickswitcher-pKcM9U::after,
-.wrapper-3ByaVZ::after,
-.form-2oOOG9::after,
-.autocompleteInner-y1mjDl::after {
-  --foo: initial;
-}
 
-.hidden-tnoHf9 {
-  --foo: initial;
-}*/
-
-#foo {
-  --crt: initial;
+#app-mount html,
+#app-mount body::before,
+#app-mount .root-2zfUH6::before,
+#app-mount .standardSidebarView-E9Pc3j::before,
+#app-mount .userPopout-2j1gM4::before,
+#app-mount .inner-1ilYF7::before,
+#app-mount .container-1Lk8p7::before,
+#app-mount .resultsGroup-cfY57t::before,
+#app-mount .theme-dark .root-g14mjS::after,
+#app-mount .container-ZMc96U.themed-Hp1KC_::after,
+#app-mount .drawerSizingWrapper-1txdWG::after,
+#app-mount .layer-2aCOJ3::after,
+#app-mount .container-ZMc96U::after,
+#app-mount .quickswitcher-pKcM9U::after,
+#app-mount .wrapper-3ByaVZ::after,
+#app-mount .form-2oOOG9::after,
+#app-mount .autocompleteInner-y1mjDl::after {
+  --crt: initial !important;
 }
 
 /* ----------------------- */
