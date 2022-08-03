@@ -50,14 +50,13 @@
 
 /* Enable or disable the CRT effects. The 'initial' value denotes CRT is on, empty value denotes CRT is off .
     Example: CRT ON
-    --crt: initial !important;
+    --crt: initial;
 
     Example: CRT OFF - be sure to keep the whitespace between the : and the ;
     --crt: ;
-   Lastly, make sure you keep !important at the end of the declaration if you choose 'initial'.
 */
 :root {
-    --crt: initial !important;
+    --crt: initial;
 }
 
 /* You may edit the background-image by changing the url below to a picture of your choice. */
