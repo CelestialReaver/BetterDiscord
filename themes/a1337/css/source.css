@@ -147,7 +147,7 @@ body::before,
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--crt, var(--gradient-background, var(--gradient-background, transparent)));
+  background: var(--crt, var(--gradient-background, var(--gradient-background, " ")));
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
