@@ -117,6 +117,8 @@
   --text-muted: #4AF62675 !important;
   --text-normal: #4AF626 !important;
   --textbox-markdown-syntax: #26506d !important;
+  --gradient-background: linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  --crt: initial;
 }
 
 /* --== Add CRT effect ==-- */
@@ -138,8 +140,6 @@ body::before,
 .wrapper-3ByaVZ::after,
 .form-2oOOG9::after,
 .autocompleteInner-y1mjDl::after {
-  --crt: ;
-  --gradient-background: linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   content: " ";
   display: block;
   position: absolute;
@@ -147,7 +147,7 @@ body::before,
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--crt, var(--gradient-background, var(--gradient-background, var(--background))));
+  background: var(--crt, var(--gradient-background, var(--gradient-background, transparent)));
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
@@ -166,7 +166,6 @@ body *,
 .cannon-3uTo6m,
 .cannonWrapper-2iHppQ,
 .cannon-c47sK_ {
-  --crt: ;
   pointer-events: var(--crt, none, " ") !important;
 }
 
@@ -175,7 +174,6 @@ body *,
 }
 
 .hidden-tnoHf9 {
-  --crt: ;
   display: var(--crt, none, " ");
 }
 
