@@ -48,11 +48,11 @@
     --theme-logo: url("YourCustomThemeLogoURLHere");
 }
 
-/* Enable or disable the CRT effects. The 'initial' value is denotes CRT is on, empty value denotes CRT is off .
+/* Enable or disable the CRT effects. The 'initial' value denotes CRT is on, empty value denotes CRT is off .
     Example: CRT ON
     --crt: initial;
 
-    Example: CRT OFF
+    Example: CRT OFF - be sure to keep the whitespace between the : and the ;
     --crt: ;
 */
 :root {
