@@ -177,6 +177,7 @@ body *,
 
 /* ----------------------- */
 
+/* Is CRT effect on or off? */
 #app-mount html,
 body::before,
 .root-2zfUH6::before,
@@ -196,6 +197,7 @@ body::before,
 .autocompleteInner-y1mjDl::after {
   --crt: initial;
 }
+/* ----------------------- */
 
 .info-3pQQBb:last-child::after {
   content: "a1337 - 1.0.0";
