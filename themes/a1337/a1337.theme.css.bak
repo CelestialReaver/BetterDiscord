@@ -57,7 +57,7 @@
    Lastly, make sure you keep !important at the end of the declaration.
 */
 :root {
-    --crt: initial !important;
+    --crt: initial;
 }
 
 /* You may edit the background-image by changing the url below to a picture of your choice. */
