@@ -151,7 +151,6 @@ body::before,
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
 }
-
 body *,
 .userPopout-3XzG_A * {
   pointer-events: auto;
@@ -177,6 +176,26 @@ body *,
 }
 
 /* ----------------------- */
+
+#app-mount html,
+body::before,
+.root-2zfUH6::before,
+.standardSidebarView-E9Pc3j::before,
+.userPopout-2j1gM4::before,
+.inner-1ilYF7::before,
+.container-1Lk8p7::before,
+.resultsGroup-cfY57t::before,
+.theme-dark .root-g14mjS::after,
+.container-ZMc96U.themed-Hp1KC_::after,
+.drawerSizingWrapper-1txdWG::after,
+.layer-2aCOJ3::after,
+.container-ZMc96U::after,
+.quickswitcher-pKcM9U::after,
+.wrapper-3ByaVZ::after,
+.form-2oOOG9::after,
+.autocompleteInner-y1mjDl::after {
+  --crt: initial;
+}
 
 .info-3pQQBb:last-child::after {
   content: "a1337 - 1.0.0";
