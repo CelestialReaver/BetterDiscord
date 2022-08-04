@@ -41,6 +41,7 @@
     for your background you would change --bg11 to --bg5. Save and the background would
     automatically change.
     */
+    
     --bg-choice: var(--bg11);
 }
 
@@ -50,11 +51,13 @@
 :root {
     /* Enable or disable the CRT overlay effect. The 'initial' value denotes CRT is on, the 0 value
        denotes CRT is off.
-    Example: CRT ON
-    --crt: initial;
 
-    Example: CRT OFF
-    --crt: 0;
+        Example: CRT ON
+        --crt: initial;
+
+        Example: CRT OFF
+        --crt: 0;
+
     */
 
     --crt: initial;
@@ -65,8 +68,10 @@
 /*-----------------------------------------------------------------------------------------------*/
 :root {
     /* Here you can change the color of the theme by the values below.
-    Example: To change the color of the background text to red you would do the following.
-    --background-text: #ff0000;
+
+        Example: To change the color of the background text to red you would change the value of
+        --background-text to the color code for red (#ff0000).
+
     */
     --background: #100d23;
     --background-text: #1e1e44;
