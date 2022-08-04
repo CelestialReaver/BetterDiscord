@@ -63,7 +63,8 @@
     | bg11|     Cyberpunk City - Dark (Static)|
     | bg12|     Cyberpunk City (Static)       |
     -------------------------------------------
-    Replace */
+    Replace bg11 below with the background you want to display. Example - if you want Garage for your background you
+    would change --bg11 to --bg5. Save and the background automatically changes. */
     --bg-choice: var(--bg11);
 
     /* This is where you can put a URL for the logo you would like to appear at the top left of the Discord. */
