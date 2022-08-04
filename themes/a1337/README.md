@@ -1,5 +1,5 @@
 <h1 align="center"><a href="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/a1337/assets/logo/a1337.gif"><img src="https://github.com/CelestialReaver/BetterDiscord/blob/main/themes/a1337/assets/a1337.gif" title="source: github.com" /></a></h1>
-<p align="center">A unique retro theme that provides the perfect glow and vibe to your Discord.</p>
+<p align="center">A dark, colorful, and customizable theme for all of your 1337 days and nights.</p>
 
 </br>
 

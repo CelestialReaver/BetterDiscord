@@ -1,7 +1,7 @@
 /**
 * @name a1337
 * @version 1.0.0
-* @description A dark, colorful, and customizable theme for all of your 1337 endeavors.
+* @description A dark, colorful, and customizable theme for all of your 1337 days and nights.
 * @author CelestialReaver
 * @authorId 859547769798656001
 * @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/a1337
@@ -41,7 +41,7 @@
     for your background you would change --bg11 to --bg5. Save and the background would
     automatically change.
     */
-    
+
     --bg-choice: var(--bg11);
 }
 
