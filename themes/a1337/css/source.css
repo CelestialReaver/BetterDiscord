@@ -136,8 +136,7 @@
   --textbox-markdown-syntax: #26506d !important;
 }
 
-/* --== Add CRT effect ==-- */
-
+/* -------------------CRT EFFECT BEG -------------------*/
 html,
 body::before,
 .root-2zfUH6::before,
@@ -191,32 +190,7 @@ body *,
 .hidden-tnoHf9 {
   display: var(--crt, none, " ");
 }
-
-/* ----------------------- */
-
-/* Is CRT effect on or off? */
-
-/*#app-mount html,
-#app-mount body::before,
-#app-mount .root-2zfUH6::before,
-#app-mount .standardSidebarView-E9Pc3j::before,
-#app-mount .userPopout-2j1gM4::before,
-#app-mount .inner-1ilYF7::before,
-#app-mount .container-1Lk8p7::before,
-#app-mount .resultsGroup-cfY57t::before,
-#app-mount .theme-dark .root-g14mjS::after,
-#app-mount .container-ZMc96U.themed-Hp1KC_::after,
-#app-mount .drawerSizingWrapper-1txdWG::after,
-#app-mount .layer-2aCOJ3::after,
-#app-mount .container-ZMc96U::after,
-#app-mount .quickswitcher-pKcM9U::after,
-#app-mount .wrapper-3ByaVZ::after,
-#app-mount .form-2oOOG9::after,
-#app-mount .autocompleteInner-y1mjDl::after {
-  --crt: initial !important;
-}*/
-
-/* ----------------------- */
+/* ------------------- CRT EFFECT END -------------------*/
 
 .info-3pQQBb:last-child::after {
   content: "a1337 - 1.0.0";
