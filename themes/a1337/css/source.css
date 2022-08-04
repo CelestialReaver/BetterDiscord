@@ -48,7 +48,7 @@
   --bg11: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity-Dark.jpg";
   --bg12: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity.jpg";
   --bg13: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_catjam.gif";
-  --bg-picture: url(var(--bg-choice));
+  --bg-picture: url(--bg-choice);
 }
 
 .theme-dark {
