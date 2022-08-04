@@ -64,7 +64,7 @@
     | bg12|     Cyberpunk City (Static)       |
     --------------------------------------------
     */
-    --bg-choice: var(--bg1); 
+    --bg-choice: var(--bg1);
 
     /* This is where you can put a URL for the logo you would like to appear at the top left of the Discord. */
     --theme-logo: url("YourCustomThemeLogoURLHere");
