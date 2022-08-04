@@ -9,15 +9,60 @@
 * @updateUrl https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/a1337.theme.css
 */
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/a1337/css/source.css");
-
-/* Do not edit anything above this line. */
+/* -------------------------- Do not edit anything above this line ----------------------------- */
 
 /*-----------------------------------------------------------------------------------------------*/
-/* Any custom CSS you wish to implement can go below. I have provided the options you can change. */
+/* THEME BACKGROUND PICTURE                                                                      */
+/*-----------------------------------------------------------------------------------------------*/
+:root {
+    /* There are several built-in background options to choose from. Put the proper ID for the background you want to use. 
+    Options are:
+    --------------------------------------------
+    |   ID  |           Background              |
+    |-------------------------------------------|
+    | --bg0 |     No Background                 |
+    | --bg1 |     Green Glow (Animated)         |
+    | --bg2 |     Binary Code (Animated)        |
+    | --bg3 |     Cyberpunk City (Animated)     |
+    | --bg4 |     Comet (Animated)              |
+    | --bg5 |     Garage (Animated)             |
+    | --bg6 |     Red Power (Animated)          |
+    | --bg7 |     Burst (Animated)              |
+    | --bg8 |     Terminal (Animated)           |
+    | --bg9 |     Molecule (Animated)           |
+    | --bg10|     Wargames (Animated)           |
+    | --bg11|     Cyberpunk City - Dark (Static)|
+    | --bg12|     Cyberpunk City (Static)       |
+    --------------------------------------------
+    Replace --bg11 below with the background you want to display. Example - if you want Garage for your background you
+    would change --bg11 to --bg5. Save and the background automatically changes. */
+    --bg-choice: var(--bg11);
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* CRT effect                                                                                    */
+/*-----------------------------------------------------------------------------------------------*/
+/* Enable or disable the CRT effect. The 'initial' value denotes CRT is on, the 0 value denotes CRT is off.
+    Example: CRT ON
+    --crt: initial;
+
+    Example: CRT OFF
+    --crt: 0;
+*/
+:root {
+    --crt: initial;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/* THEME COLORS                                                                                  */
 /*-----------------------------------------------------------------------------------------------*/
 
-/* Theme colors */
-/*:root {
+/* Here you can change the color of the theme by the values below.
+    Example: Change the color of the background text to red
+    --background-text: #ff0000;
+*/
+
+:root {
   --background: #100d23;
   --background-text: #1e1e44;
   --button: #00ff9da6;
@@ -33,56 +78,22 @@
   --green: #009550;
   --avatar-rgb: 40 53 147;
   --main-color: var(--text);
-  --rs-avatar-shape: circle;
-  --customFont: "VT323";
-  --font-code: var(--customFont) !important;
-  --font-headline: var(--customFont) !important;
-  --font-size-custom: 0.85rem !important;
-  --font-weight: 450 !important;
   --cursor-color: #ffff00;
-} */
-
-/* Theme background picture and logo. */
-:root {
-    /* There are several built-in background options to choose from. Put the proper ID for the background you want to use. 
-    Options are:
-    -------------------------------------------
-    | ID  |           Background              |
-    -------------------------------------------
-    | bg0 |     No Background                 |
-    | bg1 |     Green Glow (Animated)         |
-    | bg2 |     Binary Code (Animated)        |
-    | bg3 |     Cyberpunk City (Animated)     |
-    | bg4 |     Comet (Animated)              |
-    | bg5 |     Garage (Animated)             |
-    | bg6 |     Red Power (Animated)          |
-    | bg7 |     Burst (Animated)              |
-    | bg8 |     Terminal (Animated)           |
-    | bg9 |     Molecule (Animated)           |
-    | bg10|     Wargames (Animated)           |
-    | bg11|     Cyberpunk City - Dark (Static)|
-    | bg12|     Cyberpunk City (Static)       |
-    -------------------------------------------
-    Replace bg11 below with the background you want to display. Example - if you want Garage for your background you
-    would change --bg11 to --bg5. Save and the background automatically changes. */
-    --bg-choice: var(--bg11);
-
-    /* This is where you can put a URL for the logo you would like to appear at the top left of the Discord. */
-    --theme-logo: url("YourCustomThemeLogoURLHere");
+  --rs-avatar-shape: circle;
+  --font-size-custom: 0.90rem !important;
+  --font-weight: 450 !important;
 }
 
-/* Enable or disable the CRT effects. The 'initial' value denotes CRT is on, empty value denotes CRT is off.
-    Example: CRT ON
-    --crt: initial;
+/*-----------------------------------------------------------------------------------------------*/
+/* MISCELLANEOUS THEME TWEAKS                                                                    */
+/*-----------------------------------------------------------------------------------------------*/
 
-    Example: CRT OFF - be sure to keep the whitespace between the : and the ;
-    --crt: ;
-*/
+/* This is where you can put a URL for the logo you would like to appear at the top left of the Discord. */
 :root {
-    --crt: initial;
+    --theme-logo: url("YourCustomLogoURLHere");
 }
 
-/* You can change theme background color and transparency. */
+/* Here you can change theme background color and transparency. */
 .appMount-2yBXZl {
     background-color: rgba(16, 13, 35, 0) !important;
 }
@@ -105,3 +116,7 @@
 .theme-dark .container-2cd8Mz {
     background-color: transparent;
 }
+
+/*-----------------------------------------------------------------------------------------------*/
+/* End of theme configuration                                                                    */
+/*-----------------------------------------------------------------------------------------------*/
