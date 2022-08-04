@@ -46,9 +46,9 @@
 :root {
     /* There are several built-in background options to choose from. Put the proper ID for the background you want to use. 
     Options are:
-    --------------------------------------------
-    | ID |            Background              |
-    --------------------------------------------
+    -------------------------------------------
+    | ID  |           Background              |
+    -------------------------------------------
     | bg0 |     No Background                 |
     | bg1 |     Green Glow (Animated)         |
     | bg2 |     Binary Code (Animated)        |
@@ -62,7 +62,7 @@
     | bg10|     Wargames (Animated)           |
     | bg11|     Cyberpunk City - Dark (Static)|
     | bg12|     Cyberpunk City (Static)       |
-    --------------------------------------------
+    -------------------------------------------
     */
     --bg-choice: var(--bg1);
 
