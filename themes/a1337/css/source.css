@@ -121,21 +121,21 @@
   --textbox-markdown-syntax: #26506d !important;
   --gradient-background: linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   --crt: ;
-  --bg0: url("NoBackground");
-  --bg1: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG.gif");
-  --bg2: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_0110.gif");
-  --bg3: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_cyberpunkCity.gif");
-  --bg4: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_comet.gif");
-  --bg5: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_garage.gif");
-  --bg6: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_redPower.gif");
-  --bg7: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_burst.gif");
-  --bg8: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_terminal.gif");
-  --bg9: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_molecule.gif");
-  --bg10: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedbg_world.gif");
-  --bg11: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity-Dark.jpg");
-  --bg12: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity.jpg");
-  --bg13: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_catjam.gif");
-  --bg-picture: var(--bg-choice);
+  --bg0: "NoBackground"
+  --bg1: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG.gif"
+  --bg2: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_0110.gif"
+  --bg3: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_cyberpunkCity.gif"
+  --bg4: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_comet.gif"
+  --bg5: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_garage.gif"
+  --bg6: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_redPower.gif"
+  --bg7: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_burst.gif"
+  --bg8: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_terminal.gif"
+  --bg9: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_molecule.gif"
+  --bg10: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedbg_world.gif"
+  --bg11: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity-Dark.jpg"
+  --bg12: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity.jpg"
+  --bg13: "https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_catjam.gif"
+  --bg-picture: url(var(--bg-choice));;
 }
 
 /* --== Add CRT effect ==-- */
