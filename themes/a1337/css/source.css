@@ -290,7 +290,7 @@ body *,
   content-visibility: hidden;
 }
 
-.appMount-2yBXZl {
+#app-mount .appMount-2yBXZl {
   background-image: var(--bg-picture) !important;
   background-repeat: no-repeat;
   background-position: center;
