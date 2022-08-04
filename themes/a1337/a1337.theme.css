@@ -1,7 +1,7 @@
 /**
 * @name a1337
 * @version 1.0.0
-* @description A darK, colorful, and customizable theme for all of your 1337 endeavors.
+* @description A dark, colorful, and customizable theme for all of your 1337 endeavors.
 * @author CelestialReaver
 * @authorId 859547769798656001
 * @source https://github.com/CelestialReaver/BetterDiscord/tree/main/themes/a1337
@@ -56,15 +56,15 @@
     | bg4 |     Comet (Animated)              |
     | bg5 |     Garage (Animated)             |
     | bg6 |     Red Power (Animated)          |
-    | bg7 |     Burst  (Animated)             |
+    | bg7 |     Burst (Animated)              |
     | bg8 |     Terminal (Animated)           |
     | bg9 |     Molecule (Animated)           |
     | bg10|     Wargames (Animated)           |
     | bg11|     Cyberpunk City - Dark (Static)|
     | bg12|     Cyberpunk City (Static)       |
     -------------------------------------------
-    */
-    --bg-choice: var(--bg1);
+    Replace */
+    --bg-choice: var(--bg11);
 
     /* This is where you can put a URL for the logo you would like to appear at the top left of the Discord. */
     --theme-logo: url("YourCustomThemeLogoURLHere");
