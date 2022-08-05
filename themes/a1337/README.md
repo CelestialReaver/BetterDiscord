@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/logo/a1337-compressed.gif"><img src="https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/logo/a1337-compressed.gif" title="source: github.com" /></a></h1>
+<h1 align="center"><a href="https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/logo/a1337-BDCover.gif"><img src="https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/logo/a1337-BDCover.gif" title="source: github.com" /></a></h1>
 <p align="center">A dark, colorful, and customizable theme for all of your 1337 days and nights.</p>
 
 </br>
