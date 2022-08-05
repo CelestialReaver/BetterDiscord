@@ -96,7 +96,11 @@
     --button: #00ff9da6;
     --button-alt: #00e676;
     --button-alt-svg: invert(15%) sepia(81%) saturate(952%) hue-rotate(186deg) brightness(88%) contrast(102%);
-    --text: #4AF626;
+    /*--text: #B3FFB3;*/
+    --text:rgb(255, 255, 255)
+    --text-shadow-text: rgb(79, 255, 6) 1px 1px 2px, rgb(79, 255, 6) 0px 0px 1vmin, rgb(79, 255, 6) 0px 0px 5px
+    --text-shadow: rgba(0, 30, 255, 0.5) 1.868px 0 1px, rgba(255, 0, 80, 0.3) -1.868px 0 1px, #FFFFFF 0 0 3px
+    --text-shadow-alt: rgba(0, 30, 255, 0.5) 3.89137px 0 1px, rgba(255, 0, 80, 0.3) -3.89137px 0 1px, #FFFFFF 0 0 3px;
     --text-svg: invert(50%) sepia(85%) saturate(1552%) hue-rotate(144deg) brightness(101%) contrast(92%);
     --text-alt: rgba(0, 195, 255, .6);
     --accent: #ff4081;

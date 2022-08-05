@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'TopazPlus-A1200';
+  src: url('TopazPlus_a1200_v1.0.woff2') format('woff2'),
+      url('VT323-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+}
