@@ -1313,11 +1313,14 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .zalgo-26OfGz[data-is-author-self="true"],
 .contents-2MsGLg[data-is-author-self="true"] {
   flex-direction: row-reverse !important;
-  padding-right: 48px!important;
-  transform: rotate(180deg) scaleY(-1) !important;
+  /*padding-right: 48px!important;*
+  /*transform: rotate(180deg) scaleY(-1) !important;*/
   align-self: flex-end !important;
   justify-content: flex-end !important;
-  direction: rtl;
+  text-align: right !important;
+  align-content: flex-end !important;
+  align-items: flex-end !important;
+  /*direction: rtl;*/
 }
 
 /*.contents-2MsGLg[data-is-author-self="true"] {
