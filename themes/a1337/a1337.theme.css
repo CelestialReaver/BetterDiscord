@@ -62,7 +62,7 @@
        The flicker effect value is how often the screen flickers like an old CRT. Set to 0 to
        disable.
 
-       *** NOTE: Setting the CRT to 0 will disable all CRT effects in theme background. ***
+       *** NOTE: Setting the CRT value to 0 will disable all CRT effects in theme background. ***
     */
 
     --crt: initial;
