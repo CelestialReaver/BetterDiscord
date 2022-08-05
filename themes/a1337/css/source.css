@@ -31,15 +31,15 @@
   --main-color: var(--text);
   --font-size-custom: 0.90rem;
   --font-size: var(--font-size-custom) !important;
-  --font-weight: 450 !important;
+  --font-weight: 400 !important;
   --cursor-color: #ffff00;
   --main-color: var(--text);
   --mainColor: var(--text);
   --friends-channels-list-color: #37296335;
   --gradient-background: linear-gradient( rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   --crt: ;
-  --scan-line: "13s";
-  --flicker-effect: "60s";
+  --scan-line: 13s;
+  --flicker-effect: 60s;
   --bg0: "NoBackground";
   --bg1: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG.gif");
   --bg2: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_0110.gif");
@@ -57,9 +57,9 @@
   --celestialreaver: url("https://i.imgur.com/vp8TrQAh.png");
   --bg-picture: var(--bg-choice);
   --chat-bubble: 0;
-  --chat-bubble-background-color: rgb(40, 53, 147);
-  --chat-bubble-border-color: rgb(0, 149, 80);
-  --chat-bubble-code-background-color: rgb(30, 30, 68);
+  --chat-bubble-background-color: rgb(40, 53, 147, 0.3);
+  --chat-bubble-border-color: rgb(0, 149, 80, 0.3);
+  --chat-bubble-code-background-color: rgb(30, 30, 68, 0.3);
   --chat-bubble-max-width: 90%;
   --chat-bubble-border-radius: 8px;
   --chat-bubble-box-shadow-h-offset: 0;
@@ -212,13 +212,13 @@ body *,
 }*/
 
 body::before {
-content: "";
+content: " ";
 display: block;
 width: 100vw;
 height: 100vh;
 position: absolute;
 /*background-image: var(--crt, linear-gradient(rgba(255,255,255, 0.05) 50%, rgba(0,0,0, 0.1) 50%, " "));*/
-background-image: var(--crt, linear-gradient(rgb(30, 30, 68, 0.05) 50%, rgba(30, 30, 68, 0.1) 50%, " "));
+background-image: var(--crt, linear-gradient(rgb(30, 30, 68, 0.05 50%, rgba(30, 30, 68, 0.1) 50%, " ")));
 background-size: 100% 4px;
 z-index: 9999;
 pointer-events: none;
