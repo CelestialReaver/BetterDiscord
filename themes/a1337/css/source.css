@@ -57,8 +57,8 @@
   --celestialreaver: url("https://i.imgur.com/vp8TrQAh.png");
   --bg-picture: var(--bg-choice);
   --chat-bubble: 0;
-  --chat-bubble-background-color: var(--background-secondary);
-  --chat-bubble-border-color: var(--background-secondary-alt);
+  --chat-bubble-background-color: var(--background-accent);
+  --chat-bubble-border-color: var(--green);
   --chat-bubble-code-background-color: var(--background-secondary-alt);
   --chat-bubble-max-width: 90%;
   --chat-bubble-border-radius: 8px;
