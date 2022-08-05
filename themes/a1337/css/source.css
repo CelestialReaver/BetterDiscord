@@ -1333,7 +1333,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .cozy-VmLDNB,
 .zalgo-26OfGz,
 .contents-2MsGLg {
-  float: none;
+  float: inherit;
   text-align: inherit;
 }
 
