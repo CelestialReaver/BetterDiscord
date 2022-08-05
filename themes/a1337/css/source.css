@@ -49,6 +49,19 @@
   --bg12: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity.jpg");
   --bg13: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_catjam.gif");
   --bg-picture: var(--bg-choice);
+  --chat-bubble: 0;
+  --chat-bubble-background-color: var(--background-secondary);
+  --chat-bubble-border-color: var(--background-secondary-alt);
+  --chat-bubble-code-background-color: var(--background-secondary-alt);
+  --chat-bubble-max-width: 90%;
+  --chat-bubble-border-radius: 8px;
+  --chat-bubble-box-shadow-h-offset: 0;
+  --chat-bubble-box-shadow-v-offset: 4px;
+  --chat-bubble-box-shadow-blur: 4px;
+  --chat-bubble-box-shadow-color-h: 0;
+  --chat-bubble-box-shadow-color-s: 0%;
+  --chat-bubble-box-shadow-color-l: 0%;
+  --chat-bubble-box-shadow-color-a: 0.16;
 }
 
 .theme-dark {

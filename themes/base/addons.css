@@ -3,26 +3,7 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
 @import url("https://NYRI4.github.io/Discolored/main.css");
-/*@import url("https://discordstyles.github.io/SoftX/ServerRings.css");*/
-
-/* Move your messages to the right side of the chat box. -- CelestialReaver */
-/*.message-2CShn3[data-author-id="859547769798656001"]> :not(.repliedMessage-3Z6XBG[data-author-id="859547769798656001"]) {
-    display: flex !important;
-    flex-direction: row-reverse !important;
-}*/
-/* Move replies to the right for a more visual queue of replies. -- CelestialReaver */
-/*.hasReply-2Cr4KE> :not(.message-2CShn3[data-author-id="859547769798656001"]) {
-    margin-left: 25px !important;
-}*/
-
-/*Server Rings - Gibbu#1211*/
-/*:root {
-    --server-unread-colour: rgba(3, 237, 249, 0.13);
-    --server-hover-colour: rgb(100, 61, 167);
-    --server-selected-colour: rgb(210 109 208);
-    --server-spacing: 16px;
-    --server-glow-intensity: 2;
-}*/
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
 
 /*Friends-Grid Customizations*/
 /*:root {
