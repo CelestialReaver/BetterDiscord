@@ -12,11 +12,11 @@
   --button: #00ff9da6;
   --button-alt: #00e676;
   --button-alt-svg: invert(15%) sepia(81%) saturate(952%) hue-rotate(186deg) brightness(88%) contrast(102%);
-  /*--text: #B3FFB3;*/
-  --text:rgb(255, 255, 255);
-  --text-shadow-text: rgb(79, 255, 6) 1px 1px 2px, rgb(79, 255, 6) 0px 0px 1vmin, rgb(79, 255, 6) 0px 0px 5px;
-  --text-shadow: rgba(0, 30, 255, 0.5) 1.868px 0 1px, rgba(255, 0, 80, 0.3) -1.868px 0 1px, #FFFFFF 0 0 3px;
-  --text-shadow-alt: rgba(0, 30, 255, 0.5) 3.89137px 0 1px, rgba(255, 0, 80, 0.3) -3.89137px 0 1px, #FFFFFF 0 0 3px;
+  --text: ##2BFF2B;
+  /*--text:rgb(255, 255, 255);*/
+  --text-shadow-text: rgba(0, 30, 255, 0.5) 1.868px 0 1px, rgba(255, 0, 80, 0.3) -1.868px 0 1px, ##2BFF2B 0 0 3px;
+  --text-shadow-secondary: rgba(0, 30, 255, 0.5) 3.89137px 0 1px, rgba(255, 0, 80, 0.3) -3.89137px 0 1px, #FFFFFF 0 0 3px;
+  --text-shadow-tertiary: rgb(79, 255, 6) 1px 1px 2px, rgb(79, 255, 6) 0px 0px 1vmin, rgb(79, 255, 6) 0px 0px 5px;
   --text-svg: invert(50%) sepia(85%) saturate(1552%) hue-rotate(144deg) brightness(101%) contrast(92%);
   --text-alt: rgba(0, 195, 255, .6);
   --accent: #ff4081;
@@ -24,7 +24,7 @@
   --select: #002f6de8;
   --select-alt: #283593;
   --green: #009550;
-  --customFont: "VT323";
+  --customFont: "TopazPlus-A1200";
   --font-code: var(--customFont);
   --font-headline: var(--customFont);
   --avatar-rgb: 255 0 76;
@@ -57,9 +57,9 @@
   --celestialreaver: url("https://i.imgur.com/vp8TrQAh.png");
   --bg-picture: var(--bg-choice);
   --chat-bubble: 0;
-  --chat-bubble-background-color: var(--background-accent);
-  --chat-bubble-border-color: var(--green);
-  --chat-bubble-code-background-color: var(--background-secondary-alt);
+  --chat-bubble-background-color: rgb(40, 53, 147);
+  --chat-bubble-border-color: rgb(0, 149, 80);
+  --chat-bubble-code-background-color: rgb(30, 30, 68);
   --chat-bubble-max-width: 90%;
   --chat-bubble-border-radius: 8px;
   --chat-bubble-box-shadow-h-offset: 0;
@@ -218,7 +218,7 @@ width: 100vw;
 height: 100vh;
 position: absolute;
 /*background-image: var(--crt, linear-gradient(rgba(255,255,255, 0.05) 50%, rgba(0,0,0, 0.1) 50%, " "));*/
-background-image: var(--crt, linear-gradient(var(--gradient-background,0.05) 50%, rgba(0,0,0, 0.1) 50%, " "));
+background-image: var(--crt, linear-gradient(rgb(30, 30, 68, 0.05) 50%, rgba(30, 30, 68, 0.1) 50%, " "));
 background-size: 100% 4px;
 z-index: 9999;
 pointer-events: none;
@@ -230,7 +230,7 @@ display: block;
 width: 100vw;
 height: 4px;
 position: absolute;
-background-image: var(--crt, linear-gradient(rgba(0,0,0, 0.5), transparent, " "));
+background-image: var(--crt, linear-gradient(rgba(30, 30, 68, 0.5), transparent, " "));
 z-index: 9998;
 pointer-events: none;
 top: 0%;
