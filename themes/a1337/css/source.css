@@ -1313,7 +1313,15 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .zalgo-26OfGz[data-is-author-self="true"],
 .contents-2MsGLg[data-is-author-self="true"],
 .messageContent-2t3eCI[data-is-author-self="true"],
-.avatar-2e8lTP[data-is-author-self="true"] {
+.avatar-2e8lTP[data-is-author-self="true"],
+.embed-hKpSrO[data-is-author-self="true"],
+.embedAuthor-TJIHp5[data-is-author-self="true"],
+.embedDescription-1DrJxZ[data-is-author-self="true"],
+.embedFields-2yHGHT[data-is-author-self="true"],
+.embedFooter-3dj0UE[data-is-author-self="true"],
+.embedMedia-1mdWSP[data-is-author-self="true"],
+.embedProvider-1GSN0c[data-is-author-self="true"]
+.embedTitle-2n1pEb[data-is-author-self="true"] {
   display: flex !important;
   text-align: left !important;
   flex-direction: row-reverse !important;
