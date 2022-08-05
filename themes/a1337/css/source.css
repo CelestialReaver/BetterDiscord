@@ -1312,7 +1312,8 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .cozy-VmLDNB[data-is-author-self="true"],
 .zalgo-26OfGz[data-is-author-self="true"],
 .contents-2MsGLg[data-is-author-self="true"],
-.messageContent-2t3eCI[data-is-author-self="true"] {
+.messageContent-2t3eCI[data-is-author-self="true"],
+.avatar-2e8lTP[data-is-author-self="true"] {
   display: flex !important;
   text-align: left !important;
   flex-direction: row-reverse !important;
@@ -1321,6 +1322,26 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   word-wrap: break-word !important;
   clear: both !important;
 }
+
+/*.avatar-2e8lTP {
+  position: absolute;
+  left: 16px;
+  margin-top: calc(4px - .125rem);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  pointer-events: none;
+  z-index: 1;
+}*/
 
 
 .repliedMessage-3Z6XBG[data-is-author-self="true"] {
