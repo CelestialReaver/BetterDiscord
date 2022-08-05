@@ -46,7 +46,7 @@
 }
 
 /*-----------------------------------------------------------------------------------------------*/
-/* CRT EFFECT                                                                                    */
+/* CRT EFFECTS                                                                                   */
 /*-----------------------------------------------------------------------------------------------*/
 :root {
     /* Enable or disable the CRT overlay effect. The 'initial' value denotes CRT is on, the 0 value
@@ -57,10 +57,17 @@
 
         Example: CRT OFF
         --crt: 0;
+        
+       The scan lines value is how often a scan line goes across the screen. Set to 0 to disable.
+       The flicker effect value is how often the screen flickers like an old CRT. Set to 0 to
+       disable.
 
+       *** NOTE: Setting the CRT to 0 will disable all CRT effects in theme background. ***
     */
 
     --crt: initial;
+    --scan-line: "13s";
+    --flicker-effect: "60s";
 }
 
 /*-----------------------------------------------------------------------------------------------*/
