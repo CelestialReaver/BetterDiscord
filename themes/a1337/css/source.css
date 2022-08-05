@@ -47,7 +47,8 @@
   --bg10: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedbg_world.gif");
   --bg11: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity-Dark.jpg");
   --bg12: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/cyberpunkCity.jpg");
-  --bg13: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_catjam.gif");
+  --secret: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_catjam.gif");
+  --celestialreaver: url("https://i.imgur.com/vp8TrQAh.png");
   --bg-picture: var(--bg-choice);
   --chat-bubble: 0;
   --chat-bubble-background-color: var(--background-secondary);
