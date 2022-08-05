@@ -1304,7 +1304,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: none !important;
 }
 
-.messageListItem-ZZ7v6g[data-is-author-self="true"],
+/*.messageListItem-ZZ7v6g[data-is-author-self="true"],
 .message-2CShn3[data-is-author-self="true"],
 .cozyMessage-1DWF9U[data-is-author-self="true"],
 .groupStart-3Mlgv1[data-is-author-self="true"],
@@ -1313,6 +1313,15 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .zalgo-26OfGz[data-is-author-self="true"],
 .contents-2MsGLg[data-is-author-self="true"] {
   flex-direction: row-reverse !important;
+}*/
+
+.contents-2MsGLg[data-is-author-self="true"]{
+  flex-direction: row-reverse !important;
+  padding-right: 48px!important;
+  transform: rotate(180deg) scaleY(-1) !important;
+  align-self: flex-end !important;
+  justify-content: flex-end !important;
+  direction: ltr;
 }
 
 .message-2CShn3[data-is-author-self="true"] {
@@ -1327,9 +1336,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .repliedMessage-3Z6XBG[data-is-author-self="true"] {
   flex-direction: row-reverse !important;
 }
-
-
-
 
 .message-2CShn3.cozyMessage-1DWF9U.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasReply-2Cr4KE {
   margin-left: 25px !important;
