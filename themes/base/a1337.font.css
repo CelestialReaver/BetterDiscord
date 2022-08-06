@@ -11,5 +11,5 @@ button,
 input,
 select,
 textarea {
-  font-family: var(--customFont);
+  font-family: var(--customFont), monospace;
 }
