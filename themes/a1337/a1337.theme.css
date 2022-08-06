@@ -62,12 +62,21 @@
        The flicker effect value is how often the screen flickers like an old CRT. Set to 0 to
        disable.
 
-       *** NOTE: Setting the CRT value to 0 will disable all CRT effects in theme background. ***
     */
 
     --crt: initial;
-    --scan-line: 16s;
-    --flicker-effect: 60s;
+}
+
+body::before {
+    /* Enable or disable the flicker overlay effect. The 'initial' value denotes the flicker
+    effect is on. To disable replace initial with none. */
+    animation: initial;
+}
+
+    /* Enable or disable the scan line overlay effect. The 'initial' value denotes the scan
+    line effect is on. To disable replace initial with none. */
+body::after {
+    animation: initial;
 }
 
 /*-----------------------------------------------------------------------------------------------*/

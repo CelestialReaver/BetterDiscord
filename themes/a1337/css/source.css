@@ -774,7 +774,7 @@ z-index: 9998;
   background: #002f6de8;
   animation: textShadow 1.033s infinite;
   padding: 16px 8px;
-  /*text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;*/
+  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
 .da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
@@ -968,7 +968,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   text-decoration-color: initial;
   animation: textShadow 1.033s infinite;
   padding: 16px 8px;
-  /*text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;*/
+  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
  }
 
 
