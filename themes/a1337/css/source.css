@@ -40,6 +40,7 @@
   --crt: ;
   --scan-line: 13s;
   --flicker-effect: 60s;
+  --text-shadow-animation: textShadow 1.033s infinite;
   --bg0: "NoBackground";
   --bg1: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG.gif");
   --bg2: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_0110.gif");
@@ -210,7 +211,7 @@ z-index: 9998;
   user-select: text;
   color: var(--text);
   font-weight: 400;
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
@@ -281,7 +282,6 @@ z-index: 9998;
   border: 0.5px groove var(--text-positive) !important;
   box-shadow: var(--elevation-high) !important;
   caret-color: var(--cursor-color);
-  caret-shape: underscore;
 }
 
 .itemCard-3Etziu {
@@ -299,7 +299,7 @@ z-index: 9998;
   max-height: 50vh;
   border-radius: 8px;
   border: 0.5px groove var(--text-positive) !important;
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
@@ -729,7 +729,7 @@ z-index: 9998;
 .note textarea::selection {
   color: var(--text);
   background: #002f6de8;
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
@@ -751,7 +751,7 @@ z-index: 9998;
   border: 1px dotted !important;
   border-radius: 4px !important;
   caret-color: var(--cursor-color) !important;
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
@@ -930,7 +930,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .lookBlank-21BCro {
   color: var(--text);
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
@@ -940,17 +940,17 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .categoryText-3B1jLN {
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
 .name-2m3Cms {
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
 .nameTag-sc-gpq {
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
 }
 
@@ -966,7 +966,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .input-2g-os5 {
   color: var(--text);
   text-decoration-color: initial;
-  animation: textShadow 1.033s infinite;
+  animation: var(--text-shadow-animation);
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
  }
 
@@ -1275,8 +1275,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .editor-H2NA06 {
-  caret-color: var(--text) !important;
-  caret-shape: underscore;
   text-align: left;
   word-break: break-word;
   white-space: break-spaces !important;
