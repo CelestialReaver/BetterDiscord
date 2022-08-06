@@ -113,7 +113,6 @@ body::after {
     --select-alt: #283593;
     --green: #009550;
     --avatar-rgb: 255 0 76;
-    --main-color: var(--text);
     --font-size-custom: 16px;
     --cursor-color: #ffff00;
     --main-color: var(--text);
