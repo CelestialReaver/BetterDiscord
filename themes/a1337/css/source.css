@@ -62,7 +62,7 @@
   --chat-bubble-background-color: rgb(40, 53, 147, 0.3);
   --chat-bubble-border-color: rgb(0, 149, 80, 0.3);
   --chat-bubble-code-background-color: rgb(30, 30, 68, 0.3);
-  --chat-bubble-max-width: 90%;
+  --chat-bubble-max-width: 47%;
   --chat-bubble-border-radius: 8px;
   --chat-bubble-box-shadow-h-offset: 0;
   --chat-bubble-box-shadow-v-offset: 4px;
@@ -635,7 +635,7 @@ z-index: 9998;
 
 [class*="jumpToPresentBar"]>button:last-child {
   position: absolute;
-  z-index: 1;
+  z-index: 50;
   bottom: 24px;
   right: 22px;
   padding: 8px !important;
@@ -644,8 +644,8 @@ z-index: 9998;
   box-shadow: var(--elevation-high);
   border-radius: 100px;
   display: flex;
-  font-size: 0px;
-  color: transparent;
+  font-size: 14px;
+  color: var(--cursor-color);
   transition: font-size .2s .1s, color .2s, padding .4s .1s;
 }
 
@@ -657,14 +657,14 @@ z-index: 9998;
   top: auto;
   margin-right: 0px;
   margin-left: 0px;
-  color: var(--text);
+  color: var(--cursor-color);
   transition: margin .6s;
 }
 
 [class*="jumpToPresentBar"]:hover>button {
   padding: 8px 18px !important;
   font-size: 14px;
-  color: var(--text);
+  color: var(--cursor-color);
   transition: font-size .2s, color .2s .1s, padding .4s;
 }
 
@@ -970,6 +970,17 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
  }
 
+.typing-2J1mQU {
+  font-style: italic;
+  animation: textShadow 1.033s infinite;
+  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+}
+
+.typingDots-1Y8dki {
+  font-style: italic;
+  animation: textShadow 1.033s infinite;
+  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+}
 
 .rowContainer-3t7486 {
   background-color: var(--button-alt);

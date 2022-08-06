@@ -29,7 +29,7 @@ Debuggerz1 - Math
   background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
   background-size: calc(var(--chat-bubble) * 1px);
   max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
-  width: 50%;
+  width: 100%;
   margin: 0;
   padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
   border-radius: calc(var(--chat-bubble-border-radius) * var(--chat-bubble));
