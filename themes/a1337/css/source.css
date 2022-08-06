@@ -214,27 +214,48 @@ body *,
 body::before {
 content: " ";
 display: block;
-width: 100vw;
+/*width: 100vw;
 height: 100vh;
-position: absolute;
+position: absolute;*/
 /*background-image: var(--crt, linear-gradient(rgba(255,255,255, 0.05) 50%, rgba(0,0,0, 0.1) 50%, " "));*/
-background-image: var(--crt, linear-gradient(rgb(30, 30, 68, 0.05 50%, rgba(30, 30, 68, 0.1) 50%, " ")));
+/*background-image: var(--crt, linear-gradient(rgb(30, 30, 68, 0.05 50%, rgba(30, 30, 68, 0.1) 50%, " ")));
 background-size: 100% 4px;
 z-index: 9999;
 pointer-events: none;
-animation: flicker var(--flicker-effect) infinite alternate;
+animation: flicker var(--flicker-effect) infinite alternate;*/
+animation: flicker .3301s infinite;
+background-color: rgba(15, 16, 16, 0.1);
+color: #FFFFFF;
+height: 100%;
+min-width: 100%;
+pointer-events: none;
+position: fixed;
+width: auto;
+z-index: 9999;
 }
+
 body::after {
 content: "";
 display: block;
-width: 100vw;
+/*width: 100vw;
 height: 4px;
 position: absolute;
 background-image: var(--crt, linear-gradient(rgba(30, 30, 68, 0.5), transparent, " "));
 z-index: 9998;
 pointer-events: none;
 top: 0%;
-animation: scanline var(--scan-line) linear infinite;
+animation: scanline var(--scan-line) linear infinite;*/
+animation: scanline 7.77s linear infinite;
+background-color: rgba(6, 6, 6, 0.3);
+color: #FFFFFF;
+height: 2px;
+min-width: 100%;
+opacity: .75;
+pointer-events: none;
+position: fixed;
+top: 0;
+width: auto;
+z-index: 9998;
 }
 /* ------------------- CRT EFFECT END -------------------*/
 
@@ -1968,16 +1989,102 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 @keyframes scanline {
   0% { 
-    top: 100%; 
+    top: 99%; 
   }
 }
 
-@keyframes flicker {
+/*@keyframes flicker {
   0% { 
     background-color: transparent; 
   }
 
   100% { 
     background-color: rgba(0,0,0, 0.1); 
+  }
+}*/
+
+@keyframes flicker {
+  0% {
+    opacity: .119;
+  }
+
+  5% {
+    opacity: .02841;
+  }
+
+  10% {
+    opacity: .35748;
+  }
+
+  15% {
+    opacity: .88852;
+  }
+
+  20% {
+    opacity: .9408;
+  }
+
+  25% {
+    opacity: .35088;
+  }
+
+  30% {
+    opacity: .22426;
+  }
+
+  35% {
+    opacity: .26418;
+  }
+
+  40% {
+    opacity: .09249;
+  }
+
+  45% {
+    opacity: .35312;
+  }
+
+  50% {
+    opacity: .89436;
+  }
+
+  55% {
+    opacity: .9574;
+  }
+
+  60% {
+    opacity: .19754;
+  }
+
+  65% {
+    opacity: .05086;
+  }
+
+  70% {
+    opacity: .12137;
+  }
+
+  75% {
+    opacity: .75791;
+  }
+
+  80% {
+    opacity: .89617;
+  }
+
+  85% {
+    opacity: .90183;
+  }
+
+  90% {
+    opacity: .20657;
+  }
+
+  95% {
+    opacity: .64125;
+  }
+
+  to {
+    opacity: .78042;
   }
 }
