@@ -94,7 +94,7 @@
   --background-nested-floating: #100d23 !important;
   --background-mentioned-hover: #283593 !important;
   --background-mentioned: rgba(50, 25, 89, .6) !important;
-  --background-message-hover: #1e1e44 !important;
+  --background-message-hover: transparent!important;
   --background-mobile-primary: #1e1e44 !important;
   --background-mobile-secondary: #100d23 !important;
   --background-modifier-accent: rgba(0, 195, 255, .4) !important;
