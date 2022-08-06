@@ -31,6 +31,7 @@
   --customFont: "Whitney";
   --rs-version: "1.0.2";
   --logo-gif: url('https://i.imgur.com/z0WUs3L.gifv');
+  --chat-bubble: 0;
 }
 
 #app-mount .body {
