@@ -48,25 +48,6 @@
 /*-----------------------------------------------------------------------------------------------*/
 /* CRT EFFECTS                                                                                   */
 /*-----------------------------------------------------------------------------------------------*/
-/*:root {
-    /* Enable or disable the CRT overlay effect. The 'initial' value denotes CRT is on, the 0 value
-       denotes CRT is off.
-
-        Example: CRT ON
-        --crt: initial;
-
-        Example: CRT OFF
-        --crt: 0;
-        
-       The scan lines value is how often a scan line goes across the screen. Set to 0 to disable.
-       The flicker effect value is how often the screen flickers like an old CRT. Set to 0 to
-       disable.
-
-    
-
-    --crt: initial;
-}*/
-
 body::before {
     content: "";
     /* Enable or disable the flicker overlay effect. To disable remove the 
@@ -133,7 +114,7 @@ body::after {
     --green: #009550;
     --avatar-rgb: 255 0 76;
     --main-color: var(--text);
-    --font-size-custom: 0.16px;
+    --font-size-custom: 16px;
     --cursor-color: #ffff00;
     --main-color: var(--text);
     --mainColor: var(--text);
