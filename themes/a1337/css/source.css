@@ -41,6 +41,7 @@
   --scan-line: 13s;
   --flicker-effect: 60s;
   --text-shadow-animation: textShadow 1.033s infinite;
+  --text-shadow-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
   --bg0: "NoBackground";
   --bg1: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG.gif");
   --bg2: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_animatedBG_0110.gif");
@@ -212,7 +213,7 @@ z-index: 9998;
   color: var(--text);
   font-weight: 400;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .channelName-3KPsGw,
@@ -300,7 +301,7 @@ z-index: 9998;
   border-radius: 8px;
   border: 0.5px groove var(--text-positive) !important;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 /*.rtcConnectionQualityFine-3zZrSa {
@@ -730,7 +731,7 @@ z-index: 9998;
   color: var(--text);
   background: #002f6de8;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .input-2m5SfJ {
@@ -752,7 +753,7 @@ z-index: 9998;
   border-radius: 4px !important;
   caret-color: var(--cursor-color) !important;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
@@ -931,7 +932,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .lookBlank-21BCro {
   color: var(--text);
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .lookBlank-21BCro:hover {
@@ -941,22 +942,22 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .categoryText-3B1jLN {
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .name-2m3Cms> :not(.name-2m3Cms[data-user-id="859547769798656001"], .name-2m3Cms[data-user-id="878107994846560298"]) {
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .nameTag-sc-gpq {
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .scroller-1bVxF5 {
   animation: textShadow 1.033s infinite;
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .input-m1-Y7Q {
@@ -967,19 +968,19 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   color: var(--text);
   text-decoration-color: initial;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
  }
 
 .typing-2J1mQU {
   font-style: italic;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .typingDots-1Y8dki {
   font-style: italic;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .rowContainer-3t7486 {
@@ -1020,38 +1021,38 @@ body {
   background-color: var(--background);
   color: var(--text);
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .search-25t1e9 .searchBox-31Zv9h {
   background-color: var(--button-alt);
   border-color: var(--text);
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
   color: var(--text);
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
   color: var(--text);
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0 {
   color: var(--text);
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0:hover {
   color: var(--accent);
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .search-25t1e9 .searchBox-31Zv9h:focus,
@@ -1060,12 +1061,12 @@ body {
   box-shadow: 0 0 0 1px var(--accent), 0 0 0 2px var(--select-alt), 0 0 0 3px var(--select-alt);
   border-color: transparent;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .membersGroup-2eiWxl {
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .theme-dark .card-2TuZPZ:hover,
@@ -1197,7 +1198,7 @@ body {
 .bar-2eAyLE {
   color: #ffffff;
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
   font-weight: bold;
 }
 
@@ -1499,7 +1500,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .title-17SveM {
   animation: var(--text-shadow-animation);
-  text-shadow: rgba(0, 30, 255, 0.5) 1.865px 0 1px, rgba(255, 0, 80, 0.3) -1.865px 0 1px, #FFFFFF 0 0 3px;
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .svg-2zuE5p {

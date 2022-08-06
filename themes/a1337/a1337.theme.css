@@ -49,21 +49,25 @@
 /* CRT EFFECTS                                                                                   */
 /*-----------------------------------------------------------------------------------------------*/
 body::before {
-    content: "";
     /* Enable or disable the flicker overlay effect. To disable remove the 
     comment decorators. To re-enable, add comment decorators. */
     
     /* animation: initial; */
 }
 
-    /* Enable or disable the scan line overlay effect. The 'initial' value denotes the scan
-    line effect is on. To disable replace initial with none. */
 body::after {
-    content: "";
     /* Enable or disable the scan line overlay effect. To disable remove the 
     comment decorators. To re-enable, add comment decorators. */
-   
+
    /* animation: initial; */
+}
+
+:root {
+    /* Remove the comment decorators below to disable the text shadow animation effect. 
+    /* --text-shadow-animation: none; */
+
+    /* Remove the comment decorators below to disable the text shadow effect. 
+    /* --text-shadow-shadow: none; */
 }
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -71,15 +75,7 @@ body::after {
 /*-----------------------------------------------------------------------------------------------*/
 :root {
 /* Enable or disable the CHAT BUBBLES effect. The 1 value denotes CHAT BUBBLES is on, the 0 value
-       denotes CHAT BUBBLES is off.
-       
-        Example: CHAT BUBBLES ON
-        --crt: 1;
-
-        Example: CHAT BUBBLES OFF
-        --crt: 0;
-
-    */
+       denotes CHAT BUBBLES is off.*/
 
     --chat-bubble: 1;
 }
