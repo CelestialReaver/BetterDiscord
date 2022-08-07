@@ -1502,6 +1502,9 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   position: relative !important;
   justify-content: flex-end !important;
   direction: rtl;
+  font-style: italic !important;
+  width: 47%;
+  max-width: 47%;
 }
 
 /*.message-2CShn3.cozyMessage-1DWF9U.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasReply-2Cr4KE*/
@@ -1515,14 +1518,25 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   position: relative !important;
   justify-content: flex-end !important;
   direction: rtl;
+  font-style: italic !important;
+  width: 47%;
+  max-width: 47%;
 }
 
 :is(.hasReply-2Cr4KE[data-is-author-self="true"]) {
   margin-right: 25px !important;
 }
 
-.repliedMessage-3Z6XBG {
-  font-style: italic !important;
+:is(.cozy-VmLDNB .repliedMessage-[data-is-author-self="true"]:before) {
+  --avatar-size: 40px;
+  --gutter: 16px;
+  padding-left: 48px !important;
+  align-self: flex-end !important;
+  position: relative !important;
+  justify-content: flex-end !important;
+  direction: rtl;
+  width: 47%;
+  max-width: 47%;
 }
 
 .item-2LIpTv {
