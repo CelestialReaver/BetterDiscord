@@ -1,8 +1,8 @@
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/topazPlus-a1200/topaz.woff2");
 
 :root {
-  --font-primary: var(--customFont), "TopazPlus-a1200";
-  --font-display: var(--customFont), "TopazPlus-a1200";
+  --font-primary: var(--customFont), "TopazPlus a600a1200a4000";
+  --font-display: var(--customFont), "TopazPlus a600a1200a4000";
 }
 
 ::placeholder,
@@ -11,5 +11,5 @@ button,
 input,
 select,
 textarea {
-  font-family: var(--customFont);
+  font-family: var(--customFont), monospace;
 }

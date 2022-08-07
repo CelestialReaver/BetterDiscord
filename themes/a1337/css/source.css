@@ -25,7 +25,7 @@
   --select: #002f6de8;
   --select-alt: #283593;
   --green: #009550;
-  --customFont: "TopazPlus-a1200";
+  --customFont: "TopazPlus a600a1200a4000";
   --font-code: var(--customFont);
   --font-headline: var(--customFont);
   --avatar-rgb: 255 0 76;
@@ -1509,7 +1509,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   margin-left: 25px !important;
 }
 
-.repliedMessage-3Z6XBG[data-is-author-self="true"] {
+:is(.repliedMessage-3Z6XBG[data-is-author-self="true"]) {
   padding-left: 48px !important;
   align-self: flex-end !important;
   position: relative !important;
@@ -1517,7 +1517,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   direction: rtl;
 }
 
-.hasReply-2Cr4KE[data-is-author-self="true"] {
+:is(.hasReply-2Cr4KE[data-is-author-self="true"]) {
   margin-right: 25px !important;
 }
 
