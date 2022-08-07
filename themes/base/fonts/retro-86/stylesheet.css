@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RETRO-86';
+    src: local('RETRO-86 Thin'), local('RETRO-86-Thin'),
+        url('RETRO-86-Thin.woff2') format('woff2'),
+        url('RETRO-86-Thin.woff') format('woff'),
+        url('RETRO-86-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
