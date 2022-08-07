@@ -1099,9 +1099,23 @@ body {
   color: var(--text);
 }
 
-/*.menu-1QACrS {
-  border: 1px solid var(--accent);
-}*/
+#account.menu-1QACrS {
+  width: 220px;
+  -webkit-box-shadow: 0 0 0 1px var(--accent), 0 0 0 2px var(--select-alt), 0 0 0 3px var(--select-alt);
+  box-shadow: 0 0 0 1px var(--accent), 0 0 0 2px var(--select-alt), 0 0 0 3px var(--select-alt);
+  border-color: transparent;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
+#account.menu-1QACrS .submenu-1apzyU[aria-activedescendant^="account-status-picker"] {
+  max-width: 220px;
+}
+
+#account.menu-1QACrS .profileGroup-1yKk23,
+#account.menu-1QACrS .profileGroup-1yKk23 + .separator-1So4YB {
+  display:none;
+}
 
 .theme-dark .root-g14mjS {
   background-color: var(--background-text);
