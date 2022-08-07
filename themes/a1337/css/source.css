@@ -953,21 +953,25 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .name-2m3Cms:not([data-user-id="859547769798656001"]) {
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
+  font-size: var(--font-size);
 }
 
 .name-2m3Cms:not([data-user-id="878107994846560298"]) {
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
+  font-size: var(--font-size);
 }
 
 .nameTag-sc-gpq:not([data-user-id="859547769798656001"]) {
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
+  font-size: var(--font-size);
 }
 
 .nameTag-sc-gpq:not([data-user-id="878107994846560298"]) {
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
+  font-size: var(--font-size);
 }
 
 .scroller-1bVxF5 {
@@ -1268,6 +1272,7 @@ body {
 
 .theme-dark .inviteRowName-3H4s_c {
   color: var(--text);
+  font-size: var(--font-size);
 }
 
 .theme-dark .footer-1hTRRZ {
@@ -1651,6 +1656,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .theme-dark .username-_4ZSMR {
   color: #ff4081;
+  font-size: var(--font-size);
 }
 
 .theme-dark .hljs-attr,
@@ -1743,6 +1749,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .theme-dark .option-2KkUJO.user-23VtPS .displayUsername-14aOpK {
   color: var(--text);
+  font-size: var(--font-size);
 }
 
 .theme-dark .activeButton-LRWFC_,
@@ -1870,6 +1877,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .theme-dark .regionSelectName-1Tj9C9 {
   color: var(--text);
+  font-size: var(--font-size);
 }
 
 .theme-dark .quickSelectPopoutOption-2E2UmS:hover {
@@ -1912,6 +1920,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .theme-dark .notDetected-2HEmAp .gameName-Uw4dbt,
 .theme-light .notDetected-2HEmAp .gameName-Uw4dbt {
   color: var(--text);
+  font-size: var(--font-size);
 }
 
 .theme-dark .notDetected-2HEmAp .lastPlayed-3aHvxk,
@@ -1926,6 +1935,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .theme-dark .gameName-Uw4dbt {
   color: var(--accent);
+  font-size: var(--font-size);
 }
 
 .theme-dark .lastPlayed-3aHvxk,
