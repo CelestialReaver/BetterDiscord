@@ -1,6 +1,6 @@
 @font-face {
   font-family: "TopazPlus-a1200";
-  src: url('topaz.ttf') format("truetype");
+  src: url('topaz.woff2') format("woff2");
       font-weight: normal;
       font-style: normal;
 }
