@@ -945,12 +945,22 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   text-shadow: var(--text-shadow-shadow);
 }
 
-.name-2m3Cms> :not(.name-2m3Cms[data-user-id="859547769798656001"], .name-2m3Cms[data-user-id="878107994846560298"]) {
+.name-2m3Cms:not([data-user-id="859547769798656001"]) {
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
 }
 
-.nameTag-sc-gpq {
+.name-2m3Cms:not([data-user-id="878107994846560298"]) {
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
+.nameTag-sc-gpq:not([data-user-id="859547769798656001"]) {
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
+.nameTag-sc-gpq:not([data-user-id="878107994846560298"]) {
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
 }
