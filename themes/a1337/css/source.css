@@ -25,11 +25,11 @@
   --select: #002f6de8;
   --select-alt: #283593;
   --green: #009550;
-  --customFont: "TopazPlusa600a1200a4000";
+  --customFont: "TopazPlus a600a1200a4000";
   --font-code: var(--customFont);
   --font-headline: var(--customFont);
   --avatar-rgb: 255 0 76;
-  --font-size-custom: 0.80rem;
+  --font-size-custom: 0.90rem;
   --font-size: var(--font-size-custom) !important;
   --font-weight: 400 !important;
   --cursor-color: #ffff00;
