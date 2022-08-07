@@ -216,6 +216,11 @@ z-index: 9998;
   text-shadow: var(--text-shadow-shadow);
 }
 
+.textArea-2CLwUE {
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
 .channelName-3KPsGw,
 .subtitle-3PyFgf {
   white-space: nowrap;
