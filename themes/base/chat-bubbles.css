@@ -11,7 +11,7 @@ Debuggerz1 - Math
   --chat-bubble-border-color: var(--background-secondary-alt);
   --chat-bubble-code-background-color: var(--background-secondary-alt);
 
-  --chat-bubble-max-width: 90%;
+  --chat-bubble-max-width: 47%%;
   --chat-bubble-border-radius: 8px;
 
   --chat-bubble-box-shadow-h-offset: 0;
@@ -25,10 +25,10 @@ Debuggerz1 - Math
 }
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg,
-.cozyMessage-1DWF9U/*:not(.groupStart-3Mlgv1)>*/ .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
+.cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
   background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
   background-size: calc(var(--chat-bubble) * 1px);
-  max-width: calc(47% - ((47% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
+  max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
   width: 47%;
   margin: 0;
   padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
@@ -98,10 +98,10 @@ Debuggerz1 - Math
 .groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg .markup-eYLPri code,
 .cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) code {
   background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
-  background-color: var(--background) !important;
+  background-color: var(--background);
   background-size: calc(var(--chat-bubble) * 1px);
 }
 
 .markup-eYLPri blockquote, .markup-eYLPri pre {
-  max-width: 47%;
+  max-width: 100%;
 }
