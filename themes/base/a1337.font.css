@@ -1,7 +1,7 @@
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/topazPlus-a1200/topaz.woff2);*/
+@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/vt323/VT323-Regular.woff2);*/
 
 :root {
-  --customFont: 'TopazPlus a600a1200a4000';
+  --customFont: 'VT323';
  /* --font-primary: var(--customFont), "RETRO-86 Thin";
   --font-display: var(--customFont), "RETRO-86 Thin";*/
 }
