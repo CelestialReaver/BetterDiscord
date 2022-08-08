@@ -29,7 +29,7 @@ Debuggerz1 - Math
 .cozyMessage-1DWF9U/*:not(.groupStart-3Mlgv1)>*/ .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
   background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
   background-size: calc(var(--chat-bubble) * 1px);
-  max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
+  max-width: calc(47% - ((47% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
   width: 47%;
   margin: 0;
   padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
@@ -99,7 +99,7 @@ Debuggerz1 - Math
 .groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg .markup-eYLPri code,
 .cozyMessage-1DWF9U:not(.groupStart-3Mlgv1)>.contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) code {
   background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
-  background-color: var(--background-secondary);
+  background-color: var(--background) !important;
   background-size: calc(var(--chat-bubble) * 1px);
 }
 
