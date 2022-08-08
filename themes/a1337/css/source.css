@@ -58,7 +58,7 @@
   --secret: url("https://raw.githubusercontent.com/CelestialReaver/BetterDiscord/main/themes/a1337/assets/backgrounds/1337_catjam.gif");
   --celestialreaver: url("https://i.imgur.com/vp8TrQAh.png");
   --bg-picture: var(--bg-choice);
-  --chat-bubble: 0;
+  --chat-bubble: 1;
   --chat-bubble-background-color: rgb(40, 53, 147, 0.3);
   --chat-bubble-border-color: rgb(0, 149, 80, 0.3);
   --chat-bubble-code-background-color: rgb(30, 30, 68, 0.3);
