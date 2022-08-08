@@ -1513,10 +1513,10 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .repliedMessage-3Z6XBG {
   padding-right: 48px !important;
-  align-self: flex-end !important;
+  align-self: auto !important;
   position: relative !important;
-  justify-content: flex-end !important;
-  direction: rtl;
+  justify-content: left-end !important;
+  direction: ltr;
   font-style: italic !important;
   width: 47%;
   max-width: 47%;
@@ -1529,10 +1529,10 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 :is(.repliedMessage-3Z6XBG[data-is-author-self="true"]) {
   padding-left: 48px !important;
-  align-self: flex-end !important;
+  align-self: auto !important;
   position: relative !important;
-  justify-content: flex-end !important;
-  direction: rtl;
+  justify-content: right !important;
+  direction: ltr;
   font-style: italic !important;
   width: 47%;
   max-width: 47%;
@@ -1546,9 +1546,9 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   --avatar-size: 40px;
   --gutter: 16px;
   padding-left: 48px !important;
-  align-self: flex-end !important;
+  align-self: auto !important;
   position: relative !important;
-  justify-content: flex-end !important;
+  justify-content: right !important;
   direction: rtl;
   width: 47%;
   max-width: 47%;
