@@ -1,7 +1,8 @@
-@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/vt323/VT323-Regular.woff2);*/
+/*@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/vt323/VT323-Regular.woff2);*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
-  --customFont: 'VT323';
+  --customFont: 'VT323', monospace;
  /* --font-primary: var(--customFont), "RETRO-86 Thin";
   --font-display: var(--customFont), "RETRO-86 Thin";*/
 }

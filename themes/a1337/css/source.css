@@ -25,7 +25,7 @@
   --select: #002f6de8;
   --select-alt: #283593;
   --green: #009550;
-  --customFont: 'VT323';
+  --customFont: 'VT323', monospace;
   --font-code: var(--customFont);
   --font-headline: var(--customFont);
   --avatar-rgb: 255 0 76;
