@@ -240,7 +240,7 @@ z-index: 9998;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
 }
 
 .colorMuted-20987_ {
@@ -369,6 +369,24 @@ z-index: 9998;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
+}
+
+.container-q97qHp {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 16px;
+  letter-spacing: .02em;
+  font-family: var(--font-display);
+  font-weight: 400 !important;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  color: var(--channels-default);
 }
 
 .guildSeparator-a4uisj {
@@ -1102,6 +1120,7 @@ body {
 .membersGroup-2eiWxl {
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
+  font-size: 1rem !important;
 }
 
 .theme-dark .card-2TuZPZ:hover,
