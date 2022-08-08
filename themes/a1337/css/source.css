@@ -516,6 +516,8 @@ z-index: 9998;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
 }
 
 .section-3G9aLW {
