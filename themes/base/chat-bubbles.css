@@ -25,7 +25,6 @@ Debuggerz1 - Math
 }
 
 .groupStart-3Mlgv1.cozyMessage-1DWF9U>.contents-2MsGLg,
-.zalgo-26OfGz .messageContent-2t3eCI,
 .cozyMessage-1DWF9U/*:not(.groupStart-3Mlgv1)>*/ .contents-2MsGLg>.markup-eYLPri:not(:empty, .searchResultsWrap-5RVOkx *) {
   background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
   background-size: calc(var(--chat-bubble) * 1px);
