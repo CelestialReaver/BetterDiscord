@@ -1517,8 +1517,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   justify-content: left-end !important;
   direction: ltr;
   font-style: italic !important;
-  width: 47%;
-  max-width: 47%;
 }
 
 /*.message-2CShn3.cozyMessage-1DWF9U.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasReply-2Cr4KE*/
@@ -1533,8 +1531,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   justify-content: right !important;
   direction: ltr;
   font-style: italic !important;
-  width: 47%;
-  max-width: 47%;
 }
 
 :is(.hasReply-2Cr4KE[data-is-author-self="true"]) {
@@ -1549,8 +1545,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   position: relative !important;
   justify-content: right !important;
   direction: rtl;
-  width: 47%;
-  max-width: 47%;
 }
 
 .item-2LIpTv {
