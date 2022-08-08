@@ -1,8 +1,7 @@
-/*@import url("https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/retro-86/RETRO-86.woff2");*/
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url(https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/topazPlus-a1200/topaz.woff2);*/
 
 :root {
-  --customFont: 'Press Start 2P', cursive;
+  --customFont: 'TopazPlus a600a1200a4000';
  /* --font-primary: var(--customFont), "RETRO-86 Thin";
   --font-display: var(--customFont), "RETRO-86 Thin";*/
 }

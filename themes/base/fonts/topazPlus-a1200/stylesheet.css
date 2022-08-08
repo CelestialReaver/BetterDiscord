@@ -1,6 +1,7 @@
 @font-face {
   font-family: "TopazPlus a600a1200a4000";
-  src: url('topaz.woff2') format("woff2");
-      font-weight: normal;
+      src: url(https://celestialreaver.github.io/BetterDiscord/themes/base/fonts/topazPlus-a1200/topaz.woff2) format("woff2");
+      font-weight: 400;
       font-style: normal;
+      font-display: swap;
 }
