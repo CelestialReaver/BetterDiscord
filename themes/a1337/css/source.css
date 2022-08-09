@@ -1531,20 +1531,23 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: flex !important;
   text-align: left !important;
   flex-direction: row-reverse !important;
-  justify-content: left !important;
-  flex-wrap: wrap !important;
+  justify-content: right !important;
+  flex-wrap: wrap-reverse !important;
   word-wrap: break-word !important;
   clear: both !important;
-  float: right;
+  position: absolute !important;
+  /*float: right;*/
 }
 
 .repliedMessage-3Z6XBG {
   padding-right: 48px !important;
   align-self: auto !important;
+  text-align: left !important;
   position: relative !important;
   justify-content: left-end !important;
   direction: ltr;
   font-style: italic !important;
+  clear: both !important;
 }
 
 /*.message-2CShn3.cozyMessage-1DWF9U.groupStart-3Mlgv1.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz.hasReply-2Cr4KE*/
@@ -1556,13 +1559,22 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   padding-left: 48px !important;
   align-self: auto !important;
   position: relative !important;
+  text-align: left !important;
+  flex-direction: row-reverse !important;
   justify-content: right !important;
   direction: ltr;
   font-style: italic !important;
+  clear: both !important;
 }
 
 .hasReply-2Cr4KE[data-is-author-self="true"] {
   margin-right: 25px !important;
+  align-self: auto !important;
+  text-align: left !important;
+  flex-direction: row-reverse !important;
+  justify-content: right !important;
+  direction: ltr;
+  clear: both !important;
 }
 
 .cozy-VmLDNB .repliedMessage-[data-is-author-self="true"]:before {
@@ -1572,7 +1584,9 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   align-self: auto !important;
   position: relative !important;
   justify-content: right !important;
-  direction: rtl;
+  flex-direction: row-reverse !important;
+  text-align: left !important;
+  direction: ltr;
 }
 
 .item-2LIpTv {
