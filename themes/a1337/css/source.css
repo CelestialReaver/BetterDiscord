@@ -1726,9 +1726,11 @@ div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self
   top: 0;
   border-radius: 0 0 8px 8px;
   background-color: var(--green);
-  -webkit-box-shadow: var(--elevation-medium);
-  box-shadow: var(--elevation-medium);
   opacity: 0.95 !important;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
+  rgb(var(--avatar-rgb) / 15%), var(--elevation-high) 0px 2px 6px 9px !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX,
