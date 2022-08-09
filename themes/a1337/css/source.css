@@ -1594,21 +1594,18 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .reactions-3ryImn[data-is-author-self="true"] {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: block !important;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-bottom: -.5rem;
-  padding-bottom: .25rem;
-  transform: rotateY(-180deg) scale(1) !important;
-}
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    margin-bottom: -.5rem;
+    padding-bottom: .25rem;
+    transform: rotateY(-180deg) scale(1) !important;
+  }
 
 .buttonContainer-1502pf {
   position: relative !important;
@@ -1616,6 +1613,16 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   right: 0;
   transform: rotateY(-180deg) scale(1) !important;
   display: inline-block !important;
+}
+
+.operations-3q3u6E {
+  padding: 7px 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-indent: 0;
+  color: var(--text-normal);
+  transform: rotateY(-180deg) scale(1) !important;
+  text-align: end !important;
 }
 
 div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self="true"] {
