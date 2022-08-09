@@ -359,6 +359,10 @@ z-index: 9998;
   background-color: var(--background);
 }
 
+head > link:nth-child(57){
+  color:var(--rs-dnd-color) !important;
+}
+
 .scroller-WSmht3 {
   background-color: var(--friends-channels-list-color);
 }
