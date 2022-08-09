@@ -394,6 +394,8 @@ head > link:nth-child(57){
 
 .avatar-2e8lTP[data-author-is-self="true"] {
   position: relative !important;
+  display: flex !important;
+  flex-direction: row-reverse !important;
   float: right !important;
   right: 16px !important;
   left: none !important;
