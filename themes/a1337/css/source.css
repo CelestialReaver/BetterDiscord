@@ -1532,6 +1532,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   flex-wrap: wrap !important;
   word-wrap: break-word !important;
   clear: both !important;
+  float: right;
 }
 
 .repliedMessage-3Z6XBG {
