@@ -323,6 +323,21 @@ z-index: 9998;
   text-shadow: var(--text-shadow-shadow);
 }
 
+.PCL--layout {
+  --main-color: #dcddde;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+  overflow: hidden;
+  color: var(--main-color);
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
 /*.rtcConnectionQualityFine-3zZrSa {
   fill: var(--rs-dnd-color);
 }*/
