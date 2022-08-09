@@ -397,6 +397,7 @@ head > link:nth-child(57){
   display: flex !important;
   flex-direction: row-reverse !important;
   float: right !important;
+  clear: both !important;
   right: 16px !important;
   left: none !important;
 }
