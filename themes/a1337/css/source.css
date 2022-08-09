@@ -1511,14 +1511,10 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: none !important;
 }
 
-.messageListItem-ZZ7v6g[data-is-author-self="true"],
-.message-2CShn3[data-is-author-self="true"],
-.cozyMessage-1DWF9U[data-is-author-self="true"],
 .groupStart-3Mlgv1[data-is-author-self="true"],
 .wrapper-30-Nkg[data-is-author-self="true"],
 .cozy-VmLDNB[data-is-author-self="true"],
 .zalgo-26OfGz[data-is-author-self="true"],
-.contents-2MsGLg[data-is-author-self="true"],
 .messageContent-2t3eCI[data-is-author-self="true"],
 .embed-hKpSrO[data-is-author-self="true"],
 .embedAuthor-TJIHp5[data-is-author-self="true"],
@@ -1529,14 +1525,58 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .embedProvider-1GSN0c[data-is-author-self="true"]
 .embedTitle-2n1pEb[data-is-author-self="true"] {
   display: flex !important;
-  text-align: left !important;
+  text-align: justify !important;
   flex-direction: row-reverse !important;
   justify-content: right !important;
   flex-wrap: wrap-reverse !important;
   word-wrap: break-word !important;
   clear: both !important;
-  position: absolute !important;
+  /*position: absolute !important;*/
   /*float: right;*/
+}
+
+.cozy-VmLDNB-30-Nkg[data-is-author-self="true"] {
+  padding-right: 72px !important;
+  display: flex !important;
+  text-align: justify !important;
+  flex-direction: row-reverse !important;
+  justify-content: right !important;
+  flex-wrap: wrap-reverse !important;
+  word-wrap: break-word !important;
+  clear: both !important;
+}
+
+.message-2CShn3[data-is-author-self="true"] {
+  padding-right: 48px !important;
+  display: flex !important;
+  text-align: justify !important;
+  flex-direction: row-reverse !important;
+  justify-content: right !important;
+  flex-wrap: wrap-reverse !important;
+  word-wrap: break-word !important;
+  clear: both !important;
+}
+
+.cozy-VmLDNB .contents-2MsGLg[data-is-author-self="true"] {
+  position: relative !important;
+  display: flex !important;
+  text-align: justify !important;
+  flex-direction: row-reverse !important;
+  justify-content: right !important;
+  flex-wrap: wrap-reverse !important;
+  word-wrap: break-word !important;
+  clear: both !important;
+}
+
+div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self="true"] {
+  position: relative !important;
+  display: flex !important;
+  text-align: justify !important;
+  flex-direction: row-reverse !important;
+  justify-content: right !important;
+  flex-wrap: wrap-reverse !important;
+  word-wrap: break-word !important;
+  clear: both !important;
 }
 
 .repliedMessage-3Z6XBG {
