@@ -1548,7 +1548,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   margin-left: 25px !important;
 }
 
-:is(.repliedMessage-3Z6XBG[data-is-author-self="true"]) {
+.repliedMessage-3Z6XBG[data-is-author-self="true"] {
   padding-left: 48px !important;
   align-self: auto !important;
   position: relative !important;
@@ -1557,11 +1557,11 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   font-style: italic !important;
 }
 
-:is(.hasReply-2Cr4KE[data-is-author-self="true"]) {
+.hasReply-2Cr4KE[data-is-author-self="true"] {
   margin-right: 25px !important;
 }
 
-:is(.cozy-VmLDNB .repliedMessage-[data-is-author-self="true"]:before) {
+.cozy-VmLDNB .repliedMessage-[data-is-author-self="true"]:before {
   --avatar-size: 40px;
   --gutter: 16px;
   padding-left: 48px !important;
