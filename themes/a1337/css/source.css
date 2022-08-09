@@ -1547,7 +1547,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .message-2CShn3[data-is-author-self="true"] {
-  padding-right: 48px !important;
+  padding-right: 50px !important;
   display: flex !important;
   text-align: justify !important;
   flex-direction: row-reverse !important;
@@ -1578,6 +1578,22 @@ div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self
   word-wrap: break-word !important;
   clear: both !important;
 }
+
+#chat-messages-1006633811771134002[data-is-author-self="true"] > div {
+  /* transform: translate(50%); */
+  transform: rotateY(180deg);
+  display: block !important;
+  text-align: left !important;
+  float: right;
+  align-self: auto !important;
+  clear: inherit !important;
+  transform: rotateX(45deg);
+  transform: scale(1);
+  width: 92.5%;
+  flex-wrap: wrap;
+  word-wrap: break-word !important;
+}
+
 
 .repliedMessage-3Z6XBG {
   padding-right: 48px !important;
@@ -1617,7 +1633,7 @@ div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self
   clear: both !important;
 }
 
-.cozy-VmLDNB .repliedMessage-[data-is-author-self="true"]:before {
+.cozy-VmLDNB .repliedMessage-:before[data-is-author-self="true"] {
   --avatar-size: 40px;
   --gutter: 16px;
   padding-left: 48px !important;
