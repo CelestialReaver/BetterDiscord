@@ -392,12 +392,12 @@ head > link:nth-child(57){
   background-clip: content-box !important;
 }
 
-.avatar-2e8lTP[data-author-is-self="true"] {
+/*.avatar-2e8lTP[data-author-is-self="true"] {
   object-position: right !important;
   object-fit: none !important;
   right: 16px !important;
   left: none !important;
-}
+}*/
 
 .container-q97qHp {
   -webkit-box-sizing: border-box;
