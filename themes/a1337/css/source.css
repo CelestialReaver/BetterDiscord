@@ -390,6 +390,12 @@ head > link:nth-child(57){
   background-clip: content-box !important;
 }
 
+.avatar-2e8lTP[data-author-is-self="true"] {
+  float: right !important;
+  right: 16px !important;
+  left: "" !important;
+}
+
 .container-q97qHp {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
