@@ -393,9 +393,10 @@ head > link:nth-child(57){
 }
 
 .avatar-2e8lTP[data-author-is-self="true"] {
+  position: relative !important;
   float: right !important;
   right: 16px !important;
-  left: "" !important;
+  left: none !important;
 }
 
 .container-q97qHp {
