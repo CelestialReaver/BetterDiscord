@@ -1570,7 +1570,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   transform: rotateY(-180deg) scale(1) !important;
 }
 
-.cozy-VmLDNB .header-2jRmjb[data-is-author-self="true"] {
+.header-2jRmjb[data-is-author-self="true"] {
   display: block !important;
   position: relative !important;
   line-height: 1.375rem;
@@ -1660,7 +1660,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   text-align: end !important;
 }
 
-div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self="true"] {
+.container-2sjPya[data-is-author-self="true"]>* {
   position: relative !important;
   display: block !important;
   text-align: justify !important;
