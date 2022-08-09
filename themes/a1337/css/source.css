@@ -1524,16 +1524,13 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .embedMedia-1mdWSP[data-is-author-self="true"],
 .embedProvider-1GSN0c[data-is-author-self="true"]
 .embedTitle-2n1pEb[data-is-author-self="true"] {
-  display: block;
-  text-align: left !important;
-  flex-direction: row-reverse !important;
+  display: block !important;
+  text-align: right !important;
   justify-content: right !important;
   flex-wrap: wrap-reverse !important;
   word-wrap: break-word !important;
-  clear: both !important;
-  /* position: absolute !important; */
-  /* float: right; */
-  transform: rotateY(-180deg) scale(1);
+  position: relative !important;
+  transform: rotateY(-180deg) scale(1) !important;
 }
 
 .cozy-VmLDNB .header-2jRmjb[data-is-author-self="true"] {
@@ -1552,38 +1549,34 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .cozy-VmLDNB-30-Nkg[data-is-author-self="true"] {
   padding-right: 72px !important;
-  display: flex !important;
+  display: block !important;
   text-align: justify !important;
-  flex-direction: row-reverse !important;
   justify-content: right !important;
-  flex-wrap: wrap-reverse !important;
   word-wrap: break-word !important;
-  clear: both !important;
+  position: relative !important;
+  transform: rotateY(-180deg) scale(1) !important;
 }
 
 .message-2CShn3[data-is-author-self="true"] {
+  position: relative !important;
   padding-right: 50px !important;
-  display: flex !important;
-  text-align: justify !important;
-  flex-direction: row-reverse !important;
+  display: block !important;
+  text-align: right !important;
   justify-content: right !important;
-  flex-wrap: wrap-reverse !important;
   word-wrap: break-word !important;
-  clear: both !important;
+  transform: rotateY(-180deg) scale(1) !important;
 }
 
 .cozy-VmLDNB .contents-2MsGLg[data-is-author-self="true"] {
   position: relative !important;
-  display: flex !important;
-  text-align: justify !important;
-  flex-direction: row-reverse !important;
+  display: block !important;
+  text-align: right !important;
   justify-content: right !important;
-  flex-wrap: wrap-reverse !important;
   word-wrap: break-word !important;
-  clear: both !important;
+  transform: rotateY(-180deg) scale(1) !important;
 }
 
-.cozy-VmLDNB .messageContent-2t3eCI[data-is-author-self="true"] {
+.cozy-VmLDNB.messageContent-2t3eCI[data-is-author-self="true"] {
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
@@ -1591,21 +1584,26 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   margin-left: 0px;
   padding-left: 0px;
   position: relative !important;
+  display: block !important;
+  text-align: right !important;
+  justify-content: right !important;
+  word-wrap: break-word !important;
+  transform: rotateY(-180deg) scale(1) !important;
 }
 
 .reactions-3ryImn[data-is-author-self="true"] {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 auto;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    margin-bottom: -.5rem;
-    padding-bottom: .25rem;
-    transform: rotateY(-180deg) scale(1) !important;
-  }
+   display: -webkit-box;
+   display: -ms-flexbox;
+   -webkit-box-flex: 1;
+   -ms-flex: 1 0 auto;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -ms-flex-wrap: wrap;
+   margin-bottom: -.5rem;
+   padding-bottom: .25rem;
+   transform: rotateY(-180deg) scale(1) !important;
+}
 
 .buttonContainer-1502pf {
   position: relative !important;
@@ -1627,28 +1625,25 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self="true"] {
   position: relative !important;
-  display: flex !important;
+  display: block !important;
   text-align: justify !important;
-  flex-direction: row-reverse !important;
   justify-content: right !important;
   flex-wrap: wrap-reverse !important;
   word-wrap: break-word !important;
-  clear: both !important;
+  transform: rotateY(-180deg) scale(1) !important;
 }
 
 #chat-messages-1006633811771134002[data-is-author-self="true"] > div {
-  /* transform: translate(50%); */
   transform: rotateY(180deg);
   display: block !important;
   text-align: left !important;
-  float: right;
   align-self: auto !important;
-  clear: inherit !important;
-  transform: rotateX(45deg);
-  transform: scale(1);
-  width: 92.5%;
-  flex-wrap: wrap;
+  position: relative !important;
+  text-align: right !important;
+  justify-content: right !important;
   word-wrap: break-word !important;
+  width: 92.5%;
+  transform: rotateY(-180deg) scale(1) !important;
 }
 
 
@@ -1669,15 +1664,14 @@ div#message-accessories-1006566006413590608.container-2sjPya[data-is-author-self
 }
 
 .repliedMessage-3Z6XBG[data-is-author-self="true"] {
-  padding-left: 48px !important;
+  padding-left: 54px !important;
   align-self: auto !important;
   position: relative !important;
   text-align: left !important;
-  flex-direction: row-reverse !important;
   justify-content: right !important;
   direction: ltr;
   font-style: italic !important;
-  clear: both !important;
+  display: block !important
 }
 
 .hasReply-2Cr4KE[data-is-author-self="true"] {
