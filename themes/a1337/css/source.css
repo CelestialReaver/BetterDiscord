@@ -1755,7 +1755,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .frame-oXWS21 {
   height: 24px;
   margin-bottom: 10px;
-  margin-top: -30px !important;
 }
 
 #bd-pub-li {
@@ -1796,12 +1795,35 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .newMessagesBar-1hF-9G {
   top: 0;
   border-radius: 0 0 8px 8px;
-  background-color: var(--green);
-  opacity: 0.95 !important;
+  background-color: var(--background-secondary) !important;
+  opacity: 0.90 !important;
   animation: var(--text-shadow-animation);
   text-shadow: var(--text-shadow-shadow);
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
-  rgb(var(--avatar-rgb) / 15%), var(--elevation-high) 0px 2px 6px 9px !important;
+  rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+}
+
+.barButtonMain-2GIx4o, .span-3lFnWr {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center !important;
+  font-weight: 500 !important;
+  font-size: medium !important;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
+.tierHeaderContent-2SPBAA {
+  background-color: var(--background-secondary) !important;
+}
+
+.tierBody-1d3UiS {
+  background-color: var(--chat-bubble-background-color);
+}
+
+.tierHeaderContent-2SPBAA {
+  background-color: var(--background-secondary) !important;
 }
 
 .button-1EGGcP.buttonColor-3bP3fX,
