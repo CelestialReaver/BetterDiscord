@@ -1630,6 +1630,15 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   transform: rotateY(-180deg) scale(1) !important;
 }
 
+#chat-messages-1006780570061262938 > div > div.contents-2MsGLg > h2 {
+  position: relative !important;
+  display: block !important;
+  text-align: right !important;
+  justify-content: right !important;
+  word-wrap: break-word !important;
+  transform: rotateY(-180deg) scale(1) !important;
+}
+
 .cozy-VmLDNB.messageContent-2t3eCI[data-is-author-self="true"] {
   -webkit-user-select: text;
   -moz-user-select: text;
@@ -1729,6 +1738,28 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   flex-direction: row-reverse !important;
   text-align: left !important;
   direction: ltr;
+}
+
+#bd-pub-button {
+  border-radius: 4px;
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+  height: 24px;
+  transition: background-color .15s ease-out,color .15s ease-out;
+  display: none !important;
+}
+
+.frame-oXWS21 {
+  height: 24px;
+  margin-bottom: 10px;
+  margin-top: -30px !important;
+}
+
+#bd-pub-li {
+  display: none !important;
 }
 
 .item-2LIpTv {
