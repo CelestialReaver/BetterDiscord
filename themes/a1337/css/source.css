@@ -369,29 +369,6 @@ head > link:nth-child(57){
   background-color: var(--friends-channels-list-color);
 }
 
-.avatar-2e8lTP[data-is-author-self="true"] {
-  position: absolute;
-  left: 738px !important;
-  margin-top: calc(4px - 0.125rem);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  overflow: hidden;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  pointer-events: none;
-  z-index: 1;
-  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
-    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
-  background-clip: content-box !important;
-}
-
 .container-q97qHp {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1550,7 +1527,31 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   padding-left: 0px;
   display: block !important;
   align-items: end;
-  transform: scale(1) rotateY(-180deg);
+  text-align: left !important;
+  transform: rotateY(180deg) !important;
+}
+
+.cozy-VmLDNB[data-is-author-self="true"] .contents-2MsGLg .avatar-2e8lTP {
+  position: absolute;
+  left: 738px !important;
+  margin-top: calc(4px - 0.125rem);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  pointer-events: none;
+  z-index: 1;
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  background-clip: content-box !important;
 }
 
 /*
@@ -1578,8 +1579,14 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   font-weight: 400;
   text-indent: 0;
   color: var(--text-normal);
-  transform: rotateY(-180deg) scale(1) !important;
-  text-align: end !important;
+  transform: rotateY(-180deg)!important;
+  text-align: left !important;
+}
+
+.cozy-VmLDNB[data-is-author-self="true"] .channelTextArea-220_Gz {
+  margin-top: 8px;
+  text-align: left !important;
+  transform: rotateY(-180deg) !important;
 }
 
 /*.cozy-VmLDNB-30-Nkg[data-is-author-self="true"] {
