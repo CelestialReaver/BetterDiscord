@@ -1659,7 +1659,35 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   top: 0;
   right: 0;
   transform: rotateY(-180deg) scale(1) !important;
-  display: inline-block !important;
+  display: inline-flex !important;
+}
+
+.wrapper-2vIMkT {
+  background-color: transparent !important;
+  -webkit-box-shadow: var(--elevation-high) !important;
+  box-shadow: var(--elevation-high) !important;
+  display: inline-flex !important;
+  grid-auto-flow: column;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 32px;
+  border-radius: 4px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: -webkit-box-shadow .1s ease-out;
+  transition: -webkit-box-shadow .1s ease-out;
+  transition: box-shadow .1s ease-out;
+  transition: box-shadow .1s ease-out,-webkit-box-shadow .1s ease-out;
+  position: relative !important;
+  overflow: hidden;
 }
 
 .operations-3q3u6E {
