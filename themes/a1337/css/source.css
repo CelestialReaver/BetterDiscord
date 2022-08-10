@@ -1548,35 +1548,23 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: none !important;
 }
 
-.groupStart-3Mlgv1[data-is-author-self="true"],
-.wrapper-30-Nkg[data-is-author-self="true"],
-.cozy-VmLDNB[data-is-author-self="true"],
-.zalgo-26OfGz[data-is-author-self="true"] {
-  display: block !important;
-  text-align: right !important;
-  justify-content: right !important;
-  flex-wrap: wrap-reverse !important;
-  word-wrap: break-word !important;
-  position: relative !important;
-  transform: rotateY(-180deg) scale(1) !important;
-}
-
-.groupStart-3Mlgv1.cozyMessage-1DWF9U h2.header-2jRmjb[data-is-author-self="true"], 
-.groupStart-3Mlgv1.cozyMessage-1DWF9U h2.header-2jRmjb .headerText-2z4IhQ[data-is-author-self="true"] {
-  align-items: end !important;
-  transform: rotateY(-180deg) scale(1) !important;
+.groupStart-3Mlgv1.cozyMessage-1DWF9U h2.header-2jRmjb, .groupStart-3Mlgv1.cozyMessage-1DWF9U h2.header-2jRmjb .headerText-2z4IhQ {
   display: revert !important;
+  align-items: end;
+  transform: scale(1) rotateY(-180deg);
 }
 
-.cozy-VmLDNB .messageContent-2t3eCI[data-is-author-self="true"] {
+  .cozy-VmLDNB[data-is-author-self="true"] .messageContent-2t3eCI {
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
-  align-items: end !important;
-  transform: rotateY(-180deg) scale(1) !important;
-  display: revert !important;
-}
+  margin-left: 0px;
+  padding-left: 0px;
+  display: block !important;
+  align-items: end;
+  transform: scale(1) rotateY(-180deg);
+}  
 
 .header-2jRmjb[data-is-author-self="true"] {
   display: block !important;
@@ -1590,6 +1578,19 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   text-align: right !important;
   width: fit-content !important;
   max-width: fit-content !important;
+}
+
+.cozy-VmLDNB[data-is-author-self="true"] .header-2jRmjb {
+  display: block;
+  position: relative;
+  line-height: 1.375rem;
+  min-height: 1.375rem;
+  color: var(--text-muted);
+  white-space: break-spaces;
+  word-wrap: pre-wrap;
+  transform: scale(1) rotateY(
+-180deg
+);
 }
 
 .cozy-VmLDNB-30-Nkg[data-is-author-self="true"] {
