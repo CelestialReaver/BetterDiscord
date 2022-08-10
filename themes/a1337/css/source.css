@@ -1690,7 +1690,11 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   overflow: hidden;
 }
 
-.operations-3q3u6E {
+.wrapper-2vIMkT[data-is-author-self="true"]{
+  transform: rotateY(-180deg) scale(1) !important;
+}
+
+.operations-3q3u6E[data-is-author-self="true"] {
   padding: 7px 0;
   font-size: 12px;
   font-weight: 400;
