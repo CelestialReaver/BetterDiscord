@@ -1639,7 +1639,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   transform: rotateY(-180deg) scale(1) !important;
 }
 
-.cozy-VmLDNB.messageContent-2t3eCI[data-is-author-self="true"] {
+.cozy-VmLDNB .messageContent-2t3eCI[data-is-author-self="true"] {
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
