@@ -369,9 +369,9 @@ head > link:nth-child(57){
   background-color: var(--friends-channels-list-color);
 }
 
-.avatar-2e8lTP {
+.avatar-2e8lTP[data-is-author-self="true"] {
   position: absolute;
-  left: 16px;
+  left: 738px !important;
   margin-top: calc(4px - 0.125rem);
   width: 40px;
   height: 40px;
@@ -391,13 +391,6 @@ head > link:nth-child(57){
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
 }
-
-/*.avatar-2e8lTP[data-author-is-self="true"] {
-  object-position: right !important;
-  object-fit: none !important;
-  right: 16px !important;
-  left: none !important;
-}*/
 
 .container-q97qHp {
   -webkit-box-sizing: border-box;
@@ -1558,7 +1551,13 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: block !important;
   align-items: end;
   transform: scale(1) rotateY(-180deg);
-}  
+}
+
+
+.cozy-VmLDNB[data-is-author-self="true"] .wrapper-30-Nkg {
+
+}
+
 
 .cozy-VmLDNB[data-is-author-self="true"] .header-2jRmjb {
   display: block;
@@ -1585,7 +1584,8 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .message-2CShn3[data-is-author-self="true"] {
   position: relative !important;
-  padding-right: 50px !important;
+  padding-right: 110px !important;
+  padding-left: 4px !important;
   display: block !important;
   text-align: right !important;
   justify-content: right !important;
@@ -1652,20 +1652,6 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   word-wrap: break-word !important;
   transform: rotateY(-180deg) scale(1) !important;
 }
-
-/*#chat-messages-1006633811771134002[data-is-author-self="true"] > div {
-  transform: rotateY(180deg);
-  display: block !important;
-  text-align: left !important;
-  align-self: auto !important;
-  position: relative !important;
-  text-align: right !important;
-  justify-content: right !important;
-  word-wrap: break-word !important;
-  width: 92.5%;
-  transform: rotateY(-180deg) scale(1) !important;
-}*/
-
 
 .repliedMessage-3Z6XBG {
   padding-right: 48px !important;
