@@ -814,8 +814,8 @@ head > link:nth-child(57){
   position: relative;
   border: none;
   scrollbar-color: var(--accent) var(--background);
-  background: var(--background) !important;
-  background: #002f6de8;
+  background-color: var(--background);
+  color: var(--accent);
 }
 
 .messageAttachment-CZp8Iv {
