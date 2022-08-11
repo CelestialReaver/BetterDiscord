@@ -118,11 +118,11 @@ body::after {
 /*-----------------------------------------------------------------------------------------------*/
 /* MISCELLANEOUS THEME TWEAKS                                                                    */
 /*-----------------------------------------------------------------------------------------------*/
-
-/* This is where you can put a URL for the logo you would like to appear at the top left 
-   of Discord. */
 :root {
-    --theme-logo: url("YourCustomLogoURLHere");
+/* This is where you can put a URL for the logo you would like to appear at the top left 
+   of Discord. Uncomment the line below and place your URL inside of the quotes. */
+
+    /* --theme-logo: url("YourCustomLogoURLHere"); */
 }
 
 /* Here you can change theme background color and transparency. */
