@@ -1796,6 +1796,10 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   /*display: block !important;*/
 }
 
+#app-mount .search-result-1007311450634719292[data-is-author-self="true"]> .contents-2MsGLg {
+  transform: rotateY(-180deg) !important;
+}
+
 .cozy-VmLDNB[data-is-author-self="true"] .repliedMessage-3Z6XBG:before {
   --avatar-size: 40px;
   --gutter: 16px;
