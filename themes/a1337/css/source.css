@@ -1539,6 +1539,19 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   transform: rotateY(180deg) !important;
 }
 
+.cozy-VmLDNB[data-is-author-self="true"] .messageContent-2t3eCI {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: block !important;
+  align-items: end;
+  text-align: left !important;
+  transform: rotateY(180deg) !important;
+}
+
 .cozy-VmLDNB .contents-2MsGLg .avatar-2e8lTP {
   border-radius: 50%;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
