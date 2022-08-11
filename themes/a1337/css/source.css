@@ -808,7 +808,7 @@ head > link:nth-child(57){
   text-shadow: var(--text-shadow-shadow);
 }
 
-.code.scrollbarGhostHairline-2LpzZ9.scrollbar-3vVt8d.codeView-12LUIl.hljs.css {
+.scrollbarGhostHairline-2LpzZ9 .scrollbar-3vVt8d .codeView-12LUIl .hljs {
   box-sizing: border-box;
   padding-top: 27px;
   position: relative;
@@ -1995,7 +1995,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .theme-dark .hljs-selector-pseudo,
 .theme-dark .hljs-subst,
 .theme-dark .hljs-symbol {
-  color: var(--background-modifier-hover);
+  color: var(--text);
 }
 
 .theme-dark .hljs-comment,
