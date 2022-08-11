@@ -1777,7 +1777,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .hasReply-2Cr4KE {
-  margin-left: 25px !important;
+  margin-left: 68px !important;
 }
 
 .cozy-VmLDNB[data-is-author-self="true"] .repliedMessage-3Z6XBG {
@@ -1792,8 +1792,8 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .cozy-VmLDNB[data-is-author-self="true"] .hasReply-2Cr4KE {
-  margin-left: 25px !important;
-  display: block !important;
+  margin-right: 68px !important;
+  /*display: block !important;*/
 }
 
 .cozy-VmLDNB[data-is-author-self="true"] .repliedMessage-3Z6XBG:before {
