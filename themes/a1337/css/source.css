@@ -1674,7 +1674,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   margin-left: 25px !important;
 }
 
-.repliedMessage-3Z6XBG[data-is-author-self="true"] {
+.cozy-VmLDNB[data-is-author-self="true"] .repliedMessage-3Z6XBG {
   padding-left: 54px !important;
   align-self: auto !important;
   position: relative !important;
@@ -1685,8 +1685,8 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   display: block !important
 }
 
-.hasReply-2Cr4KE[data-is-author-self="true"] {
-  margin-right: 25px !important;
+.cozy-VmLDNB[data-is-author-self="true"] .hasReply-2Cr4KE {
+  margin-left: 25px !important;
   display: block !important;
 }
 
