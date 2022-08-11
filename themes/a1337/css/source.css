@@ -816,8 +816,6 @@ head > link:nth-child(57){
   scrollbar-color: var(--accent) var(--background);
   background: var(--background) !important;
   background: #002f6de8;
-  animation: var(--text-shadow-animation);
-  text-shadow: var(--text-shadow-shadow);
 }
 
 .messageAttachment-CZp8Iv {
@@ -851,6 +849,28 @@ head > link:nth-child(57){
   box-sizing: border-box;
   scrollbar-color: var(--backgroundCode) var(--backgroundName);
   background: var(--background-secondary) !important;
+}
+
+.reaction-3vwAF2[data-is-author-self="true"] {
+  border-radius: .5rem;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: .25rem;
+  margin-bottom: .25rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: none .1s ease;
+  transition: none .1s ease;
+  -webkit-transition-property: background-color,border-color;
+  transition-property: background-color,border-color;
+  background: var(--background-secondary);
+  border: 1px solid transparent;
+  transform: rotateY(180deg) scale(1) !important;
 }
 
 .input-2m5SfJ {
@@ -1949,7 +1969,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 
 .theme-dark .hljs-comment,
 .theme-dark .hljs-quote {
-  color: var(--chat-bubble-background-color);
+  color: var(--background-mentioned-hover);
 }
 
 .theme-dark .blockquoteDivider-2hH8H6 {
