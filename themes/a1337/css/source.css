@@ -1527,18 +1527,16 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   border-radius: 50%;
   overflow: hidden;
   cursor: pointer;
-  /* -webkit-user-select: none; */
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   -ms-flex: none;
   z-index: 1;
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
   float: right !important;
-  display: inline-block !important;
+  display: block !important;
   transform: rotateY(180deg) !important;
 }
 
