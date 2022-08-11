@@ -60,7 +60,7 @@
   -webkit-animation: shine-reversed 5s linear infinite;
   background-clip: text;
   animation: shine-reversed 5s linear infinite;
-  background-image: linear-gradient(90deg, rgba(57,255,20,1) 0%, rgba(58,237,45,1) 15%, rgba(59,218,70,1) 30%, rgba(60,195,101,1) 45%, rgba(61,177,126,1) 60%, rgba(62,157,153,1) 75%, rgba(63,136,182,1) 90%, rgba(65,105,225,1) 100%);
+  background-image: linear-gradient(90deg, rgba(245,0,74,1) 0%, rgba(216,2,69,1) 15%, rgba(186,4,64,1) 30%, rgba(153,6,58,1) 45%, rgba(116,8,52,1) 60%, rgba(92,9,48,1) 75%, rgba(57,10,42,1) 90%, rgba(19,12,36,1) 100%);
 }
 
 .message-2CShn3[data-author-id="859547769798656001"]> :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
@@ -99,5 +99,177 @@
 @keyframes shine-reversed {
   to {
     background-position: -300% center;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: .119;
+  }
+
+  5% {
+    opacity: .02841;
+  }
+
+  10% {
+    opacity: .35748;
+  }
+
+  15% {
+    opacity: .88852;
+  }
+
+  20% {
+    opacity: .9408;
+  }
+
+  25% {
+    opacity: .35088;
+  }
+
+  30% {
+    opacity: .22426;
+  }
+
+  35% {
+    opacity: .26418;
+  }
+
+  40% {
+    opacity: .09249;
+  }
+
+  45% {
+    opacity: .35312;
+  }
+
+  50% {
+    opacity: .89436;
+  }
+
+  55% {
+    opacity: .9574;
+  }
+
+  60% {
+    opacity: .19754;
+  }
+
+  65% {
+    opacity: .05086;
+  }
+
+  70% {
+    opacity: .12137;
+  }
+
+  75% {
+    opacity: .75791;
+  }
+
+  80% {
+    opacity: .89617;
+  }
+
+  85% {
+    opacity: .90183;
+  }
+
+  90% {
+    opacity: .20657;
+  }
+
+  95% {
+    opacity: .64125;
+  }
+
+  to {
+    opacity: .78042;
+  }
+}
+
+@keyframes textShadow {
+  0% {
+    text-shadow: rgba(0, 30, 255, 0.5) .438992px 0 1px, rgba(255, 0, 80, 0.3) -.438992px 0 1px, 0 0 3px;
+  }
+
+  5% {
+    text-shadow: rgba(0, 30, 255, 0.5) 2.7929px 0 1px, rgba(255, 0, 80, 0.3) -2.7929px 0 1px, 0 0 3px;
+  }
+
+  10% {
+    text-shadow: rgba(0, 30, 255, 0.5) .0295628px 0 1px, rgba(255, 0, 80, 0.3) -.0295628px 0 1px, 0 0 3px;
+  }
+
+  15% {
+    text-shadow: rgba(0, 30, 255, 0.5) .402185px 0 1px, rgba(255, 0, 80, 0.3) -.402185px 0 1px, 0 0 3px;
+  }
+
+  20% {
+    text-shadow: rgba(0, 30, 255, 0.5) 3.4794px 0 1px, rgba(255, 0, 80, 0.3) -3.4794px 0 1px, 0 0 3px;
+  }
+
+  25% {
+    text-shadow: rgba(0, 30, 255, 0.5) 1.61256px 0 1px, rgba(255, 0, 80, 0.3) -1.61256px 0 1px, 0 0 3px;
+  }
+
+  30% {
+    text-shadow: rgba(0, 30, 255, 0.5) .701559px 0 1px, rgba(255, 0, 80, 0.3) -.701559px 0 1px, 0 0 3px;
+  }
+
+  35% {
+    text-shadow: rgba(0, 30, 255, 0.5) 3.89691px 0 1px, rgba(255, 0, 80, 0.3) -3.89691px 0 1px, 0 0 3px;
+  }
+
+  40% {
+    text-shadow: rgba(0, 30, 255, 0.5) 3.87091px 0 1px, rgba(255, 0, 80, 0.3) -3.87091px 0 1px, 0 0 3px;
+  }
+
+  45% {
+    text-shadow: rgba(0, 30, 255, 0.5) 2.23106px 0 1px, rgba(255, 0, 80, 0.3) -2.23106px 0 1px, 0 0 3px;
+  }
+
+  50% {
+    text-shadow: rgba(0, 30, 255, 0.5) .0808429px 0 1px, rgba(255, 0, 80, 0.3) -.0808429px 0 1px, 0 0 3px;
+  }
+
+  55% {
+    text-shadow: rgba(0, 30, 255, 0.5) 2.37585px 0 1px, rgba(255, 0, 80, 0.3) -2.37585px 0 1px, 0 0 3px;
+  }
+
+  60% {
+    text-shadow: rgba(0, 30, 255, 0.5) 2.20219px 0 1px, rgba(255, 0, 80, 0.3) -2.20219px 0 1px, 0 0 3px;
+  }
+
+  65% {
+    text-shadow: rgba(0, 30, 255, 0.5) 2.86388px 0 1px, rgba(255, 0, 80, 0.3) -2.86388px 0 1px, 0 0 3px;
+  }
+
+  70% {
+    text-shadow: rgba(0, 30, 255, 0.5) .48874px 0 1px, rgba(255, 0, 80, 0.3) -.48874px 0 1px, 0 0 3px;
+  }
+
+  75% {
+    text-shadow: rgba(0, 30, 255, 0.5) 1.89485px 0 1px, rgba(255, 0, 80, 0.3) -1.89485px 0 1px, 0 0 3px;
+  }
+
+  80% {
+    text-shadow: rgba(0, 30, 255, 0.5) .0833037px 0 1px, rgba(255, 0, 80, 0.3) -.0833037px 0 1px, 0 0 3px;
+  }
+
+  85% {
+    text-shadow: rgba(0, 30, 255, 0.5) .0976983px 0 1px, rgba(255, 0, 80, 0.3) -.0976983px 0 1px, 0 0 3px;
+  }
+
+  90% {
+    text-shadow: rgba(0, 30, 255, 0.5) 3.44334px 0 1px, rgba(255, 0, 80, 0.3) -3.44334px 0 1px, 0 0 3px;
+  }
+
+  95% {
+    text-shadow: rgba(0, 30, 255, 0.5) 2.18418px 0 1px, rgba(255, 0, 80, 0.3) -2.18418px 0 1px, 0 0 3px;
+  }
+
+  to {
+    text-shadow: rgba(0, 30, 255, 0.5) 2.62088px 0 1px, rgba(255, 0, 80, 0.3) -2.62088px 0 1px, 0 0 3px;
   }
 }
