@@ -907,6 +907,10 @@ head > link:nth-child(57){
   transform: rotateY(180deg) !important;
 }
 
+.imageWrapper-oMkQl4.imageZoom-3yLCXY.clickable-LksVCf.embedVideo-2ixt5A.embedMedia-1mdWSP {
+  transform: rotateY(180deg);
+}
+
 .gifTag-1TvtGO[data-is-author-self="true"] {
   background-image: url(/assets/e689380400b1f2d2c6320a823a1ab079.svg);
   width: 29px;
