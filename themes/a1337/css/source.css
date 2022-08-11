@@ -818,7 +818,17 @@ head > link:nth-child(57){
   color: var(--accent);
 }
 
-.messageAttachment-CZp8Iv {
+/*.imageContainer-10XenG {
+  -webkit-box-orient: horizontal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex: auto;
+  flex: auto;
+  width: 100%;
+  transform: rotateY(-180deg);
+}*/
+
+.messageAttachment-CZp8Iv[data-is-author-self="true"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: block !important;
