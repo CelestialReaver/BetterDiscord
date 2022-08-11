@@ -49,6 +49,9 @@ Debuggerz1 - Math
   background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
   background-size: calc(var(--chat-bubble) * 1px);
   border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
+  box-shadow: rgb(var(
+    --avatar-rgb) / 30%) 0px 1px 2px 2px,
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
 }
 
 .cozyMessage-1DWF9U.mentioned-Tre-dv {

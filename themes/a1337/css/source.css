@@ -808,6 +808,51 @@ head > link:nth-child(57){
   text-shadow: var(--text-shadow-shadow);
 }
 
+.code.scrollbarGhostHairline-2LpzZ9.scrollbar-3vVt8d.codeView-12LUIl.hljs.css {
+  box-sizing: border-box;
+  padding-top: 27px;
+  position: relative;
+  border: none;
+  scrollbar-color: var(--accent) var(--background);
+  background: var(--background) !important;
+  background: #002f6de8;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
+.messageAttachment-CZp8Iv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: center !important;
+  max-width: 100%;
+  transform: rotateY(180deg) !important;
+}
+
+.container-rr3Ruk {
+  width: 100%;
+  display: block !important;
+  text-align: left !important;
+  font-weight: 900 !important;
+  border-radius: 1px;
+  box-shadow: rgb(var(
+    --avatar-rgb) / 30%) 0px 1px 2px 2px,
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  background-clip: content-box !important;
+}
+
+.footer-GXWBBp, .markup-eYLPri code, .markup-eYLPri code.inline {
+  box-sizing: border-box;
+  scrollbar-color: var(--backgroundCode) var(--backgroundName);
+  background: var(--background-secondary) !important;
+}
+
 .input-2m5SfJ {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
