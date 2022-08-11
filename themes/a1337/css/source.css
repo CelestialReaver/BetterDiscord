@@ -1532,8 +1532,8 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 }
 
 .cozy-VmLDNB[data-is-author-self="true"] .contents-2MsGLg .avatar-2e8lTP {
-  position: absolute;
-  left: 738px !important;
+  position: relative !important;
+  /* left: 738px !important; */
   margin-top: calc(4px - 0.125rem);
   width: 40px;
   height: 40px;
@@ -1552,6 +1552,8 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
     rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
   background-clip: content-box !important;
+  /* align-content: space-between; */
+  justify-content: left !important;
 }
 
 /*
