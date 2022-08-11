@@ -1970,7 +1970,7 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
 .theme-dark .hljs-number,
 .theme-dark .hljs-regexp,
 .theme-dark .hljs-string {
-  color: #693300e8;
+  color: var(--rs-streaming-color);
 }
 
 .theme-dark .username-_4ZSMR {
