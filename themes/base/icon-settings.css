@@ -44,7 +44,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 .side-2ur1Qk .item-3XjbnG[aria-controls="authorized-apps-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/apps.png");
 }
-.side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab"]::before {
+.side-2ur1Qk .item-3XjbnG[aria-controls="passport-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/connection.png");
 }
 .side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"]::before {
