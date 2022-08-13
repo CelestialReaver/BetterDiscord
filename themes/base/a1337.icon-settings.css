@@ -50,7 +50,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
   filter: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(3589%) hue-rotate(60deg) brightness(122%) contrast(93%);
 }
 
-.side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab"]::before {
+.side-2ur1Qk .item-3XjbnG[aria-controls="passport-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/connection.png");
   filter: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(3589%) hue-rotate(60deg) brightness(122%) contrast(93%);
 }
