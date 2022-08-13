@@ -42,7 +42,7 @@
     automatically change.
     */
 
-    --bg-choice: var(--bg5);
+    --bg-choice: var(--bg2);
 }
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -63,10 +63,10 @@ body::after {
 }
 
 :root {
-    /* Remove the comment decorators below to disable the text shadow animation effect. 
+    /* Remove the comment decorators below to disable the text shadow animation effect. */
     /* --text-shadow-animation: none; */
 
-    /* Remove the comment decorators below to disable the text shadow effect. 
+    /* Remove the comment decorators below to disable the text shadow effect. */
     /* --text-shadow-shadow: none; */
 }
 
