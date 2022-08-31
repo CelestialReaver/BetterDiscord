@@ -30,7 +30,8 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 }
 
 /* discord settings */
-.side-2ur1Qk .item-3XjbnG[aria-controls="my-account-tab"]::before {
+.sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(2)::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="my-account-tab" i]::before {
   background-image: url("https://limeshark.dev/img/bdi/account.png");
   filter: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(3589%) hue-rotate(60deg) brightness(122%) contrast(93%);
 }
