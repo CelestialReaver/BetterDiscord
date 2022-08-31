@@ -352,6 +352,16 @@ body {
   padding-left: 4px !important;
 }
 
+.embedSuppressButton-1rZHq6 {
+  opacity: 0;
+  position: absolute;
+  top: -2px;
+  right: -20px;
+  cursor: pointer;
+  padding: 2px;
+  color: var(--gradientColor02) !important;
+}
+
 .card-x5zW6z {
   background-color: var(--backgroundColor01) !important;
   border-color: var(--backgroundColor01) !important;
@@ -605,6 +615,22 @@ body {
   border: transparent !important;
   border-radius: 10px !important;
   box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
+}
+
+.grid-1aWVsE {
+  overflow: hidden;
+  padding: .5rem 1rem 1rem .75rem;
+  display: inline-grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background: var(--backgroundColor01) !important;
+  border: 1px groove #fc28a835 !important;
+  border-radius: 8px !important;
+  box-shadow: rgb(210 109 208) 0px 6px 30px -15px !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .clickable-LksVCf {
