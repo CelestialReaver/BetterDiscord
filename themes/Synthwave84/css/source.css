@@ -511,6 +511,14 @@ body {
   background-color: var(--backgroundColor01) !important;
 }
 
+.userPopoutInnerWithBanner-wsoegj {
+  background: linear-gradient(transparent 120px,var(--backgroundColor02) 0,var(--backgroundCode)) !important;
+}
+
+.userPopoutInnerNonPremium-3zrFkp {
+  background: linear-gradient(transparent 120px,var(--backgroundColor02) 0,var(--backgroundCode)) !important;
+}
+
 .tierMarkerBackground-G8FoN4 {
   background-color: var(--backgroundColor01);
 }
@@ -1320,6 +1328,22 @@ body {
   border-radius: 100px;
   z-index: 999999;
   box-shadow: var(--elevation-high);
+}
+
+.overlayBackground-arbZMT {
+  position: relative;
+  margin: 28px 16px 16px;
+  background-color: transparent !important;
+  border-radius: 8px;
+  max-height: calc(100vh - 128px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .winButton-3UMjdg {
