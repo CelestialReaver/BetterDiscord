@@ -996,6 +996,28 @@ body {
   position: relative;
 }
 
+.header-1sd0RU {
+  background-color: var(--backgroundColor01);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card-8UsK4b {
+  background-color: var(--backgroundColor01);
+  padding: 16px 16px 12px;
+  border-radius: 8px;
+  border: 1pxsolidvar(--background-secondary);
+  -webkit-transition: border-color .5s;
+  transition: border-color .5s;
+  cursor: pointer;
+}
+
+.bd-tab-item.selected {
+  cursor: default;
+  background-color: var(--backgroundColor01);
+}
+
 #app-mount .premiumIndicator-22GgcZ {
   background-color: rgb(210 109 208) !important;
   box-shadow: rgb(210 109 208) 2px 3px 21px -3px !important;
