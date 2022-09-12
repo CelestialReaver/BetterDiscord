@@ -6,8 +6,14 @@
 ## Test Drive
 
 Want to test drive this theme before committing? You can here:
-
-<iframe src="https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/CelestialReaver/BetterDiscord/themes/a1337/a1337.theme.css>"></iframe>
+<div>
+  <iframe id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="300"
+      height="200"
+      src="https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/CelestialReaver/BetterDiscord/themes/a1337/a1337.theme.css>">
+  </iframe>
+</div>
 
 ## Features
 * _**Sleek, clean, retro, and unique**_ - carefully crafted theme that gives you a clean and unique retro experience. 
