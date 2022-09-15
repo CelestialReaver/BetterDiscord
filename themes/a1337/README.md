@@ -3,6 +3,12 @@
 
 </br>
 
+## Test Drive
+
+Want to test drive this theme before committing?
+
+![](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/CelestialReaver/BetterDiscord/themes/a1337/a1337.theme.css)
+
 ## Features
 * _**Sleek, clean, retro, and unique**_ - carefully crafted theme that gives you a clean and unique retro experience. 
 * _**Soft neon glow**_ - soothing not distracting, the neon glow adds to your experience and does not disctract.
