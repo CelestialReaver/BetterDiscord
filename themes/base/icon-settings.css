@@ -3,10 +3,12 @@
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Monoton");
+@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
 :root {
   /*--customFont: "Open Sans"*/
   --customFont: "Whitney";
 }
+/*
 .sidebar-nqHbhN
   .side-2ur1Qk
   #bd-settings-sidebar
@@ -31,7 +33,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
   padding-left: 10px;
 }
 
-/* discord settings */
+/* discord settings 
 .side-2ur1Qk .item-3XjbnG[aria-controls="my-account-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/account.png");
 }
@@ -55,7 +57,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 }
 /*.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {
   display: none;
-}*/
+}
 .side-2ur1Qk .item-3XjbnG[aria-controls="friend-requests-tab"]::before {
   background-image: url("https://i.imgur.com/eCrvMQI.png");
 }
@@ -136,7 +138,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
   background-image: url("https://i.imgur.com/4jNwfFY.png");
 }
 
-/* better discord settings icons */
+/* better discord settings icons
 .side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/bdsettings.png");
 }
@@ -158,3 +160,4 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 .side-2ur1Qk .item-3XjbnG[aria-controls="themerepo-tab"]::before {
   background-image: url("https://i.imgur.com/SCOhTfi.png");
 }
+*/
