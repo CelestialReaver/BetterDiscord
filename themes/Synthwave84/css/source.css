@@ -360,6 +360,43 @@ body {
   margin-left: 14px;
 }
 
+.list-3FIpnh {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--backgroundColor02);
+}
+
+.sidebarCard-1Gn1ch {
+  background-color: var(--backgroundColor01);
+  border: 1px solid var(--backgroundColor02);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.container-JhuCwn {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  padding: 10px 12px;
+  background-color: var(--backgroundColor01);
+  border: 1px solid var(--backgroundColor02) !important;
+  border-radius: 12px;
+}
+
+.header-1Uy0p6 {
+ border: none !important;
+}
+
 .userInfoTitle-39qq0Y {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -376,6 +413,147 @@ body {
   margin-bottom: 8px;
   color: var(--header-secondary);
   padding-left: 4px !important;
+}
+
+.container-2_J666 {
+  background-color: var(--backgroundColor01) !important;
+  border-radius: 12px;
+  color: var(--interactive-normal);
+  margin-top: 8px;
+  margin-bottom: 32px;
+  display: block;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  min-width: 480px;
+}
+
+.stepContainer-SaPPyG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  margin-top: 8px;
+  padding: 12px 18px;
+  background: var(--backgroundColor02) !important;
+  border-radius: 8px;
+  color: var(--header-secondary);
+  cursor: pointer;
+}
+
+.author-2kHvde, .container-2y0BMF {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--backgroundColor01);
+}
+
+.container-2qVG6q:hover {
+  background-color: var(--backgroundColor01);
+  -webkit-box-shadow: var(--elevation-high);
+  box-shadow: var(--elevation-high);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.uploadInput-3fblkw {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  background-color: transparent !important;
+  border-radius: 12px;
+  border-radius: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: right;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.scrollerContent-2SW0kQ {
+  overflow-anchor: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 100%;
+  background-color: var(--backgroundColor02);
+}
+
+.container-3YcgdM {
+  position: sticky;
+  top: -1px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 4px 16px;
+  background-color: var(--backgroundColor02) !important;
+  border-top: 1px solid var(--backgroundColor01);
+  margin-top: 8px;
+}
+
+.reaction-102jx9 {
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: none .1s ease;
+  transition: none .1s ease;
+  -webkit-transition-property: background-color,border-color;
+  transition-property: background-color,border-color;
+  background: var(--backgroundColor01);
+  border: 1px solid transparent;
+}
+
+.addReactButton-3bSQb6, .buttonInner-3aRbcx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--interactive-normal);
+  background-color: var(--backgroundColor01);
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+.divider-AZrXIA {
+  background-color: var(--backgroundColor02);
+  height: 8px;
+  margin-bottom: 16px;
+  width: 100%;
 }
 
 .embedSuppressButton-1rZHq6 {
