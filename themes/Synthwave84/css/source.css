@@ -566,6 +566,11 @@ body {
   color: var(--gradientColor02) !important;
 }
 
+.mainCard-3KBsBI {
+  background-color: var(--backgroundColor01);
+  border-radius: 12px;
+}
+
 .card-x5zW6z {
   background-color: var(--backgroundColor01) !important;
   border-color: var(--backgroundColor01) !important;
