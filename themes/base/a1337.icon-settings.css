@@ -1,11 +1,11 @@
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/badges.css");
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/a1337.font.css");
 @import url("https://celestialreaver.github.io/BetterDiscord/themes/base/hljs.css");
-
+@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
 :root {
   --customFont: 'VT323', monospace;
 }
-
+/*
 .sidebar-nqHbhN .side-2ur1Qk #bd-settings-sidebar .ui-tab-bar-item:not(.role-3pGE29)::before,
 .side-2ur1Qk .item-3XjbnG:not(.role-3pGE29)::before {
   content: "";
@@ -29,7 +29,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
   padding-left: 10px;
 }
 
-/* discord settings */
+/* discord settings
 .sidebar-nqHbhN .side-2ur1Qk[aria-label] .item-3XjbnG:nth-child(2)::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="my-account-tab" i]::before {
   background-image: url("https://limeshark.dev/img/bdi/account.png");
@@ -68,7 +68,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
 
 /*.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab"] svg {
   display: none;
-}*/
+}
 .side-2ur1Qk .item-3XjbnG[aria-controls="friend-requests-tab"]::before {
   background-image: url("https://i.imgur.com/eCrvMQI.png");
   filter: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(3589%) hue-rotate(60deg) brightness(122%) contrast(93%);
@@ -199,7 +199,7 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
   filter: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(3589%) hue-rotate(60deg) brightness(122%) contrast(93%);
 }
 
-/* better discord settings icons */
+/* better discord settings icons 
 .side-2ur1Qk .item-3XjbnG[aria-controls="settings-tab"]::before {
   background-image: url("https://limeshark.dev/img/bdi/bdsettings.png");
   filter: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(3589%) hue-rotate(60deg) brightness(122%) contrast(93%);
@@ -234,3 +234,4 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {
   background-image: url("https://i.imgur.com/SCOhTfi.png");
   filter: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(3589%) hue-rotate(60deg) brightness(122%) contrast(93%);
 }
+*/
