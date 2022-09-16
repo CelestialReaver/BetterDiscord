@@ -537,6 +537,36 @@ head > link:nth-child(57){
   text-shadow: var(--text-shadow-shadow);
 }
 
+.container-2qVG6q {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: center !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 12px;
+  position: relative !important;
+  border: 1px solid transparent;
+  -webkit-transition: background .2s ease-out,border .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
+  transition: background .2s ease-out,border .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
+  transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out,border .2s ease-out;
+  transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out,border .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,;
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px,
+    rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+}
+
 .section-3G9aLW {
   position: relative;
   padding: 12px;
@@ -1697,6 +1727,41 @@ html.full-motion.theme-dark.platform-web.font-size-16 body div#app-mount.appMoun
   margin-top: 8px;
   text-align: left !important;
   transform: rotateY(-180deg) !important;
+}
+
+.focusLock-2tveLW, .root-g14mjS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+  background-color: var(--background-text) !important;
+  box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  --webkit-box-shadow: rgb(var(--avatar-rgb) / 30%) 0px 1px 2px 2px, rgb(var(--avatar-rgb) / 15%) 0px 2px 6px 9px !important;
+  animation: var(--text-shadow-animation);
+  text-shadow: var(--text-shadow-shadow);
+  background: transparent !important;
+}
+
+.container-3wLKDe {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+  width: 100%;
+  background: transparent !important;
 }
 
 /*.cozy-VmLDNB-30-Nkg[data-is-author-self="true"] {
