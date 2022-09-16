@@ -537,6 +537,20 @@ head > link:nth-child(57){
   text-shadow: var(--text-shadow-shadow);
 }
 
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
+  background-color: var(--background-floating) !important;
+  opacity: 0.70 !important;
+  box-shadow: rgb(var(--avatar-rgb) / 10%) 0px 2px 4px 4px,
+    rgb(var(--avatar-rgb) / 60%) 0px 4px 12px 18px !important;
+}
+
+.container-2qVG6q.isOpen-2OXbFs {
+  background-color: var(--background-floating) !important;
+  opacity: 0.70 !important;
+  box-shadow: rgb(var(--avatar-rgb) / 10%) 0px 2px 4px 4px,
+    rgb(var(--avatar-rgb) / 60%) 0px 4px 12px 18px !important;
+}
+
 .container-2qVG6q {
   -webkit-box-align: start;
   -ms-flex-align: start;
