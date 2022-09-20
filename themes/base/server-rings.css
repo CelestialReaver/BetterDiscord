@@ -2,7 +2,7 @@
 :root {
   --server-unread-colour: 114, 241, 184;
   --server-hover-colour: 254, 222, 93;
-  --server-selected-colour: 215, 1, 142;
+  --server-selected-colour: 255, 105, 180;
   --server-spacing: 18px;
   --server-glow-intensity: 2;
 }
