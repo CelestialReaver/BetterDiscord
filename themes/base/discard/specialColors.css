@@ -63,11 +63,16 @@
   background-image: linear-gradient(90deg, rgba(245,0,74,1) 0%, rgba(216,2,69,1) 15%, rgba(186,4,64,1) 30%, rgba(153,6,58,1) 45%, rgba(116,8,52,1) 60%, rgba(92,9,48,1) 75%, rgba(57,10,42,1) 90%, rgba(19,12,36,1) 100%);
 }
 
-.message-2CShn3[data-author-id="859547769798656001"]> :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+/*.message-2CShn3[data-author-id="859547769798656001"]> :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .channel-1Shao0[data-user-id="859547769798656001"] .overflow-1wOqNV,
 .member-2gU6Ar[data-user-id="859547769798656001"] .username-i5-wv->span,
 .userPopout-2j1gM4[data-user-id="859547769798656001"] .username-3JLfHz,
-.root-8LYsGj[data-user-id="859547769798656001"] .username-3JLfHz {
+.root-8LYsGj[data-user-id="859547769798656001"] .username-3JLfHz*/
+.message-2CShn3> :not(.repliedMessage-3Z6XBG) .username-h_Y3Us .avatar-b5OQ1N:has("859547769798656001"),
+.channel-1Shao0 .overflow-1wOqNV .avatar-b5OQ1N:has("859547769798656001"),
+.member-2gU6Ar .username-i5-wv->span .avatar-b5OQ1N:has("859547769798656001"),
+.userPopout-2j1gM4 .username-3JLfHz .avatar-b5OQ1N:has("859547769798656001"),
+.root-8LYsGj .username-3JLfHz .avatar-b5OQ1N:has("859547769798656001") {
   color: transparent !important;
   font-weight: bold;
   background-size: 300%;
