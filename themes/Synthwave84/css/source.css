@@ -587,6 +587,12 @@ body {
   transform: scale(1.02);
 }
 
+.clickable-28SzVr.container-1oeRFJ:hover, .clickable-28SzVr.container-1oeRFJ:hover .muted-14PyqW {
+  background-color: var(--backgroundColor02) !important;
+  transition: all 0s;
+  transform: scale(1.02);
+}
+
 .embedSuppressButton-1rZHq6 {
   opacity: 0;
   position: absolute;
