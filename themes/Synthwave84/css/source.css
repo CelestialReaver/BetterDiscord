@@ -581,12 +581,6 @@ body {
   background-color: var(--backgroundColor01) !important;
 }
 
-.member-48YF_l, .members-3WRCEx:hover {
-  background-color: var(--backgroundColor02) !important;
-  transition: all 0s;
-  transform: scale(1.02);
-}
-
 .clickable-28SzVr.container-1oeRFJ:hover, .clickable-28SzVr.container-1oeRFJ:hover .muted-14PyqW {
   background-color: var(--backgroundColor02) !important;
   transition: all 0s;
